@@ -1,0 +1,183 @@
+{
+ "id": "p26",
+ "num": 26,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "其他较少见的目",
+  "en": "Less common orders",
+  "ms": "Order yang kurang biasa"
+ },
+ "blurb": {
+  "zh": "其他较少见的目",
+  "en": "Less common orders",
+  "ms": "Order yang kurang biasa"
+ },
+ "sources": [
+  "MDC-FISH",
+  "TJ",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "除了常见的目，马来西亚还有一些不常碰到的目。下面列出每一目最容易认的特征；{{t:lesser-orders}}的成员大多很小，或住在水边、土里、动物身上。",
+      "en": "Besides the common orders, Malaysia has some you will meet less often. Below are the easiest features of each; members of these {{t:lesser-orders}} are mostly small, or live by water, in soil or on animals.",
+      "ms": "Selain order biasa, Malaysia juga mempunyai beberapa order yang jarang ditemui. Berikut ialah ciri paling mudah setiap satu; ahli {{t:lesser-orders}} kebanyakannya kecil, atau hidup di tepi air, dalam tanah atau pada haiwan."
+     },
+     "defines": [
+      "lesser-orders"
+     ],
+     "src": [
+      "WTK:8-11"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "先数尾巴、看脚爪：两条尾、两个爪是石蝇。",
+      "en": "Count tails and claws: two tails and two claws make a stonefly.",
+      "ms": "Kira ekor dan kuku: dua ekor dan dua kuku ialah lalat batu."
+     },
+     "src": [
+      "WTK:8-11"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "襀翅目（石蝇）：两条尾须，身体扁长柔软，每只脚两个爪",
+       "en": "Plecoptera (stoneflies): two tails, long flat soft body, two claws on each foot",
+       "ms": "Plecoptera (lalat batu): dua ekor, badan panjang leper lembut, dua kuku setiap kaki"
+      },
+      {
+       "zh": "广翅目（泥蛉、鱼蛉）：大型，翅脉多；鱼蛉停下时翅平贴身体",
+       "en": "Megaloptera (alderflies, fishflies): large with many wing veins; fishflies rest with wings folded flat",
+       "ms": "Megaloptera (alderfly, fishfly): besar dengan banyak urat sayap; fishfly berehat dengan sayap dilipat rata"
+      },
+      {
+       "zh": "长翅目（蝎蛉）：头伸长成喙，雄虫腹末像蝎子一样向上弯",
+       "en": "Mecoptera (scorpionflies): head drawn out into a beak; the male's tail curls up like a scorpion's",
+       "ms": "Mecoptera (lalat kala jengking): kepala memanjang seperti paruh; ekor jantan melengkung seperti kala jengking"
+      },
+      {
+       "zh": "蚤目（跳蚤）：身体左右扁平，后足善跳，触角很短",
+       "en": "Siphonaptera (fleas): flattened from side to side, jumping hind legs, very short antennae",
+       "ms": "Siphonaptera (kutu): leper dari sisi ke sisi, kaki belakang pelompat, sesungut sangat pendek"
+      },
+      {
+       "zh": "虱目（虱子）：通常不到 10 毫米，触角短而粗",
+       "en": "Phthiraptera (lice): usually under 10 mm, short stubby antennae",
+       "ms": "Phthiraptera (tuma): biasanya kurang 10 mm, sesungut pendek dan tebal"
+      },
+      {
+       "zh": "纺足目（足丝蚁）：4–15 毫米，前足跗节膨大、能吐丝筑隧道，雌虫无翅",
+       "en": "Embioptera (webspinners): 4–15 mm, swollen front feet that spin silk tunnels, wingless females",
+       "ms": "Embioptera (labah-labah sutera): 4–15 mm, tapak kaki depan membengkak yang memintal terowong sutera, betina tidak bersayap"
+      },
+      {
+       "zh": "缺翅目（缺翅虫）：小而柔软，触角念珠状，住在腐木里",
+       "en": "Zoraptera (angel insects): small and soft, bead-like antennae, live in rotting wood",
+       "ms": "Zoraptera (serangga malaikat): kecil dan lembut, sesungut seperti manik, hidup dalam kayu reput"
+      }
+     ],
+     "src": [
+      "WTK:8",
+      "WTK:9",
+      "WTK:10",
+      "WTK:11",
+      "MDC-FISH"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "石蝇、跳蚤、虱子、足丝蚁、缺翅虫等各不相同",
+        "en": "Varies: see each order",
+        "ms": "Berbeza mengikut order"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "各不相同",
+        "en": "Varies",
+        "ms": "Berbeza"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "鱼蛉以前常被误放在蜉蝣目，其实属于广翅目",
+       "en": "Fishflies are sometimes listed with mayflies, but they belong to Megaloptera",
+       "ms": "Fishfly kadang-kadang disenaraikan bersama lalat sehari, tetapi ia tergolong dalam Megaloptera"
+      },
+      {
+       "zh": "蜱有八只脚，是蛛形纲动物，不是跳蚤的亲戚",
+       "en": "Ticks have eight legs and are arachnids, not relatives of fleas",
+       "ms": "Sengkenit berkaki lapan dan ialah araknid, bukan saudara kutu"
+      }
+     ],
+     "src": [
+      "MDC-FISH",
+      "WTK:10"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "lesser-orders"
+ ]
+}

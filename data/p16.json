@@ -1,0 +1,258 @@
+{
+ "id": "p16",
+ "num": 16,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "蜻蜓目（蜻蜓、豆娘）",
+  "zhTw": "蜻蛉目（蜻蜓、豆娘）",
+  "en": "Odonata (dragonflies and damselflies)",
+  "ms": "Odonata (pepatung dan pepatung jarum)"
+ },
+ "blurb": {
+  "zh": "蜻蜓目（蜻蜓、豆娘）",
+  "en": "Odonata (dragonflies and damselflies)",
+  "ms": "Odonata (pepatung dan pepatung jarum)"
+ },
+ "sources": [
+  "INAT-ODO",
+  "LSJ",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:odonata}}来自希腊文 odous（牙齿），指它们有齿的大颚。它们是空中的捕食者。",
+      "en": "{{t:odonata}} comes from the Greek odous (tooth), after their toothed jaws. They are hunters of the air.",
+      "ms": "{{t:odonata}} berasal daripada bahasa Yunani odous (gigi), merujuk rahangnya yang bergigi. Ia pemburu di udara."
+     },
+     "defines": [
+      "odonata"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「牙齿」：有齿的大颚，空中的猎人。",
+      "en": "Think 'tooth': toothed jaws, a hunter on the wing.",
+      "ms": "Ingat 'gigi': rahang bergigi, pemburu di udara."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "复眼很大，触角短得几乎看不见",
+       "en": "Huge compound eyes; tiny bristle-like antennae",
+       "ms": "Mata majmuk sangat besar; sesungut sangat pendek"
+      },
+      {
+       "zh": "两对膜质翅，翅脉很密",
+       "en": "Two pairs of membranous, densely veined wings",
+       "ms": "Dua pasang sayap bermembran dengan urat yang padat"
+      },
+      {
+       "zh": "若虫（稚虫）在水中生活",
+       "en": "The nymphs (naiads) live in water",
+       "ms": "Nimfa (naiad) hidup dalam air"
+      }
+     ],
+     "src": [
+      "TJ:27",
+      "TJ:39",
+      "WTK:3",
+      "TJ:35"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蜻蜓",
+       "en": "Dragonflies",
+       "ms": "Pepatung"
+      },
+      {
+       "zh": "豆娘",
+       "en": "Damselflies",
+       "ms": "Pepatung jarum"
+      }
+     ],
+     "src": [
+      "WTK:3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蜻蜓还是豆娘？",
+    "en": "Dragonfly or damselfly?",
+    "ms": "Pepatung atau pepatung jarum?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "TJ:39",
+      "INAT-ODO"
+     ],
+     "caption": {
+      "zh": "看翅和眼",
+      "en": "Look at the wings and eyes",
+      "ms": "Lihat sayap dan mata"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "蜻蜓",
+       "en": "Dragonfly",
+       "ms": "Pepatung"
+      },
+      {
+       "zh": "豆娘",
+       "en": "Damselfly",
+       "ms": "Pepatung jarum"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "翅",
+        "en": "Wings",
+        "ms": "Sayap"
+       },
+       {
+        "zh": "后翅基部较宽",
+        "en": "Hind wings broader at the base",
+        "ms": "Sayap belakang lebih lebar di pangkal"
+       },
+       {
+        "zh": "四片翅差不多",
+        "en": "Four similar wings",
+        "ms": "Empat sayap serupa"
+       }
+      ],
+      [
+       {
+        "zh": "停下时",
+        "en": "At rest",
+        "ms": "Ketika berehat"
+       },
+       {
+        "zh": "翅向两侧平展",
+        "en": "Wings held out flat",
+        "ms": "Sayap terbentang"
+       },
+       {
+        "zh": "翅多合起在背上",
+        "en": "Wings mostly closed over the back",
+        "ms": "Sayap kebanyakannya tertutup"
+       }
+      ],
+      [
+       {
+        "zh": "眼",
+        "en": "Eyes",
+        "ms": "Mata"
+       },
+       {
+        "zh": "相接或几乎相接",
+        "en": "Touching or nearly so",
+        "ms": "Bertemu atau hampir"
+       },
+       {
+        "zh": "分得很开",
+        "en": "Widely separated",
+        "ms": "Berjauhan"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "odonata"
+ ]
+}

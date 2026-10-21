@@ -1,0 +1,273 @@
+{
+ "id": "p23",
+ "num": 23,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "蜉蝣目",
+  "en": "Ephemeroptera (mayflies)",
+  "ms": "Ephemeroptera (lalat sehari)"
+ },
+ "blurb": {
+  "zh": "蜉蝣目",
+  "en": "Ephemeroptera (mayflies)",
+  "ms": "Ephemeroptera (lalat sehari)"
+ },
+ "sources": [
+  "AM-MAYFLY",
+  "LSJ",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:ephemeroptera}}来自希腊文 ephemeros（只活一天）加 pteron（翅）：成虫的寿命很短。",
+      "en": "{{t:ephemeroptera}} comes from the Greek ephemeros (lasting a day) and pteron (wing): adult mayflies live only briefly.",
+      "ms": "{{t:ephemeroptera}} berasal daripada bahasa Yunani ephemeros (bertahan sehari) dan pteron (sayap): lalat sehari dewasa hidup sekejap sahaja."
+     },
+     "defines": [
+      "ephemeroptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「蜉蝣」：成虫一生很短，所以叫「朝生暮死」。",
+      "en": "Think 'ephemeral': the adult's life is very short.",
+      "ms": "Ingat 'sementara': hayat dewasa sangat singkat."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体柔软，翅竖立合在背上",
+       "en": "Soft body; wings held upright together over the back",
+       "ms": "Badan lembut; sayap ditegakkan bersama di atas belakang"
+      },
+      {
+       "zh": "后翅很小或没有",
+       "en": "Hind wings small or absent",
+       "ms": "Sayap belakang kecil atau tiada"
+      },
+      {
+       "zh": "尾端通常有 3 条长尾丝，少数 2 条",
+       "en": "Usually 3 long tails, a few kinds 2",
+       "ms": "Biasanya 3 ekor panjang, sesetengah 2"
+      },
+      {
+       "zh": "稚虫在水中，腹部两侧有叶片状的鳃",
+       "en": "Nymphs live in water with leaf-like gills along the abdomen",
+       "ms": "Nimfa hidup dalam air dengan insang seperti daun di sepanjang abdomen"
+      }
+     ],
+     "src": [
+      "AM-MAYFLY",
+      "WTK:7",
+      "WTK:9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "成虫口器退化，不进食",
+        "en": "Adults have reduced mouthparts and do not feed",
+        "ms": "Dewasa mempunyai bahagian mulut yang tidak berfungsi dan tidak makan"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "溪流和池塘附近的各种蜉蝣",
+       "en": "Mayflies near streams and ponds",
+       "ms": "Lalat sehari berhampiran sungai dan kolam"
+      }
+     ],
+     "src": [
+      "WTK:7"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蜉蝣还是石蝇？",
+    "en": "Mayfly or stonefly?",
+    "ms": "Lalat sehari atau lalat batu?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "WTK:9",
+      "AM-MAYFLY"
+     ],
+     "caption": {
+      "zh": "看翅、尾和脚爪",
+      "en": "Look at the wings, tails and claws",
+      "ms": "Lihat sayap, ekor dan kuku"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "蜉蝣",
+       "en": "Mayfly",
+       "ms": "Lalat sehari"
+      },
+      {
+       "zh": "石蝇",
+       "en": "Stonefly",
+       "ms": "Lalat batu"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "翅",
+        "en": "Wings",
+        "ms": "Sayap"
+       },
+       {
+        "zh": "竖立在背上",
+        "en": "Held upright",
+        "ms": "Ditegakkan"
+       },
+       {
+        "zh": "平贴或包着身体",
+        "en": "Folded flat or around the body",
+        "ms": "Dilipat rata atau di sekeliling badan"
+       }
+      ],
+      [
+       {
+        "zh": "尾",
+        "en": "Tails",
+        "ms": "Ekor"
+       },
+       {
+        "zh": "通常 3 条",
+        "en": "Usually 3",
+        "ms": "Biasanya 3"
+       },
+       {
+        "zh": "2 条",
+        "en": "2",
+        "ms": "2"
+       }
+      ],
+      [
+       {
+        "zh": "脚爪",
+        "en": "Claws",
+        "ms": "Kuku"
+       },
+       {
+        "zh": "每只脚 1 个",
+        "en": "1 per foot",
+        "ms": "1 setiap kaki"
+       },
+       {
+        "zh": "每只脚 2 个",
+        "en": "2 per foot",
+        "ms": "2 setiap kaki"
+       }
+      ],
+      [
+       {
+        "zh": "稚虫的鳃",
+        "en": "Nymph gills",
+        "ms": "Insang nimfa"
+       },
+       {
+        "zh": "腹部两侧叶状鳃",
+        "en": "Leaf-like gills on the abdomen",
+        "ms": "Insang seperti daun pada abdomen"
+       },
+       {
+        "zh": "腹部两侧没有这种鳃",
+        "en": "No such gills on the abdomen",
+        "ms": "Tiada insang sebegitu pada abdomen"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "ephemeroptera"
+ ]
+}

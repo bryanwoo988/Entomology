@@ -1,0 +1,162 @@
+{
+ "id": "p20",
+ "num": 20,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "缨翅目（蓟马）",
+  "en": "Thysanoptera (thrips)",
+  "ms": "Thysanoptera (trips)"
+ },
+ "blurb": {
+  "zh": "缨翅目（蓟马）",
+  "en": "Thysanoptera (thrips)",
+  "ms": "Thysanoptera (trips)"
+ },
+ "sources": [
+  "CSU-THRIPS",
+  "LSJ",
+  "SER-THRIPS",
+  "TJ",
+  "UMD-THRIPS"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:thysanoptera}}来自希腊文 thysanos（流苏、缨）加 pteron（翅），指翅边缘的长毛。",
+      "en": "{{t:thysanoptera}} comes from the Greek thysanos (fringe) and pteron (wing), after the long hairs edging the wings.",
+      "ms": "{{t:thysanoptera}} berasal daripada bahasa Yunani thysanos (jumbai) dan pteron (sayap), merujuk bulu panjang di tepi sayap."
+     },
+     "defines": [
+      "thysanoptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「缨」就是流苏：翅像镶了流苏的细羽毛。",
+      "en": "Think 'fringe': wings like tiny tasselled feathers.",
+      "ms": "Ingat 'jumbai': sayap seperti bulu pelepah kecil berjumbai."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "体长只有约 1–2 毫米，细长，两头尖",
+       "en": "Only about 1–2 mm long, slender and tapered at both ends",
+       "ms": "Hanya kira-kira 1–2 mm panjang, langsing dan tirus di kedua-dua hujung"
+      },
+      {
+       "zh": "翅很窄，边缘有很长的缨毛；只有成虫有翅",
+       "en": "Narrow wings fringed with long hairs; only adults have wings",
+       "ms": "Sayap sempit berjumbai bulu panjang; hanya dewasa bersayap"
+      },
+      {
+       "zh": "口器左右不对称，用来刮破叶面吸汁",
+       "en": "Lopsided mouthparts that scrape leaf surfaces and suck the juice",
+       "ms": "Bahagian mulut tidak simetri yang mengikis permukaan daun dan menghisap cecairnya"
+      }
+     ],
+     "src": [
+      "UMD-THRIPS",
+      "CSU-THRIPS"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "CSU-THRIPS"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "锉吸式（不对称）",
+        "en": "Rasping-sucking (asymmetrical)",
+        "ms": "Mengikis-menghisap (tidak simetri)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "金马仑高原的茄子、辣椒和甜椒上，最多的是 Thrips palmi 和 Thrips parvispinus",
+       "en": "On eggplant, chilli and bell pepper in Cameron Highlands the commonest are Thrips palmi and Thrips parvispinus",
+       "ms": "Pada terung, cili dan lada benggala di Cameron Highlands yang paling banyak ialah Thrips palmi dan Thrips parvispinus"
+      },
+      {
+       "zh": "它们吃叶、花和果实，也会传播植物病毒",
+       "en": "They feed on leaves, flowers and fruit, and also spread plant viruses",
+       "ms": "Ia makan daun, bunga dan buah, dan juga menyebarkan virus tumbuhan"
+      }
+     ],
+     "src": [
+      "SER-THRIPS"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "thysanoptera"
+ ]
+}

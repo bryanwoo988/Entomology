@@ -1,0 +1,254 @@
+{
+ "id": "p10",
+ "num": 10,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "鞘翅目（甲虫）",
+  "en": "Coleoptera (beetles)",
+  "ms": "Coleoptera (kumbang)"
+ },
+ "blurb": {
+  "zh": "鞘翅目（甲虫）",
+  "en": "Coleoptera (beetles)",
+  "ms": "Coleoptera (kumbang)"
+ },
+ "sources": [
+  "ETYM",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:coleoptera}}的名字来自希腊文 koleos（鞘）加 pteron（翅），意思是「有鞘的翅」：甲虫坚硬的前翅像刀鞘一样，把后翅收在里面。",
+      "en": "{{t:coleoptera}} comes from the Greek koleos (sheath) and pteron (wing): 'sheath-winged'. A beetle's hard forewings cover the hind wings like a sheath.",
+      "ms": "{{t:coleoptera}} berasal daripada bahasa Yunani koleos (sarung) dan pteron (sayap): 'bersayap sarung'. Sayap depan kumbang yang keras menutupi sayap belakang seperti sarung."
+     },
+     "defines": [
+      "coleoptera"
+     ],
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「鞘」就是刀鞘：硬翅像刀鞘一样包住后翅。",
+      "en": "Think 'sheath': hard covers sheathing the flying wings.",
+      "ms": "Ingat 'sarung': penutup keras menyarungi sayap terbang."
+     },
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "前翅硬化成鞘翅，两片在背中线对齐",
+       "en": "Forewings hardened into elytra that meet in a straight line down the back",
+       "ms": "Sayap depan mengeras menjadi elitra yang bertemu dalam garis lurus di belakang"
+      },
+      {
+       "zh": "膜质的后翅折叠在鞘翅下面",
+       "en": "Membranous hind wings folded under the elytra",
+       "ms": "Sayap belakang bermembran dilipat di bawah elitra"
+      },
+      {
+       "zh": "咀嚼式口器",
+       "en": "Chewing mouthparts",
+       "ms": "Bahagian mulut mengunyah"
+      }
+     ],
+     "src": [
+      "WTK:1",
+      "TJ:40",
+      "UMN-ORD"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态（卵→幼虫→蛹→成虫）",
+        "en": "Complete (egg → larva → pupa → adult)",
+        "ms": "Lengkap (telur → larva → pupa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "叶甲、瓢虫、犀角金龟、萤火虫",
+       "en": "Leaf beetles, ladybirds, rhinoceros beetles, fireflies",
+       "ms": "Kumbang daun, kumbang kura-kura, kumbang badak, kelip-kelip"
+      }
+     ],
+     "src": [
+      "WTK:1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "甲虫还是蝽？",
+    "zhTw": "甲虫还是椿象？",
+    "en": "Beetle or bug?",
+    "ms": "Kumbang atau pepijat?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "TJ:39",
+      "TJ:40",
+      "TJ:35"
+     ],
+     "caption": {
+      "zh": "甲虫和蝽怎样分",
+      "zhTw": "甲虫和椿象怎样分",
+      "en": "Telling beetles from true bugs",
+      "ms": "Membezakan kumbang dan pepijat"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "甲虫",
+       "en": "Beetle",
+       "ms": "Kumbang"
+      },
+      {
+       "zh": "蝽",
+       "zhTw": "椿象",
+       "en": "True bug",
+       "ms": "Pepijat"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "前翅",
+        "en": "Forewings",
+        "ms": "Sayap depan"
+       },
+       {
+        "zh": "全部是硬壳，在背中线对齐",
+        "en": "Wholly hard, meeting in a straight line",
+        "ms": "Keras sepenuhnya, bertemu dalam garis lurus"
+       },
+       {
+        "zh": "前半硬、后半膜质，在背上交叠",
+        "en": "Hard at base, thin at tip, overlapping",
+        "ms": "Keras di pangkal, nipis di hujung, bertindih"
+       }
+      ],
+      [
+       {
+        "zh": "口器",
+        "en": "Mouth",
+        "ms": "Mulut"
+       },
+       {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       },
+       {
+        "zh": "针管状刺吸式",
+        "en": "Needle-like beak",
+        "ms": "Paruh seperti jarum"
+       }
+      ],
+      [
+       {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       {
+        "zh": "完全变态",
+        "en": "Complete",
+        "ms": "Lengkap"
+       },
+       {
+        "zh": "不完全变态",
+        "en": "Incomplete",
+        "ms": "Tidak lengkap"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "coleoptera"
+ ]
+}

@@ -1,0 +1,266 @@
+{
+ "id": "p13",
+ "num": 13,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "膜翅目（蜂和蚂蚁）",
+  "en": "Hymenoptera (bees, wasps and ants)",
+  "ms": "Hymenoptera (lebah, tebuan dan semut)"
+ },
+ "blurb": {
+  "zh": "膜翅目（蜂和蚂蚁）",
+  "en": "Hymenoptera (bees, wasps and ants)",
+  "ms": "Hymenoptera (lebah, tebuan dan semut)"
+ },
+ "sources": [
+  "ETYM",
+  "TJ",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:hymenoptera}}来自希腊文 hymen（薄膜）加 pteron（翅），意思是「膜翅」，由林奈命名。",
+      "en": "{{t:hymenoptera}} comes from the Greek hymen (membrane) and pteron (wing): 'membrane-winged'. Linnaeus coined it.",
+      "ms": "{{t:hymenoptera}} berasal daripada bahasa Yunani hymen (membran) dan pteron (sayap): 'bersayap membran'. Linnaeus mencipta nama ini."
+     },
+     "defines": [
+      "hymenoptera"
+     ],
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「膜」就是薄膜：四片透明的翅，加一条细腰。",
+      "en": "Think 'membrane': four clear wings and a wasp waist.",
+      "ms": "Ingat 'membran': empat sayap jernih dan pinggang tebuan."
+     },
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "两对透明的膜质翅",
+       "en": "Two pairs of clear membranous wings",
+       "ms": "Dua pasang sayap bermembran yang jernih"
+      },
+      {
+       "zh": "胸和腹之间有明显的细腰",
+       "en": "A clear narrow waist between thorax and abdomen",
+       "ms": "Pinggang sempit yang jelas antara toraks dan abdomen"
+      },
+      {
+       "zh": "蚂蚁的腰上有一两个结，触角膝状",
+       "en": "Ants have one or two nodes on the waist and elbowed antennae",
+       "ms": "Semut mempunyai satu atau dua nod pada pinggang dan sesungut bersiku"
+      },
+      {
+       "zh": "蜂类腹末有螫针",
+       "en": "Bees and wasps have a sting at the tip of the abdomen",
+       "ms": "Lebah dan tebuan mempunyai sengat di hujung abdomen"
+      }
+     ],
+     "src": [
+      "TJ:39",
+      "TJ:38",
+      "TJ:33",
+      "WTK:3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "TJ:27"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态（卵→幼虫→蛹→成虫）",
+        "en": "Complete (egg → larva → pupa → adult)",
+        "ms": "Lengkap (telur → larva → pupa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式或嚼吸式",
+        "en": "Chewing or chewing-lapping",
+        "ms": "Mengunyah atau mengunyah-menjilat"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蜜蜂（包括东方蜜蜂）",
+       "en": "Honey bees, including the Asian honey bee",
+       "ms": "Lebah madu, termasuk lebah madu Asia"
+      },
+      {
+       "zh": "胡蜂、黄蜂",
+       "en": "Wasps and hornets",
+       "ms": "Tebuan dan penyengat"
+      },
+      {
+       "zh": "蚂蚁",
+       "en": "Ants",
+       "ms": "Semut"
+      }
+     ],
+     "src": [
+      "WTK:3",
+      "TJ:212"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蚂蚁还是白蚁？",
+    "en": "Ant or termite?",
+    "ms": "Semut atau anai-anai?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "TJ:38",
+      "TJ:39"
+     ],
+     "caption": {
+      "zh": "看触角和腰",
+      "en": "Look at the antennae and the waist",
+      "ms": "Lihat sesungut dan pinggang"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "蚂蚁",
+       "en": "Ant",
+       "ms": "Semut"
+      },
+      {
+       "zh": "白蚁",
+       "en": "Termite",
+       "ms": "Anai-anai"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "触角",
+        "en": "Antennae",
+        "ms": "Sesungut"
+       },
+       {
+        "zh": "膝状",
+        "en": "Elbowed",
+        "ms": "Bersiku"
+       },
+       {
+        "zh": "念珠状",
+        "en": "Bead-like",
+        "ms": "Seperti manik"
+       }
+      ],
+      [
+       {
+        "zh": "腰",
+        "en": "Waist",
+        "ms": "Pinggang"
+       },
+       {
+        "zh": "细，有结",
+        "en": "Narrow, with nodes",
+        "ms": "Sempit, ada nod"
+       },
+       {
+        "zh": "没有细腰",
+        "en": "No waist",
+        "ms": "Tiada pinggang"
+       }
+      ],
+      [
+       {
+        "zh": "有翅繁殖蚁",
+        "en": "Winged swarmers",
+        "ms": "Kelekatu"
+       },
+       {
+        "zh": "前后翅大小不同",
+        "en": "Fore- and hind wings differ",
+        "ms": "Sayap depan dan belakang berbeza"
+       },
+       {
+        "zh": "四翅几乎一样大",
+        "en": "Four nearly equal wings",
+        "ms": "Empat sayap hampir sama besar"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "hymenoptera"
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "p24",
+ "num": 24,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "毛翅目（石蛾）",
+  "en": "Trichoptera (caddisflies)",
+  "ms": "Trichoptera (lalat kadis)"
+ },
+ "blurb": {
+  "zh": "毛翅目（石蛾）",
+  "en": "Trichoptera (caddisflies)",
+  "ms": "Trichoptera (lalat kadis)"
+ },
+ "sources": [
+  "AM-MAYFLY",
+  "LSJ",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:trichoptera}}来自希腊文 thrix（毛）加 pteron（翅），意思是「有毛的翅」。",
+      "en": "{{t:trichoptera}} comes from the Greek thrix (hair) and pteron (wing): 'hairy-winged'.",
+      "ms": "{{t:trichoptera}} berasal daripada bahasa Yunani thrix (rambut) dan pteron (sayap): 'bersayap berbulu'."
+     },
+     "defines": [
+      "trichoptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「毛」：翅上是毛，不是鳞。",
+      "en": "Think 'hair': hairy wings, not scaly ones.",
+      "ms": "Ingat 'bulu': sayap berbulu, bukan bersisik."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "两对多毛的膜质翅，看起来像蛾",
+       "en": "Two pairs of hairy membranous wings; looks like a moth",
+       "ms": "Dua pasang sayap bermembran berbulu; kelihatan seperti kupu-kupu"
+      },
+      {
+       "zh": "停下时翅呈屋脊状盖在身上",
+       "en": "Wings held tent-like over the body at rest",
+       "ms": "Sayap seperti khemah di atas badan ketika berehat"
+      },
+      {
+       "zh": "触角细长如线，常比身体长",
+       "en": "Long thread-like antennae, often longer than the body",
+       "ms": "Sesungut panjang seperti benang, sering lebih panjang daripada badan"
+      }
+     ],
+     "src": [
+      "WTK:8",
+      "AM-MAYFLY"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态（卵→幼虫→蛹→成虫）",
+        "en": "Complete (egg → larva → pupa → adult)",
+        "ms": "Lengkap (telur → larva → pupa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "溪流附近的石蛾，常被灯光吸引",
+       "en": "Caddisflies near streams, often drawn to lights",
+       "ms": "Lalat kadis berhampiran sungai, sering tertarik kepada cahaya"
+      }
+     ],
+     "src": [
+      "WTK:8"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "trichoptera"
+ ]
+}

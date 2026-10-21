@@ -1,0 +1,167 @@
+{
+ "id": "p22",
+ "num": 22,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "脉翅目（草蛉、蚁蛉）",
+  "en": "Neuroptera (lacewings and antlions)",
+  "ms": "Neuroptera (lacewing dan undur-undur)"
+ },
+ "blurb": {
+  "zh": "脉翅目（草蛉、蚁蛉）",
+  "en": "Neuroptera (lacewings and antlions)",
+  "ms": "Neuroptera (lacewing dan undur-undur)"
+ },
+ "sources": [
+  "LSJ",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:neuroptera}}来自希腊文 neuron（筋、脉）加 pteron（翅），指翅上密密麻麻像网一样的翅脉。",
+      "en": "{{t:neuroptera}} comes from the Greek neuron (sinew, vein) and pteron (wing), after the dense net of wing veins.",
+      "ms": "{{t:neuroptera}} berasal daripada bahasa Yunani neuron (urat) dan pteron (sayap), merujuk jaringan urat sayap yang padat."
+     },
+     "defines": [
+      "neuroptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「脉」就是翅脉：翅像一张透明的网。",
+      "en": "Think 'veins': each wing is a clear net.",
+      "ms": "Ingat 'urat': setiap sayap seperti jaring jernih."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "两对透明的翅，翅脉多如网",
+       "en": "Two pairs of clear wings with net-like veins",
+       "ms": "Dua pasang sayap jernih dengan urat seperti jaring"
+      },
+      {
+       "zh": "身体柔软，最长约 50 毫米",
+       "en": "Soft body, up to about 50 mm long",
+       "ms": "Badan lembut, sehingga kira-kira 50 mm panjang"
+      },
+      {
+       "zh": "触角丝状或末端膨大",
+       "en": "Antennae thread-like or clubbed",
+       "ms": "Sesungut seperti benang atau berbonjol"
+      }
+     ],
+     "src": [
+      "WTK:11"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态（卵→幼虫→蛹→成虫）",
+        "en": "Complete (egg → larva → pupa → adult)",
+        "ms": "Lengkap (telur → larva → pupa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式（幼虫有吸食用的大颚）",
+        "en": "Chewing (larvae have sucking jaws)",
+        "ms": "Mengunyah (larva mempunyai rahang penghisap)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "草蛉",
+       "en": "Green lacewings",
+       "ms": "Lacewing hijau"
+      },
+      {
+       "zh": "蚁蛉：幼虫在沙地挖漏斗形陷阱，捕捉路过的小昆虫",
+       "en": "Antlions: larvae dig funnel traps in sand to catch passing insects",
+       "ms": "Undur-undur: larva menggali perangkap corong dalam pasir untuk menangkap serangga yang lalu"
+      },
+      {
+       "zh": "长角蛉",
+       "en": "Owlflies",
+       "ms": "Owlfly"
+      }
+     ],
+     "src": [
+      "WTK:11",
+      "TJ:229",
+      "TJ:225"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "neuroptera"
+ ]
+}

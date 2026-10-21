@@ -1,0 +1,266 @@
+{
+ "id": "p15",
+ "num": 15,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "直翅目（蝗虫、螽斯、蟋蟀）",
+  "en": "Orthoptera (grasshoppers, katydids, crickets)",
+  "ms": "Orthoptera (belalang, katidid, cengkerik)"
+ },
+ "blurb": {
+  "zh": "直翅目（蝗虫、螽斯、蟋蟀）",
+  "en": "Orthoptera (grasshoppers, katydids, crickets)",
+  "ms": "Orthoptera (belalang, katidid, cengkerik)"
+ },
+ "sources": [
+  "LSJ",
+  "PURDUE-TA",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:orthoptera}}来自希腊文 orthos（直）加 pteron（翅），意思是「直的翅」：前翅窄长而直。",
+      "en": "{{t:orthoptera}} comes from the Greek orthos (straight) and pteron (wing): 'straight-winged', after the long narrow forewings.",
+      "ms": "{{t:orthoptera}} berasal daripada bahasa Yunani orthos (lurus) dan pteron (sayap): 'bersayap lurus', merujuk sayap depan yang panjang dan sempit."
+     },
+     "defines": [
+      "orthoptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「直」：窄长的直翅，加上会跳的后腿。",
+      "en": "Think 'straight': long straight wings and jumping hind legs.",
+      "ms": "Ingat 'lurus': sayap lurus panjang dan kaki belakang pelompat."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "后足是粗大的跳跃足",
+       "en": "Hind legs are big jumping legs",
+       "ms": "Kaki belakang ialah kaki melompat yang besar"
+      },
+      {
+       "zh": "前翅像皮革（覆翅）",
+       "en": "Leathery forewings (tegmina)",
+       "ms": "Sayap depan seperti kulit (tegmina)"
+      },
+      {
+       "zh": "很多种类会摩擦身体发声",
+       "en": "Many make sounds by rubbing body parts together",
+       "ms": "Banyak menghasilkan bunyi dengan menggesel bahagian badan"
+      }
+     ],
+     "src": [
+      "WTK:5",
+      "TJ:40",
+      "PURDUE-TA",
+      "TJ:30"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蝗虫，如霹雳州拍到的「猴蝗」",
+       "en": "Grasshoppers, such as the monkey grasshopper photographed in Perak",
+       "ms": "Belalang, seperti belalang monyet yang dirakam di Perak"
+      },
+      {
+       "zh": "模仿叶子的蝗虫 Systella rafflesii 和拟叶螽",
+       "en": "Leaf-mimicking grasshoppers (Systella rafflesii) and leaf katydids (Pseudophyllinae)",
+       "ms": "Belalang penyamar daun (Systella rafflesii) dan katidid daun (Pseudophyllinae)"
+      },
+      {
+       "zh": "蟋蟀，如雪兰莪州的卷叶蟋蟀；蝼蛄",
+       "en": "Crickets, such as the leaf-rolling cricket in Selangor; mole crickets",
+       "ms": "Cengkerik, seperti cengkerik penggulung daun di Selangor; anjing tanah"
+      }
+     ],
+     "src": [
+      "WTK:5",
+      "TJ:75"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蝗虫还是螽斯？",
+    "zhTw": "蝗虫还是螽蟴？",
+    "en": "Grasshopper or katydid?",
+    "ms": "Belalang atau katidid?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "TJ:40",
+      "WTK:5",
+      "TJ:33"
+     ],
+     "caption": {
+      "zh": "看触角和发声方法",
+      "en": "Look at the antennae and how they sing",
+      "ms": "Lihat sesungut dan cara berbunyi"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "蝗虫",
+       "en": "Grasshopper",
+       "ms": "Belalang"
+      },
+      {
+       "zh": "螽斯、蟋蟀",
+       "zhTw": "螽蟴、蟋蟀",
+       "en": "Katydid, cricket",
+       "ms": "Katidid, cengkerik"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "触角",
+        "en": "Antennae",
+        "ms": "Sesungut"
+       },
+       {
+        "zh": "短而粗",
+        "en": "Short and thick",
+        "ms": "Pendek dan tebal"
+       },
+       {
+        "zh": "细长，常比身体还长",
+        "en": "Thin, often longer than the body",
+        "ms": "Halus, sering lebih panjang daripada badan"
+       }
+      ],
+      [
+       {
+        "zh": "发声",
+        "en": "Sound",
+        "ms": "Bunyi"
+       },
+       {
+        "zh": "后足的齿列刮前翅",
+        "en": "Pegs on the hind legs rubbed against the wings",
+        "ms": "Pasak pada kaki belakang digesel pada sayap"
+       },
+       {
+        "zh": "两片前翅互相摩擦",
+        "en": "Rubbing the forewings together",
+        "ms": "Menggesel kedua-dua sayap depan"
+       }
+      ],
+      [
+       {
+        "zh": "身体",
+        "en": "Body",
+        "ms": "Badan"
+       },
+       {
+        "zh": "较细长",
+        "en": "Slimmer",
+        "ms": "Lebih langsing"
+       },
+       {
+        "zh": "较圆胖，有的像叶子",
+        "en": "Rounder, some leaf-like",
+        "ms": "Lebih bulat, ada yang seperti daun"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "orthoptera"
+ ]
+}

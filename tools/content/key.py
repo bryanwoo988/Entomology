@@ -7,6 +7,7 @@ import json
 import sys
 sys.path.insert(0, 'tools/content')
 from build import T, T2
+from sources import SOURCES
 
 NONE = T("以上都不是／看不出来", "None of these / can't tell", "Tiada yang sesuai / tidak pasti")
 
@@ -141,7 +142,7 @@ results = {
  "water-striders": R(T("黾蝽（水黾、海黾）", "Water striders", "Pepijat air (water strider)"), "p12",
    [T("在水面上滑行", "Skates on the water surface", "Meluncur di permukaan air"), T("中、后足很长", "Long middle and hind legs", "Kaki tengah dan belakang panjang")], [], ["TJ:38", "WTK:1"]),
  "termites-workers": R(T("白蚁（工蚁）", "Termites (workers)", "Anai-anai (pekerja)"), "p18",
-   [T("触角念珠状", "Bead-like antennae", "Sesungut seperti manik"), T("身体软、颜色淡，没有细腰", "Soft pale body, no narrow waist", "Badan lembut pucat, tiada pinggang sempit")],
+   [T("触角念珠状", "Bead-like antennae", "Sesungut seperti manik"), T("没有细腰", "No narrow waist", "Tiada pinggang sempit")],
    [T("蚂蚁：触角膝状、有细腰", "Ants: elbowed antennae and a narrow waist", "Semut: sesungut bersiku dan pinggang sempit")], ["TJ:38", "WTK:4"]),
  "ants-workers": R(T("蚂蚁（工蚁）", "Ants (workers)", "Semut (pekerja)"), "p13",
    [T("触角膝状", "Elbowed antennae", "Sesungut bersiku"), T("腰细，腰上有结", "Narrow waist with a node", "Pinggang sempit dengan nod")],
@@ -150,11 +151,11 @@ results = {
    [T("身体扁长，有银灰色鳞片", "Flat body with silvery scales", "Badan leper dengan sisik keperakan"), T("尾端有三条长丝", "Three long tail threads", "Tiga ekor panjang")],
    [], ["WTK:10"]),
  "mayflies": R(T("蜉蝣", "Mayflies", "Lalat sehari (mayfly)"), "p23",
-   [T("翅竖立在背上", "Wings held upright over the back", "Sayap tegak di atas belakang"), T("腹末有 2–3 条长尾丝", "2–3 long tail threads", "2–3 ekor panjang")],
-   [T("石蝇：只有 2 条尾须，翅平贴腹部", "Stoneflies: 2 tails, wings folded flat", "Lalat batu: 2 ekor, sayap dilipat rata")], ["WTK:7", "WTK:9"]),
+   [T("翅竖立在背上", "Wings held upright over the back", "Sayap tegak di atas belakang"), T("腹末通常有 3 条长尾丝，少数 2 条", "Usually 3 long tail threads, a few kinds 2", "Biasanya 3 ekor panjang, sesetengah 2")],
+   [T("石蝇：2 条尾须，每只脚两个爪", "Stoneflies: 2 tails, two claws on each foot", "Lalat batu: 2 ekor, dua kuku pada setiap kaki")], ["WTK:7", "WTK:9", "AM-MAYFLY"]),
  "flies": R(T("蝇、虻", "Flies", "Lalat"), "p14",
    [T("只有一对翅", "One pair of wings", "Sepasang sayap"), T("触角很短", "Very short antennae", "Sesungut sangat pendek")],
-   [T("食蚜蝇像蜜蜂，但只有一对翅", "Hoverflies look like bees but have one pair of wings", "Lalat bunga seperti lebah tetapi bersayap sepasang")], ["TJ:38", "WTK:6"]),
+   [T("马蝇像蜜蜂，但只有一对翅、不会螫人", "Horse bot flies look like bees but have one pair of wings and no sting", "Lalat bot kuda seperti lebah tetapi bersayap sepasang dan tiada sengat")], ["TJ:38", "WTK:6"]),
  "mosquitoes": R(T("蚊、蠓、蚋", "Mosquitoes and midges", "Nyamuk dan agas"), "p14",
    [T("只有一对翅", "One pair of wings", "Sepasang sayap"), T("触角细长、多节", "Long, many-segmented antennae", "Sesungut panjang berbilang ruas")], [], ["TJ:38", "WTK:6"]),
  "butterflies-moths": R(T("蝶、蛾", "Butterflies and moths", "Rama-rama dan kupu-kupu"), "p11",
@@ -162,44 +163,44 @@ results = {
    [T("石蛾：翅上是细毛，不是鳞片", "Caddisflies: hairy, not scaly, wings", "Lalat kadis: sayap berbulu, bukan bersisik")], ["TJ:38", "WTK:2"]),
  "thrips": R(T("蓟马", "Thrips", "Trips"), "p20",
    [T("体长约 1–2 毫米，细长", "About 1–2 mm long and slender", "Kira-kira 1–2 mm panjang dan langsing"), T("翅窄，边缘有长毛", "Narrow wings fringed with long hairs", "Sayap sempit berjumbai bulu panjang")],
-   [T("蚜虫：身体圆胖，没有翅毛", "Aphids: plump body, no fringed wings", "Afid: badan gemuk, tiada sayap berjumbai")], ["UMD-THRIPS"]),
+   [], ["UMD-THRIPS"]),
  "true-bugs": R(T2("蝽、水黾", "椿象、水黾", "True bugs", "Pepijat"), "p12",
    [T("针管状口器", "Needle-like beak", "Paruh seperti jarum"), T("前翅前半硬、后半膜质", "Forewings hard at base, thin at tip", "Sayap depan keras di pangkal, nipis di hujung")],
    [T("甲虫：前翅全部是硬壳，在背上合成直线", "Beetles: wholly hard forewings meeting in a line", "Kumbang: sayap depan keras sepenuhnya bertemu dalam garis")], ["TJ:39", "WTK:1"]),
  "cicadas-hoppers": R(T("蝉、叶蝉、飞虱、蚜虫", "Cicadas, hoppers and aphids", "Riang-riang, bena dan afid"), "p12",
    [T("针管状口器", "Needle-like beak", "Paruh seperti jarum"), T("翅全部是膜质，停下时像屋顶", "Wholly membranous wings held roof-like", "Sayap bermembran sepenuhnya seperti bumbung")], [], ["TJ:39"]),
  "termites-alates": R(T("白蚁（有翅繁殖蚁）", "Termites (winged swarmers)", "Anai-anai (kelekatu)"), "p18",
-   [T("触角念珠状", "Bead-like antennae", "Sesungut seperti manik"), T("四片翅几乎一样大，容易脱落", "Four nearly equal wings that drop off easily", "Empat sayap hampir sama besar yang mudah tanggal")],
-   [T("有翅蚂蚁：触角膝状、有细腰、前翅比后翅大", "Winged ants: elbowed antennae, narrow waist, forewings larger", "Semut bersayap: sesungut bersiku, pinggang sempit, sayap depan lebih besar")], ["TJ:39", "WTK:4"]),
+   [T("触角念珠状", "Bead-like antennae", "Sesungut seperti manik"), T("四片翅几乎一样大，分飞后会脱落", "Four nearly equal wings, shed after the swarm", "Empat sayap hampir sama besar, tertanggal selepas berkerumun")],
+   [T("有翅蚂蚁：触角膝状、有细腰", "Winged ants: elbowed antennae, narrow waist", "Semut bersayap: sesungut bersiku, pinggang sempit")], ["TJ:39", "WTK:4"]),
  "caddisflies": R(T("石蛾", "Caddisflies", "Lalat kadis"), "p24",
-   [T("翅上有细毛", "Hairy wings", "Sayap berbulu"), T("停下时翅呈屋脊状", "Wings held roof-like at rest", "Sayap seperti bumbung ketika berehat"), T("触角细长如线", "Long thread-like antennae", "Sesungut panjang seperti benang")],
-   [T("蛾：翅上是鳞片，触角常为羽状或锯齿状", "Moths: scaly wings, often feathery or saw-edged antennae", "Kupu-kupu: sayap bersisik, sesungut selalunya berbulu pelepah atau bergerigi")], ["WTK:8"]),
+   [T("翅上有细毛", "Hairy wings", "Sayap berbulu"), T("停下时翅呈屋脊状", "Wings held tent-like at rest", "Sayap seperti khemah ketika berehat"), T("触角细长如线", "Long thread-like antennae", "Sesungut panjang seperti benang")],
+   [T("蛾：翅上是鳞片，触角常为羽状或锯齿状", "Moths: scaly wings, often feathery or saw-edged antennae", "Kupu-kupu: sayap bersisik, sesungut selalunya berbulu pelepah atau bergerigi")], ["WTK:8", "AM-MAYFLY"]),
  "lacewings": R(T("草蛉、蚁蛉、长角蛉", "Lacewings and antlions", "Lacewing dan undur-undur"), "p22",
    [T("翅透明，翅脉多如网", "Clear wings with net-like veins", "Sayap jernih dengan urat seperti jaring"), T("身体柔软", "Soft body", "Badan lembut")],
-   [T("豆娘：停下时翅竖起，触角极短", "Damselflies: wings held up, tiny antennae", "Pepatung jarum: sayap tegak, sesungut sangat pendek")], ["TJ:39", "WTK:11"]),
+   [T("豆娘：停下时翅合起，触角极短", "Damselflies: wings closed at rest, tiny antennae", "Pepatung jarum: sayap tertutup ketika berehat, sesungut sangat pendek")], ["TJ:39", "WTK:11", "INAT-ODO"]),
  "ants-alates": R(T("蚂蚁（有翅繁殖蚁）", "Ants (winged)", "Semut (bersayap)"), "p13",
    [T("腰上有一两个结", "One or two nodes on the waist", "Satu atau dua nod pada pinggang"), T("触角膝状", "Elbowed antennae", "Sesungut bersiku")],
    [T("有翅白蚁：触角念珠状、没有细腰", "Winged termites: bead-like antennae, no waist", "Anai-anai bersayap: sesungut seperti manik, tiada pinggang")], ["TJ:39"]),
  "bees-wasps": R(T("蜂类", "Bees and wasps", "Lebah dan tebuan"), "p13",
-   [T("有细腰，腰上没有结", "Narrow waist without nodes", "Pinggang sempit tanpa nod"), T("两对膜质翅，前翅较大", "Two pairs of clear wings, forewings larger", "Dua pasang sayap jernih, sayap depan lebih besar")],
-   [T("食蚜蝇：只有一对翅，触角短", "Hoverflies: one pair of wings, short antennae", "Lalat bunga: sepasang sayap, sesungut pendek")], ["TJ:39", "WTK:3"]),
+   [T("有细腰，腰上没有结", "Narrow waist without nodes", "Pinggang sempit tanpa nod"), T("两对膜质翅", "Two pairs of clear wings", "Dua pasang sayap jernih")],
+   [T("马蝇：只有一对翅，不会螫人", "Horse bot flies: one pair of wings, no sting", "Lalat bot kuda: sepasang sayap, tiada sengat")], ["TJ:39", "WTK:3", "WTK:6"]),
  "owlflies": R(T("长角蛉、蚁蛉", "Owlflies and antlions", "Owlfly dan undur-undur"), "p22",
    [T("触角很长，末端膨大", "Long antennae with a knob at the tip", "Sesungut panjang berbonjol di hujung")],
-   [T("蜻蜓：触角极短", "Dragonflies: tiny antennae", "Pepatung: sesungut sangat pendek")], ["TJ:39"]),
+   [T("蜻蜓：触角极短", "Dragonflies: tiny antennae", "Pepatung: sesungut sangat pendek")], ["TJ:39", "WTK:11"]),
  "damselflies": R(T("豆娘", "Damselflies", "Pepatung jarum"), "p16",
    [T("四片翅差不多大", "Four similar wings", "Empat sayap yang serupa"), T("停下时翅多合起在背上", "Wings usually closed over the back at rest", "Sayap biasanya tertutup ketika berehat"), T("两眼分开", "Eyes widely separated", "Mata berjauhan")],
-   [T("蜻蜓：后翅较宽，停下时平展", "Dragonflies: broader hind wings held flat", "Pepatung: sayap belakang lebih lebar dan terbentang")], ["TJ:39", "WTK:3"]),
+   [T("蜻蜓：后翅较宽，停下时平展", "Dragonflies: broader hind wings held flat", "Pepatung: sayap belakang lebih lebar dan terbentang")], ["TJ:39", "WTK:3", "INAT-ODO"]),
  "dragonflies": R(T("蜻蜓", "Dragonflies", "Pepatung"), "p16",
    [T("后翅基部较宽", "Hind wings broader at the base", "Sayap belakang lebih lebar di pangkal"), T("停下时翅平展", "Wings held flat at rest", "Sayap terbentang ketika berehat")],
-   [T("豆娘：四翅相似，多合起", "Damselflies: similar wings, usually closed", "Pepatung jarum: sayap serupa, biasanya tertutup")], ["TJ:39", "WTK:3"]),
+   [T("豆娘：四翅相似，多合起", "Damselflies: similar wings, usually closed", "Pepatung jarum: sayap serupa, biasanya tertutup")], ["TJ:39", "WTK:3", "INAT-ODO"]),
  "earwigs": R(T("蠼螋", "Earwigs", "Cocopet"), "p21",
    [T("腹末有尾铗", "Pincers at the tip of the abdomen", "Penyepit di hujung abdomen"), T("前翅短小", "Short forewings", "Sayap depan pendek")],
-   [T("隐翅虫：前翅也短，但没有尾铗", "Rove beetles: short forewings but no pincers", "Kumbang rove: sayap depan pendek tetapi tiada penyepit")], ["TJ:40", "WTK:7"]),
+   [T("隐翅虫：翅鞘也很短，但没有尾铗", "Rove beetles: very short wing covers but no pincers", "Kumbang rove: penutup sayap sangat pendek tetapi tiada penyepit")], ["TJ:40", "WTK:7", "TJ:172"]),
  "beetles": R(T("甲虫", "Beetles", "Kumbang"), "p10",
    [T("前翅是硬壳（翅鞘）", "Hard forewings (elytra)", "Sayap depan keras (elitra)"), T("两片翅鞘在背中线对齐", "Elytra meet in a straight line down the back", "Elitra bertemu dalam garis lurus di belakang")],
    [T("蝽：前翅后半段是膜质，在背上交叠", "True bugs: forewing tips membranous and overlapping", "Pepijat: hujung sayap depan bermembran dan bertindih")], ["TJ:40", "WTK:1"]),
  "mantids": R(T("螳螂", "Mantids", "Cengkadak"), "p17",
-   [T("前足为捕捉足", "Grasping front legs", "Kaki depan penangkap"), T("头呈三角形，可以转动", "Triangular head that can turn", "Kepala segi tiga yang boleh berpusing")],
+   [T("前足为捕捉足", "Grasping front legs", "Kaki depan penangkap"), T("前翅像皮革（覆翅）", "Leathery forewings (tegmina)", "Sayap depan seperti kulit (tegmina)")],
    [T("竹节虫：前足不是捕捉足", "Stick insects: no grasping front legs", "Serangga ranting: tiada kaki depan penangkap")], ["TJ:40", "WTK:6"]),
  "katydids-crickets": R(T2("螽斯、蟋蟀", "螽蟴、蟋蟀", "Katydids and crickets", "Katidid dan cengkerik"), "p15",
    [T("后足粗大，会跳", "Stout jumping hind legs", "Kaki belakang tegap untuk melompat"), T("触角细长，常比身体长", "Thin antennae, often longer than the body", "Sesungut halus, sering lebih panjang daripada badan")],
@@ -208,10 +209,10 @@ results = {
    [T("后足粗大，会跳", "Stout jumping hind legs", "Kaki belakang tegap untuk melompat"), T("触角短而粗", "Short, thick antennae", "Sesungut pendek dan tebal")],
    [T("螽斯（台湾称螽蟴）：触角细长", "Katydids: long thin antennae", "Katidid: sesungut panjang halus")], ["TJ:40", "WTK:5"]),
  "mole-crickets": R(T("蝼蛄", "Mole crickets", "Anjing tanah"), "p15",
-   [T("前足宽扁像铲子", "Spade-like front legs", "Kaki depan seperti penyodok"), T("住在土里", "Lives in the soil", "Hidup dalam tanah")], [], ["TJ:40"]),
+   [T("前足宽扁像铲子", "Spade-like front legs", "Kaki depan seperti penyodok"), T("平常躲在地底", "Usually stays underground", "Biasanya berada di bawah tanah")], [], ["TJ:40", "TJ:75"]),
  "cockroaches": R(T("蟑螂", "Cockroaches", "Lipas"), "p18",
-   [T("身体扁平", "Flat body", "Badan leper"), T("前胸背板像盾牌盖住头", "Shield-like plate over the head", "Plat seperti perisai menutupi kepala"), T("脚多刺，跑得快", "Spiny legs, runs fast", "Kaki berduri, berlari laju")],
-   [T("甲虫：翅鞘在背中线对齐", "Beetles: elytra meet in a straight line", "Kumbang: elitra bertemu dalam garis lurus")], ["TJ:40", "WTK:4"]),
+   [T("后足不特别粗，前足不是挖掘足", "Hind legs not enlarged; front legs not for digging", "Kaki belakang tidak besar; kaki depan bukan untuk menggali"), T("步行足，跑得快", "Running legs, runs fast", "Kaki berlari, berlari laju")],
+   [T("甲虫：翅鞘在背中线对齐", "Beetles: elytra meet in a straight line", "Kumbang: elitra bertemu dalam garis lurus")], ["TJ:40", "WTK:4", "PURDUE-TA"]),
 }
 
 
@@ -221,7 +222,8 @@ if __name__ == "__main__":
     Path("data/key.json").write_text(json.dumps(key, ensure_ascii=False, indent=1) + "\n")
     src = json.loads(Path("data/sources.json").read_text())
     by = {x["id"]: x for x in src}
-    by["UMD-THRIPS"] = {"id": "UMD-THRIPS", "short": "UMD Extension: Thrips", "title": "Thrips on flowers",
-                        "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/thrips-flowers", "accessed": "2026-10-21"}
+    used = {s.split(":")[0] for r in results.values() for s in r["src"]}
+    for sid in used:
+        by[sid] = {"id": sid, **SOURCES[sid]}
     Path("data/sources.json").write_text(json.dumps(sorted(by.values(), key=lambda x: x["id"]), ensure_ascii=False, indent=1) + "\n")
     print(f"key: {len(nodes)} questions, {len(results)} results")

@@ -1,0 +1,282 @@
+{
+ "id": "p11",
+ "num": 11,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "鳞翅目（蝶和蛾）",
+  "en": "Lepidoptera (butterflies and moths)",
+  "ms": "Lepidoptera (rama-rama dan kupu-kupu)"
+ },
+ "blurb": {
+  "zh": "鳞翅目（蝶和蛾）",
+  "en": "Lepidoptera (butterflies and moths)",
+  "ms": "Lepidoptera (rama-rama dan kupu-kupu)"
+ },
+ "sources": [
+  "ETYM",
+  "RS34",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:lepidoptera}}来自希腊文 lepis（鳞片）加 pteron（翅），意思是「鳞片翅」。",
+      "en": "{{t:lepidoptera}} comes from the Greek lepis (scale) and pteron (wing): 'scale-winged'.",
+      "ms": "{{t:lepidoptera}} berasal daripada bahasa Yunani lepis (sisik) dan pteron (sayap): 'bersayap sisik'."
+     },
+     "defines": [
+      "lepidoptera"
+     ],
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「鳞」就是鱼鳞：翅上盖满小鳞片。",
+      "en": "Think 'scales': wings tiled like a fish.",
+      "ms": "Ingat 'sisik': sayap bersisik seperti ikan."
+     },
+     "src": [
+      "ETYM"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "两对翅盖满细小的鳞片，摸了会掉色粉",
+       "en": "Two pairs of wings covered in tiny scales that rub off as coloured dust",
+       "ms": "Dua pasang sayap diliputi sisik halus yang tertanggal seperti debu berwarna"
+      },
+      {
+       "zh": "成虫的口器是一根卷起来的长吸管（虹吸式）",
+       "en": "Adults feed through a long coiled tube (siphoning)",
+       "ms": "Dewasa makan melalui tiub panjang bergulung (menyedut)"
+      },
+      {
+       "zh": "幼虫是毛虫，用咀嚼式口器吃叶子",
+       "en": "Larvae are caterpillars that chew leaves",
+       "ms": "Larva ialah ulat yang mengunyah daun"
+      }
+     ],
+     "src": [
+      "TJ:38",
+      "TJ:27",
+      "WTK:2",
+      "UMN-ORD"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "TJ:27",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态（卵→幼虫→蛹→成虫）",
+        "en": "Complete (egg → larva → pupa → adult)",
+        "ms": "Lengkap (telur → larva → pupa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "成虫虹吸式；幼虫咀嚼式",
+        "en": "Adults siphoning; larvae chewing",
+        "ms": "Dewasa menyedut; larva mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蝴蝶：如粉蝶、蛱蝶、小灰蝶",
+       "en": "Butterflies: whites, brush-foots, blues",
+       "ms": "Rama-rama: putih, kaki berus, biru"
+      },
+      {
+       "zh": "蛾：如灯蛾、夜蛾、袋蛾",
+       "en": "Moths: tiger moths, owlet moths, bagworms",
+       "ms": "Kupu-kupu: kupu-kupu harimau, kupu-kupu malam, ulat bungkus"
+      },
+      {
+       "zh": "弄蝶：身体粗壮多毛",
+       "en": "Skippers: stout, hairy bodies",
+       "ms": "Rama-rama skipper: badan tegap berbulu"
+      }
+     ],
+     "src": [
+      "WTK:2",
+      "TJ:43",
+      "RS34"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蝴蝶、蛾还是弄蝶？",
+    "en": "Butterfly, moth or skipper?",
+    "ms": "Rama-rama, kupu-kupu atau skipper?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "WTK:2",
+      "WTK:8"
+     ],
+     "caption": {
+      "zh": "先看触角",
+      "en": "Look at the antennae first",
+      "ms": "Lihat sesungut dahulu"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "触角",
+       "en": "Antennae",
+       "ms": "Sesungut"
+      },
+      {
+       "zh": "身体",
+       "en": "Body",
+       "ms": "Badan"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "蝴蝶",
+        "en": "Butterfly",
+        "ms": "Rama-rama"
+       },
+       {
+        "zh": "细长，末端膨大",
+        "en": "Long, clubbed tip",
+        "ms": "Panjang, hujung berbonjol"
+       },
+       {
+        "zh": "较细",
+        "en": "Slender",
+        "ms": "Langsing"
+       }
+      ],
+      [
+       {
+        "zh": "蛾",
+        "en": "Moth",
+        "ms": "Kupu-kupu"
+       },
+       {
+        "zh": "羽状或锯齿状",
+        "en": "Feathery or saw-edged",
+        "ms": "Berbulu pelepah atau bergerigi"
+       },
+       {
+        "zh": "多较粗",
+        "en": "Often stout",
+        "ms": "Selalunya tegap"
+       }
+      ],
+      [
+       {
+        "zh": "弄蝶",
+        "en": "Skipper",
+        "ms": "Skipper"
+       },
+       {
+        "zh": "末端膨大后弯成钩",
+        "en": "Club bent into a hook",
+        "ms": "Bonjol bengkok seperti cangkuk"
+       },
+       {
+        "zh": "粗壮多毛",
+        "en": "Stout and hairy",
+        "ms": "Tegap dan berbulu"
+       }
+      ],
+      [
+       {
+        "zh": "石蛾（毛翅目）",
+        "en": "Caddisfly (Trichoptera)",
+        "ms": "Lalat kadis (Trichoptera)"
+       },
+       {
+        "zh": "细长如线，翅上是毛不是鳞",
+        "en": "Long thread-like; hairy, not scaly, wings",
+        "ms": "Panjang seperti benang; sayap berbulu, bukan bersisik"
+       },
+       {
+        "zh": "像蛾",
+        "en": "Moth-like",
+        "ms": "Seperti kupu-kupu"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "lepidoptera"
+ ]
+}

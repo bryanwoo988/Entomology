@@ -1,0 +1,163 @@
+{
+ "id": "p19",
+ "num": 19,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "竹节虫目（竹节虫和叶䗛）",
+  "en": "Phasmida (stick and leaf insects)",
+  "ms": "Phasmida (serangga ranting dan serangga daun)"
+ },
+ "blurb": {
+  "zh": "竹节虫目（竹节虫和叶䗛）",
+  "en": "Phasmida (stick and leaf insects)",
+  "ms": "Phasmida (serangga ranting dan serangga daun)"
+ },
+ "sources": [
+  "LSJ",
+  "SEOW-PHASMID",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:phasmida}}来自希腊文 phasma（幻影），因为它们伪装得像树枝和叶子，好像会凭空消失。",
+      "en": "{{t:phasmida}} comes from the Greek phasma (apparition): they are so well disguised as twigs and leaves that they seem to vanish.",
+      "ms": "{{t:phasmida}} berasal daripada bahasa Yunani phasma (bayangan): ia menyamar begitu baik sebagai ranting dan daun sehingga seolah-olah hilang."
+     },
+     "defines": [
+      "phasmida"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「幻影」：看得见的树枝，原来是一只虫。",
+      "en": "Think 'ghost': the twig you see is an insect.",
+      "ms": "Ingat 'bayangan': ranting yang anda lihat ialah serangga."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体细长像树枝，或扁平像叶子",
+       "en": "Body like a twig, or flat like a leaf",
+       "ms": "Badan seperti ranting, atau leper seperti daun"
+      },
+      {
+       "zh": "脚细长，行动缓慢",
+       "en": "Long thin legs and slow movements",
+       "ms": "Kaki panjang halus dan pergerakan perlahan"
+      },
+      {
+       "zh": "前足不是捕捉足（和螳螂不同）",
+       "en": "Front legs are not grasping legs (unlike mantids)",
+       "ms": "Kaki depan bukan kaki penangkap (tidak seperti cengkadak)"
+      }
+     ],
+     "src": [
+      "WTK:6",
+      "TJ:40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "竹节虫：马来半岛已知约 136 种",
+       "en": "Stick insects: about 136 species are known from Peninsular Malaysia",
+       "ms": "Serangga ranting: kira-kira 136 spesies diketahui di Semenanjung Malaysia"
+      },
+      {
+       "zh": "叶䗛，如灰叶䗛",
+       "en": "Leaf insects, such as the grey leaf insect",
+       "ms": "Serangga daun, seperti serangga daun kelabu"
+      }
+     ],
+     "src": [
+      "SEOW-PHASMID",
+      "WTK:6"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "phasmida"
+ ]
+}

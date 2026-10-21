@@ -691,5 +691,244 @@
    "ms": "Peringkat rehat antara larva dan dewasa."
   },
   "chapter": 9
+ },
+ {
+  "id": "coleoptera",
+  "name": {
+   "zh": "鞘翅目（甲虫）",
+   "en": "Coleoptera (beetles)",
+   "ms": "Coleoptera (kumbang)"
+  },
+  "short": {
+   "zh": "甲虫所属的目：前翅硬化成鞘翅。",
+   "en": "The beetle order: forewings hardened into elytra.",
+   "ms": "Order kumbang: sayap depan mengeras menjadi elitra."
+  },
+  "chapter": 10
+ },
+ {
+  "id": "lepidoptera",
+  "name": {
+   "zh": "鳞翅目（蝶和蛾）",
+   "en": "Lepidoptera (butterflies and moths)",
+   "ms": "Lepidoptera (rama-rama dan kupu-kupu)"
+  },
+  "short": {
+   "zh": "蝶和蛾所属的目：翅上盖满鳞片。",
+   "en": "The butterfly and moth order: wings covered in scales.",
+   "ms": "Order rama-rama dan kupu-kupu: sayap diliputi sisik."
+  },
+  "chapter": 11
+ },
+ {
+  "id": "hemiptera",
+  "name": {
+   "zh": "半翅目（蝽、蝉、蚜虫）",
+   "en": "Hemiptera (true bugs, cicadas, aphids)",
+   "ms": "Hemiptera (pepijat, riang-riang, afid)"
+  },
+  "short": {
+   "zh": "用针管状口器吸汁的昆虫：蝽、蝉、叶蝉、飞虱、蚜虫等。",
+   "en": "Insects with a sucking beak: true bugs, cicadas, hoppers, aphids.",
+   "ms": "Serangga dengan paruh penghisap: pepijat, riang-riang, bena, afid."
+  },
+  "chapter": 12
+ },
+ {
+  "id": "hymenoptera",
+  "name": {
+   "zh": "膜翅目（蜂和蚂蚁）",
+   "en": "Hymenoptera (bees, wasps and ants)",
+   "ms": "Hymenoptera (lebah, tebuan dan semut)"
+  },
+  "short": {
+   "zh": "蜂和蚂蚁所属的目：两对膜质翅，有细腰。",
+   "en": "The bee, wasp and ant order: two pairs of membranous wings and a narrow waist.",
+   "ms": "Order lebah, tebuan dan semut: dua pasang sayap bermembran dan pinggang sempit."
+  },
+  "chapter": 13
+ },
+ {
+  "id": "diptera",
+  "name": {
+   "zh": "双翅目（蝇和蚊）",
+   "en": "Diptera (flies and mosquitoes)",
+   "ms": "Diptera (lalat dan nyamuk)"
+  },
+  "short": {
+   "zh": "蝇和蚊所属的目：只有一对翅，后翅变成平衡棒。",
+   "en": "The fly order: one pair of wings, the hind pair reduced to halteres.",
+   "ms": "Order lalat: sepasang sayap, sayap belakang menjadi halter."
+  },
+  "chapter": 14
+ },
+ {
+  "id": "orthoptera",
+  "name": {
+   "zh": "直翅目（蝗虫、螽斯、蟋蟀）",
+   "en": "Orthoptera (grasshoppers, katydids, crickets)",
+   "ms": "Orthoptera (belalang, katidid, cengkerik)"
+  },
+  "short": {
+   "zh": "后足善跳的昆虫：蝗虫、螽斯、蟋蟀、蝼蛄。",
+   "en": "Jumping insects: grasshoppers, katydids, crickets, mole crickets.",
+   "ms": "Serangga pelompat: belalang, katidid, cengkerik, anjing tanah."
+  },
+  "chapter": 15
+ },
+ {
+  "id": "odonata",
+  "name": {
+   "zh": "蜻蜓目（蜻蜓、豆娘）",
+   "zhTw": "蜻蛉目（蜻蜓、豆娘）",
+   "en": "Odonata (dragonflies and damselflies)",
+   "ms": "Odonata (pepatung dan pepatung jarum)"
+  },
+  "short": {
+   "zh": "蜻蜓和豆娘：大眼、短触角、两对翅，幼虫在水中。",
+   "en": "Dragonflies and damselflies: big eyes, tiny antennae, two pairs of wings, young in water.",
+   "ms": "Pepatung: mata besar, sesungut pendek, dua pasang sayap, anak dalam air."
+  },
+  "chapter": 16
+ },
+ {
+  "id": "mantodea",
+  "name": {
+   "zh": "螳螂目",
+   "en": "Mantodea (mantids)",
+   "ms": "Mantodea (cengkadak)"
+  },
+  "short": {
+   "zh": "螳螂：前足是有刺的捕捉足。",
+   "en": "Mantids: spiny grasping front legs.",
+   "ms": "Cengkadak: kaki depan penangkap yang berduri."
+  },
+  "chapter": 17
+ },
+ {
+  "id": "blattodea",
+  "name": {
+   "zh": "蜚蠊目（蟑螂和白蚁）",
+   "en": "Blattodea (cockroaches and termites)",
+   "ms": "Blattodea (lipas dan anai-anai)"
+  },
+  "short": {
+   "zh": "蟑螂和白蚁：白蚁其实是过群居生活的蟑螂。",
+   "en": "Cockroaches and termites: termites are social cockroaches.",
+   "ms": "Lipas dan anai-anai: anai-anai ialah lipas yang hidup berkoloni."
+  },
+  "chapter": 18
+ },
+ {
+  "id": "phasmida",
+  "name": {
+   "zh": "竹节虫目（竹节虫和叶䗛）",
+   "en": "Phasmida (stick and leaf insects)",
+   "ms": "Phasmida (serangga ranting dan serangga daun)"
+  },
+  "short": {
+   "zh": "身体像树枝或叶子的植食性昆虫。",
+   "en": "Plant-eating insects that look like twigs or leaves.",
+   "ms": "Serangga pemakan tumbuhan yang menyerupai ranting atau daun."
+  },
+  "chapter": 19
+ },
+ {
+  "id": "thysanoptera",
+  "name": {
+   "zh": "缨翅目（蓟马）",
+   "en": "Thysanoptera (thrips)",
+   "ms": "Thysanoptera (trips)"
+  },
+  "short": {
+   "zh": "蓟马：很小、细长，翅窄而有长缨毛。",
+   "en": "Thrips: tiny and slender, with narrow fringed wings.",
+   "ms": "Trips: sangat kecil dan langsing, dengan sayap sempit berjumbai."
+  },
+  "chapter": 20
+ },
+ {
+  "id": "dermaptera",
+  "name": {
+   "zh": "革翅目（蠼螋）",
+   "en": "Dermaptera (earwigs)",
+   "ms": "Dermaptera (cocopet)"
+  },
+  "short": {
+   "zh": "蠼螋：腹末有一对钳子。",
+   "en": "Earwigs: a pair of pincers at the tail.",
+   "ms": "Cocopet: sepasang penyepit di ekor."
+  },
+  "chapter": 21
+ },
+ {
+  "id": "neuroptera",
+  "name": {
+   "zh": "脉翅目（草蛉、蚁蛉）",
+   "en": "Neuroptera (lacewings and antlions)",
+   "ms": "Neuroptera (lacewing dan undur-undur)"
+  },
+  "short": {
+   "zh": "草蛉和蚁蛉：翅透明，翅脉多如网。",
+   "en": "Lacewings and antlions: clear wings with net-like veins.",
+   "ms": "Lacewing dan undur-undur: sayap jernih dengan urat seperti jaring."
+  },
+  "chapter": 22
+ },
+ {
+  "id": "ephemeroptera",
+  "name": {
+   "zh": "蜉蝣目",
+   "en": "Ephemeroptera (mayflies)",
+   "ms": "Ephemeroptera (lalat sehari)"
+  },
+  "short": {
+   "zh": "蜉蝣：成虫寿命很短，翅竖立，尾端有长尾丝。",
+   "en": "Mayflies: short-lived adults with upright wings and long tails.",
+   "ms": "Lalat sehari: dewasa berumur pendek dengan sayap tegak dan ekor panjang."
+  },
+  "chapter": 23
+ },
+ {
+  "id": "trichoptera",
+  "name": {
+   "zh": "毛翅目（石蛾）",
+   "en": "Trichoptera (caddisflies)",
+   "ms": "Trichoptera (lalat kadis)"
+  },
+  "short": {
+   "zh": "石蛾：像蛾，但翅上是细毛不是鳞片。",
+   "en": "Caddisflies: moth-like, with hairy rather than scaly wings.",
+   "ms": "Lalat kadis: seperti kupu-kupu, tetapi sayapnya berbulu, bukan bersisik."
+  },
+  "chapter": 24
+ },
+ {
+  "id": "zygentoma",
+  "name": {
+   "zh": "衣鱼目",
+   "en": "Zygentoma (silverfish)",
+   "ms": "Zygentoma (gegat)"
+  },
+  "short": {
+   "zh": "衣鱼：无翅、扁长、尾端三条长丝。",
+   "en": "Silverfish: wingless, flat, with three long tails.",
+   "ms": "Gegat: tidak bersayap, leper, dengan tiga ekor panjang."
+  },
+  "chapter": 25
+ },
+ {
+  "id": "lesser-orders",
+  "name": {
+   "zh": "其他较少见的目",
+   "en": "Less common orders",
+   "ms": "Order yang kurang biasa"
+  },
+  "short": {
+   "zh": "襀翅目、广翅目、长翅目、蚤目、虱目、纺足目、缺翅目。",
+   "en": "Stoneflies, alderflies and fishflies, scorpionflies, fleas, lice, webspinners and angel insects.",
+   "ms": "Lalat batu, alderfly dan fishfly, lalat kala jengking, kutu, tuma, labah-labah sutera dan serangga malaikat."
+  },
+  "chapter": 26
  }
 ]

@@ -1315,5 +1315,1708 @@
    "NCSU-META",
    "LCWU-META"
   ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p10",
+  "q": {
+   "zh": "Coleoptera 这个名字是什么意思？",
+   "en": "What does Coleoptera mean?",
+   "ms": "Apakah maksud Coleoptera?"
+  },
+  "options": [
+   {
+    "zh": "鳞片翅",
+    "en": "Scale wing",
+    "ms": "Sayap bersisik"
+   },
+   {
+    "zh": "有鞘的翅",
+    "en": "Sheath wing",
+    "ms": "Sayap bersarung"
+   },
+   {
+    "zh": "一半的翅",
+    "en": "Half wing",
+    "ms": "Separuh sayap"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "koleos 是鞘，pteron 是翅。",
+   "en": "Koleos is sheath; pteron is wing.",
+   "ms": "Koleos ialah sarung; pteron ialah sayap."
+  },
+  "src": [
+   "ETYM"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p10",
+  "q": {
+   "zh": "甲虫是完全变态的昆虫。",
+   "en": "Beetles have complete metamorphosis.",
+   "ms": "Kumbang mengalami metamorfosis lengkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "甲虫经过卵、幼虫、蛹、成虫四个阶段。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p10",
+  "q": {
+   "zh": "下面哪一种是甲虫？",
+   "en": "Which of these is a beetle?",
+   "ms": "Yang manakah kumbang?"
+  },
+  "options": [
+   {
+    "zh": "萤火虫",
+    "en": "Firefly",
+    "ms": "Kelip-kelip"
+   },
+   {
+    "zh": "蝉",
+    "en": "Cicada",
+    "ms": "Riang-riang"
+   },
+   {
+    "zh": "蟋蟀",
+    "en": "Cricket",
+    "ms": "Cengkerik"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "萤火虫属于鞘翅目。",
+   "en": "Fireflies are beetles.",
+   "ms": "Kelip-kelip ialah kumbang."
+  },
+  "src": [
+   "WTK:1"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p11",
+  "q": {
+   "zh": "蝴蝶的触角是什么样子？",
+   "en": "What do butterfly antennae look like?",
+   "ms": "Bagaimanakah rupa sesungut rama-rama?"
+  },
+  "options": [
+   {
+    "zh": "末端膨大的棍棒状",
+    "en": "Clubbed at the tip",
+    "ms": "Berbonjol di hujung"
+   },
+   {
+    "zh": "像羽毛",
+    "en": "Feathery",
+    "ms": "Berbulu pelepah"
+   },
+   {
+    "zh": "像一串珠",
+    "en": "Bead-like",
+    "ms": "Seperti manik"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蝴蝶的触角细长，末端膨大。",
+   "en": "Butterfly antennae end in a club.",
+   "ms": "Sesungut rama-rama berbonjol di hujung."
+  },
+  "src": [
+   "WTK:2"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p11",
+  "q": {
+   "zh": "毛虫是鳞翅目的幼虫。",
+   "en": "Caterpillars are the larvae of Lepidoptera.",
+   "ms": "Ulat ialah larva Lepidoptera."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蝶和蛾的幼虫是毛虫。",
+   "en": "Butterfly and moth larvae are caterpillars.",
+   "ms": "Larva rama-rama dan kupu-kupu ialah ulat."
+  },
+  "src": [
+   "UMN-ORD"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p11",
+  "type": "match",
+  "q": {
+   "zh": "把触角和昆虫配对。",
+   "en": "Match the antennae to the insect.",
+   "ms": "Padankan sesungut dengan serangga."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "棍棒状",
+     "en": "Clubbed",
+     "ms": "Berbonjol"
+    },
+    "right": {
+     "zh": "蝴蝶",
+     "en": "Butterfly",
+     "ms": "Rama-rama"
+    }
+   },
+   {
+    "left": {
+     "zh": "羽状或锯齿状",
+     "en": "Feathery or saw-edged",
+     "ms": "Berbulu pelepah atau bergerigi"
+    },
+    "right": {
+     "zh": "蛾",
+     "en": "Moth",
+     "ms": "Kupu-kupu"
+    }
+   },
+   {
+    "left": {
+     "zh": "末端弯成钩",
+     "en": "Hooked at the tip",
+     "ms": "Bercangkuk di hujung"
+    },
+    "right": {
+     "zh": "弄蝶",
+     "en": "Skipper",
+     "ms": "Skipper"
+    }
+   }
+  ],
+  "why": {
+   "zh": "蝴蝶棍棒状，蛾羽状或锯齿状，弄蝶末端有钩。",
+   "en": "Butterflies: clubbed; moths: feathery or saw-edged; skippers: hooked.",
+   "ms": "Rama-rama: berbonjol; kupu-kupu: berbulu atau bergerigi; skipper: bercangkuk."
+  },
+  "src": [
+   "WTK:2"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p12",
+  "q": {
+   "zh": "半翅目的口器是哪一种？",
+   "en": "What mouthparts do Hemiptera have?",
+   "ms": "Apakah bahagian mulut Hemiptera?"
+  },
+  "options": [
+   {
+    "zh": "咀嚼式",
+    "en": "Chewing",
+    "ms": "Mengunyah"
+   },
+   {
+    "zh": "刺吸式",
+    "en": "Piercing-sucking",
+    "ms": "Menusuk-menghisap"
+   },
+   {
+    "zh": "虹吸式",
+    "en": "Siphoning",
+    "ms": "Menyedut"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "半翅目用针管状口器刺吸汁液。",
+   "en": "Hemiptera pierce and suck with a beak.",
+   "ms": "Hemiptera menusuk dan menghisap dengan paruh."
+  },
+  "src": [
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p12",
+  "q": {
+   "zh": "蝉和蚜虫属于半翅目。",
+   "en": "Cicadas and aphids belong to Hemiptera.",
+   "ms": "Riang-riang dan afid tergolong dalam Hemiptera."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它们和蝽一样有刺吸式口器，只是翅全部是膜质。",
+   "en": "Like true bugs they have a sucking beak; their wings are wholly membranous.",
+   "ms": "Seperti pepijat, ia mempunyai paruh penghisap; sayapnya bermembran sepenuhnya."
+  },
+  "src": [
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p12",
+  "q": {
+   "zh": "哪一种是半翅目的害虫？",
+   "en": "Which pest belongs to Hemiptera?",
+   "ms": "Perosak manakah tergolong dalam Hemiptera?"
+  },
+  "options": [
+   {
+    "zh": "飞虱",
+    "en": "Planthopper",
+    "ms": "Bena perang"
+   },
+   {
+    "zh": "毛虫",
+    "en": "Caterpillar",
+    "ms": "Ulat"
+   },
+   {
+    "zh": "犀角金龟",
+    "en": "Rhinoceros beetle",
+    "ms": "Kumbang badak"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "飞虱用刺吸式口器吸稻株汁液。",
+   "en": "Planthoppers suck rice sap with their beak.",
+   "ms": "Bena perang menghisap cecair padi dengan paruhnya."
+  },
+  "src": [
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p13",
+  "q": {
+   "zh": "怎样分辨有翅的蚂蚁和有翅的白蚁？",
+   "en": "How do you tell a winged ant from a winged termite?",
+   "ms": "Bagaimana membezakan semut bersayap daripada anai-anai bersayap?"
+  },
+  "options": [
+   {
+    "zh": "蚂蚁有细腰、触角膝状",
+    "en": "Ants have a narrow waist and elbowed antennae",
+    "ms": "Semut mempunyai pinggang sempit dan sesungut bersiku"
+   },
+   {
+    "zh": "蚂蚁的翅比较大",
+    "en": "Ants have bigger wings",
+    "ms": "Semut mempunyai sayap lebih besar"
+   },
+   {
+    "zh": "白蚁有螫针",
+    "en": "Termites have stings",
+    "ms": "Anai-anai mempunyai sengat"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "白蚁触角念珠状、没有细腰。",
+   "en": "Termites have bead-like antennae and no waist.",
+   "ms": "Anai-anai mempunyai sesungut seperti manik dan tiada pinggang."
+  },
+  "src": [
+   "TJ:38",
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p13",
+  "q": {
+   "zh": "膜翅目是完全变态的昆虫。",
+   "en": "Hymenoptera have complete metamorphosis.",
+   "ms": "Hymenoptera mengalami metamorfosis lengkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蜂和蚂蚁有卵、幼虫、蛹、成虫四个阶段。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p13",
+  "q": {
+   "zh": "Hymenoptera 的 hymen 是什么意思？",
+   "en": "What does 'hymen' in Hymenoptera mean?",
+   "ms": "Apakah maksud 'hymen' dalam Hymenoptera?"
+  },
+  "options": [
+   {
+    "zh": "薄膜",
+    "en": "Membrane",
+    "ms": "Membran"
+   },
+   {
+    "zh": "蜂蜜",
+    "en": "Honey",
+    "ms": "Madu"
+   },
+   {
+    "zh": "细腰",
+    "en": "Waist",
+    "ms": "Pinggang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "hymen 是薄膜，pteron 是翅。",
+   "en": "Hymen is membrane; pteron is wing.",
+   "ms": "Hymen ialah membran; pteron ialah sayap."
+  },
+  "src": [
+   "ETYM"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p14",
+  "q": {
+   "zh": "蝇的后翅变成了什么？",
+   "en": "What have a fly's hind wings become?",
+   "ms": "Sayap belakang lalat telah menjadi apa?"
+  },
+  "options": [
+   {
+    "zh": "鞘翅",
+    "en": "Elytra",
+    "ms": "Elitra"
+   },
+   {
+    "zh": "平衡棒",
+    "en": "Halteres",
+    "ms": "Halter"
+   },
+   {
+    "zh": "鳞片",
+    "en": "Scales",
+    "ms": "Sisik"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "双翅目的后翅变成平衡棒。",
+   "en": "Diptera hind wings are halteres.",
+   "ms": "Sayap belakang Diptera ialah halter."
+  },
+  "src": [
+   "TJ:38"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p14",
+  "q": {
+   "zh": "马蝇像蜜蜂，但不会螫人。",
+   "en": "Horse bot flies look like bees but cannot sting.",
+   "ms": "Lalat bot kuda seperti lebah tetapi tidak boleh menyengat."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它们只有一对翅，没有螫针。",
+   "en": "They have one pair of wings and no sting.",
+   "ms": "Ia bersayap sepasang dan tiada sengat."
+  },
+  "src": [
+   "WTK:6"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p14",
+  "q": {
+   "zh": "蚊的触角是什么样子？",
+   "en": "What are a mosquito's antennae like?",
+   "ms": "Bagaimanakah sesungut nyamuk?"
+  },
+  "options": [
+   {
+    "zh": "很短",
+    "en": "Very short",
+    "ms": "Sangat pendek"
+   },
+   {
+    "zh": "细长多节",
+    "en": "Long and many-segmented",
+    "ms": "Panjang berbilang ruas"
+   },
+   {
+    "zh": "像一串珠",
+    "en": "Bead-like",
+    "ms": "Seperti manik"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "蚊属于长角亚目，触角细长。",
+   "en": "Mosquitoes have long antennae.",
+   "ms": "Nyamuk mempunyai sesungut panjang."
+  },
+  "src": [
+   "TJ:38"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p15",
+  "q": {
+   "zh": "蝗虫和螽斯最容易用什么分开？",
+   "en": "What best tells a grasshopper from a katydid?",
+   "ms": "Apakah cara terbaik membezakan belalang dan katidid?"
+  },
+  "options": [
+   {
+    "zh": "触角长短",
+    "en": "Antenna length",
+    "ms": "Panjang sesungut"
+   },
+   {
+    "zh": "颜色",
+    "en": "Colour",
+    "ms": "Warna"
+   },
+   {
+    "zh": "脚的数目",
+    "en": "Number of legs",
+    "ms": "Bilangan kaki"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "螽斯、蟋蟀触角细长；蝗虫触角短粗。",
+   "en": "Katydids and crickets have long thin antennae; grasshoppers short thick ones.",
+   "ms": "Katidid dan cengkerik bersesungut panjang halus; belalang pendek tebal."
+  },
+  "src": [
+   "TJ:40",
+   "WTK:5"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p15",
+  "q": {
+   "zh": "蝼蛄的前足是挖掘足。",
+   "en": "A mole cricket's front legs are digging legs.",
+   "ms": "Kaki depan anjing tanah ialah kaki penggali."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蝼蛄用铲状前足挖土。",
+   "en": "Mole crickets dig with spade-like front legs.",
+   "ms": "Anjing tanah menggali dengan kaki depan seperti penyodok."
+  },
+  "src": [
+   "TJ:75"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p15",
+  "q": {
+   "zh": "直翅目是哪一种发育方式？",
+   "en": "How do Orthoptera develop?",
+   "ms": "Bagaimana Orthoptera berkembang?"
+  },
+  "options": [
+   {
+    "zh": "不完全变态",
+    "en": "Incomplete metamorphosis",
+    "ms": "Metamorfosis tidak lengkap"
+   },
+   {
+    "zh": "完全变态",
+    "en": "Complete metamorphosis",
+    "ms": "Metamorfosis lengkap"
+   },
+   {
+    "zh": "无变态",
+    "en": "No metamorphosis",
+    "ms": "Tanpa metamorfosis"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "直翅目：卵、若虫、成虫。",
+   "en": "Egg, nymph, adult.",
+   "ms": "Telur, nimfa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p16",
+  "q": {
+   "zh": "停下时把翅合起在背上的通常是？",
+   "en": "Which usually rests with its wings closed over the back?",
+   "ms": "Yang manakah biasanya berehat dengan sayap tertutup?"
+  },
+  "options": [
+   {
+    "zh": "豆娘",
+    "en": "Damselfly",
+    "ms": "Pepatung jarum"
+   },
+   {
+    "zh": "蜻蜓",
+    "en": "Dragonfly",
+    "ms": "Pepatung"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "豆娘停下时多合起翅，蜻蜓平展翅。",
+   "en": "Damselflies close their wings; dragonflies hold them out.",
+   "ms": "Pepatung jarum menutup sayap; pepatung membentangkannya."
+  },
+  "src": [
+   "INAT-ODO",
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p16",
+  "q": {
+   "zh": "蜻蜓的若虫在水中生活。",
+   "en": "Dragonfly nymphs live in water.",
+   "ms": "Nimfa pepatung hidup dalam air."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "水生的若虫叫稚虫。",
+   "en": "Water-dwelling nymphs are called naiads.",
+   "ms": "Nimfa akuatik dipanggil naiad."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p16",
+  "q": {
+   "zh": "蜻蜓的两眼通常？",
+   "en": "A dragonfly's eyes usually…",
+   "ms": "Mata pepatung biasanya…"
+  },
+  "options": [
+   {
+    "zh": "在头顶相接或几乎相接",
+    "en": "Meet or nearly meet on top of the head",
+    "ms": "Bertemu atau hampir bertemu di atas kepala"
+   },
+   {
+    "zh": "分得很开",
+    "en": "Are widely separated",
+    "ms": "Berjauhan"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "豆娘两眼分开，蜻蜓两眼相接。",
+   "en": "Damselflies' eyes are far apart; dragonflies' meet.",
+   "ms": "Mata pepatung jarum berjauhan; mata pepatung bertemu."
+  },
+  "src": [
+   "INAT-ODO"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p17",
+  "q": {
+   "zh": "螳螂的前足叫什么？",
+   "en": "What are a mantis's front legs called?",
+   "ms": "Apakah nama kaki depan cengkadak?"
+  },
+  "options": [
+   {
+    "zh": "捕捉足",
+    "en": "Grasping legs",
+    "ms": "Kaki penangkap"
+   },
+   {
+    "zh": "跳跃足",
+    "en": "Jumping legs",
+    "ms": "Kaki melompat"
+   },
+   {
+    "zh": "游泳足",
+    "en": "Swimming legs",
+    "ms": "Kaki berenang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "螳螂的前足是捕捉足。",
+   "en": "Mantids have grasping front legs.",
+   "ms": "Cengkadak mempunyai kaki depan penangkap."
+  },
+  "src": [
+   "TJ:29"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p17",
+  "q": {
+   "zh": "螳螂是不完全变态。",
+   "en": "Mantids have incomplete metamorphosis.",
+   "ms": "Cengkadak mengalami metamorfosis tidak lengkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "螳螂：卵、若虫、成虫。",
+   "en": "Egg, nymph, adult.",
+   "ms": "Telur, nimfa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p17",
+  "q": {
+   "zh": "螳螂吃什么？",
+   "en": "What do mantids eat?",
+   "ms": "Apakah makanan cengkadak?"
+  },
+  "options": [
+   {
+    "zh": "其他昆虫",
+    "en": "Other insects",
+    "ms": "Serangga lain"
+   },
+   {
+    "zh": "树叶",
+    "en": "Leaves",
+    "ms": "Daun"
+   },
+   {
+    "zh": "花蜜",
+    "en": "Nectar",
+    "ms": "Nektar"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "螳螂是捕食者。",
+   "en": "Mantids are predators.",
+   "ms": "Cengkadak ialah pemangsa."
+  },
+  "src": [
+   "TJ:29"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p18",
+  "q": {
+   "zh": "白蚁和蚂蚁是近亲。",
+   "en": "Termites are close relatives of ants.",
+   "ms": "Anai-anai ialah saudara dekat semut."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "白蚁属于蜚蠊目，是蟑螂的近亲；蚂蚁属于膜翅目。",
+   "en": "Termites are Blattodea, related to cockroaches; ants are Hymenoptera.",
+   "ms": "Anai-anai tergolong dalam Blattodea, saudara lipas; semut dalam Hymenoptera."
+  },
+  "src": [
+   "INWARD2007"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p18",
+  "q": {
+   "zh": "白蚁的触角是什么形状？",
+   "en": "What shape are termite antennae?",
+   "ms": "Apakah bentuk sesungut anai-anai?"
+  },
+  "options": [
+   {
+    "zh": "念珠状",
+    "en": "Bead-like",
+    "ms": "Seperti manik"
+   },
+   {
+    "zh": "膝状",
+    "en": "Elbowed",
+    "ms": "Bersiku"
+   },
+   {
+    "zh": "羽状",
+    "en": "Feathery",
+    "ms": "Berbulu pelepah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "白蚁的触角像一串珠。",
+   "en": "Termite antennae are bead-like.",
+   "ms": "Sesungut anai-anai seperti manik."
+  },
+  "src": [
+   "TJ:38"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p18",
+  "q": {
+   "zh": "以前白蚁属于哪一目？",
+   "en": "Which order were termites placed in before?",
+   "ms": "Dalam order manakah anai-anai diletakkan dahulu?"
+  },
+  "options": [
+   {
+    "zh": "等翅目",
+    "en": "Isoptera",
+    "ms": "Isoptera"
+   },
+   {
+    "zh": "膜翅目",
+    "en": "Hymenoptera",
+    "ms": "Hymenoptera"
+   },
+   {
+    "zh": "直翅目",
+    "en": "Orthoptera",
+    "ms": "Orthoptera"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "白蚁以前是等翅目，现在归入蜚蠊目。",
+   "en": "Termites were Isoptera; now they are Blattodea.",
+   "ms": "Anai-anai dahulu Isoptera; kini Blattodea."
+  },
+  "src": [
+   "INWARD2007",
+   "TJ:86"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p19",
+  "q": {
+   "zh": "Phasmida 的 phasma 是什么意思？",
+   "en": "What does 'phasma' mean?",
+   "ms": "Apakah maksud 'phasma'?"
+  },
+  "options": [
+   {
+    "zh": "幻影",
+    "en": "Apparition",
+    "ms": "Bayangan"
+   },
+   {
+    "zh": "树枝",
+    "en": "Twig",
+    "ms": "Ranting"
+   },
+   {
+    "zh": "叶子",
+    "en": "Leaf",
+    "ms": "Daun"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "phasma 是幻影。",
+   "en": "Phasma means apparition.",
+   "ms": "Phasma bermaksud bayangan."
+  },
+  "src": [
+   "LSJ"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p19",
+  "q": {
+   "zh": "竹节虫的前足是捕捉足。",
+   "en": "Stick insects have grasping front legs.",
+   "ms": "Serangga ranting mempunyai kaki depan penangkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "捕捉足是螳螂的特征。",
+   "en": "Grasping front legs belong to mantids.",
+   "ms": "Kaki depan penangkap ialah ciri cengkadak."
+  },
+  "src": [
+   "TJ:40"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p19",
+  "q": {
+   "zh": "马来半岛已知的竹节虫大约有多少种？",
+   "en": "About how many stick insect species are known from Peninsular Malaysia?",
+   "ms": "Kira-kira berapa spesies serangga ranting diketahui di Semenanjung Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "约 13 种",
+    "en": "About 13",
+    "ms": "Kira-kira 13"
+   },
+   {
+    "zh": "约 136 种",
+    "en": "About 136",
+    "ms": "Kira-kira 136"
+   },
+   {
+    "zh": "约 1360 种",
+    "en": "About 1,360",
+    "ms": "Kira-kira 1,360"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "Seow-Choen（2021）记录约 136 种。",
+   "en": "Seow-Choen (2021) recognises about 136.",
+   "ms": "Seow-Choen (2021) mengiktiraf kira-kira 136."
+  },
+  "src": [
+   "SEOW-PHASMID"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p20",
+  "q": {
+   "zh": "蓟马大约多大？",
+   "en": "About how big is a thrips?",
+   "ms": "Kira-kira berapa besar trips?"
+  },
+  "options": [
+   {
+    "zh": "1–2 毫米",
+    "en": "1–2 mm",
+    "ms": "1–2 mm"
+   },
+   {
+    "zh": "1–2 厘米",
+    "en": "1–2 cm",
+    "ms": "1–2 cm"
+   },
+   {
+    "zh": "5 厘米",
+    "en": "5 cm",
+    "ms": "5 cm"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "成虫约 1–2 毫米，要用放大镜看。",
+   "en": "Adults are about 1–2 mm; use a hand lens.",
+   "ms": "Dewasa kira-kira 1–2 mm; gunakan kanta pembesar."
+  },
+  "src": [
+   "UMD-THRIPS"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p20",
+  "q": {
+   "zh": "蓟马除了吃植物，还会传播植物病毒。",
+   "en": "Besides feeding, thrips can spread plant viruses.",
+   "ms": "Selain makan, trips boleh menyebarkan virus tumbuhan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "金马仑的研究指出它们是病毒的传播者。",
+   "en": "The Cameron Highlands study notes they are virus vectors.",
+   "ms": "Kajian Cameron Highlands menyatakan ia vektor virus."
+  },
+  "src": [
+   "SER-THRIPS"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p20",
+  "q": {
+   "zh": "蓟马翅的特点是？",
+   "en": "What is special about thrips wings?",
+   "ms": "Apakah keistimewaan sayap trips?"
+  },
+  "options": [
+   {
+    "zh": "边缘有长缨毛",
+    "en": "Fringed with long hairs",
+    "ms": "Berjumbai bulu panjang"
+   },
+   {
+    "zh": "盖满鳞片",
+    "en": "Covered in scales",
+    "ms": "Diliputi sisik"
+   },
+   {
+    "zh": "硬壳",
+    "en": "Hard shells",
+    "ms": "Cangkerang keras"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "Thysanoptera 意思就是缨翅。",
+   "en": "Thysanoptera means fringe-winged.",
+   "ms": "Thysanoptera bermaksud bersayap jumbai."
+  },
+  "src": [
+   "UMD-THRIPS",
+   "LSJ"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p21",
+  "q": {
+   "zh": "蠼螋最明显的特征是？",
+   "en": "An earwig's most obvious feature?",
+   "ms": "Ciri cocopet yang paling jelas?"
+  },
+  "options": [
+   {
+    "zh": "腹末的钳子",
+    "en": "Pincers at the tail",
+    "ms": "Penyepit di ekor"
+   },
+   {
+    "zh": "很长的产卵器",
+    "en": "A long ovipositor",
+    "ms": "Ovipositor panjang"
+   },
+   {
+    "zh": "翅上的鳞片",
+    "en": "Scaly wings",
+    "ms": "Sayap bersisik"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蠼螋腹末有尾铗。",
+   "en": "Earwigs have tail forceps.",
+   "ms": "Cocopet mempunyai penyepit ekor."
+  },
+  "src": [
+   "WTK:7",
+   "TJ:33"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p21",
+  "q": {
+   "zh": "隐翅虫也有尾铗。",
+   "en": "Rove beetles also have tail pincers.",
+   "ms": "Kumbang rove juga mempunyai penyepit ekor."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "隐翅虫的翅鞘也很短，但没有尾铗。",
+   "en": "Rove beetles have very short wing covers but no pincers.",
+   "ms": "Kumbang rove mempunyai penutup sayap pendek tetapi tiada penyepit."
+  },
+  "src": [
+   "TJ:172",
+   "TJ:40"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p21",
+  "q": {
+   "zh": "Dermaptera 的 derma 是什么意思？",
+   "en": "What does 'derma' mean?",
+   "ms": "Apakah maksud 'derma'?"
+  },
+  "options": [
+   {
+    "zh": "皮",
+    "en": "Skin",
+    "ms": "Kulit"
+   },
+   {
+    "zh": "钳子",
+    "en": "Pincers",
+    "ms": "Penyepit"
+   },
+   {
+    "zh": "尾巴",
+    "en": "Tail",
+    "ms": "Ekor"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "derma 是皮。",
+   "en": "Derma means skin.",
+   "ms": "Derma bermaksud kulit."
+  },
+  "src": [
+   "LSJ"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p22",
+  "q": {
+   "zh": "蚁蛉的幼虫怎样捕食？",
+   "en": "How do antlion larvae catch prey?",
+   "ms": "Bagaimana larva undur-undur menangkap mangsa?"
+  },
+  "options": [
+   {
+    "zh": "在沙里挖陷阱",
+    "en": "By digging pits in sand",
+    "ms": "Menggali perangkap dalam pasir"
+   },
+   {
+    "zh": "织网",
+    "en": "By spinning webs",
+    "ms": "Membuat sarang"
+   },
+   {
+    "zh": "在水中追捕",
+    "en": "By chasing in water",
+    "ms": "Mengejar dalam air"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "幼虫在沙地造沙阱。",
+   "en": "The larvae dig sand pits.",
+   "ms": "Larva menggali perangkap pasir."
+  },
+  "src": [
+   "TJ:229"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p22",
+  "q": {
+   "zh": "脉翅目是完全变态。",
+   "en": "Neuroptera have complete metamorphosis.",
+   "ms": "Neuroptera mengalami metamorfosis lengkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "脉翅目经过卵、幼虫、蛹、成虫。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p22",
+  "q": {
+   "zh": "草蛉的翅是什么样子？",
+   "en": "What are lacewing wings like?",
+   "ms": "Bagaimanakah sayap lacewing?"
+  },
+  "options": [
+   {
+    "zh": "透明，翅脉如网",
+    "en": "Clear, with net-like veins",
+    "ms": "Jernih, dengan urat seperti jaring"
+   },
+   {
+    "zh": "盖满鳞片",
+    "en": "Covered in scales",
+    "ms": "Diliputi sisik"
+   },
+   {
+    "zh": "硬壳",
+    "en": "Hard shells",
+    "ms": "Cangkerang keras"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "脉翅目的翅像透明的网。",
+   "en": "Lacewing wings look like clear nets.",
+   "ms": "Sayap lacewing seperti jaring jernih."
+  },
+  "src": [
+   "WTK:11"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p23",
+  "q": {
+   "zh": "蜉蝣成虫的翅怎样摆？",
+   "en": "How do adult mayflies hold their wings?",
+   "ms": "Bagaimana lalat sehari dewasa meletakkan sayapnya?"
+  },
+  "options": [
+   {
+    "zh": "竖立在背上",
+    "en": "Upright over the back",
+    "ms": "Tegak di atas belakang"
+   },
+   {
+    "zh": "平贴腹部",
+    "en": "Flat over the abdomen",
+    "ms": "Rata di atas abdomen"
+   },
+   {
+    "zh": "向两侧平展",
+    "en": "Spread out flat",
+    "ms": "Terbentang rata"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蜉蝣的翅竖立合在背上。",
+   "en": "Mayflies hold their wings upright.",
+   "ms": "Lalat sehari menegakkan sayapnya."
+  },
+  "src": [
+   "AM-MAYFLY"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p23",
+  "q": {
+   "zh": "怎样分蜉蝣和石蝇？",
+   "en": "How do you tell a mayfly from a stonefly?",
+   "ms": "Bagaimana membezakan lalat sehari dan lalat batu?"
+  },
+  "options": [
+   {
+    "zh": "石蝇每只脚两个爪、两条尾须",
+    "en": "Stoneflies have two claws per foot and two tails",
+    "ms": "Lalat batu mempunyai dua kuku setiap kaki dan dua ekor"
+   },
+   {
+    "zh": "蜉蝣没有翅",
+    "en": "Mayflies have no wings",
+    "ms": "Lalat sehari tiada sayap"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蜉蝣每只脚一个爪，稚虫腹部有叶状鳃。",
+   "en": "Mayflies have one claw per foot, and nymphs have leaf-like gills.",
+   "ms": "Lalat sehari mempunyai satu kuku setiap kaki, dan nimfanya ada insang seperti daun."
+  },
+  "src": [
+   "WTK:9"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p23",
+  "q": {
+   "zh": "蜉蝣的稚虫生活在水中。",
+   "en": "Mayfly nymphs live in water.",
+   "ms": "Nimfa lalat sehari hidup dalam air."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "稚虫用腹部两侧的鳃呼吸。",
+   "en": "They breathe with gills along the abdomen.",
+   "ms": "Ia bernafas dengan insang di sepanjang abdomen."
+  },
+  "src": [
+   "WTK:9"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p24",
+  "q": {
+   "zh": "石蛾和蛾怎样分？",
+   "en": "How do you tell a caddisfly from a moth?",
+   "ms": "Bagaimana membezakan lalat kadis dan kupu-kupu?"
+  },
+  "options": [
+   {
+    "zh": "石蛾翅上是毛，蛾翅上是鳞",
+    "en": "Caddisfly wings are hairy, moth wings scaly",
+    "ms": "Sayap lalat kadis berbulu, sayap kupu-kupu bersisik"
+   },
+   {
+    "zh": "石蛾没有触角",
+    "en": "Caddisflies have no antennae",
+    "ms": "Lalat kadis tiada sesungut"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蛾的触角常羽状或锯齿状，石蛾的细长如线。",
+   "en": "Moths often have feathery or saw-edged antennae; caddisflies thread-like.",
+   "ms": "Kupu-kupu sering bersesungut berbulu atau bergerigi; lalat kadis seperti benang."
+  },
+  "src": [
+   "WTK:8"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p24",
+  "q": {
+   "zh": "石蛾是完全变态。",
+   "en": "Caddisflies have complete metamorphosis.",
+   "ms": "Lalat kadis mengalami metamorfosis lengkap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "毛翅目经过卵、幼虫、蛹、成虫。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p24",
+  "q": {
+   "zh": "Trichoptera 的 thrix 是什么意思？",
+   "en": "What does 'thrix' mean?",
+   "ms": "Apakah maksud 'thrix'?"
+  },
+  "options": [
+   {
+    "zh": "毛",
+    "en": "Hair",
+    "ms": "Rambut"
+   },
+   {
+    "zh": "石头",
+    "en": "Stone",
+    "ms": "Batu"
+   },
+   {
+    "zh": "水",
+    "en": "Water",
+    "ms": "Air"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "thrix 是毛。",
+   "en": "Thrix means hair.",
+   "ms": "Thrix bermaksud rambut."
+  },
+  "src": [
+   "LSJ"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p25",
+  "q": {
+   "zh": "衣鱼的尾端有几条长丝？",
+   "en": "How many tail threads does a silverfish have?",
+   "ms": "Berapa ekor panjang gegat?"
+  },
+  "options": [
+   {
+    "zh": "3 条",
+    "en": "3",
+    "ms": "3"
+   },
+   {
+    "zh": "1 条",
+    "en": "1",
+    "ms": "1"
+   },
+   {
+    "zh": "没有",
+    "en": "None",
+    "ms": "Tiada"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "衣鱼尾端有三条长丝。",
+   "en": "Silverfish have three tail threads.",
+   "ms": "Gegat mempunyai tiga ekor."
+  },
+  "src": [
+   "WTK:10"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p25",
+  "q": {
+   "zh": "衣鱼长大后还会继续蜕皮。",
+   "en": "Silverfish keep moulting after they are adult.",
+   "ms": "Gegat terus bersalin kulit selepas dewasa."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "无变态的昆虫性成熟后仍会蜕皮。",
+   "en": "Ametabolous insects moult even after maturing.",
+   "ms": "Serangga ametabola bersalin kulit walaupun selepas matang."
+  },
+  "src": [
+   "TJ:34"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p25",
+  "q": {
+   "zh": "衣鱼在家里会损坏什么？",
+   "en": "What do silverfish damage at home?",
+   "ms": "Apakah yang dirosakkan gegat di rumah?"
+  },
+  "options": [
+   {
+    "zh": "书本和纸张",
+    "en": "Books and paper",
+    "ms": "Buku dan kertas"
+   },
+   {
+    "zh": "电线",
+    "en": "Wires",
+    "ms": "Wayar"
+   },
+   {
+    "zh": "玻璃",
+    "en": "Glass",
+    "ms": "Kaca"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "衣鱼会咬坏书本。",
+   "en": "Silverfish damage books.",
+   "ms": "Gegat merosakkan buku."
+  },
+  "src": [
+   "WTK:10"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p26",
+  "q": {
+   "zh": "鱼蛉属于哪一目？",
+   "en": "Which order do fishflies belong to?",
+   "ms": "Fishfly tergolong dalam order mana?"
+  },
+  "options": [
+   {
+    "zh": "广翅目",
+    "en": "Megaloptera",
+    "ms": "Megaloptera"
+   },
+   {
+    "zh": "蜉蝣目",
+    "en": "Ephemeroptera",
+    "ms": "Ephemeroptera"
+   },
+   {
+    "zh": "双翅目",
+    "en": "Diptera",
+    "ms": "Diptera"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "鱼蛉和齿蛉都属于广翅目。",
+   "en": "Fishflies and dobsonflies are Megaloptera.",
+   "ms": "Fishfly dan dobsonfly ialah Megaloptera."
+  },
+  "src": [
+   "MDC-FISH"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p26",
+  "q": {
+   "zh": "跳蚤的身体是怎样扁的？",
+   "en": "How is a flea's body flattened?",
+   "ms": "Bagaimanakah badan kutu leper?"
+  },
+  "options": [
+   {
+    "zh": "左右扁平",
+    "en": "From side to side",
+    "ms": "Dari sisi ke sisi"
+   },
+   {
+    "zh": "上下扁平",
+    "en": "From top to bottom",
+    "ms": "Dari atas ke bawah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "跳蚤身体左右扁平，便于在毛发间穿行。",
+   "en": "Fleas are flattened sideways.",
+   "ms": "Kutu leper dari sisi ke sisi."
+  },
+  "src": [
+   "WTK:10"
+  ]
+ },
+ {
+  "stage": 4,
+  "chapter": "p26",
+  "q": {
+   "zh": "纺足目的雌虫没有翅。",
+   "en": "Female webspinners are wingless.",
+   "ms": "Labah-labah sutera betina tidak bersayap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "纺足目雌虫无翅，前足能吐丝。",
+   "en": "Females are wingless; the front feet spin silk.",
+   "ms": "Betina tidak bersayap; tapak kaki depan memintal sutera."
+  },
+  "src": [
+   "WTK:11"
+  ]
  }
 ]

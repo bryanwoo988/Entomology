@@ -1,0 +1,186 @@
+{
+ "id": "p12",
+ "num": 12,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "半翅目（蝽、蝉、蚜虫）",
+  "en": "Hemiptera (true bugs, cicadas, aphids)",
+  "ms": "Hemiptera (pepijat, riang-riang, afid)"
+ },
+ "blurb": {
+  "zh": "半翅目（蝽、蝉、蚜虫）",
+  "en": "Hemiptera (true bugs, cicadas, aphids)",
+  "ms": "Hemiptera (pepijat, riang-riang, afid)"
+ },
+ "sources": [
+  "LSJ",
+  "TJ",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:hemiptera}}来自希腊文 hemi（一半）加 pteron（翅），指蝽的前翅一半硬、一半软。",
+      "en": "{{t:hemiptera}} comes from the Greek hemi (half) and pteron (wing), after the true bugs' forewings, half hard and half soft.",
+      "ms": "{{t:hemiptera}} berasal daripada bahasa Yunani hemi (separuh) dan pteron (sayap), merujuk sayap depan pepijat yang separuh keras dan separuh lembut."
+     },
+     "defines": [
+      "hemiptera"
+     ],
+     "src": [
+      "LSJ",
+      "TJ:39"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「半」就是一半：前翅一半硬、一半软；口器像针管。",
+      "en": "Think 'half': half-hard forewings, and a straw for a mouth.",
+      "ms": "Ingat 'separuh': sayap depan separuh keras, dan mulut seperti straw."
+     },
+     "src": [
+      "LSJ",
+      "TJ:39"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "针管状的刺吸式口器，平时收在头下",
+       "en": "A needle-like piercing-sucking beak, folded under the head",
+       "ms": "Paruh menusuk-menghisap seperti jarum, dilipat di bawah kepala"
+      },
+      {
+       "zh": "蝽类：前翅前半硬、后半膜质（半鞘翅）",
+       "en": "True bugs: forewings hard at the base and membranous at the tip (hemelytra)",
+       "ms": "Pepijat: sayap depan keras di pangkal dan bermembran di hujung (hemelitra)"
+      },
+      {
+       "zh": "蝉、叶蝉、飞虱、蚜虫：翅全部是膜质",
+       "en": "Cicadas, leafhoppers, planthoppers, aphids: wings wholly membranous",
+       "ms": "Riang-riang, bena daun, bena perang, afid: sayap bermembran sepenuhnya"
+      },
+      {
+       "zh": "许多种类背上有一块三角形的小盾片",
+       "en": "Many have a triangular scutellum on the back",
+       "ms": "Banyak mempunyai skutelum segi tiga di belakang"
+      }
+     ],
+     "src": [
+      "TJ:39",
+      "TJ:31",
+      "WTK:1"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "以前把蝉、叶蝉、蚜虫分成「同翅目」，现在都归入半翅目。",
+      "en": "Cicadas, hoppers and aphids used to be split off as 'Homoptera'; today they are all part of Hemiptera.",
+      "ms": "Riang-riang, bena dan afid dahulu diasingkan sebagai 'Homoptera'; kini semuanya sebahagian daripada Hemiptera."
+     },
+     "src": [
+      "TJ:39"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "TJ:39"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "刺吸式",
+        "en": "Piercing-sucking",
+        "ms": "Menusuk-menghisap"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蝽、红蝽、缘蝽、猎蝽、臭虫",
+       "en": "Stink bugs, red bugs, squash bugs, assassin bugs, bed bugs",
+       "ms": "Pepijat busuk, pepijat merah, pepijat labu, pepijat pembunuh, pepijat katil"
+      },
+      {
+       "zh": "水黾、仰泳蝽、划蝽",
+       "en": "Water striders, backswimmers, water boatmen",
+       "ms": "Pepijat air, pepijat renang terbalik, pendayung air"
+      },
+      {
+       "zh": "蝉、叶蝉、飞虱、蚜虫",
+       "en": "Cicadas, leafhoppers, planthoppers, aphids",
+       "ms": "Riang-riang, bena daun, bena perang, afid"
+      }
+     ],
+     "src": [
+      "WTK:1",
+      "TJ:39"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "hemiptera"
+ ]
+}

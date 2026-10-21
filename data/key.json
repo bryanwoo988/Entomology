@@ -1000,9 +1000,9 @@
      "ms": "Sesungut seperti manik"
     },
     {
-     "zh": "身体软、颜色淡，没有细腰",
-     "en": "Soft pale body, no narrow waist",
-     "ms": "Badan lembut pucat, tiada pinggang sempit"
+     "zh": "没有细腰",
+     "en": "No narrow waist",
+     "ms": "Tiada pinggang sempit"
     }
    ],
    "confused": [
@@ -1085,21 +1085,22 @@
      "ms": "Sayap tegak di atas belakang"
     },
     {
-     "zh": "腹末有 2–3 条长尾丝",
-     "en": "2–3 long tail threads",
-     "ms": "2–3 ekor panjang"
+     "zh": "腹末通常有 3 条长尾丝，少数 2 条",
+     "en": "Usually 3 long tail threads, a few kinds 2",
+     "ms": "Biasanya 3 ekor panjang, sesetengah 2"
     }
    ],
    "confused": [
     {
-     "zh": "石蝇：只有 2 条尾须，翅平贴腹部",
-     "en": "Stoneflies: 2 tails, wings folded flat",
-     "ms": "Lalat batu: 2 ekor, sayap dilipat rata"
+     "zh": "石蝇：2 条尾须，每只脚两个爪",
+     "en": "Stoneflies: 2 tails, two claws on each foot",
+     "ms": "Lalat batu: 2 ekor, dua kuku pada setiap kaki"
     }
    ],
    "src": [
     "WTK:7",
-    "WTK:9"
+    "WTK:9",
+    "AM-MAYFLY"
    ]
   },
   "flies": {
@@ -1123,9 +1124,9 @@
    ],
    "confused": [
     {
-     "zh": "食蚜蝇像蜜蜂，但只有一对翅",
-     "en": "Hoverflies look like bees but have one pair of wings",
-     "ms": "Lalat bunga seperti lebah tetapi bersayap sepasang"
+     "zh": "马蝇像蜜蜂，但只有一对翅、不会螫人",
+     "en": "Horse bot flies look like bees but have one pair of wings and no sting",
+     "ms": "Lalat bot kuda seperti lebah tetapi bersayap sepasang dan tiada sengat"
     }
    ],
    "src": [
@@ -1208,13 +1209,7 @@
      "ms": "Sayap sempit berjumbai bulu panjang"
     }
    ],
-   "confused": [
-    {
-     "zh": "蚜虫：身体圆胖，没有翅毛",
-     "en": "Aphids: plump body, no fringed wings",
-     "ms": "Afid: badan gemuk, tiada sayap berjumbai"
-    }
-   ],
+   "confused": [],
    "src": [
     "UMD-THRIPS"
    ]
@@ -1289,16 +1284,16 @@
      "ms": "Sesungut seperti manik"
     },
     {
-     "zh": "四片翅几乎一样大，容易脱落",
-     "en": "Four nearly equal wings that drop off easily",
-     "ms": "Empat sayap hampir sama besar yang mudah tanggal"
+     "zh": "四片翅几乎一样大，分飞后会脱落",
+     "en": "Four nearly equal wings, shed after the swarm",
+     "ms": "Empat sayap hampir sama besar, tertanggal selepas berkerumun"
     }
    ],
    "confused": [
     {
-     "zh": "有翅蚂蚁：触角膝状、有细腰、前翅比后翅大",
-     "en": "Winged ants: elbowed antennae, narrow waist, forewings larger",
-     "ms": "Semut bersayap: sesungut bersiku, pinggang sempit, sayap depan lebih besar"
+     "zh": "有翅蚂蚁：触角膝状、有细腰",
+     "en": "Winged ants: elbowed antennae, narrow waist",
+     "ms": "Semut bersayap: sesungut bersiku, pinggang sempit"
     }
    ],
    "src": [
@@ -1321,8 +1316,8 @@
     },
     {
      "zh": "停下时翅呈屋脊状",
-     "en": "Wings held roof-like at rest",
-     "ms": "Sayap seperti bumbung ketika berehat"
+     "en": "Wings held tent-like at rest",
+     "ms": "Sayap seperti khemah ketika berehat"
     },
     {
      "zh": "触角细长如线",
@@ -1338,7 +1333,8 @@
     }
    ],
    "src": [
-    "WTK:8"
+    "WTK:8",
+    "AM-MAYFLY"
    ]
   },
   "lacewings": {
@@ -1362,14 +1358,15 @@
    ],
    "confused": [
     {
-     "zh": "豆娘：停下时翅竖起，触角极短",
-     "en": "Damselflies: wings held up, tiny antennae",
-     "ms": "Pepatung jarum: sayap tegak, sesungut sangat pendek"
+     "zh": "豆娘：停下时翅合起，触角极短",
+     "en": "Damselflies: wings closed at rest, tiny antennae",
+     "ms": "Pepatung jarum: sayap tertutup ketika berehat, sesungut sangat pendek"
     }
    ],
    "src": [
     "TJ:39",
-    "WTK:11"
+    "WTK:11",
+    "INAT-ODO"
    ]
   },
   "ants-alates": {
@@ -1416,21 +1413,22 @@
      "ms": "Pinggang sempit tanpa nod"
     },
     {
-     "zh": "两对膜质翅，前翅较大",
-     "en": "Two pairs of clear wings, forewings larger",
-     "ms": "Dua pasang sayap jernih, sayap depan lebih besar"
+     "zh": "两对膜质翅",
+     "en": "Two pairs of clear wings",
+     "ms": "Dua pasang sayap jernih"
     }
    ],
    "confused": [
     {
-     "zh": "食蚜蝇：只有一对翅，触角短",
-     "en": "Hoverflies: one pair of wings, short antennae",
-     "ms": "Lalat bunga: sepasang sayap, sesungut pendek"
+     "zh": "马蝇：只有一对翅，不会螫人",
+     "en": "Horse bot flies: one pair of wings, no sting",
+     "ms": "Lalat bot kuda: sepasang sayap, tiada sengat"
     }
    ],
    "src": [
     "TJ:39",
-    "WTK:3"
+    "WTK:3",
+    "WTK:6"
    ]
   },
   "owlflies": {
@@ -1455,7 +1453,8 @@
     }
    ],
    "src": [
-    "TJ:39"
+    "TJ:39",
+    "WTK:11"
    ]
   },
   "damselflies": {
@@ -1491,7 +1490,8 @@
    ],
    "src": [
     "TJ:39",
-    "WTK:3"
+    "WTK:3",
+    "INAT-ODO"
    ]
   },
   "dragonflies": {
@@ -1522,7 +1522,8 @@
    ],
    "src": [
     "TJ:39",
-    "WTK:3"
+    "WTK:3",
+    "INAT-ODO"
    ]
   },
   "earwigs": {
@@ -1546,14 +1547,15 @@
    ],
    "confused": [
     {
-     "zh": "隐翅虫：前翅也短，但没有尾铗",
-     "en": "Rove beetles: short forewings but no pincers",
-     "ms": "Kumbang rove: sayap depan pendek tetapi tiada penyepit"
+     "zh": "隐翅虫：翅鞘也很短，但没有尾铗",
+     "en": "Rove beetles: very short wing covers but no pincers",
+     "ms": "Kumbang rove: penutup sayap sangat pendek tetapi tiada penyepit"
     }
    ],
    "src": [
     "TJ:40",
-    "WTK:7"
+    "WTK:7",
+    "TJ:172"
    ]
   },
   "beetles": {
@@ -1601,9 +1603,9 @@
      "ms": "Kaki depan penangkap"
     },
     {
-     "zh": "头呈三角形，可以转动",
-     "en": "Triangular head that can turn",
-     "ms": "Kepala segi tiga yang boleh berpusing"
+     "zh": "前翅像皮革（覆翅）",
+     "en": "Leathery forewings (tegmina)",
+     "ms": "Sayap depan seperti kulit (tegmina)"
     }
    ],
    "confused": [
@@ -1695,14 +1697,15 @@
      "ms": "Kaki depan seperti penyodok"
     },
     {
-     "zh": "住在土里",
-     "en": "Lives in the soil",
-     "ms": "Hidup dalam tanah"
+     "zh": "平常躲在地底",
+     "en": "Usually stays underground",
+     "ms": "Biasanya berada di bawah tanah"
     }
    ],
    "confused": [],
    "src": [
-    "TJ:40"
+    "TJ:40",
+    "TJ:75"
    ]
   },
   "cockroaches": {
@@ -1714,19 +1717,14 @@
    "order": "p18",
    "check": [
     {
-     "zh": "身体扁平",
-     "en": "Flat body",
-     "ms": "Badan leper"
+     "zh": "后足不特别粗，前足不是挖掘足",
+     "en": "Hind legs not enlarged; front legs not for digging",
+     "ms": "Kaki belakang tidak besar; kaki depan bukan untuk menggali"
     },
     {
-     "zh": "前胸背板像盾牌盖住头",
-     "en": "Shield-like plate over the head",
-     "ms": "Plat seperti perisai menutupi kepala"
-    },
-    {
-     "zh": "脚多刺，跑得快",
-     "en": "Spiny legs, runs fast",
-     "ms": "Kaki berduri, berlari laju"
+     "zh": "步行足，跑得快",
+     "en": "Running legs, runs fast",
+     "ms": "Kaki berlari, berlari laju"
     }
    ],
    "confused": [
@@ -1738,7 +1736,8 @@
    ],
    "src": [
     "TJ:40",
-    "WTK:4"
+    "WTK:4",
+    "PURDUE-TA"
    ]
   }
  }

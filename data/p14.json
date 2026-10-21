@@ -1,0 +1,193 @@
+{
+ "id": "p14",
+ "num": 14,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "双翅目（蝇和蚊）",
+  "en": "Diptera (flies and mosquitoes)",
+  "ms": "Diptera (lalat dan nyamuk)"
+ },
+ "blurb": {
+  "zh": "双翅目（蝇和蚊）",
+  "en": "Diptera (flies and mosquitoes)",
+  "ms": "Diptera (lalat dan nyamuk)"
+ },
+ "sources": [
+  "LSJ",
+  "NCSU-META",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:diptera}}来自希腊文 di（二）加 pteron（翅），意思是「两片翅」：它们只有一对能飞的翅。",
+      "en": "{{t:diptera}} comes from the Greek di (two) and pteron (wing): 'two-winged'. Flies have just one pair of flying wings.",
+      "ms": "{{t:diptera}} berasal daripada bahasa Yunani di (dua) dan pteron (sayap): 'bersayap dua'. Lalat hanya mempunyai sepasang sayap untuk terbang."
+     },
+     "defines": [
+      "diptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「双」就是两片：只有两片翅，后面两根小棒帮它平衡。",
+      "en": "Think 'two': two wings, plus two tiny knobs for balance.",
+      "ms": "Ingat 'dua': dua sayap, dan dua tombol kecil untuk keseimbangan."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "只有一对前翅，后翅变成一对平衡棒",
+       "en": "Only one pair of forewings; the hind wings are a pair of halteres",
+       "ms": "Hanya sepasang sayap depan; sayap belakang menjadi sepasang halter"
+      },
+      {
+       "zh": "蝇、虻的触角短；蚊、蠓的触角细长多节",
+       "en": "Flies have short antennae; mosquitoes and midges have long many-segmented ones",
+       "ms": "Lalat mempunyai sesungut pendek; nyamuk dan agas mempunyai sesungut panjang berbilang ruas"
+      },
+      {
+       "zh": "身体多半有毛",
+       "en": "Body usually hairy",
+       "ms": "Badan biasanya berbulu"
+      }
+     ],
+     "src": [
+      "TJ:38",
+      "WTK:6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "TJ:27",
+      "UMN-ORD",
+      "NCSU-META"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "完全变态，幼虫是蛆",
+        "en": "Complete; larvae are maggots",
+        "ms": "Lengkap; larva ialah berenga"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "舐吸式（如家蝇、果实蝇）或刺吸式（如蚊）",
+        "en": "Sponging (house flies, fruit flies) or piercing-sucking (mosquitoes)",
+        "ms": "Menyerap (lalat rumah, lalat buah) atau menusuk-menghisap (nyamuk)"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "家蝇、实蝇、食蚜蝇",
+       "en": "House flies, fruit flies, hoverflies",
+       "ms": "Lalat rumah, lalat buah, lalat bunga"
+      },
+      {
+       "zh": "大蚊、马蝇、牛虻、蜂虻、食虫虻",
+       "en": "Crane flies, bot flies, horse flies, bee flies, robber flies",
+       "ms": "Lalat kren, lalat bot, langau, lalat lebah, lalat perompak"
+      },
+      {
+       "zh": "蚊、瘿蚊",
+       "en": "Mosquitoes and gall midges",
+       "ms": "Nyamuk dan agas gal"
+      }
+     ],
+     "src": [
+      "WTK:6",
+      "TJ:43"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "蜂还是像蜂的蝇？",
+    "en": "Bee, or a fly that looks like one?",
+    "ms": "Lebah, atau lalat yang menyerupainya?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "有些蝇长得像蜂。数翅就知道：蜂有两对翅，蝇只有一对，后面多两根小棒；蝇也没有螫针。",
+      "en": "Some flies mimic bees. Count the wings: bees have two pairs; flies have one, with two tiny knobs behind, and no sting.",
+      "ms": "Sesetengah lalat menyerupai lebah. Kira sayapnya: lebah ada dua pasang; lalat ada sepasang dengan dua tombol kecil di belakang, dan tiada sengat."
+     },
+     "src": [
+      "TJ:38",
+      "WTK:6"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "diptera"
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "p17",
+ "num": 17,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "螳螂目",
+  "en": "Mantodea (mantids)",
+  "ms": "Mantodea (cengkadak)"
+ },
+ "blurb": {
+  "zh": "螳螂目",
+  "en": "Mantodea (mantids)",
+  "ms": "Mantodea (cengkadak)"
+ },
+ "sources": [
+  "LSJ",
+  "PURDUE-TA",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:mantodea}}的 mantis 在希腊文里是「先知」，大概因为螳螂举起前足，好像在祈祷。",
+      "en": "The 'mantis' in {{t:mantodea}} is Greek for 'prophet', perhaps because a mantis holds up its front legs as if praying.",
+      "ms": "'Mantis' dalam {{t:mantodea}} bermaksud 'nabi' dalam bahasa Yunani, mungkin kerana cengkadak mengangkat kaki depannya seolah-olah berdoa."
+     },
+     "defines": [
+      "mantodea"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「祈祷」：举起带刺的前足，等猎物上门。",
+      "en": "Think 'praying': spiny front legs raised, waiting for prey.",
+      "ms": "Ingat 'berdoa': kaki depan berduri diangkat, menunggu mangsa."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "前足是有刺的捕捉足，可以夹住猎物",
+       "en": "Spiny grasping front legs that seize prey",
+       "ms": "Kaki depan penangkap berduri yang menangkap mangsa"
+      },
+      {
+       "zh": "前翅像皮革（覆翅）",
+       "en": "Leathery forewings (tegmina)",
+       "ms": "Sayap depan seperti kulit (tegmina)"
+      },
+      {
+       "zh": "捕食其他昆虫",
+       "en": "Hunts other insects",
+       "ms": "Memburu serangga lain"
+      }
+     ],
+     "src": [
+      "TJ:29",
+      "TJ:40",
+      "PURDUE-TA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "各种绿色、褐色的螳螂",
+       "en": "Green and brown praying mantids",
+       "ms": "Cengkadak hijau dan perang"
+      }
+     ],
+     "src": [
+      "WTK:6"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "mantodea"
+ ]
+}

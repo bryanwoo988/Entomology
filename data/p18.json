@@ -1,0 +1,169 @@
+{
+ "id": "p18",
+ "num": 18,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "蜚蠊目（蟑螂和白蚁）",
+  "en": "Blattodea (cockroaches and termites)",
+  "ms": "Blattodea (lipas dan anai-anai)"
+ },
+ "blurb": {
+  "zh": "蜚蠊目（蟑螂和白蚁）",
+  "en": "Blattodea (cockroaches and termites)",
+  "ms": "Blattodea (lipas dan anai-anai)"
+ },
+ "sources": [
+  "INWARD2007",
+  "PURDUE-TA",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:blattodea}}包括蟑螂和白蚁。以前白蚁自成一目（等翅目），分子研究证实白蚁其实是过群居生活的蟑螂，现在归入蜚蠊目。",
+      "en": "{{t:blattodea}} includes cockroaches and termites. Termites used to have their own order (Isoptera); molecular studies showed they are social cockroaches, and they now belong here.",
+      "ms": "{{t:blattodea}} merangkumi lipas dan anai-anai. Anai-anai dahulu mempunyai ordernya sendiri (Isoptera); kajian molekul menunjukkan ia lipas yang hidup berkoloni, dan kini tergolong di sini."
+     },
+     "defines": [
+      "blattodea"
+     ],
+     "src": [
+      "INWARD2007"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "记住：白蚁是「会合作的蟑螂」，不是蚂蚁。",
+      "en": "Remember: termites are 'team-working cockroaches', not ants.",
+      "ms": "Ingat: anai-anai ialah 'lipas yang bekerjasama', bukan semut."
+     },
+     "src": [
+      "INWARD2007"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "蟑螂：前翅像皮革，脚是善跑的步行足",
+       "en": "Cockroaches: leathery forewings and running legs",
+       "ms": "Lipas: sayap depan seperti kulit dan kaki berlari"
+      },
+      {
+       "zh": "白蚁：触角念珠状，没有细腰",
+       "en": "Termites: bead-like antennae and no narrow waist",
+       "ms": "Anai-anai: sesungut seperti manik dan tiada pinggang sempit"
+      },
+      {
+       "zh": "有翅的白蚁四片翅几乎一样大，分飞后翅会脱落",
+       "en": "Winged termites have four nearly equal wings, shed after the swarm",
+       "ms": "Anai-anai bersayap mempunyai empat sayap hampir sama besar, tertanggal selepas berkerumun"
+      }
+     ],
+     "src": [
+      "PURDUE-TA",
+      "TJ:38",
+      "TJ:39",
+      "WTK:4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "美洲大蠊、德国小蠊",
+       "en": "American and German cockroaches",
+       "ms": "Lipas Amerika dan lipas Jerman"
+      },
+      {
+       "zh": "野外的斑马纹蟑螂、橙斑蟑螂，以及沙捞越的森林蟑螂",
+       "en": "Wild zebra-striped and orange-spotted cockroaches, and forest cockroaches in Sarawak",
+       "ms": "Lipas liar berjalur zebra dan bertompok jingga, serta lipas hutan di Sarawak"
+      },
+      {
+       "zh": "白蚁的工蚁、兵蚁和有翅繁殖蚁",
+       "en": "Termite workers, soldiers and winged swarmers",
+       "ms": "Anai-anai pekerja, askar dan kelekatu"
+      }
+     ],
+     "src": [
+      "WTK:4"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "blattodea"
+ ]
+}

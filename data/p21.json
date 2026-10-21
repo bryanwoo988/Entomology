@@ -1,0 +1,155 @@
+{
+ "id": "p21",
+ "num": 21,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "革翅目（蠼螋）",
+  "en": "Dermaptera (earwigs)",
+  "ms": "Dermaptera (cocopet)"
+ },
+ "blurb": {
+  "zh": "革翅目（蠼螋）",
+  "en": "Dermaptera (earwigs)",
+  "ms": "Dermaptera (cocopet)"
+ },
+ "sources": [
+  "LSJ",
+  "TJ",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:dermaptera}}来自希腊文 derma（皮）加 pteron（翅），指短短的、像皮革的前翅。",
+      "en": "{{t:dermaptera}} comes from the Greek derma (skin) and pteron (wing), after the short leathery forewings.",
+      "ms": "{{t:dermaptera}} berasal daripada bahasa Yunani derma (kulit) dan pteron (sayap), merujuk sayap depan yang pendek seperti kulit."
+     },
+     "defines": [
+      "dermaptera"
+     ],
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「皮」：短短的皮翅，加一把尾钳。",
+      "en": "Think 'skin': short leathery wings and tail pincers.",
+      "ms": "Ingat 'kulit': sayap kulit pendek dan penyepit ekor."
+     },
+     "src": [
+      "LSJ"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体扁长，腹末有一对钳子（尾铗）",
+       "en": "Long flat body with a pair of pincers (forceps) at the tail",
+       "ms": "Badan panjang leper dengan sepasang penyepit di ekor"
+      },
+      {
+       "zh": "前翅短而硬，膜质的后翅折在下面",
+       "en": "Short hard forewings with membranous hind wings folded beneath",
+       "ms": "Sayap depan pendek keras dengan sayap belakang bermembran dilipat di bawah"
+      },
+      {
+       "zh": "触角细长、多节；大颚明显",
+       "en": "Slender many-segmented antennae; strong jaws",
+       "ms": "Sesungut halus berbilang ruas; rahang yang kuat"
+      }
+     ],
+     "src": [
+      "WTK:7",
+      "TJ:33"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:35",
+      "WTK:7"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "不完全变态（卵→若虫→成虫）",
+        "en": "Incomplete (egg → nymph → adult)",
+        "ms": "Tidak lengkap (telur → nimfa → dewasa)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "各种蠼螋，雄虫的尾铗通常比较弯",
+       "en": "Earwigs of several kinds; males usually have more curved forceps",
+       "ms": "Pelbagai cocopet; jantan biasanya mempunyai penyepit yang lebih melengkung"
+      }
+     ],
+     "src": [
+      "WTK:7"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "dermaptera"
+ ]
+}

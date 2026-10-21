@@ -1,0 +1,157 @@
+{
+ "id": "p25",
+ "num": 25,
+ "stage": 4,
+ "kind": "order",
+ "title": {
+  "zh": "衣鱼目",
+  "en": "Zygentoma (silverfish)",
+  "ms": "Zygentoma (gegat)"
+ },
+ "blurb": {
+  "zh": "衣鱼目",
+  "en": "Zygentoma (silverfish)",
+  "ms": "Zygentoma (gegat)"
+ },
+ "sources": [
+  "LSJ",
+  "TJ",
+  "UMN-ORD",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "名字和特征",
+    "en": "Name and features",
+    "ms": "Nama dan ciri"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:zygentoma}}以前叫 Thysanura，来自希腊文 thysanos（缨）加 oura（尾），指尾端的三条长丝。",
+      "en": "{{t:zygentoma}} used to be called Thysanura, from the Greek thysanos (fringe) and oura (tail), after the three long tail threads.",
+      "ms": "{{t:zygentoma}} dahulu dipanggil Thysanura, daripada bahasa Yunani thysanos (jumbai) dan oura (ekor), merujuk tiga ekor panjang."
+     },
+     "defines": [
+      "zygentoma"
+     ],
+     "src": [
+      "LSJ",
+      "WTK:10"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "「衣鱼」：银色的小鱼，在书堆里游。",
+      "en": "Think 'silver fish': a little silver swimmer in your books.",
+      "ms": "Ingat 'ikan perak': perenang perak kecil di celah buku."
+     },
+     "src": [
+      "LSJ",
+      "WTK:10"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "没有翅，身体扁长，常有银灰色鳞片",
+       "en": "Wingless, flat and long, often with silvery scales",
+       "ms": "Tidak bersayap, leper dan panjang, sering bersisik keperakan"
+      },
+      {
+       "zh": "触角很长",
+       "en": "Long antennae",
+       "ms": "Sesungut panjang"
+      },
+      {
+       "zh": "尾端有三条长丝",
+       "en": "Three long tail threads",
+       "ms": "Tiga ekor panjang"
+      }
+     ],
+     "src": [
+      "WTK:10"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "生活史和口器",
+    "en": "Life cycle and mouthparts",
+    "ms": "Kitaran hidup dan bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:34",
+      "UMN-ORD"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "发育",
+        "en": "Development",
+        "ms": "Perkembangan"
+       },
+       "v": {
+        "zh": "无变态（幼体像小成虫）",
+        "en": "None (young look like small adults)",
+        "ms": "Tiada (anak seperti dewasa kecil)"
+       }
+      },
+      {
+       "k": {
+        "zh": "口器",
+        "en": "Mouthparts",
+        "ms": "Bahagian mulut"
+       },
+       "v": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "马来西亚常见的",
+    "en": "Common in Malaysia",
+    "ms": "Biasa di Malaysia"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "家中的衣鱼，会咬坏书本和纸张",
+       "en": "Household silverfish, which damage books and paper",
+       "ms": "Gegat rumah, yang merosakkan buku dan kertas"
+      }
+     ],
+     "src": [
+      "WTK:10"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "zygentoma"
+ ]
+}

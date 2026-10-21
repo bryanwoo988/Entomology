@@ -71,7 +71,25 @@
     "en": "The insect orders common in Malaysia: how to recognise and remember them",
     "ms": "Order serangga yang biasa di Malaysia: cara mengecam dan mengingatnya"
    },
-   "chapters": []
+   "chapters": [
+    "p10",
+    "p11",
+    "p12",
+    "p13",
+    "p14",
+    "p15",
+    "p16",
+    "p17",
+    "p18",
+    "p19",
+    "p20",
+    "p21",
+    "p22",
+    "p23",
+    "p24",
+    "p25",
+    "p26"
+   ]
   },
   {
    "n": 5,
@@ -245,6 +263,279 @@
     "zh": "蜕皮、三种发育方式、幼虫和蛹的样子，以及为什么防治要看虫期",
     "en": "Moulting, three ways of growing up, what larvae and pupae look like, and why pest control depends on the stage",
     "ms": "Salin kulit, tiga cara membesar, rupa larva dan pupa, dan mengapa kawalan perosak bergantung pada peringkat"
+   }
+  },
+  {
+   "id": "p10",
+   "num": 10,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "鞘翅目（甲虫）",
+    "en": "Coleoptera (beetles)",
+    "ms": "Coleoptera (kumbang)"
+   },
+   "blurb": {
+    "zh": "鞘翅目（甲虫）",
+    "en": "Coleoptera (beetles)",
+    "ms": "Coleoptera (kumbang)"
+   }
+  },
+  {
+   "id": "p11",
+   "num": 11,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "鳞翅目（蝶和蛾）",
+    "en": "Lepidoptera (butterflies and moths)",
+    "ms": "Lepidoptera (rama-rama dan kupu-kupu)"
+   },
+   "blurb": {
+    "zh": "鳞翅目（蝶和蛾）",
+    "en": "Lepidoptera (butterflies and moths)",
+    "ms": "Lepidoptera (rama-rama dan kupu-kupu)"
+   }
+  },
+  {
+   "id": "p12",
+   "num": 12,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "半翅目（蝽、蝉、蚜虫）",
+    "en": "Hemiptera (true bugs, cicadas, aphids)",
+    "ms": "Hemiptera (pepijat, riang-riang, afid)"
+   },
+   "blurb": {
+    "zh": "半翅目（蝽、蝉、蚜虫）",
+    "en": "Hemiptera (true bugs, cicadas, aphids)",
+    "ms": "Hemiptera (pepijat, riang-riang, afid)"
+   }
+  },
+  {
+   "id": "p13",
+   "num": 13,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "膜翅目（蜂和蚂蚁）",
+    "en": "Hymenoptera (bees, wasps and ants)",
+    "ms": "Hymenoptera (lebah, tebuan dan semut)"
+   },
+   "blurb": {
+    "zh": "膜翅目（蜂和蚂蚁）",
+    "en": "Hymenoptera (bees, wasps and ants)",
+    "ms": "Hymenoptera (lebah, tebuan dan semut)"
+   }
+  },
+  {
+   "id": "p14",
+   "num": 14,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "双翅目（蝇和蚊）",
+    "en": "Diptera (flies and mosquitoes)",
+    "ms": "Diptera (lalat dan nyamuk)"
+   },
+   "blurb": {
+    "zh": "双翅目（蝇和蚊）",
+    "en": "Diptera (flies and mosquitoes)",
+    "ms": "Diptera (lalat dan nyamuk)"
+   }
+  },
+  {
+   "id": "p15",
+   "num": 15,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "直翅目（蝗虫、螽斯、蟋蟀）",
+    "en": "Orthoptera (grasshoppers, katydids, crickets)",
+    "ms": "Orthoptera (belalang, katidid, cengkerik)"
+   },
+   "blurb": {
+    "zh": "直翅目（蝗虫、螽斯、蟋蟀）",
+    "en": "Orthoptera (grasshoppers, katydids, crickets)",
+    "ms": "Orthoptera (belalang, katidid, cengkerik)"
+   }
+  },
+  {
+   "id": "p16",
+   "num": 16,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "蜻蜓目（蜻蜓、豆娘）",
+    "zhTw": "蜻蛉目（蜻蜓、豆娘）",
+    "en": "Odonata (dragonflies and damselflies)",
+    "ms": "Odonata (pepatung dan pepatung jarum)"
+   },
+   "blurb": {
+    "zh": "蜻蜓目（蜻蜓、豆娘）",
+    "en": "Odonata (dragonflies and damselflies)",
+    "ms": "Odonata (pepatung dan pepatung jarum)"
+   }
+  },
+  {
+   "id": "p17",
+   "num": 17,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "螳螂目",
+    "en": "Mantodea (mantids)",
+    "ms": "Mantodea (cengkadak)"
+   },
+   "blurb": {
+    "zh": "螳螂目",
+    "en": "Mantodea (mantids)",
+    "ms": "Mantodea (cengkadak)"
+   }
+  },
+  {
+   "id": "p18",
+   "num": 18,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "蜚蠊目（蟑螂和白蚁）",
+    "en": "Blattodea (cockroaches and termites)",
+    "ms": "Blattodea (lipas dan anai-anai)"
+   },
+   "blurb": {
+    "zh": "蜚蠊目（蟑螂和白蚁）",
+    "en": "Blattodea (cockroaches and termites)",
+    "ms": "Blattodea (lipas dan anai-anai)"
+   }
+  },
+  {
+   "id": "p19",
+   "num": 19,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "竹节虫目（竹节虫和叶䗛）",
+    "en": "Phasmida (stick and leaf insects)",
+    "ms": "Phasmida (serangga ranting dan serangga daun)"
+   },
+   "blurb": {
+    "zh": "竹节虫目（竹节虫和叶䗛）",
+    "en": "Phasmida (stick and leaf insects)",
+    "ms": "Phasmida (serangga ranting dan serangga daun)"
+   }
+  },
+  {
+   "id": "p20",
+   "num": 20,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "缨翅目（蓟马）",
+    "en": "Thysanoptera (thrips)",
+    "ms": "Thysanoptera (trips)"
+   },
+   "blurb": {
+    "zh": "缨翅目（蓟马）",
+    "en": "Thysanoptera (thrips)",
+    "ms": "Thysanoptera (trips)"
+   }
+  },
+  {
+   "id": "p21",
+   "num": 21,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "革翅目（蠼螋）",
+    "en": "Dermaptera (earwigs)",
+    "ms": "Dermaptera (cocopet)"
+   },
+   "blurb": {
+    "zh": "革翅目（蠼螋）",
+    "en": "Dermaptera (earwigs)",
+    "ms": "Dermaptera (cocopet)"
+   }
+  },
+  {
+   "id": "p22",
+   "num": 22,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "脉翅目（草蛉、蚁蛉）",
+    "en": "Neuroptera (lacewings and antlions)",
+    "ms": "Neuroptera (lacewing dan undur-undur)"
+   },
+   "blurb": {
+    "zh": "脉翅目（草蛉、蚁蛉）",
+    "en": "Neuroptera (lacewings and antlions)",
+    "ms": "Neuroptera (lacewing dan undur-undur)"
+   }
+  },
+  {
+   "id": "p23",
+   "num": 23,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "蜉蝣目",
+    "en": "Ephemeroptera (mayflies)",
+    "ms": "Ephemeroptera (lalat sehari)"
+   },
+   "blurb": {
+    "zh": "蜉蝣目",
+    "en": "Ephemeroptera (mayflies)",
+    "ms": "Ephemeroptera (lalat sehari)"
+   }
+  },
+  {
+   "id": "p24",
+   "num": 24,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "毛翅目（石蛾）",
+    "en": "Trichoptera (caddisflies)",
+    "ms": "Trichoptera (lalat kadis)"
+   },
+   "blurb": {
+    "zh": "毛翅目（石蛾）",
+    "en": "Trichoptera (caddisflies)",
+    "ms": "Trichoptera (lalat kadis)"
+   }
+  },
+  {
+   "id": "p25",
+   "num": 25,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "衣鱼目",
+    "en": "Zygentoma (silverfish)",
+    "ms": "Zygentoma (gegat)"
+   },
+   "blurb": {
+    "zh": "衣鱼目",
+    "en": "Zygentoma (silverfish)",
+    "ms": "Zygentoma (gegat)"
+   }
+  },
+  {
+   "id": "p26",
+   "num": 26,
+   "stage": 4,
+   "kind": "order",
+   "title": {
+    "zh": "其他较少见的目",
+    "en": "Less common orders",
+    "ms": "Order yang kurang biasa"
+   },
+   "blurb": {
+    "zh": "其他较少见的目",
+    "en": "Less common orders",
+    "ms": "Order yang kurang biasa"
    }
   }
  ]
