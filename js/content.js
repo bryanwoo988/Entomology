@@ -109,7 +109,7 @@ function block(b, ctx) {
     }
     case 'widget': {
       const host = el('div', { class: `widget widget-${b.type}`, 'data-widget': b.id });
-      ctx.mountWidget?.(host, b.id, { lang: ctx.lang, opts: b.opts ?? {} });
+      ctx.mountWidget?.(host, b.id, { lang: ctx.lang, opts: b.opts ?? {}, onTerm: ctx.onTerm, terms: ctx.terms });
       return host;
     }
     default:

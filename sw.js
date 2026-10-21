@@ -9,7 +9,7 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'bugs-d58150ca57';
+const CACHE = 'bugs-0098180f38';
 const ASSETS = [
   './',
   'css/app.css',
@@ -53,6 +53,7 @@ const ASSETS = [
   'icons/splash/750x1334-light.png',
   'icons/splash/828x1792-dark.png',
   'icons/splash/828x1792-light.png',
+  'img/svg/anatomy.svg',
   'img/svg/key-antennae.svg',
   'img/svg/key-elytra.svg',
   'img/svg/key-forceps.svg',
@@ -85,6 +86,7 @@ const ASSETS = [
   'js/terms.js',
   'js/tools.js',
   'js/updatelogic.js',
+  'js/widgets/anatomy.js',
   'js/widgets/index.js',
   'js/widgets/kit.js',
   'manifest.webmanifest',

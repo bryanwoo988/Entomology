@@ -666,3 +666,8 @@ figure.photo figcaption { display: flex; flex-direction: column; gap: 2px; margi
 .key-crumb-text { display: flex; flex-direction: column; gap: 1px; }
 .key-crumb-q { font-size: .82em; color: var(--muted); }
 .key-crumb-a { font-weight: 600; }
+
+/* ---------- Anatomy diagram ---------- */
+.anatomy { color: var(--ink, currentColor); margin: 8px 0 16px; }
+.anatomy-svg { display: block; width: 100%; height: auto; max-width: 640px; }
+.anatomy [data-part]:focus { outline: none; }
