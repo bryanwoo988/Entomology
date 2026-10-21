@@ -16,3 +16,8 @@ test('a banned ingredient is never named without its label', () => {
   assert.equal(aiLabel(banned, 'en'), 'Endosulfan (Banned)');
   assert.equal(aiLabel(ok, 'ms'), 'Sipermetrin');
 });
+test('a pesticide with a Taiwan name shows both, then the banned tag', () => {
+  const p = { name: { zh: '克百威', zhTw: '加保扶', en: 'Carbofuran', ms: 'Karbofuran' }, status: 'banned' };
+  assert.equal(aiLabel(p, 'zh'), '克百威（大陆）／加保扶（台湾）（已禁用）');
+  assert.equal(aiLabel(p, 'en'), 'Carbofuran (Banned)');
+});

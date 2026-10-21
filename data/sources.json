@@ -1,5 +1,13 @@
 [
  {
+  "id": "AAR-2010",
+  "short": "AAR newsletter, Apr 2010",
+  "title": "AAR Newsletter, April 2010 (nettle caterpillar Darna trima)",
+  "publisher": "Applied Agricultural Resources Sdn Bhd",
+  "url": "https://aarsb.com.my/wp-content/Publication/Newsletter/PDF/2010-Apr.pdf",
+  "accessed": "2026-10-21"
+ },
+ {
   "id": "AES-ANT",
   "short": "AES: Insect antennae",
   "title": "Insect antennae (fact file)",
@@ -16,11 +24,51 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "BIODIV-SETORA",
+  "short": "Biodiversitas: nettle caterpillars on peat",
+  "title": "Nettle caterpillar species in oil palm plantations on peatland (Biodiversitas)",
+  "publisher": "Biodiversitas Journal of Biological Diversity",
+  "url": "https://mail.smujo.id/biodiv/article/view/20315",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "BORNEO-EK",
+  "short": "Borneo Post: pollinating weevils",
+  "title": "How pollinating insects came to Malaysia",
+  "publisher": "The Borneo Post",
+  "url": "https://www.theborneopost.com/?p=186480",
+  "accessed": "2026-10-21"
+ },
+ {
   "id": "CSU-THRIPS",
   "short": "Colorado State: thrips",
   "title": "Thrips (IPM pests)",
   "publisher": "Colorado State University Agricultural Biology",
   "url": "https://agsci.colostate.edu/agbio/ipm-pests/thrips/",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "DOA-BAN",
+  "short": "DOA: banned and restricted pesticides (Aug 2025)",
+  "title": "Senarai racun perosak yang diharamkan dan dihadkan (Ogos 2025)",
+  "publisher": "Bahagian Kawalan Racun Perosak dan Baja, Jabatan Pertanian Malaysia",
+  "url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/maklumat_racun_perosak/pendaftaran_rmp/senarai_racun_perosak_haram_terhad_ogos2025.pdf",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "DOA-CARBO",
+  "short": "DOA: carbofuran ban",
+  "title": "Pengharaman racun perosak carbofuran, berkuat kuasa 1 Mei 2023",
+  "publisher": "Jabatan Pertanian Malaysia",
+  "url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/maklumat_racun_perosak/poster/49_pengharaman_carbofuran.pdf",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "DOA-MRL",
+  "short": "DOA: registered active ingredients",
+  "title": "Registered Active Ingredient List (MyMRL)",
+  "publisher": "Jabatan Pertanian Malaysia",
+  "url": "https://mymrl.doa.gov.my/",
   "accessed": "2026-10-21"
  },
  {
@@ -64,6 +112,22 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "JOPR-SYCANUS",
+  "short": "JOPR 2020: Sycanus dichotomus",
+  "title": "Assessment on voracity and predation by predator Sycanus dichotomus Stål to oil palm bagworm Pteroma pendula",
+  "publisher": "Journal of Oil Palm Research 32(3): 480–487, MPOB",
+  "url": "https://jopr.mpob.gov.my/?p=9798",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "JOPR-TISI",
+  "short": "JOPR 2024: termite severity index",
+  "title": "Assessment of subterranean termite (Coptotermes curvignathus) infestation severity index (TISI) and water table on a peat oil palm plantation in Sarawak",
+  "publisher": "Journal of Oil Palm Research, MPOB",
+  "url": "https://jopr.mpob.gov.my/assessment-of-subterranean-termite-icoptotermes-curvignathusi-isoptera-rhinotermitidae-infestation-severity-index-tisi-and-water-table-on-a-peat-oil-palm-plantation-in-sarawak/",
+  "accessed": "2026-10-21"
+ },
+ {
   "id": "LCWU-META",
   "short": "LCWU: metamorphosis",
   "title": "Metamorphosis in insects (lecture notes, ZOO-Ento-401)",
@@ -93,6 +157,30 @@
   "title": "Mastery: morphogenesis (ENT 425 General Entomology)",
   "publisher": "North Carolina State University",
   "url": "https://genent.cals.ncsu.edu/mastery-morphogenesis/",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "OPB-TERMITE",
+  "short": "OPB: termite control trial",
+  "title": "Evaluation of entomopathogenic fungi and chemical to control termite, Coptotermes curvignathus on mature oil palm and supply seedlings on peat",
+  "publisher": "Oil Palm Bulletin, MPOB",
+  "url": "https://opb.mpob.gov.my/evaluation-of-entomopathogenic-fungi-and-chemical-to-control-termite-coptotermes-curvignathus-on-mature-oil-palm-and-supply-seedlings-on-peat/",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "PLANTER-TERMITE",
+  "short": "The Planter 2008: termites in oil palm",
+  "title": "Review of termites as pests of oil palm (The Planter, 2008)",
+  "publisher": "The Planter (Incorporated Society of Planters), catalogue record",
+  "url": "https://catalogo.fedepalma.org/bib/26590",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "PNM-IPM",
+  "short": "PNM: oil palm insect pest management",
+  "title": "Sustainable Oil Palm Insect Pest Management in Malaysia",
+  "publisher": "Perpustakaan Negara Malaysia (book listing)",
+  "url": "https://www.pnm.gov.my/index.php/pages/view/883",
   "accessed": "2026-10-21"
  },
  {
@@ -128,11 +216,27 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "SAINSMY-EK",
+  "short": "Sains Malaysiana 2019: E. kamerunicus",
+  "title": "Sains Malaysiana 48(1): 15–21 (2019), Elaeidobius kamerunicus",
+  "publisher": "Universiti Kebangsaan Malaysia",
+  "url": "https://ukm.my/jsm/english_journals/vol48num1_2019/vol48num1_2019pg15-21.html",
+  "accessed": "2026-10-21"
+ },
+ {
   "id": "SEOW-PHASMID",
   "short": "Seow-Choen 2021",
   "title": "A Taxonomic Guide to the Stick Insects of Peninsular Malaysia, Vol. 1 (publisher's listing)",
   "publisher": "F. Seow-Choen, Natural History Publications (Borneo); listing at Pemberley Books",
   "url": "https://www.pemberleybooks.com/product/a-taxonomic-guide-to-the-stick-insects-of-peninsular-malaysia.-vol.-1/48924/",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "SER-SYCANUS",
+  "short": "Serangga: Sycanus field trials",
+  "title": "Field trials of Sycanus dichotomus against bagworms in Selangor",
+  "publisher": "Serangga (Universiti Kebangsaan Malaysia)",
+  "url": "https://ejournal.ukm.my/serangga/article/view/42464",
   "accessed": "2026-10-21"
  },
  {
@@ -173,6 +277,22 @@
   "title": "Insect Orders (presentation)",
   "publisher": "University of Minnesota Pesticide Safety & Environmental Education",
   "url": "https://pesticidecert.cfans.umn.edu/sites/pesticidecert.cfans.umn.edu/files/2022-03/2.Insect_Orders_presentation.pdf",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "UMS-TERMITE",
+  "short": "UMS thesis: termites and water table",
+  "title": "Effect of water table on Coptotermes curvignathus on peat (MSc thesis)",
+  "publisher": "Universiti Malaysia Sabah",
+  "url": "https://eprints.ums.edu.my/6791/",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "VT-STING",
+  "short": "Virginia Tech: stinging caterpillars",
+  "title": "Stinging and Venomous Caterpillars (ENTO-621)",
+  "publisher": "Virginia Cooperative Extension, Virginia Tech",
+  "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-75/ENTO-621.pdf",
   "accessed": "2026-10-21"
  },
  {

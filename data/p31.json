@@ -1,0 +1,185 @@
+{
+ "id": "p31",
+ "num": 31,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "白蚁（油棕）",
+  "en": "Termites (oil palm)",
+  "ms": "Anai-anai (sawit)"
+ },
+ "blurb": {
+  "zh": "Coptotermes curvignathus",
+  "en": "Coptotermes curvignathus",
+  "ms": "Coptotermes curvignathus"
+ },
+ "sources": [
+  "JOPR-TISI",
+  "OPB-TERMITE",
+  "PLANTER-TERMITE",
+  "TJ",
+  "UMS-TERMITE"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "白蚁（油棕）",
+      "en": "Termites (oil palm)",
+      "ms": "Anai-anai (sawit)"
+     },
+     "sci": "Coptotermes curvignathus",
+     "order": "p18",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "工蚁",
+      "en": "Workers",
+      "ms": "Pekerja"
+     },
+     "src": [
+      "PLANTER-TERMITE",
+      "JOPR-TISI"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "暂无合适的开放授权照片。",
+      "en": "No suitable openly licensed photo yet.",
+      "ms": "Belum ada foto berlesen terbuka yang sesuai."
+     },
+     "src": [
+      "TJ"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:oil-palm-termite}}的辨认要点：",
+      "en": "How to recognise {{t:oil-palm-termite}}:",
+      "ms": "Cara mengecam {{t:oil-palm-termite}}:"
+     },
+     "defines": [
+      "oil-palm-termite"
+     ],
+     "src": [
+      "PLANTER-TERMITE",
+      "JOPR-TISI"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "马来西亚油棕园里，Coptotermes curvignathus 是能把油棕弄死的主要白蚁",
+       "en": "In Malaysian oil palm, Coptotermes curvignathus is the main termite able to kill palms",
+       "ms": "Di ladang sawit Malaysia, Coptotermes curvignathus ialah anai-anai utama yang boleh membunuh sawit"
+      },
+      {
+       "zh": "在原本是泥炭沼泽森林的地方数量特别多，所以泥炭地的油棕最常受害",
+       "en": "It is abundant in former peat swamp forest, so palms on peat are attacked most often",
+       "ms": "Ia banyak di bekas hutan paya gambut, jadi sawit di tanah gambut paling kerap diserang"
+      },
+      {
+       "zh": "种植后最早 12 个月就可能出现危害",
+       "en": "Damage can appear as early as 12 months after planting",
+       "ms": "Kerosakan boleh muncul seawal 12 bulan selepas penanaman"
+      }
+     ],
+     "src": [
+      "PLANTER-TERMITE",
+      "JOPR-TISI"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "幼树：白蚁吃掉嫩心基部的生长点，树会死。成树：树干被蛀，有时白蚁在树干里筑巢，也会让树死亡。",
+      "en": "Young palms die when termites eat the growing point at the base of the spear. Mature palms die from trunk damage, sometimes with a nest inside the trunk.",
+      "ms": "Pokok muda mati apabila anai-anai memakan titik tumbuh di pangkal pucuk. Pokok matang mati akibat kerosakan batang, kadang-kadang dengan sarang di dalam batang."
+     },
+     "src": [
+      "PLANTER-TERMITE"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "MPOB 的研究用「白蚁危害严重度指数」（TISI）按外观症状给每棵树打 0–9 分，分数越高表示危害越严重；同时记录地下水位。",
+      "en": "MPOB research scores each palm on a Termite Infestation Severity Index (TISI) from 0 to 9 by its visible symptoms, higher meaning more advanced, and records the water table at the same time.",
+      "ms": "Penyelidikan MPOB memberi skor setiap pokok mengikut Indeks Keterukan Serangan Anai-anai (TISI) dari 0 hingga 9 berdasarkan simptom yang kelihatan, lebih tinggi bermakna lebih teruk, dan merekod paras air bumi pada masa yang sama."
+     },
+     "src": [
+      "JOPR-TISI"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "在泥炭地的试验中，地下水位越浅，白蚁存活率越低：水位 15 厘米时只有 14%，70 厘米时有 60%。保持较高的地下水位可能有帮助。",
+      "en": "In trials on peat, fewer termites survived when the water table was shallower: 14% at 15 cm against 60% at 70 cm. Keeping the water table high may help.",
+      "ms": "Dalam ujian di tanah gambut, lebih sedikit anai-anai hidup apabila paras air bumi lebih cetek: 14% pada 15 cm berbanding 60% pada 70 cm. Mengekalkan paras air bumi yang tinggi mungkin membantu."
+     },
+     "src": [
+      "UMS-TERMITE"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "MPOB 试验过白僵菌（Beauveria bassiana）和绿僵菌（Metarhizium）防治这种白蚁；试验结果请查阅 MPOB 的原文，这里不作推荐。",
+      "en": "MPOB has trialled the fungi Beauveria bassiana and Metarhizium against this termite; see MPOB's report for the results, which are not given as a recommendation here.",
+      "ms": "MPOB telah menguji kulat Beauveria bassiana dan Metarhizium terhadap anai-anai ini; rujuk laporan MPOB untuk keputusannya, yang tidak diberikan sebagai syor di sini."
+     },
+     "src": [
+      "OPB-TERMITE"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "oil-palm-termite"
+ ]
+}

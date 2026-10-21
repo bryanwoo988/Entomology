@@ -1,0 +1,106 @@
+{
+ "id": "p27",
+ "num": 27,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "油棕的昆虫",
+  "en": "Oil palm insects",
+  "ms": "Serangga sawit"
+ },
+ "blurb": {
+  "zh": "油棕的主要害虫和两种益虫",
+  "en": "The main pests of oil palm, and two helpful insects",
+  "ms": "Perosak utama sawit, dan dua serangga berguna"
+ },
+ "sources": [
+  "BIODIV-SETORA",
+  "JOPR-SYCANUS",
+  "PLANTER-TERMITE",
+  "PNM-IPM",
+  "RS34",
+  "RS40",
+  "SAINSMY-EK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "马来西亚油棕的主要害虫有五类：袋蛾、犀角金龟、刺蛾、果穗蛾和白蚁。这个 App 介绍其中四类，再加上两种益虫：帮油棕授粉的象甲，和捕食袋蛾、刺蛾的猎蝽。",
+      "en": "Five groups are the main insect pests of oil palm in Malaysia: bagworms, rhinoceros beetles, nettle caterpillars, bunch moths and termites. This app covers four of them, plus two helpful insects: the weevil that pollinates oil palm and the assassin bug that eats bagworms and nettle caterpillars.",
+      "ms": "Lima kumpulan ialah perosak serangga utama sawit di Malaysia: ulat bungkus, kumbang badak, ulat api, rama-rama tandan dan anai-anai. Aplikasi ini merangkumi empat daripadanya, serta dua serangga berguna: kumbang yang mendebungakan sawit dan pepijat pembunuh yang memakan ulat bungkus dan ulat api."
+     },
+     "src": [
+      "PNM-IPM"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p28|犀角金龟}}：成虫钻食幼树的嫩心",
+       "en": "{{ch:p28|Rhinoceros beetle}}: adults bore into the spear of young palms",
+       "ms": "{{ch:p28|Kumbang badak}}: dewasa mengorek pucuk sawit muda"
+      },
+      {
+       "zh": "{{ch:p29|袋蛾}}：幼虫吃叶，已列为危险害虫",
+       "en": "{{ch:p29|Bagworms}}: larvae eat the fronds; a gazetted dangerous pest",
+       "ms": "{{ch:p29|Ulat bungkus}}: larva memakan pelepah; perosak berbahaya yang diwartakan"
+      },
+      {
+       "zh": "{{ch:p30|刺蛾}}：幼虫把叶子吃到只剩中肋，毒刺会螫人",
+       "en": "{{ch:p30|Nettle caterpillars}}: larvae strip leaflets to the midrib and sting",
+       "ms": "{{ch:p30|Ulat api}}: larva memakan daun hingga tinggal tulang dan menyengat"
+      },
+      {
+       "zh": "{{ch:p31|白蚁}}：在泥炭地种植区可以把树弄死",
+       "en": "{{ch:p31|Termites}}: can kill palms planted on peat",
+       "ms": "{{ch:p31|Anai-anai}}: boleh membunuh sawit di tanah gambut"
+      },
+      {
+       "zh": "{{ch:p32|授粉象甲}}（益虫）：帮雌花授粉",
+       "en": "{{ch:p32|Pollinating weevil}} (helpful): pollinates the female flowers",
+       "ms": "{{ch:p32|Kumbang pendebunga}} (berguna): mendebungakan bunga betina"
+      },
+      {
+       "zh": "{{ch:p33|猎蝽}}（益虫）：捕食袋蛾和刺蛾",
+       "en": "{{ch:p33|Assassin bug}} (helpful): eats bagworms and nettle caterpillars",
+       "ms": "{{ch:p33|Pepijat pembunuh}} (berguna): memakan ulat bungkus dan ulat api"
+      }
+     ],
+     "src": [
+      "RS34",
+      "RS40",
+      "BIODIV-SETORA",
+      "PLANTER-TERMITE",
+      "SAINSMY-EK",
+      "JOPR-SYCANUS"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "MPOB 推行综合防治：先监测、到了防治阈值才行动，优先用天敌、Bt 和信息素诱捕，化学药剂放在最后。",
+      "en": "MPOB promotes integrated pest management: monitor first, act only past the threshold, prefer natural enemies, Bt and pheromone traps, and use chemicals last.",
+      "ms": "MPOB menggalakkan pengurusan perosak bersepadu: pantau dahulu, bertindak hanya selepas ambang, utamakan musuh semula jadi, Bt dan perangkap feromon, dan gunakan bahan kimia paling akhir."
+     },
+     "src": [
+      "RS34",
+      "RS40"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

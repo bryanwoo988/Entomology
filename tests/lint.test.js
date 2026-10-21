@@ -129,3 +129,7 @@ test('species block needs sci and an existing order page', () => {
 test('a broken key fails lint', () => has(errorsOf(c => { c.key.nodes.a.options[0].next = 'ghost'; }), /key: .*ghost/));
 test('a key result needs a source', () => has(errorsOf(c => { c.key.results.r.src = []; }), /key result r.*src/));
 test('a key result must point at a listed page', () => has(errorsOf(c => { c.key.results.r.order = 'p77'; }), /key result r.*p77/));
+test('a species card may list several species, comma-separated', () => {
+  assert.deepEqual(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bagworms'), sci: 'Metisa plana, Pteroma pendula', order: 'p01', crops: [], stage: T('larva'), src: ['met'] }); }), []);
+  has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bagworms'), sci: 'Metisa plana, pendula', order: 'p01', crops: [], stage: T('larva'), src: ['met'] }); }), /species needs sci/);
+});

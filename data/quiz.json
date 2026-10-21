@@ -3018,5 +3018,772 @@
   "src": [
    "WTK:11"
   ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p27",
+  "q": {
+   "zh": "哪一种害虫在 2013 年被宪报列为危险害虫？",
+   "en": "Which pest was gazetted as dangerous in 2013?",
+   "ms": "Perosak manakah diwartakan berbahaya pada 2013?"
+  },
+  "options": [
+   {
+    "zh": "袋蛾",
+    "en": "Bagworm",
+    "ms": "Ulat bungkus"
+   },
+   {
+    "zh": "白蚁",
+    "en": "Termite",
+    "ms": "Anai-anai"
+   },
+   {
+    "zh": "犀角金龟",
+    "en": "Rhinoceros beetle",
+    "ms": "Kumbang badak"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "袋蛾在 2013 年 11 月 15 日依 1976 年植物检疫法令被列为危险害虫。",
+   "en": "Bagworms were gazetted on 15 November 2013 under the Plant Quarantine Act 1976.",
+   "ms": "Ulat bungkus diwartakan pada 15 November 2013 di bawah Akta Kuarantin Tumbuhan 1976."
+  },
+  "src": [
+   "RS34"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p27",
+  "q": {
+   "zh": "油棕授粉象甲是害虫。",
+   "en": "The oil palm pollinating weevil is a pest.",
+   "ms": "Kumbang pendebunga sawit ialah perosak."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "它是益虫，帮油棕授粉。",
+   "en": "It is helpful: it pollinates oil palm.",
+   "ms": "Ia berguna: ia mendebungakan sawit."
+  },
+  "src": [
+   "SAINSMY-EK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p27",
+  "q": {
+   "zh": "MPOB 的综合防治中，化学药剂排在哪里？",
+   "en": "Where do chemicals come in MPOB's integrated pest management?",
+   "ms": "Di manakah bahan kimia dalam pengurusan perosak bersepadu MPOB?"
+  },
+  "options": [
+   {
+    "zh": "最后",
+    "en": "Last",
+    "ms": "Paling akhir"
+   },
+   {
+    "zh": "最先",
+    "en": "First",
+    "ms": "Paling awal"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "先监测，再用天敌、Bt 和诱捕，最后才用化学药剂。",
+   "en": "Monitoring, natural enemies, Bt and traps come first; chemicals last.",
+   "ms": "Pemantauan, musuh semula jadi, Bt dan perangkap dahulu; bahan kimia akhir."
+  },
+  "src": [
+   "RS34",
+   "RS40"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p28",
+  "q": {
+   "zh": "油棕新叶出现「V」字形缺口，最可能是谁造成的？",
+   "en": "New fronds with V-shaped cuts are most likely caused by…",
+   "ms": "Pelepah baharu dengan potongan berbentuk V paling mungkin disebabkan oleh…"
+  },
+  "options": [
+   {
+    "zh": "犀角金龟",
+    "en": "Rhinoceros beetle",
+    "ms": "Kumbang badak"
+   },
+   {
+    "zh": "袋蛾",
+    "en": "Bagworm",
+    "ms": "Ulat bungkus"
+   },
+   {
+    "zh": "白蚁",
+    "en": "Termite",
+    "ms": "Anai-anai"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "成虫吃了还没展开的嫩叶。",
+   "en": "Adults chewed the unopened spear.",
+   "ms": "Dewasa memakan pucuk yang belum terbuka."
+  },
+  "src": [
+   "RS40:1"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p28",
+  "q": {
+   "zh": "犀角金龟最常在哪里繁殖？",
+   "en": "Where do rhinoceros beetles most often breed?",
+   "ms": "Di manakah kumbang badak paling kerap membiak?"
+  },
+  "options": [
+   {
+    "zh": "切碎后腐烂的旧树干堆",
+    "en": "Heaps of rotting chipped trunks",
+    "ms": "Timbunan batang reput yang diracik"
+   },
+   {
+    "zh": "稻田",
+    "en": "Rice fields",
+    "ms": "Sawah padi"
+   },
+   {
+    "zh": "活的叶片上",
+    "en": "On living fronds",
+    "ms": "Pada pelepah hidup"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "零燃烧翻种留下的树干堆是主要繁殖地。",
+   "en": "Trunk heaps from zero-burn replanting are the main breeding sites.",
+   "ms": "Timbunan batang daripada tanam semula pembakaran sifar ialah tempat pembiakan utama."
+  },
+  "src": [
+   "RS40:1"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p28",
+  "q": {
+   "zh": "现在还可以用克百威防治犀角金龟。",
+   "en": "Carbofuran can still be used against rhinoceros beetles.",
+   "ms": "Karbofuran masih boleh digunakan terhadap kumbang badak."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "克百威自 2023 年 5 月 1 日起禁用。",
+   "en": "Carbofuran has been banned since 1 May 2023.",
+   "ms": "Karbofuran diharamkan sejak 1 Mei 2023."
+  },
+  "src": [
+   "DOA-CARBO"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p28",
+  "q": {
+   "zh": "什么时候才需要化学防治？",
+   "en": "When is chemical control needed?",
+   "ms": "Bilakah kawalan kimia diperlukan?"
+  },
+  "options": [
+   {
+    "zh": "受害树超过 5% 或每晚诱到超过 3 只",
+    "en": "Over 5% of palms damaged, or over 3 beetles a night in traps",
+    "ms": "Lebih 5% pokok rosak, atau lebih 3 ekor semalam dalam perangkap"
+   },
+   {
+    "zh": "看到一只成虫就要",
+    "en": "As soon as one beetle is seen",
+    "ms": "Sebaik sahaja seekor kumbang dilihat"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是 MPOB 建议的阈值。",
+   "en": "That is MPOB's threshold.",
+   "ms": "Itulah ambang yang disyorkan MPOB."
+  },
+  "src": [
+   "RS40:3"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p29",
+  "q": {
+   "zh": "袋蛾的经济阈值是每片叶多少只幼虫？",
+   "en": "What is the bagworm economic threshold per frond?",
+   "ms": "Apakah ambang ekonomi ulat bungkus sepelepah?"
+  },
+  "options": [
+   {
+    "zh": "10 只",
+    "en": "10 larvae",
+    "ms": "10 larva"
+   },
+   {
+    "zh": "1 只",
+    "en": "1 larva",
+    "ms": "1 larva"
+   },
+   {
+    "zh": "100 只",
+    "en": "100 larvae",
+    "ms": "100 larva"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "超过每片叶 10 只、幼虫在第 1–3 龄时要防治。",
+   "en": "Act above 10 larvae per frond at instars 1–3.",
+   "ms": "Bertindak melebihi 10 larva sepelepah pada peringkat 1–3."
+  },
+  "src": [
+   "RS34:1"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p29",
+  "q": {
+   "zh": "哪一种袋蛾的蛹袋用长丝吊着摆动？",
+   "en": "Which bagworm's pupal bag swings on a long thread?",
+   "ms": "Bungkus pupa ulat bungkus manakah berbuai pada benang panjang?"
+  },
+  "options": [
+   {
+    "zh": "Pteroma pendula",
+    "en": "Pteroma pendula",
+    "ms": "Pteroma pendula"
+   },
+   {
+    "zh": "Metisa plana",
+    "en": "Metisa plana",
+    "ms": "Metisa plana"
+   },
+   {
+    "zh": "Mahasena corbetti",
+    "en": "Mahasena corbetti",
+    "ms": "Mahasena corbetti"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "pendula 就是「垂吊」的意思。",
+   "en": "Pendula means 'hanging'.",
+   "ms": "Pendula bermaksud 'bergantung'."
+  },
+  "src": [
+   "RS34:2"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p29",
+  "q": {
+   "zh": "Bt 产品会伤害授粉象甲。",
+   "en": "Bt products harm the pollinating weevil.",
+   "ms": "Produk Bt membahayakan kumbang pendebunga."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "Bt 对授粉象甲、捕食者和寄生蜂都安全。",
+   "en": "Bt is safe for pollinating weevils, predators and parasitoids.",
+   "ms": "Bt selamat untuk kumbang pendebunga, pemangsa dan parasitoid."
+  },
+  "src": [
+   "RS34:2"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p29",
+  "type": "match",
+  "q": {
+   "zh": "把虫期和用药建议配对。",
+   "en": "Match the stage to the advice.",
+   "ms": "Padankan peringkat dengan nasihat."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "早期幼虫",
+     "en": "Early larvae",
+     "ms": "Larva awal"
+    },
+    "right": {
+     "zh": "可以用药",
+     "en": "Treat",
+     "ms": "Rawat"
+    }
+   },
+   {
+    "left": {
+     "zh": "蛹",
+     "en": "Pupa",
+     "ms": "Pupa"
+    },
+    "right": {
+     "zh": "暂缓用药",
+     "en": "Hold off",
+     "ms": "Tangguhkan"
+    }
+   },
+   {
+    "left": {
+     "zh": "卵（在雌虫袋里）",
+     "en": "Eggs (in the female's bag)",
+     "ms": "Telur (dalam bungkus betina)"
+    },
+    "right": {
+     "zh": "暂缓用药",
+     "en": "Hold off",
+     "ms": "Tangguhkan"
+    }
+   }
+  ],
+  "why": {
+   "zh": "只在幼虫早期和中期用药。",
+   "en": "Treat only early and middle larvae.",
+   "ms": "Rawat hanya larva awal dan pertengahan."
+  },
+  "src": [
+   "RS12:3"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p30",
+  "q": {
+   "zh": "刺蛾危害严重时，小叶会变成什么样？",
+   "en": "What do leaflets look like after a bad nettle caterpillar attack?",
+   "ms": "Bagaimanakah rupa anak daun selepas serangan teruk ulat api?"
+  },
+  "options": [
+   {
+    "zh": "只剩中肋",
+    "en": "Stripped to the midrib",
+    "ms": "Tinggal tulang daun"
+   },
+   {
+    "zh": "发黄像火烧",
+    "en": "Yellow and scorched",
+    "ms": "Kuning seperti terbakar"
+   },
+   {
+    "zh": "剪成 V 字形",
+    "en": "Cut into a V",
+    "ms": "Dipotong berbentuk V"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "幼虫把叶片吃到只剩中肋。",
+   "en": "Larvae eat leaflets down to the midrib.",
+   "ms": "Larva memakan anak daun hingga tinggal tulang."
+  },
+  "src": [
+   "BIODIV-SETORA"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p30",
+  "q": {
+   "zh": "被刺蛾幼虫螫到后，可以用胶带粘掉断刺。",
+   "en": "After a nettle caterpillar sting, tape can lift out broken spines.",
+   "ms": "Selepas disengat ulat api, pita pelekat boleh mengangkat duri yang patah."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "每次换新的一段胶带，然后清洗。",
+   "en": "Use a fresh strip each time, then wash.",
+   "ms": "Gunakan helaian baharu setiap kali, kemudian basuh."
+  },
+  "src": [
+   "VT-STING"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p30",
+  "q": {
+   "zh": "Darna trima 整个生活史大约多久？",
+   "en": "How long is the whole life cycle of Darna trima?",
+   "ms": "Berapa lama kitaran hidup penuh Darna trima?"
+  },
+  "options": [
+   {
+    "zh": "32–60 天",
+    "en": "32–60 days",
+    "ms": "32–60 hari"
+   },
+   {
+    "zh": "一年",
+    "en": "One year",
+    "ms": "Setahun"
+   },
+   {
+    "zh": "7 天",
+    "en": "7 days",
+    "ms": "7 hari"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "卵 5–7 天、幼虫 17–30 天，合共约 32–60 天。",
+   "en": "Eggs 5–7 days, larvae 17–30 days; 32–60 days in all.",
+   "ms": "Telur 5–7 hari, larva 17–30 hari; 32–60 hari keseluruhannya."
+  },
+  "src": [
+   "AAR-2010"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p31",
+  "q": {
+   "zh": "油棕白蚁最常在哪种土地上危害？",
+   "en": "On which soil do termites attack oil palm most often?",
+   "ms": "Di tanah manakah anai-anai paling kerap menyerang sawit?"
+  },
+  "options": [
+   {
+    "zh": "泥炭地",
+    "en": "Peat",
+    "ms": "Gambut"
+   },
+   {
+    "zh": "沙地",
+    "en": "Sand",
+    "ms": "Pasir"
+   },
+   {
+    "zh": "红土",
+    "en": "Laterite",
+    "ms": "Laterit"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "原本的泥炭沼泽森林里白蚁很多。",
+   "en": "Termites are abundant in former peat swamp forest.",
+   "ms": "Anai-anai banyak di bekas hutan paya gambut."
+  },
+  "src": [
+   "PLANTER-TERMITE"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p31",
+  "q": {
+   "zh": "白蚁吃掉幼树的生长点会让树死亡。",
+   "en": "Termites can kill young palms by eating the growing point.",
+   "ms": "Anai-anai boleh membunuh pokok muda dengan memakan titik tumbuh."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "生长点在嫩心基部。",
+   "en": "The growing point is at the base of the spear.",
+   "ms": "Titik tumbuh terletak di pangkal pucuk."
+  },
+  "src": [
+   "PLANTER-TERMITE"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p31",
+  "q": {
+   "zh": "TISI 指数用什么来打分？",
+   "en": "What does the TISI index score?",
+   "ms": "Apakah yang diberi skor oleh indeks TISI?"
+  },
+  "options": [
+   {
+    "zh": "外观症状，0–9 分",
+    "en": "Visible symptoms, 0 to 9",
+    "ms": "Simptom yang kelihatan, 0 hingga 9"
+   },
+   {
+    "zh": "白蚁的数目",
+    "en": "Number of termites",
+    "ms": "Bilangan anai-anai"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "分数越高，危害越严重。",
+   "en": "Higher means more advanced.",
+   "ms": "Lebih tinggi bermakna lebih teruk."
+  },
+  "src": [
+   "JOPR-TISI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p32",
+  "q": {
+   "zh": "马来西亚哪一年开始释放油棕授粉象甲？",
+   "en": "When did Malaysia start releasing the pollinating weevil?",
+   "ms": "Bilakah Malaysia mula melepaskan kumbang pendebunga?"
+  },
+  "options": [
+   {
+    "zh": "1981 年",
+    "en": "1981",
+    "ms": "1981"
+   },
+   {
+    "zh": "1961 年",
+    "en": "1961",
+    "ms": "1961"
+   },
+   {
+    "zh": "2001 年",
+    "en": "2001",
+    "ms": "2001"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "第一次释放是 1981 年 2 月 21 日，在居銮。",
+   "en": "The first release was on 21 February 1981, in Kluang.",
+   "ms": "Pelepasan pertama pada 21 Februari 1981, di Kluang."
+  },
+  "src": [
+   "BORNEO-EK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p32",
+  "q": {
+   "zh": "在象甲引进以前，油棕要靠人工辅助授粉。",
+   "en": "Before the weevil came, oil palm relied on hand-assisted pollination.",
+   "ms": "Sebelum kumbang ini dibawa masuk, sawit bergantung pada pendebungaan bantuan tangan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "人工授粉费时又费钱。",
+   "en": "It was slow and costly.",
+   "ms": "Ia lambat dan mahal."
+  },
+  "src": [
+   "BORNEO-EK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p32",
+  "q": {
+   "zh": "防治袋蛾时，哪一种方法对授粉象甲安全？",
+   "en": "Which bagworm treatment is safe for the pollinating weevil?",
+   "ms": "Rawatan ulat bungkus manakah selamat untuk kumbang pendebunga?"
+  },
+  "options": [
+   {
+    "zh": "Bt 产品",
+    "en": "Bt products",
+    "ms": "Produk Bt"
+   },
+   {
+    "zh": "任何杀虫剂",
+    "en": "Any insecticide",
+    "ms": "Mana-mana racun serangga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "MPOB 指出 Bt 对授粉象甲安全。",
+   "en": "MPOB notes Bt is safe for it.",
+   "ms": "MPOB menyatakan Bt selamat untuknya."
+  },
+  "src": [
+   "RS34:2"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p33",
+  "q": {
+   "zh": "Sycanus dichotomus 吃什么？",
+   "en": "What does Sycanus dichotomus eat?",
+   "ms": "Apakah makanan Sycanus dichotomus?"
+  },
+  "options": [
+   {
+    "zh": "袋蛾和刺蛾幼虫",
+    "en": "Bagworms and nettle caterpillars",
+    "ms": "Ulat bungkus dan ulat api"
+   },
+   {
+    "zh": "油棕叶",
+    "en": "Oil palm leaves",
+    "ms": "Daun sawit"
+   },
+   {
+    "zh": "花粉",
+    "en": "Pollen",
+    "ms": "Debunga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它是捕食者。",
+   "en": "It is a predator.",
+   "ms": "Ia pemangsa."
+  },
+  "src": [
+   "JOPR-SYCANUS"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p33",
+  "q": {
+   "zh": "猎蝽属于半翅目。",
+   "en": "Assassin bugs belong to Hemiptera.",
+   "ms": "Pepijat pembunuh tergolong dalam Hemiptera."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它有针管状的刺吸式口器。",
+   "en": "It has a piercing-sucking beak.",
+   "ms": "Ia mempunyai paruh menusuk-menghisap."
+  },
+  "src": [
+   "TJ:39"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p33",
+  "q": {
+   "zh": "MPOB 建议怎样利用 Sycanus？",
+   "en": "How does MPOB suggest using Sycanus?",
+   "ms": "Bagaimana MPOB mencadangkan penggunaan Sycanus?"
+  },
+  "options": [
+   {
+    "zh": "把成虫释放到园里",
+    "en": "Release adults in the field",
+    "ms": "Lepaskan dewasa di ladang"
+   },
+   {
+    "zh": "喷药杀死它",
+    "en": "Spray it",
+    "ms": "Semburnya"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "释放成虫帮助控制袋蛾。",
+   "en": "Released adults help control bagworms.",
+   "ms": "Dewasa yang dilepaskan membantu mengawal ulat bungkus."
+  },
+  "src": [
+   "JOPR-SYCANUS"
+  ]
  }
 ]

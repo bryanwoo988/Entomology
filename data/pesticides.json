@@ -1,1 +1,45 @@
-[]
+[
+ {
+  "id": "cypermethrin",
+  "name": {
+   "zh": "氯氰菊酯",
+   "zhTw": "赛灭宁",
+   "en": "Cypermethrin",
+   "ms": "Sipermetrin"
+  },
+  "status": "registered",
+  "src": [
+   "DOA-MRL"
+  ],
+  "checked": "2026-10-21"
+ },
+ {
+  "id": "lambda-cyhalothrin",
+  "name": {
+   "zh": "高效氯氟氰菊酯",
+   "zhTw": "赛洛宁",
+   "en": "Lambda-cyhalothrin",
+   "ms": "Lambda-sihalotrin"
+  },
+  "status": "registered",
+  "src": [
+   "DOA-MRL"
+  ],
+  "checked": "2026-10-21"
+ },
+ {
+  "id": "carbofuran",
+  "name": {
+   "zh": "克百威",
+   "zhTw": "加保扶",
+   "en": "Carbofuran",
+   "ms": "Karbofuran"
+  },
+  "status": "banned",
+  "src": [
+   "DOA-BAN",
+   "DOA-CARBO"
+  ],
+  "checked": "2026-10-21"
+ }
+]

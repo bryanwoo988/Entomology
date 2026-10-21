@@ -120,7 +120,8 @@ export function lint(root) {
       }
       if (b.type === 'photo' && !photoIds.has(b.id)) errors.push(`${at}: unknown photo "${b.id}"`);
       if (b.type === 'species') {
-        if (!/^[A-Z][a-z]+( \([A-Z][a-z]+\))? [a-z-]+( [a-z-]+)?$/.test(b.sci ?? '')) errors.push(`${at}: species needs sci (Genus species), got "${b.sci ?? ''}"`);
+        const binomial = /^[A-Z][a-z]+( \([A-Z][a-z]+\))? [a-z-]+( [a-z-]+)?$/;
+        if (!String(b.sci ?? '').split(', ').every(n => binomial.test(n))) errors.push(`${at}: species needs sci (Genus species), got "${b.sci ?? ''}"`);
         if (!chapterSet.has(b.order)) errors.push(`${at}: species links unknown order page "${b.order}"`);
         if (!(b.src ?? []).length) errors.push(`${at}: species block has no src`);
       }

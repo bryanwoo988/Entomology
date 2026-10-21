@@ -103,7 +103,15 @@
     "en": "Pests and helpful insects of oil palm, rice, vegetables, fruit and cocoa, and how they are managed",
     "ms": "Perosak dan serangga berguna bagi sawit, padi, sayur, buah dan koko, serta cara pengurusannya"
    },
-   "chapters": []
+   "chapters": [
+    "p27",
+    "p28",
+    "p29",
+    "p30",
+    "p31",
+    "p32",
+    "p33"
+   ]
   },
   {
    "n": 6,
@@ -536,6 +544,122 @@
     "zh": "其他较少见的目",
     "en": "Less common orders",
     "ms": "Order yang kurang biasa"
+   }
+  },
+  {
+   "id": "p27",
+   "num": 27,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "油棕的昆虫",
+    "en": "Oil palm insects",
+    "ms": "Serangga sawit"
+   },
+   "blurb": {
+    "zh": "油棕的主要害虫和两种益虫",
+    "en": "The main pests of oil palm, and two helpful insects",
+    "ms": "Perosak utama sawit, dan dua serangga berguna"
+   }
+  },
+  {
+   "id": "p28",
+   "num": 28,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "犀角金龟",
+    "en": "Rhinoceros beetle",
+    "ms": "Kumbang badak (kumbang tanduk)",
+    "zhTw": "犀角金龟"
+   },
+   "blurb": {
+    "zh": "Oryctes rhinoceros",
+    "en": "Oryctes rhinoceros",
+    "ms": "Oryctes rhinoceros"
+   }
+  },
+  {
+   "id": "p29",
+   "num": 29,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "袋蛾",
+    "en": "Bagworms",
+    "ms": "Ulat bungkus",
+    "zhTw": "蓑蛾"
+   },
+   "blurb": {
+    "zh": "Metisa plana, Pteroma pendula, Mahasena corbetti",
+    "en": "Metisa plana, Pteroma pendula, Mahasena corbetti",
+    "ms": "Metisa plana, Pteroma pendula, Mahasena corbetti"
+   }
+  },
+  {
+   "id": "p30",
+   "num": 30,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "刺蛾",
+    "en": "Nettle caterpillars",
+    "ms": "Ulat api"
+   },
+   "blurb": {
+    "zh": "Setora nitens, Orthocraspeda trima",
+    "en": "Setora nitens, Orthocraspeda trima",
+    "ms": "Setora nitens, Orthocraspeda trima"
+   }
+  },
+  {
+   "id": "p31",
+   "num": 31,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "白蚁（油棕）",
+    "en": "Termites (oil palm)",
+    "ms": "Anai-anai (sawit)"
+   },
+   "blurb": {
+    "zh": "Coptotermes curvignathus",
+    "en": "Coptotermes curvignathus",
+    "ms": "Coptotermes curvignathus"
+   }
+  },
+  {
+   "id": "p32",
+   "num": 32,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "油棕授粉象甲",
+    "en": "Oil palm pollinating weevil",
+    "ms": "Kumbang pendebunga sawit",
+    "zhTw": "油棕授粉象鼻虫"
+   },
+   "blurb": {
+    "zh": "Elaeidobius kamerunicus",
+    "en": "Elaeidobius kamerunicus",
+    "ms": "Elaeidobius kamerunicus"
+   }
+  },
+  {
+   "id": "p33",
+   "num": 33,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "猎蝽",
+    "en": "Assassin bug (Sycanus dichotomus)",
+    "ms": "Pepijat pembunuh (Sycanus dichotomus)",
+    "zhTw": "猎椿象"
+   },
+   "blurb": {
+    "zh": "Sycanus dichotomus",
+    "en": "Sycanus dichotomus",
+    "ms": "Sycanus dichotomus"
    }
   }
  ]

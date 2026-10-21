@@ -930,5 +930,93 @@
    "ms": "Lalat batu, alderfly dan fishfly, lalat kala jengking, kutu, tuma, labah-labah sutera dan serangga malaikat."
   },
   "chapter": 26
+ },
+ {
+  "id": "rhinoceros-beetle",
+  "name": {
+   "zh": "犀角金龟",
+   "zhTw": "犀角金龟",
+   "en": "Rhinoceros beetle",
+   "ms": "Kumbang badak (kumbang tanduk)"
+  },
+  "short": {
+   "zh": "钻食油棕幼树嫩心的大型金龟。",
+   "en": "A large scarab whose adults bore into young oil palms.",
+   "ms": "Kumbang skarab besar yang dewasanya mengorek sawit muda."
+  },
+  "chapter": 28
+ },
+ {
+  "id": "bagworm",
+  "name": {
+   "zh": "袋蛾",
+   "zhTw": "蓑蛾",
+   "en": "Bagworms",
+   "ms": "Ulat bungkus"
+  },
+  "short": {
+   "zh": "幼虫住在自己用叶片碎片做成的袋子里的蛾，油棕的主要害虫。",
+   "en": "Moths whose larvae live in bags made of leaf pieces; major oil palm pests.",
+   "ms": "Kupu-kupu yang larvanya tinggal dalam bungkus daripada cebisan daun; perosak utama sawit."
+  },
+  "chapter": 29
+ },
+ {
+  "id": "nettle-caterpillar",
+  "name": {
+   "zh": "刺蛾",
+   "en": "Nettle caterpillars",
+   "ms": "Ulat api"
+  },
+  "short": {
+   "zh": "幼虫身上有毒刺、会吃油棕叶的蛾。",
+   "en": "Moths whose stinging larvae eat oil palm leaves.",
+   "ms": "Kupu-kupu yang larvanya berduri sengat dan memakan daun sawit."
+  },
+  "chapter": 30
+ },
+ {
+  "id": "oil-palm-termite",
+  "name": {
+   "zh": "白蚁（油棕）",
+   "en": "Termites (oil palm)",
+   "ms": "Anai-anai (sawit)"
+  },
+  "short": {
+   "zh": "能把油棕弄死的地下白蚁，泥炭地最常见。",
+   "en": "The subterranean termite that can kill oil palms, especially on peat.",
+   "ms": "Anai-anai bawah tanah yang boleh membunuh sawit, terutama di tanah gambut."
+  },
+  "chapter": 31
+ },
+ {
+  "id": "pollinating-weevil",
+  "name": {
+   "zh": "油棕授粉象甲",
+   "zhTw": "油棕授粉象鼻虫",
+   "en": "Oil palm pollinating weevil",
+   "ms": "Kumbang pendebunga sawit"
+  },
+  "short": {
+   "zh": "帮油棕授粉的小象甲。",
+   "en": "The small weevil that pollinates oil palm.",
+   "ms": "Kumbang kecil yang mendebungakan sawit."
+  },
+  "chapter": 32
+ },
+ {
+  "id": "sycanus",
+  "name": {
+   "zh": "猎蝽",
+   "zhTw": "猎椿象",
+   "en": "Assassin bug (Sycanus dichotomus)",
+   "ms": "Pepijat pembunuh (Sycanus dichotomus)"
+  },
+  "short": {
+   "zh": "捕食袋蛾和刺蛾幼虫的猎蝽。",
+   "en": "An assassin bug that eats bagworm and nettle caterpillar larvae.",
+   "ms": "Pepijat pembunuh yang memakan larva ulat bungkus dan ulat api."
+  },
+  "chapter": 33
  }
 ]

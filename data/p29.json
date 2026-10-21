@@ -1,0 +1,408 @@
+{
+ "id": "p29",
+ "num": 29,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "袋蛾",
+  "en": "Bagworms",
+  "ms": "Ulat bungkus",
+  "zhTw": "蓑蛾"
+ },
+ "blurb": {
+  "zh": "Metisa plana, Pteroma pendula, Mahasena corbetti",
+  "en": "Metisa plana, Pteroma pendula, Mahasena corbetti",
+  "ms": "Metisa plana, Pteroma pendula, Mahasena corbetti"
+ },
+ "sources": [
+  "RS12",
+  "RS34"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "袋蛾",
+      "zhTw": "蓑蛾",
+      "en": "Bagworms",
+      "ms": "Ulat bungkus"
+     },
+     "sci": "Metisa plana, Pteroma pendula, Mahasena corbetti",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "RS34:1-2",
+      "RS12:2"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-bags"
+    },
+    {
+     "type": "photo",
+     "id": "pteroma-pendula-bags"
+    },
+    {
+     "type": "photo",
+     "id": "mahasena-corbetti"
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-early-larvae"
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-late-larvae"
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-pupa-bag"
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-adult-male"
+    },
+    {
+     "type": "photo",
+     "id": "metisa-plana-adult-female"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:bagworm}}的辨认要点：",
+      "en": "How to recognise {{t:bagworm}}:",
+      "ms": "Cara mengecam {{t:bagworm}}:"
+     },
+     "defines": [
+      "bagworm"
+     ],
+     "src": [
+      "RS34:1-2",
+      "RS12:2"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "幼虫背着用叶片碎片做的袋子，挂在叶片背面",
+       "en": "Larvae carry bags of leaf pieces and hang under the leaflets",
+       "ms": "Larva membawa bungkus daripada cebisan daun dan bergantung di bawah daun"
+      },
+      {
+       "zh": "三种主要的袋蛾，靠挂在叶背的蛹袋大小和形状来分",
+       "en": "The three main species are told apart by the size and shape of the pupal bag hanging under the leaflet",
+       "ms": "Tiga spesies utama dibezakan melalui saiz dan bentuk bungkus pupa yang bergantung di bawah daun"
+      },
+      {
+       "zh": "雄蛾会飞；雌蛾没有翅，一生留在袋里",
+       "en": "Males fly; wingless females stay in the bag all their lives",
+       "ms": "Jantan terbang; betina tidak bersayap dan kekal dalam bungkus sepanjang hayat"
+      }
+     ],
+     "src": [
+      "RS34:1-2",
+      "RS12:2"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "这一页的照片是 Metisa plana 的完整生活史，以及三种袋蛾的袋子。",
+      "en": "The photos on this page show the full life cycle of Metisa plana and the bags of all three species.",
+      "ms": "Foto di halaman ini menunjukkan kitaran hidup penuh Metisa plana dan bungkus ketiga-tiga spesies."
+     },
+     "src": [
+      "RS12:3",
+      "RS34:2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "幼虫先刮食叶片表层，叶子变薄，干了以后破成洞。危害严重时整片叶子发黄，像被火烧过一样。危害程度达到 10%–50% 时，之后两年的产量最多可减少 43%。任何树龄的油棕都会受害。",
+      "en": "Larvae first scrape the upper leaf surface; the leaf thins, dries and breaks into holes. In heavy attacks whole fronds turn yellow as if scorched. Damage of 10–50% can cut yield by up to 43% over the next two years. Palms of any age are attacked.",
+      "ms": "Larva mula-mula mengikis lapisan atas daun; daun menipis, kering dan berlubang. Serangan teruk menyebabkan pelepah kuning seperti terbakar. Kerosakan 10–50% boleh mengurangkan hasil sehingga 43% bagi dua tahun berikutnya. Sawit semua peringkat umur diserang."
+     },
+     "src": [
+      "RS34:1"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "bagworm-damage-frond"
+    },
+    {
+     "type": "photo",
+     "id": "bagworm-damage-field"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "袋蛾随风、相碰的叶片，以及进出园区的机器和车辆扩散。2013 年 11 月 15 日，袋蛾依 1976 年植物检疫法令被列为危险害虫：园主必须防治，否则可被罚款 1 万令吉。",
+      "en": "Bagworms spread on the wind, through touching fronds, and on machinery and vehicles moving in and out. On 15 November 2013 they were gazetted as a dangerous pest under the Plant Quarantine Act 1976: owners must control them or face a fine of RM10,000.",
+      "ms": "Ulat bungkus merebak melalui angin, pelepah yang bersentuhan, serta jentera dan kenderaan yang keluar masuk. Pada 15 November 2013 ia diwartakan sebagai perosak berbahaya di bawah Akta Kuarantin Tumbuhan 1976: pemilik wajib mengawalnya atau boleh didenda RM10,000."
+     },
+     "src": [
+      "RS34:2"
+     ]
+    },
+    {
+     "type": "table",
+     "src": [
+      "RS34:2"
+     ],
+     "caption": {
+      "zh": "三种袋蛾怎样分",
+      "en": "Telling the three bagworms apart",
+      "ms": "Membezakan tiga ulat bungkus"
+     },
+     "headers": [
+      {
+       "zh": "种",
+       "en": "Species",
+       "ms": "Spesies"
+      },
+      {
+       "zh": "袋子",
+       "en": "Bag",
+       "ms": "Bungkus"
+      },
+      {
+       "zh": "蛹袋",
+       "en": "Pupal bag",
+       "ms": "Bungkus pupa"
+      },
+      {
+       "zh": "产卵数",
+       "en": "Eggs",
+       "ms": "Telur"
+      },
+      {
+       "zh": "生活史",
+       "en": "Life cycle",
+       "ms": "Kitaran hidup"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "Metisa plana",
+        "en": "Metisa plana",
+        "ms": "Metisa plana"
+       },
+       {
+        "zh": "小片叶子",
+        "en": "Small leaf pieces",
+        "ms": "Cebisan daun kecil"
+       },
+       {
+        "zh": "约 15 毫米，有弯钩，贴在叶背",
+        "en": "About 15 mm, hooked, stuck under the leaflet",
+        "ms": "Kira-kira 15 mm, bercangkuk, melekat di bawah daun"
+       },
+       {
+        "zh": "100–300",
+        "en": "100–300",
+        "ms": "100–300"
+       },
+       {
+        "zh": "90 天",
+        "en": "90 days",
+        "ms": "90 hari"
+       }
+      ],
+      [
+       {
+        "zh": "Pteroma pendula",
+        "en": "Pteroma pendula",
+        "ms": "Pteroma pendula"
+       },
+       {
+        "zh": "比 M. plana 更细的碎片",
+        "en": "Finer pieces than M. plana",
+        "ms": "Cebisan lebih halus daripada M. plana"
+       },
+       {
+        "zh": "8–10 毫米，雪茄形，用长丝吊着摆动",
+        "en": "8–10 mm, cigar-shaped, swinging on a long thread",
+        "ms": "8–10 mm, berbentuk cerut, berbuai pada benang panjang"
+       },
+       {
+        "zh": "约 65",
+        "en": "About 65",
+        "ms": "Kira-kira 65"
+       },
+       {
+        "zh": "40 天",
+        "en": "40 days",
+        "ms": "40 hari"
+       }
+      ],
+      [
+       {
+        "zh": "Mahasena corbetti",
+        "en": "Mahasena corbetti",
+        "ms": "Mahasena corbetti"
+       },
+       {
+        "zh": "大而粗的叶片",
+        "en": "Large, coarse leaf pieces",
+        "ms": "Cebisan daun besar dan kasar"
+       },
+       {
+        "zh": "约 50 毫米，贴在叶背",
+        "en": "About 50 mm, stuck under the leaflet",
+        "ms": "Kira-kira 50 mm, melekat di bawah daun"
+       },
+       {
+        "zh": "2000–3000",
+        "en": "2,000–3,000",
+        "ms": "2,000–3,000"
+       },
+       {
+        "zh": "120 天",
+        "en": "120 days",
+        "ms": "120 hari"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "定期调查。幼虫处在第 1–3 龄、而且每片叶超过 10 只幼虫（经济阈值）时，就要防治。",
+      "en": "Census regularly. Act while larvae are at instars 1–3 and numbers pass the economic threshold of 10 larvae per frond.",
+      "ms": "Buat bancian secara berkala. Bertindak semasa larva di peringkat 1–3 dan bilangannya melebihi ambang ekonomi 10 larva sepelepah."
+     },
+     "src": [
+      "RS34:1"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "在园里种蜜源植物，例如 Turnera ulmifolia、Turnera subulata、Cassia cobanensis、Euphorbia heterophylla 和珊瑚藤 Antigonon leptopus。寄生蜂和捕食者吃了花蜜活得更久，袋蛾就少。",
+      "en": "Plant nectar plants such as Turnera ulmifolia, Turnera subulata, Cassia cobanensis, Euphorbia heterophylla and Antigonon leptopus. Parasitoids and predators feeding on the nectar live longer and keep bagworms down.",
+      "ms": "Tanam tanaman bermanfaat seperti Turnera ulmifolia, Turnera subulata, Cassia cobanensis, Euphorbia heterophylla dan Antigonon leptopus. Parasitoid dan pemangsa yang makan madunya hidup lebih lama dan mengurangkan ulat bungkus."
+     },
+     "src": [
+      "RS34:2-3"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "挂信息素诱捕器：用成熟的雌蛾作诱饵，引雄蛾飞来粘在涂了黏胶的塑料片上。方法简单、便宜。",
+      "en": "Hang pheromone traps: mature females lure the males, which stick to a plastic sheet coated with glue. The method is simple and cheap.",
+      "ms": "Gantung perangkap feromon: betina matang menarik jantan, yang melekat pada helaian plastik bergam. Kaedah ini mudah dan murah."
+     },
+     "src": [
+      "RS34:2-3"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "在幼虫早期喷苏云金杆菌（Bt）产品，例如 MPOB 的 Ecobac-1。Bt 对捕食者、寄生蜂和授粉象甲都安全。",
+      "en": "Spray a Bacillus thuringiensis (Bt) product, such as MPOB's Ecobac-1, while the larvae are young. Bt is safe for predators, parasitoids and pollinating weevils.",
+      "ms": "Sembur produk Bacillus thuringiensis (Bt), seperti Ecobac-1 MPOB, semasa larva masih muda. Bt selamat untuk pemangsa, parasitoid dan kumbang pendebunga."
+     },
+     "src": [
+      "RS34:2"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "保护袋蛾的天敌：寄生蜂 Apanteles (Dolichogenidea) metesae、Brachymeria carinata、Goryphus bunoh，以及捕食者{{ch:p33|猎蝽 Sycanus dichotomus}}。",
+      "en": "Protect the bagworms' natural enemies: the parasitoid wasps Apanteles (Dolichogenidea) metesae, Brachymeria carinata and Goryphus bunoh, and the predator {{ch:p33|Sycanus dichotomus}}.",
+      "ms": "Lindungi musuh semula jadi ulat bungkus: tebuan parasitoid Apanteles (Dolichogenidea) metesae, Brachymeria carinata dan Goryphus bunoh, serta pemangsa {{ch:p33|Sycanus dichotomus}}."
+     },
+     "src": [
+      "RS12:4"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "幼虫早期和中期喷药；卵期（卵在雌虫的袋里）、晚期幼虫和蛹期要暂缓用药，因为效果差。两年的小树用背负式喷雾器，三到六年的用机动喷雾器，高树（8 米以上）用风送喷雾机。",
+      "en": "Spray during the early and middle larval stages; hold off during the egg stage (eggs are inside the female's bag), the late larval stage and the pupal stage, when it works poorly. Use knapsack sprayers on two-year-old palms, motorised mist blowers on three- to six-year-old palms and air-blast sprayers on palms taller than 8 m.",
+      "ms": "Sembur semasa peringkat larva awal dan pertengahan; tangguhkan semasa peringkat telur (telur di dalam bungkus betina), larva lewat dan pupa kerana kurang berkesan. Gunakan penyembur galas untuk pokok dua tahun, penyembur kabus bermotor untuk pokok tiga hingga enam tahun dan penyembur letusan angin untuk pokok melebihi 8 m."
+     },
+     "src": [
+      "RS12:3"
+     ],
+     "ai": [
+      "cypermethrin"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "MPOB 较早的小册也介绍过树干注射，但所列的药剂在马来西亚的现行登记状况我们无法确认，所以这里不列出。",
+      "en": "Older MPOB leaflets also describe trunk injection, but we could not confirm the current registration status in Malaysia of the chemicals they name, so they are not listed here.",
+      "ms": "Risalah MPOB yang lebih lama juga menerangkan suntikan batang, tetapi status pendaftaran semasa bahan kimia yang dinamakan di Malaysia tidak dapat kami sahkan, jadi ia tidak disenaraikan di sini."
+     },
+     "src": [
+      "RS12:2"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "bagworm"
+ ]
+}

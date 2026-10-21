@@ -1,0 +1,150 @@
+{
+ "id": "p33",
+ "num": 33,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "猎蝽",
+  "en": "Assassin bug (Sycanus dichotomus)",
+  "ms": "Pepijat pembunuh (Sycanus dichotomus)",
+  "zhTw": "猎椿象"
+ },
+ "blurb": {
+  "zh": "Sycanus dichotomus",
+  "en": "Sycanus dichotomus",
+  "ms": "Sycanus dichotomus"
+ },
+ "sources": [
+  "JOPR-SYCANUS",
+  "RS12",
+  "RS34",
+  "SER-SYCANUS",
+  "TJ"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "猎蝽",
+      "zhTw": "猎椿象",
+      "en": "Assassin bug (Sycanus dichotomus)",
+      "ms": "Pepijat pembunuh (Sycanus dichotomus)"
+     },
+     "sci": "Sycanus dichotomus",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫（益虫）",
+      "en": "Nymphs and adults (helpful)",
+      "ms": "Nimfa dan dewasa (berguna)"
+     },
+     "src": [
+      "RS12:4",
+      "JOPR-SYCANUS"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "sycanus-dichotomus-specimen"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:sycanus}}的辨认要点：",
+      "en": "How to recognise {{t:sycanus}}:",
+      "ms": "Cara mengecam {{t:sycanus}}:"
+     },
+     "defines": [
+      "sycanus"
+     ],
+     "src": [
+      "RS12:4",
+      "JOPR-SYCANUS"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体细长，脚长，用针管状口器刺吸猎物",
+       "en": "A slender long-legged bug that stabs prey with its beak",
+       "ms": "Pepijat langsing berkaki panjang yang menikam mangsa dengan paruhnya"
+      },
+      {
+       "zh": "是袋蛾的天敌之一",
+       "en": "One of the bagworm's natural enemies",
+       "ms": "Salah satu musuh semula jadi ulat bungkus"
+      }
+     ],
+     "src": [
+      "RS12:4",
+      "JOPR-SYCANUS"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "Sycanus dichotomus 是不挑食的捕食者，在马来西亚油棕园里常捕食袋蛾和刺蛾。MPOB 的研究建议把成虫释放到田里，帮忙控制袋蛾。",
+      "en": "Sycanus dichotomus is a generalist predator that commonly eats bagworms and nettle caterpillars in Malaysian oil palm. MPOB researchers recommend releasing adults in the field to help control bagworms.",
+      "ms": "Sycanus dichotomus ialah pemangsa am yang sering memakan ulat bungkus dan ulat api di ladang sawit Malaysia. Penyelidik MPOB mengesyorkan pelepasan dewasanya di ladang untuk membantu mengawal ulat bungkus."
+     },
+     "src": [
+      "JOPR-SYCANUS"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "在雪兰莪一个油棕园做过的田间试验，把它放到受袋蛾危害的树上，测试控制效果。",
+      "en": "Field trials on infested palms at an oil palm estate in Selangor have tested how well it controls bagworms.",
+      "ms": "Ujian lapangan pada pokok yang diserang di sebuah ladang sawit di Selangor telah menguji keberkesanannya mengawal ulat bungkus."
+     },
+     "src": [
+      "SER-SYCANUS"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "保护它：种蜜源植物、避免不必要的广谱杀虫剂。",
+      "en": "Protect it: grow nectar plants and avoid unnecessary broad-spectrum insecticides.",
+      "ms": "Lindunginya: tanam tanaman bermanfaat dan elakkan racun serangga spektrum luas yang tidak perlu."
+     },
+     "src": [
+      "RS34:2-3"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "sycanus"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "p30",
+ "num": 30,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "刺蛾",
+  "en": "Nettle caterpillars",
+  "ms": "Ulat api"
+ },
+ "blurb": {
+  "zh": "Setora nitens, Orthocraspeda trima",
+  "en": "Setora nitens, Orthocraspeda trima",
+  "ms": "Setora nitens, Orthocraspeda trima"
+ },
+ "sources": [
+  "AAR-2010",
+  "BIODIV-SETORA",
+  "JOPR-SYCANUS",
+  "VT-STING"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "刺蛾",
+      "en": "Nettle caterpillars",
+      "ms": "Ulat api"
+     },
+     "sci": "Setora nitens, Orthocraspeda trima",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "BIODIV-SETORA",
+      "AAR-2010",
+      "VT-STING"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "setora-nitens-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:nettle-caterpillar}}的辨认要点：",
+      "en": "How to recognise {{t:nettle-caterpillar}}:",
+      "ms": "Cara mengecam {{t:nettle-caterpillar}}:"
+     },
+     "defines": [
+      "nettle-caterpillar"
+     ],
+     "src": [
+      "BIODIV-SETORA",
+      "AAR-2010",
+      "VT-STING"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "幼虫粗短，身上长着成簇的刺毛，颜色鲜艳",
+       "en": "Larvae are short and stout with tufts of stinging spines, often brightly coloured",
+       "ms": "Larva pendek dan tegap dengan jambak duri sengat, selalunya berwarna terang"
+      },
+      {
+       "zh": "Setora nitens 和 Orthocraspeda（旧名 Darna）trima 是油棕上常见的两种",
+       "en": "Setora nitens and Orthocraspeda (formerly Darna) trima are two common species on oil palm",
+       "ms": "Setora nitens dan Orthocraspeda (dahulu Darna) trima ialah dua spesies biasa pada sawit"
+      },
+      {
+       "zh": "Darna trima 的卵 5–7 天孵化，幼虫期 17–30 天，在叶背或叶柄上化蛹，整个生活史 32–60 天",
+       "en": "Darna trima eggs hatch in 5–7 days; larvae feed for 17–30 days and pupate under leaflets or on petioles; the whole cycle takes 32–60 days",
+       "ms": "Telur Darna trima menetas dalam 5–7 hari; larva makan selama 17–30 hari dan berpupa di bawah daun atau pada tangkai; kitaran penuh 32–60 hari"
+      }
+     ],
+     "src": [
+      "BIODIV-SETORA",
+      "AAR-2010",
+      "VT-STING"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "幼虫吃嫩叶和老叶，严重时把小叶吃到只剩中肋。在印尼泥炭地油棕园的研究中，Setora nitens 是最多的一种。",
+      "en": "The larvae eat both young and mature leaves and, in bad outbreaks, strip leaflets down to the midrib. In a study of oil palm on peat in Indonesia, Setora nitens was the commonest species.",
+      "ms": "Larva memakan daun muda dan matang dan, dalam serangan teruk, memakan anak daun hingga tinggal tulang daun. Dalam kajian sawit di tanah gambut di Indonesia, Setora nitens ialah spesies paling banyak."
+     },
+     "src": [
+      "BIODIV-SETORA"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "warn",
+     "text": {
+      "zh": "刺蛾幼虫的刺毛带毒，碰到会剧痛。被螫后用胶带粘掉断刺（每次换新的一段），再用肥皂和水清洗，冷敷消肿；碰到眼睛附近或出现呼吸困难，要立刻就医。",
+      "en": "The spines carry venom and sting painfully. After a sting, lift out broken spines with tape (a fresh strip each time), wash with soap and water and use a cold pack; get medical help at once if it is near the eyes or there is any difficulty breathing.",
+      "ms": "Duri ulat api berbisa dan menyengat dengan sakit. Selepas disengat, angkat duri yang patah dengan pita pelekat (helaian baharu setiap kali), basuh dengan sabun dan air dan tuam sejuk; dapatkan rawatan segera jika berhampiran mata atau ada kesukaran bernafas."
+     },
+     "src": [
+      "VT-STING"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "定期检查叶片，特别是幼树：留意小叶被吃到只剩中肋，以及叶背的幼虫。",
+      "en": "Check fronds regularly, especially on young palms: look for leaflets stripped to the midrib and for larvae under the leaflets.",
+      "ms": "Periksa pelepah secara berkala, terutama pada pokok muda: cari anak daun yang tinggal tulang dan larva di bawah daun."
+     },
+     "src": [
+      "BIODIV-SETORA"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "刺蛾平常被捕食者、寄生蜂和病毒病压住；保护这些天敌是第一步。用病毒做生物防治很有希望。",
+      "en": "Nettle caterpillars are normally held in check by predators, parasitoids and viral disease; protecting these natural enemies comes first. Biological control with viruses is promising.",
+      "ms": "Ulat api biasanya dikawal oleh pemangsa, parasitoid dan penyakit virus; melindungi musuh semula jadi ini ialah langkah pertama. Kawalan biologi dengan virus amat berpotensi."
+     },
+     "src": [
+      "AAR-2010"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "{{ch:p33|猎蝽 Sycanus dichotomus}}常捕食刺蛾幼虫，MPOB 建议把成虫释放到园里。",
+      "en": "The assassin bug {{ch:p33|Sycanus dichotomus}} commonly eats nettle caterpillars, and MPOB recommends releasing adults in the field.",
+      "ms": "Pepijat pembunuh {{ch:p33|Sycanus dichotomus}} sering memakan ulat api, dan MPOB mengesyorkan pelepasan dewasanya di ladang."
+     },
+     "src": [
+      "JOPR-SYCANUS"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "nettle-caterpillar"
+ ]
+}

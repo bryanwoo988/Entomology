@@ -1,0 +1,248 @@
+{
+ "id": "p28",
+ "num": 28,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "犀角金龟",
+  "en": "Rhinoceros beetle",
+  "ms": "Kumbang badak (kumbang tanduk)",
+  "zhTw": "犀角金龟"
+ },
+ "blurb": {
+  "zh": "Oryctes rhinoceros",
+  "en": "Oryctes rhinoceros",
+  "ms": "Oryctes rhinoceros"
+ },
+ "sources": [
+  "DOA-BAN",
+  "DOA-CARBO",
+  "RS40"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "犀角金龟",
+      "zhTw": "犀角金龟",
+      "en": "Rhinoceros beetle",
+      "ms": "Kumbang badak (kumbang tanduk)"
+     },
+     "sci": "Oryctes rhinoceros",
+     "order": "p10",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "成虫",
+      "en": "Adult",
+      "ms": "Dewasa"
+     },
+     "src": [
+      "RS40:1"
+     ],
+     "authority": "(Linnaeus)"
+    },
+    {
+     "type": "photo",
+     "id": "oryctes-rhinoceros-adult"
+    },
+    {
+     "type": "photo",
+     "id": "oryctes-life-cycle"
+    },
+    {
+     "type": "photo",
+     "id": "oryctes-rhinoceros-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:rhinoceros-beetle}}的辨认要点：",
+      "en": "How to recognise {{t:rhinoceros-beetle}}:",
+      "ms": "Cara mengecam {{t:rhinoceros-beetle}}:"
+     },
+     "defines": [
+      "rhinoceros-beetle"
+     ],
+     "src": [
+      "RS40:1"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "卵：圆形、白色",
+       "en": "Eggs: round and white",
+       "ms": "Telur: bulat dan putih"
+      },
+      {
+       "zh": "幼虫：黄白色，身体弯成 C 字形",
+       "en": "Larva: yellowish white, curled into a C",
+       "ms": "Larva: kuning keputihan, melingkar seperti huruf C"
+      },
+      {
+       "zh": "蛹：黄褐色，在茧里",
+       "en": "Pupa: yellowish brown, inside a cocoon",
+       "ms": "Pupa: perang kekuningan, di dalam kepompong"
+      },
+      {
+       "zh": "从卵到成虫约 4–9 个月，视天敌、湿度、气候和食物而定",
+       "en": "Egg to adult takes about 4–9 months, depending on predators, humidity, weather and food",
+       "ms": "Telur hingga dewasa kira-kira 4–9 bulan, bergantung pada pemangsa, kelembapan, cuaca dan makanan"
+      }
+     ],
+     "src": [
+      "RS40:1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "成虫钻进幼树基部，吃嫩心（生长点）和柔软的组织，会让新种或年幼的油棕死亡。成树被害后，新展开的叶片像被剪成扇形或「V」字形。",
+      "en": "Adults bore into the base of young palms and eat the spear and soft tissue, which can kill newly planted or young palms. On older palms, new fronds open with fan-shaped or V-shaped cuts.",
+      "ms": "Dewasa mengorek masuk ke pangkal sawit muda dan memakan umbut serta tisu lembut, yang boleh membunuh sawit yang baru ditanam atau muda. Pada pokok matang, pelepah baharu terbuka dengan kesan potongan berbentuk kipas atau 'V'."
+     },
+     "src": [
+      "RS40:1-2"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "零燃烧翻种时，砍倒切碎后堆着腐烂的旧树干，以及「林下翻种」时被毒死、留在原地腐烂的老树，都是犀角金龟最好的繁殖场所。",
+      "en": "In zero-burning replanting, the felled and chipped old trunks left to rot, and old palms poisoned and left standing in underplanting, are ideal breeding sites.",
+      "ms": "Dalam tanam semula pembakaran sifar, batang sawit yang ditumbang dan diracik lalu dibiarkan mereput, serta pokok tua yang diracun dan dibiarkan dalam kaedah tanam bawah, ialah tempat pembiakan yang sangat baik."
+     },
+     "src": [
+      "RS40:1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "统计受害严重的树。受害树超过总数的 5%，或诱捕器每晚捕到超过 3 只成虫，才需要化学防治。防治后再统计一次，确认受害减少、没有新症状。",
+      "en": "Count the badly damaged palms. Chemical control is needed only when more than 5% of palms are damaged or traps catch more than three beetles a night. Count again after treatment to confirm damage has dropped and no new symptoms appear.",
+      "ms": "Banci pokok yang rosak teruk. Kawalan kimia hanya perlu jika lebih 5% pokok rosak atau perangkap menangkap lebih tiga ekor kumbang semalam. Banci semula selepas kawalan untuk memastikan kerosakan berkurang dan tiada simptom baharu."
+     },
+     "src": [
+      "RS40:3"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "在翻种区外围每隔 15 棵树挂信息素诱捕器，并往相邻林区内设 15 棵树的范围；翻种区内的诱捕器要等翻种六个月后才挂。",
+      "en": "Hang pheromone traps outside the replanting area at intervals of 15 palms, and 15 palms into the neighbouring block; inside the replanting area, hang traps only six months after replanting.",
+      "ms": "Gantung perangkap feromon di luar kawasan tanam semula pada selang 15 pokok, dan 15 pokok ke dalam blok bersebelahan; di dalam kawasan tanam semula, gantung perangkap hanya enam bulan selepas tanam semula."
+     },
+     "src": [
+      "RS40:2"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "用绿僵菌（Metarhizium anisopliae）按产品标签的用量，以机器喷在切碎的树干堆上——那里是幼虫最常见的地方。六个月后幼虫仍多，就再喷一次。",
+      "en": "Spray the fungus Metarhizium anisopliae at the label rate, by machine, onto heaps of chipped trunks, where the larvae are most often found. Repeat after six months if many larvae remain.",
+      "ms": "Sembur kulat Metarhizium anisopliae mengikut kadar label, menggunakan jentera, ke atas timbunan batang yang diracik, tempat larva paling kerap ditemui. Ulang selepas enam bulan jika larva masih banyak."
+     },
+     "src": [
+      "RS40:2"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "用犀角金龟病毒（Oryctes nudivirus，OrNV）：把诱捕到的成虫喂 30 微升病毒液后放回，让它把病毒传给其他金龟。",
+      "en": "Use Oryctes nudivirus (OrNV): give trapped adults 30 µL of virus solution and release them, so they pass the virus to other beetles.",
+      "ms": "Gunakan virus Oryctes (OrNV): beri kumbang dewasa yang diperangkap 30 µL larutan virus dan lepaskan semula, supaya ia menyebarkan virus kepada kumbang lain."
+     },
+     "src": [
+      "RS40:2"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "oryctes-larva-ornv"
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "只有在受害超过种植面积的 5% 时，才在嫩心基部喷洒药剂；约两星期后见效。",
+      "en": "Only when damage exceeds 5% of the planted area, spray the base of the spear; the effect shows in about two weeks.",
+      "ms": "Hanya apabila kerosakan melebihi 5% keluasan tanaman, sembur pangkal pucuk; kesannya kelihatan dalam kira-kira dua minggu."
+     },
+     "src": [
+      "RS40:2-3"
+     ],
+     "ai": [
+      "lambda-cyhalothrin",
+      "cypermethrin"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "MPOB 2023 年的小册还列出克百威（每棵 15 克撒在嫩叶间），但克百威自 2023 年 5 月 1 日起在马来西亚禁用，不可再用。",
+      "en": "MPOB's 2023 leaflet also lists carbofuran (15 g per palm between the young fronds), but carbofuran has been banned in Malaysia since 1 May 2023 and must not be used.",
+      "ms": "Risalah MPOB 2023 juga menyenaraikan karbofuran (15 g sepokok di celah pelepah muda), tetapi karbofuran diharamkan di Malaysia sejak 1 Mei 2023 dan tidak boleh digunakan."
+     },
+     "src": [
+      "RS40:2",
+      "DOA-CARBO",
+      "DOA-BAN"
+     ],
+     "ai": [
+      "carbofuran"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "rhinoceros-beetle"
+ ]
+}

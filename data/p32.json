@@ -1,0 +1,148 @@
+{
+ "id": "p32",
+ "num": 32,
+ "stage": 5,
+ "kind": "species",
+ "title": {
+  "zh": "油棕授粉象甲",
+  "en": "Oil palm pollinating weevil",
+  "ms": "Kumbang pendebunga sawit",
+  "zhTw": "油棕授粉象鼻虫"
+ },
+ "blurb": {
+  "zh": "Elaeidobius kamerunicus",
+  "en": "Elaeidobius kamerunicus",
+  "ms": "Elaeidobius kamerunicus"
+ },
+ "sources": [
+  "BORNEO-EK",
+  "RS34",
+  "SAINSMY-EK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "油棕授粉象甲",
+      "zhTw": "油棕授粉象鼻虫",
+      "en": "Oil palm pollinating weevil",
+      "ms": "Kumbang pendebunga sawit"
+     },
+     "sci": "Elaeidobius kamerunicus",
+     "order": "p10",
+     "crops": [
+      {
+       "zh": "油棕",
+       "en": "Oil palm",
+       "ms": "Sawit"
+      }
+     ],
+     "stage": {
+      "zh": "成虫（益虫）",
+      "en": "Adult (helpful)",
+      "ms": "Dewasa (berguna)"
+     },
+     "src": [
+      "SAINSMY-EK",
+      "BORNEO-EK"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "elaeidobius-kamerunicus-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:pollinating-weevil}}的辨认要点：",
+      "en": "How to recognise {{t:pollinating-weevil}}:",
+      "ms": "Cara mengecam {{t:pollinating-weevil}}:"
+     },
+     "defines": [
+      "pollinating-weevil"
+     ],
+     "src": [
+      "SAINSMY-EK",
+      "BORNEO-EK"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "很小的象甲，头前伸出长长的喙",
+       "en": "A tiny weevil with a long snout",
+       "ms": "Kumbang yang sangat kecil dengan muncung panjang"
+      },
+      {
+       "zh": "在油棕花序上活动，把花粉带到雌花",
+       "en": "Lives on oil palm inflorescences and carries pollen to the female flowers",
+       "ms": "Hidup pada jambak bunga sawit dan membawa debunga ke bunga betina"
+      }
+     ],
+     "src": [
+      "SAINSMY-EK",
+      "BORNEO-EK"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "马来西亚在 1981 年初开始释放这种象甲，第一次释放在柔佛居銮的 Mamor 园（1981 年 2 月 21 日），不久后在沙巴 Pamol 释放了 2,000 只。在此之前，油棕要靠人工辅助授粉，费时又费钱。",
+      "en": "Malaysia began releasing this weevil in early 1981: the first release was at Mamor Estate, Kluang, Johor, on 21 February 1981, followed soon after by 2,000 weevils at Pamol, Sabah. Before that, oil palm needed hand-assisted pollination, which was slow and costly.",
+      "ms": "Malaysia mula melepaskan kumbang ini pada awal 1981: pelepasan pertama di Ladang Mamor, Kluang, Johor, pada 21 Februari 1981, diikuti tidak lama kemudian dengan 2,000 ekor di Pamol, Sabah. Sebelum itu, sawit memerlukan pendebungaan bantuan tangan yang lambat dan mahal."
+     },
+     "src": [
+      "BORNEO-EK"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "引进以后着果率和产量都明显提高；1980 年代末开始着果率下降，研究认为主要原因是象甲数量偏低。现在它已遍布马来西亚的油棕园。",
+      "en": "Fruit set and production improved markedly after its introduction. A fall in fruit set from the late 1980s has been put down mainly to low weevil numbers. It is now spread throughout Malaysia's oil palm plantations.",
+      "ms": "Pembentukan buah dan pengeluaran meningkat dengan ketara selepas pengenalannya. Penurunan pembentukan buah sejak akhir 1980-an dikaitkan terutamanya dengan bilangan kumbang yang rendah. Kini ia tersebar di seluruh ladang sawit Malaysia."
+     },
+     "src": [
+      "SAINSMY-EK"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "保护它：防治袋蛾时用 Bt 产品，它对授粉象甲是安全的。",
+      "en": "Protect it: use Bt products against bagworms; they are safe for the pollinating weevil.",
+      "ms": "Lindunginya: gunakan produk Bt terhadap ulat bungkus; ia selamat untuk kumbang pendebunga."
+     },
+     "src": [
+      "RS34:2"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "pollinating-weevil"
+ ]
+}
