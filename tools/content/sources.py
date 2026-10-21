@@ -1,0 +1,23 @@
+"""Sources cited by the content pages (merged into data/sources.json by write_chapter)."""
+
+D = "2026-10-21"
+
+SOURCES = {
+ "TJ": {"short": "台江昆蟲圖鑑", "title": "游黽飛蛉：台江昆蟲圖鑑", "publisher": "黃文伯、張原謀、莊棨州撰文，台江國家公園管理處，2015", "url": "https://ws.moi.gov.tw/001/Upload/415/ebook/ebook_180690//pdf/full.pdf", "accessed": "2026-10-19"},
+ "WTK": {"short": "WTKhoo", "title": "Orders of insects in Malaysia", "publisher": "Compiled by W. T. Khoo (teaching notes)", "url": "", "accessed": "2026-10-20"},
+ "AES-ANT": {"short": "AES: Insect antennae", "title": "Insect antennae (fact file)", "publisher": "Amateur Entomologists' Society", "url": "https://www.amentsoc.org/insects/fact-files/antennae.html", "accessed": D},
+ "PURDUE-TA": {"short": "Purdue: thorax and abdomen", "title": "Insect Thorax and Abdomen", "publisher": "Purdue University Extension Entomology", "url": "https://extension.entm.purdue.edu/landscapelab/cliffs_notes/powerpoint/general/Insect_Thorax_and_Abdomen.pdf", "accessed": D},
+ "NCSU-META": {"short": "NC State: metamorphosis", "title": "Mastery: morphogenesis (ENT 425 General Entomology)", "publisher": "North Carolina State University", "url": "https://genent.cals.ncsu.edu/mastery-morphogenesis/", "accessed": D},
+ "LCWU-META": {"short": "LCWU: metamorphosis", "title": "Metamorphosis in insects (lecture notes, ZOO-Ento-401)", "publisher": "Lahore College for Women University", "url": "https://ocd.lcwu.edu.pk/cfiles/Zoology/SP/ZOO-Ento-401/Metamorphosisininsects.pdf", "accessed": D},
+ "UMN-ARTH": {"short": "UMN: Phylum Arthropoda", "title": "Introduction to Phylum Arthropoda", "publisher": "University of Minnesota Pesticide Safety & Environmental Education", "url": "https://pesticidecert.cfans.umn.edu/sites/pesticidecert.cfans.umn.edu/files/2022-03/1.Introduction_to_Phylum_Arthropoda.pdf", "accessed": D},
+ "ENC-ARK": {"short": "Encyclopedia of Arkansas: Collembolans", "title": "Collembolans", "publisher": "CALS Encyclopedia of Arkansas", "url": "https://encyclopediaofarkansas.net/entries/collembollans-14332/", "accessed": D},
+ "ICZN": {"short": "ICZN Code", "title": "International Code of Zoological Nomenclature, 4th edition", "publisher": "International Commission on Zoological Nomenclature", "url": "https://code.iczn.org/", "accessed": D},
+ "RS12": {"short": "Risalah Sawit 12", "title": "Ulat bungkus serangga perosak daun sawit", "publisher": "Norman Hj Kamarudin, Ramle Moslim & Mohd Basri Wahid, Risalah Sawit No. 12, MPOB, April 2005", "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf", "accessed": D},
+ "RS34": {"short": "Risalah Sawit 34", "title": "Kawalan ulat bungkus di ladang sawit", "publisher": "Hasmiza Desa, Risalah Sawit No. 34, MPOB, Mac 2018", "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf", "accessed": D},
+ "RS40": {"short": "Risalah Sawit 40", "title": "Kawalan kumbang tanduk/badak di kawasan tanam semula sawit", "publisher": "Khairul Abidin, Risalah Sawit No. 40, MPOB, Disember 2023", "url": "https://palmoilis.mpob.gov.my/files/2024/06/Risalah-Sawit-No.-40.pdf", "accessed": D},
+}
+
+
+def src(*ids):
+    """Source records for write_chapter, from ids (page suffixes ignored)."""
+    return [{"id": i, **SOURCES[i]} for i in dict.fromkeys(x.split(":")[0] for x in ids)]

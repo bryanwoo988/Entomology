@@ -1,1 +1,1319 @@
-[]
+[
+ {
+  "stage": 1,
+  "chapter": "p01",
+  "q": {
+   "zh": "成年昆虫有几只脚？",
+   "en": "How many legs does an adult insect have?",
+   "ms": "Berapa kaki serangga dewasa?"
+  },
+  "options": [
+   {
+    "zh": "4",
+    "en": "4",
+    "ms": "4"
+   },
+   {
+    "zh": "6",
+    "en": "6",
+    "ms": "6"
+   },
+   {
+    "zh": "8",
+    "en": "8",
+    "ms": "8"
+   },
+   {
+    "zh": "很多",
+    "en": "Many",
+    "ms": "Banyak"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "昆虫有三对、共六只脚。",
+   "en": "Insects have three pairs: six legs.",
+   "ms": "Serangga mempunyai tiga pasang: enam kaki."
+  },
+  "src": [
+   "TJ:20"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p01",
+  "q": {
+   "zh": "所有成年昆虫都有两对翅。",
+   "en": "Every adult insect has two pairs of wings.",
+   "ms": "Setiap serangga dewasa mempunyai dua pasang sayap."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "有些只有一对翅（如蝇），有些没有翅（如蚂蚁工蚁）。",
+   "en": "Some have one pair (flies) and some none (worker ants).",
+   "ms": "Ada yang sepasang (lalat) dan ada yang tiada (semut pekerja)."
+  },
+  "src": [
+   "TJ:31",
+   "TJ:38"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p01",
+  "type": "match",
+  "q": {
+   "zh": "把体区和它的工作配对。",
+   "en": "Match each body part to its job.",
+   "ms": "Padankan bahagian badan dengan tugasnya."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "头部",
+     "en": "Head",
+     "ms": "Kepala"
+    },
+    "right": {
+     "zh": "感觉与取食",
+     "en": "Senses and feeding",
+     "ms": "Deria dan makan"
+    }
+   },
+   {
+    "left": {
+     "zh": "胸部",
+     "en": "Thorax",
+     "ms": "Toraks"
+    },
+    "right": {
+     "zh": "运动",
+     "en": "Movement",
+     "ms": "Pergerakan"
+    }
+   },
+   {
+    "left": {
+     "zh": "腹部",
+     "en": "Abdomen",
+     "ms": "Abdomen"
+    },
+    "right": {
+     "zh": "消化与生殖",
+     "en": "Digestion and reproduction",
+     "ms": "Pencernaan dan pembiakan"
+    }
+   }
+  ],
+  "why": {
+   "zh": "头部负责感觉和取食，胸部负责运动，腹部负责消化和生殖。",
+   "en": "Head: senses and feeding; thorax: movement; abdomen: digestion and reproduction.",
+   "ms": "Kepala: deria dan makan; toraks: pergerakan; abdomen: pencernaan dan pembiakan."
+  },
+  "src": [
+   "TJ:25",
+   "TJ:29",
+   "TJ:33"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p02",
+  "q": {
+   "zh": "蜘蛛有几只脚？",
+   "en": "How many legs does a spider have?",
+   "ms": "Berapa kaki labah-labah?"
+  },
+  "options": [
+   {
+    "zh": "6",
+    "en": "6",
+    "ms": "6"
+   },
+   {
+    "zh": "8",
+    "en": "8",
+    "ms": "8"
+   },
+   {
+    "zh": "10",
+    "en": "10",
+    "ms": "10"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "蜘蛛是蛛形纲动物，有八只脚。",
+   "en": "Spiders are arachnids, with eight legs.",
+   "ms": "Labah-labah ialah araknid, berkaki lapan."
+  },
+  "src": [
+   "TJ:22",
+   "UMN-ARTH"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p02",
+  "q": {
+   "zh": "下面哪一种是昆虫？",
+   "en": "Which of these is an insect?",
+   "ms": "Yang manakah serangga?"
+  },
+  "options": [
+   {
+    "zh": "蜘蛛",
+    "en": "Spider",
+    "ms": "Labah-labah"
+   },
+   {
+    "zh": "蜈蚣",
+    "en": "Centipede",
+    "ms": "Lipan"
+   },
+   {
+    "zh": "蚂蚁",
+    "en": "Ant",
+    "ms": "Semut"
+   },
+   {
+    "zh": "马陆",
+    "en": "Millipede",
+    "ms": "Ulat gonggok"
+   }
+  ],
+  "answer": 2,
+  "why": {
+   "zh": "蚂蚁有六只脚和三个体区。",
+   "en": "Ants have six legs and three body parts.",
+   "ms": "Semut mempunyai enam kaki dan tiga bahagian badan."
+  },
+  "src": [
+   "TJ:22"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p02",
+  "q": {
+   "zh": "弹尾虫有六只脚，所以是昆虫。",
+   "en": "Springtails have six legs, so they are insects.",
+   "ms": "Ekor pegas berkaki enam, jadi ia serangga."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "弹尾虫是六足动物，但不属于昆虫纲。",
+   "en": "Springtails are hexapods but not insects.",
+   "ms": "Ekor pegas ialah heksapod tetapi bukan serangga."
+  },
+  "src": [
+   "TJ:22",
+   "ENC-ARK"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p02",
+  "type": "match",
+  "q": {
+   "zh": "把动物和它的脚配对。",
+   "en": "Match each animal to its legs.",
+   "ms": "Padankan haiwan dengan kakinya."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "蜈蚣",
+     "en": "Centipede",
+     "ms": "Lipan"
+    },
+    "right": {
+     "zh": "每节一对脚",
+     "en": "One pair per segment",
+     "ms": "Sepasang setiap ruas"
+    }
+   },
+   {
+    "left": {
+     "zh": "马陆",
+     "en": "Millipede",
+     "ms": "Ulat gonggok"
+    },
+    "right": {
+     "zh": "每节两对脚",
+     "en": "Two pairs per segment",
+     "ms": "Dua pasang setiap ruas"
+    }
+   },
+   {
+    "left": {
+     "zh": "蜱",
+     "en": "Tick",
+     "ms": "Sengkenit"
+    },
+    "right": {
+     "zh": "八只脚",
+     "en": "Eight legs",
+     "ms": "Lapan kaki"
+    }
+   }
+  ],
+  "why": {
+   "zh": "蜈蚣每节一对脚，马陆每节两对，蜱是八只脚的蛛形纲动物。",
+   "en": "Centipedes: one pair per segment; millipedes: two; ticks: eight legs.",
+   "ms": "Lipan: sepasang setiap ruas; ulat gonggok: dua; sengkenit: lapan kaki."
+  },
+  "src": [
+   "UMN-ARTH",
+   "WTK:10"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p03",
+  "q": {
+   "zh": "蚂蚁的触角是什么形状？",
+   "en": "What shape are an ant's antennae?",
+   "ms": "Apakah bentuk sesungut semut?"
+  },
+  "options": [
+   {
+    "zh": "丝状",
+    "en": "Thread-like",
+    "ms": "Seperti benang"
+   },
+   {
+    "zh": "膝状",
+    "en": "Elbowed",
+    "ms": "Bersiku"
+   },
+   {
+    "zh": "鳃叶状",
+    "en": "Plate-tipped",
+    "ms": "Berlamela"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "蚂蚁的触角在中间折成膝状。",
+   "en": "Ant antennae bend like an elbow.",
+   "ms": "Sesungut semut bengkok seperti siku."
+  },
+  "src": [
+   "AES-ANT",
+   "TJ:38"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p03",
+  "q": {
+   "zh": "哪一个只分得出明暗、帮助复眼？",
+   "en": "Which only senses light and dark, helping the compound eyes?",
+   "ms": "Yang manakah hanya mengesan terang dan gelap, membantu mata majmuk?"
+  },
+  "options": [
+   {
+    "zh": "单眼",
+    "en": "Ocellus",
+    "ms": "Oselus"
+   },
+   {
+    "zh": "触角",
+    "en": "Antenna",
+    "ms": "Sesungut"
+   },
+   {
+    "zh": "上唇",
+    "en": "Labrum",
+    "ms": "Labrum"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "单眼感受光线强弱，在视觉上做辅助。",
+   "en": "Ocelli sense light intensity and support the compound eyes.",
+   "ms": "Oselus mengesan keamatan cahaya dan membantu mata majmuk."
+  },
+  "src": [
+   "TJ:25"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p03",
+  "type": "match",
+  "q": {
+   "zh": "把口器和昆虫配对。",
+   "en": "Match the mouthparts to the insect.",
+   "ms": "Padankan bahagian mulut dengan serangga."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "刺吸式",
+     "en": "Piercing-sucking",
+     "ms": "Menusuk-menghisap"
+    },
+    "right": {
+     "zh": "蝽",
+     "en": "Stink bug",
+     "ms": "Pepijat busuk"
+    }
+   },
+   {
+    "left": {
+     "zh": "虹吸式",
+     "en": "Siphoning",
+     "ms": "Menyedut"
+    },
+    "right": {
+     "zh": "蝴蝶",
+     "en": "Butterfly",
+     "ms": "Rama-rama"
+    }
+   },
+   {
+    "left": {
+     "zh": "舐吸式",
+     "zhTw": "舐吮式",
+     "en": "Sponging",
+     "ms": "Menyerap"
+    },
+    "right": {
+     "zh": "果实蝇",
+     "en": "Fruit fly",
+     "ms": "Lalat buah"
+    }
+   }
+  ],
+  "why": {
+   "zh": "蝽刺吸、蝴蝶虹吸、果实蝇舐吸。",
+   "en": "Stink bugs pierce and suck, butterflies siphon, fruit flies sponge.",
+   "ms": "Pepijat busuk menusuk, rama-rama menyedut, lalat buah menyerap."
+  },
+  "src": [
+   "TJ:27"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p04",
+  "q": {
+   "zh": "螳螂的前足属于哪一种？",
+   "en": "What kind of front legs does a mantis have?",
+   "ms": "Apakah jenis kaki depan cengkadak?"
+  },
+  "options": [
+   {
+    "zh": "挖掘足",
+    "en": "Digging",
+    "ms": "Penggali"
+   },
+   {
+    "zh": "捕捉足",
+    "en": "Grasping",
+    "ms": "Penangkap"
+   },
+   {
+    "zh": "游泳足",
+    "en": "Swimming",
+    "ms": "Berenang"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "螳螂的前足有刺，用来夹住猎物。",
+   "en": "A mantis's spiny front legs seize prey.",
+   "ms": "Kaki depan cengkadak yang berduri menangkap mangsa."
+  },
+  "src": [
+   "TJ:29"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p04",
+  "q": {
+   "zh": "翅长在前胸上。",
+   "en": "Wings grow from the prothorax.",
+   "ms": "Sayap tumbuh dari protoraks."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "翅长在中胸和后胸。",
+   "en": "Wings grow from the mesothorax and metathorax.",
+   "ms": "Sayap tumbuh dari mesotoraks dan metatoraks."
+  },
+  "src": [
+   "TJ:29"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p04",
+  "q": {
+   "zh": "蝗虫会跳，是因为后足哪一节特别粗？",
+   "en": "Grasshoppers jump because which part of the hind leg is enlarged?",
+   "ms": "Belalang melompat kerana bahagian manakah kaki belakangnya membesar?"
+  },
+  "options": [
+   {
+    "zh": "跗节",
+    "en": "Tarsus",
+    "ms": "Tarsus"
+   },
+   {
+    "zh": "腿节",
+    "en": "Femur",
+    "ms": "Femur"
+   },
+   {
+    "zh": "基节",
+    "en": "Coxa",
+    "ms": "Koksa"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "跳跃足的腿节特别粗壮。",
+   "en": "Jumping legs have a greatly enlarged femur.",
+   "ms": "Kaki melompat mempunyai femur yang sangat besar."
+  },
+  "src": [
+   "PURDUE-TA"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p04",
+  "type": "match",
+  "q": {
+   "zh": "把足的类型和昆虫配对。",
+   "en": "Match the leg type to the insect.",
+   "ms": "Padankan jenis kaki dengan serangga."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "挖掘足",
+     "en": "Digging",
+     "ms": "Penggali"
+    },
+    "right": {
+     "zh": "蝼蛄",
+     "en": "Mole cricket",
+     "ms": "Anjing tanah"
+    }
+   },
+   {
+    "left": {
+     "zh": "游泳足",
+     "en": "Swimming",
+     "ms": "Berenang"
+    },
+    "right": {
+     "zh": "龙虱",
+     "en": "Diving beetle",
+     "ms": "Kumbang penyelam"
+    }
+   },
+   {
+    "left": {
+     "zh": "步行足",
+     "en": "Running",
+     "ms": "Berlari"
+    },
+    "right": {
+     "zh": "蟑螂",
+     "en": "Cockroach",
+     "ms": "Lipas"
+    }
+   }
+  ],
+  "why": {
+   "zh": "蝼蛄挖土、龙虱游泳、蟑螂快跑。",
+   "en": "Mole crickets dig, diving beetles swim, cockroaches run.",
+   "ms": "Anjing tanah menggali, kumbang penyelam berenang, lipas berlari."
+  },
+  "src": [
+   "TJ:29",
+   "PURDUE-TA"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p05",
+  "q": {
+   "zh": "甲虫坚硬的前翅叫什么？",
+   "en": "What are a beetle's hard forewings called?",
+   "ms": "Apakah nama sayap depan kumbang yang keras?"
+  },
+  "options": [
+   {
+    "zh": "覆翅",
+    "en": "Tegmina",
+    "ms": "Tegmina"
+   },
+   {
+    "zh": "鞘翅",
+    "zhTw": "翅鞘",
+    "en": "Elytra",
+    "ms": "Elitra"
+   },
+   {
+    "zh": "半鞘翅",
+    "en": "Hemelytra",
+    "ms": "Hemelitra"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "甲虫的前翅是鞘翅。",
+   "en": "A beetle's forewings are elytra.",
+   "ms": "Sayap depan kumbang ialah elitra."
+  },
+  "src": [
+   "TJ:30"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p05",
+  "q": {
+   "zh": "哪一类昆虫的后翅变成平衡棒？",
+   "en": "Which insects have hind wings reduced to halteres?",
+   "ms": "Serangga manakah yang sayap belakangnya menjadi halter?"
+  },
+  "options": [
+   {
+    "zh": "蝇和蚊",
+    "en": "Flies and mosquitoes",
+    "ms": "Lalat dan nyamuk"
+   },
+   {
+    "zh": "蜜蜂",
+    "en": "Bees",
+    "ms": "Lebah"
+   },
+   {
+    "zh": "蝴蝶",
+    "en": "Butterflies",
+    "ms": "Rama-rama"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "双翅目的后翅变成了平衡棒。",
+   "en": "In flies (Diptera) the hind wings are halteres.",
+   "ms": "Pada lalat (Diptera) sayap belakang menjadi halter."
+  },
+  "src": [
+   "TJ:38",
+   "PURDUE-TA"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p05",
+  "q": {
+   "zh": "昆虫的翅和鸟一样，是由前肢变来的。",
+   "en": "Insect wings, like bird wings, evolved from front limbs.",
+   "ms": "Sayap serangga, seperti sayap burung, berasal daripada anggota depan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "昆虫的翅不是由前肢变来的。",
+   "en": "Insect wings did not come from limbs.",
+   "ms": "Sayap serangga tidak berasal daripada anggota badan."
+  },
+  "src": [
+   "TJ:31"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p05",
+  "type": "match",
+  "q": {
+   "zh": "把翅和昆虫配对。",
+   "en": "Match the wing to the insect.",
+   "ms": "Padankan sayap dengan serangga."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "鞘翅",
+     "zhTw": "翅鞘",
+     "en": "Elytra",
+     "ms": "Elitra"
+    },
+    "right": {
+     "zh": "甲虫",
+     "en": "Beetle",
+     "ms": "Kumbang"
+    }
+   },
+   {
+    "left": {
+     "zh": "半鞘翅",
+     "en": "Hemelytra",
+     "ms": "Hemelitra"
+    },
+    "right": {
+     "zh": "蝽",
+     "en": "Stink bug",
+     "ms": "Pepijat busuk"
+    }
+   },
+   {
+    "left": {
+     "zh": "鳞翅",
+     "en": "Scaly wings",
+     "ms": "Sayap bersisik"
+    },
+    "right": {
+     "zh": "蝴蝶",
+     "en": "Butterfly",
+     "ms": "Rama-rama"
+    }
+   }
+  ],
+  "why": {
+   "zh": "甲虫是鞘翅，蝽是半鞘翅，蝴蝶是鳞翅。",
+   "en": "Beetles: elytra; bugs: hemelytra; butterflies: scaly wings.",
+   "ms": "Kumbang: elitra; pepijat: hemelitra; rama-rama: sayap bersisik."
+  },
+  "src": [
+   "TJ:30"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p06",
+  "q": {
+   "zh": "腹末有一对钳子的是哪种昆虫？",
+   "en": "Which insect has a pair of pincers at its tail?",
+   "ms": "Serangga manakah yang mempunyai sepasang sepit di ekornya?"
+  },
+  "options": [
+   {
+    "zh": "蠼螋",
+    "en": "Earwig",
+    "ms": "Cocopet"
+   },
+   {
+    "zh": "蝗虫",
+    "en": "Grasshopper",
+    "ms": "Belalang"
+   },
+   {
+    "zh": "蜻蜓",
+    "en": "Dragonfly",
+    "ms": "Pepatung"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蠼螋的腹末有尾铗。",
+   "en": "Earwigs carry forceps at the tail.",
+   "ms": "Cocopet mempunyai penyepit di ekor."
+  },
+  "src": [
+   "TJ:33"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p06",
+  "q": {
+   "zh": "昆虫通过身体两侧的气门呼吸。",
+   "en": "Insects breathe through spiracles along their sides.",
+   "ms": "Serangga bernafas melalui spirakel di sisi badan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "空气从气门进入体内的气管。",
+   "en": "Air enters the breathing tubes through the spiracles.",
+   "ms": "Udara masuk ke salur pernafasan melalui spirakel."
+  },
+  "src": [
+   "PURDUE-TA"
+  ]
+ },
+ {
+  "stage": 1,
+  "chapter": "p06",
+  "type": "match",
+  "q": {
+   "zh": "把构造和用途配对。",
+   "en": "Match each part to its use.",
+   "ms": "Padankan bahagian dengan kegunaannya."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "产卵器",
+     "zhTw": "产卵管",
+     "en": "Ovipositor",
+     "ms": "Ovipositor"
+    },
+    "right": {
+     "zh": "产卵",
+     "en": "Laying eggs",
+     "ms": "Bertelur"
+    }
+   },
+   {
+    "left": {
+     "zh": "气门",
+     "zhTw": "气孔",
+     "en": "Spiracle",
+     "ms": "Spirakel"
+    },
+    "right": {
+     "zh": "呼吸",
+     "en": "Breathing",
+     "ms": "Bernafas"
+    }
+   },
+   {
+    "left": {
+     "zh": "发音器",
+     "en": "Sound organ",
+     "ms": "Organ bunyi"
+    },
+    "right": {
+     "zh": "雄蝉鸣叫",
+     "en": "A male cicada's song",
+     "ms": "Nyanyian riang-riang jantan"
+    }
+   }
+  ],
+  "why": {
+   "zh": "产卵器产卵，气门呼吸，雄蝉用发音器鸣叫。",
+   "en": "Ovipositor: eggs; spiracles: breathing; sound organs: the cicada's song.",
+   "ms": "Ovipositor: telur; spirakel: bernafas; organ bunyi: nyanyian riang-riang."
+  },
+  "src": [
+   "TJ:33",
+   "PURDUE-TA"
+  ]
+ },
+ {
+  "stage": 2,
+  "chapter": "p07",
+  "q": {
+   "zh": "学名的哪一部分首字母要大写？",
+   "en": "Which part of a scientific name starts with a capital letter?",
+   "ms": "Bahagian manakah nama saintifik bermula dengan huruf besar?"
+  },
+  "options": [
+   {
+    "zh": "属名",
+    "en": "The genus",
+    "ms": "Genus"
+   },
+   {
+    "zh": "种小名",
+    "en": "The species name",
+    "ms": "Nama spesies"
+   },
+   {
+    "zh": "两个都要",
+    "en": "Both",
+    "ms": "Kedua-duanya"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "属名首字母大写，种小名全部小写。",
+   "en": "The genus is capitalised; the species name is lower case.",
+   "ms": "Genus berhuruf besar; nama spesies berhuruf kecil."
+  },
+  "src": [
+   "ICZN:5.1"
+  ]
+ },
+ {
+  "stage": 2,
+  "chapter": "p07",
+  "q": {
+   "zh": "昆虫纲属于哪一个门？",
+   "en": "Which phylum does the class Insecta belong to?",
+   "ms": "Kelas Insecta tergolong dalam filum mana?"
+  },
+  "options": [
+   {
+    "zh": "脊索动物门",
+    "en": "Chordata",
+    "ms": "Chordata"
+   },
+   {
+    "zh": "节肢动物门",
+    "en": "Arthropoda",
+    "ms": "Arthropoda"
+   },
+   {
+    "zh": "软体动物门",
+    "en": "Mollusca",
+    "ms": "Mollusca"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "昆虫属于节肢动物门。",
+   "en": "Insects are in the phylum Arthropoda.",
+   "ms": "Serangga tergolong dalam filum Arthropoda."
+  },
+  "src": [
+   "TJ:22"
+  ]
+ },
+ {
+  "stage": 2,
+  "chapter": "p07",
+  "q": {
+   "zh": "命名者和年份放在括号里，表示这个物种后来被移到另一个属。",
+   "en": "Brackets around the author and year mean the species has been moved to another genus.",
+   "ms": "Kurungan pada pengarang dan tahun bermaksud spesies itu telah dipindahkan ke genus lain."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是动物命名法规的规定。",
+   "en": "That is the rule in the zoological code.",
+   "ms": "Itulah peraturan dalam kod zoologi."
+  },
+  "src": [
+   "ICZN:51.3"
+  ]
+ },
+ {
+  "stage": 2,
+  "chapter": "p07",
+  "type": "match",
+  "q": {
+   "zh": "把阶层和例子配对。",
+   "en": "Match the rank to the example.",
+   "ms": "Padankan peringkat dengan contoh."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "纲",
+     "en": "Class",
+     "ms": "Kelas"
+    },
+    "right": {
+     "zh": "昆虫纲",
+     "en": "Insecta",
+     "ms": "Insecta"
+    }
+   },
+   {
+    "left": {
+     "zh": "目",
+     "en": "Order",
+     "ms": "Order"
+    },
+    "right": {
+     "zh": "鞘翅目",
+     "en": "Coleoptera",
+     "ms": "Coleoptera"
+    }
+   },
+   {
+    "left": {
+     "zh": "科",
+     "en": "Family",
+     "ms": "Famili"
+    },
+    "right": {
+     "zh": "瓢虫科",
+     "en": "Coccinellidae",
+     "ms": "Coccinellidae"
+    }
+   }
+  ],
+  "why": {
+   "zh": "昆虫纲是纲，鞘翅目是目，瓢虫科是科。",
+   "en": "Insecta is a class, Coleoptera an order, Coccinellidae a family.",
+   "ms": "Insecta ialah kelas, Coleoptera order, Coccinellidae famili."
+  },
+  "src": [
+   "TJ:22"
+  ]
+ },
+ {
+  "stage": 2,
+  "chapter": "p08",
+  "q": {
+   "zh": "左图的前翅是硬壳，在背中央对齐。这是哪一目？",
+   "en": "On the left, the forewings are hard shells meeting down the middle. Which order?",
+   "ms": "Di kiri, sayap depan ialah cangkerang keras yang bertemu di tengah. Order apa?"
+  },
+  "options": [
+   {
+    "zh": "鞘翅目",
+    "en": "Coleoptera (beetles)",
+    "ms": "Coleoptera (kumbang)"
+   },
+   {
+    "zh": "半翅目",
+    "en": "Hemiptera (bugs)",
+    "ms": "Hemiptera (pepijat)"
+   },
+   {
+    "zh": "直翅目",
+    "en": "Orthoptera (grasshoppers)",
+    "ms": "Orthoptera (belalang)"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "翅鞘在背中线对齐是甲虫的特征。",
+   "en": "Elytra meeting in a straight line mark a beetle.",
+   "ms": "Elitra yang bertemu dalam garis lurus menandakan kumbang."
+  },
+  "src": [
+   "TJ:40"
+  ],
+  "img": "img/svg/key-elytra.svg"
+ },
+ {
+  "stage": 2,
+  "chapter": "p08",
+  "q": {
+   "zh": "左图的前足像镰刀。这是哪一类昆虫？",
+   "en": "On the left, the front legs are like folding blades. Which insect?",
+   "ms": "Di kiri, kaki depan seperti pisau lipat. Serangga apa?"
+  },
+  "options": [
+   {
+    "zh": "蟑螂",
+    "en": "Cockroach",
+    "ms": "Lipas"
+   },
+   {
+    "zh": "螳螂",
+    "en": "Mantis",
+    "ms": "Cengkadak"
+   },
+   {
+    "zh": "蝼蛄",
+    "en": "Mole cricket",
+    "ms": "Anjing tanah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "捕捉足是螳螂的特征。",
+   "en": "Grasping front legs mark a mantis.",
+   "ms": "Kaki depan penangkap menandakan cengkadak."
+  },
+  "src": [
+   "TJ:40"
+  ],
+  "img": "img/svg/key-raptorial.svg"
+ },
+ {
+  "stage": 2,
+  "chapter": "p08",
+  "q": {
+   "zh": "左图只有一对翅，后面有一对小棒。这是哪一目？",
+   "en": "On the left: one pair of wings and two tiny knobs behind. Which order?",
+   "ms": "Di kiri: sepasang sayap dan dua tombol kecil di belakang. Order apa?"
+  },
+  "options": [
+   {
+    "zh": "膜翅目",
+    "en": "Hymenoptera",
+    "ms": "Hymenoptera"
+   },
+   {
+    "zh": "双翅目",
+    "en": "Diptera",
+    "ms": "Diptera"
+   },
+   {
+    "zh": "鳞翅目",
+    "en": "Lepidoptera",
+    "ms": "Lepidoptera"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "一对翅加平衡棒是双翅目。",
+   "en": "One pair of wings plus halteres means Diptera.",
+   "ms": "Sepasang sayap dan halter bermaksud Diptera."
+  },
+  "src": [
+   "TJ:38"
+  ],
+  "img": "img/svg/key-pairs.svg"
+ },
+ {
+  "stage": 2,
+  "chapter": "p08",
+  "q": {
+   "zh": "检索表得出的结果一定正确。",
+   "en": "A key's answer is always right.",
+   "ms": "Jawapan kunci sentiasa betul."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "检索表只适用于常见昆虫，有例外，要逐项核对。",
+   "en": "Keys cover common insects only and have exceptions; check the features.",
+   "ms": "Kunci hanya untuk serangga biasa dan ada pengecualian; semak cirinya."
+  },
+  "src": [
+   "TJ:40"
+  ]
+ },
+ {
+  "stage": 3,
+  "chapter": "p09",
+  "q": {
+   "zh": "完全变态的四个阶段，顺序是？",
+   "en": "The four stages of complete metamorphosis, in order?",
+   "ms": "Empat peringkat metamorfosis lengkap, mengikut urutan?"
+  },
+  "options": [
+   {
+    "zh": "卵 → 若虫 → 成虫 → 蛹",
+    "en": "Egg → nymph → adult → pupa",
+    "ms": "Telur → nimfa → dewasa → pupa"
+   },
+   {
+    "zh": "卵 → 幼虫 → 蛹 → 成虫",
+    "en": "Egg → larva → pupa → adult",
+    "ms": "Telur → larva → pupa → dewasa"
+   },
+   {
+    "zh": "幼虫 → 卵 → 蛹 → 成虫",
+    "en": "Larva → egg → pupa → adult",
+    "ms": "Larva → telur → pupa → dewasa"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "卵、幼虫、蛹、成虫。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 3,
+  "chapter": "p09",
+  "q": {
+   "zh": "蝗虫是哪一种发育方式？",
+   "en": "How do grasshoppers grow up?",
+   "ms": "Bagaimana belalang membesar?"
+  },
+  "options": [
+   {
+    "zh": "不完全变态",
+    "en": "Incomplete metamorphosis",
+    "ms": "Metamorfosis tidak lengkap"
+   },
+   {
+    "zh": "完全变态",
+    "en": "Complete metamorphosis",
+    "ms": "Metamorfosis lengkap"
+   },
+   {
+    "zh": "无变态",
+    "en": "No metamorphosis",
+    "ms": "Tanpa metamorfosis"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "直翅目是不完全变态：卵、若虫、成虫。",
+   "en": "Orthoptera: egg, nymph, adult.",
+   "ms": "Orthoptera: telur, nimfa, dewasa."
+  },
+  "src": [
+   "TJ:35"
+  ]
+ },
+ {
+  "stage": 3,
+  "chapter": "p09",
+  "q": {
+   "zh": "袋蛾什么时候用药效果最好？",
+   "en": "When does chemical control of bagworms work best?",
+   "ms": "Bilakah kawalan kimia ulat bungkus paling berkesan?"
+  },
+  "options": [
+   {
+    "zh": "卵期",
+    "en": "Egg stage",
+    "ms": "Peringkat telur"
+   },
+   {
+    "zh": "幼虫早期和中期",
+    "en": "Early and middle larvae",
+    "ms": "Larva awal dan pertengahan"
+   },
+   {
+    "zh": "蛹期",
+    "en": "Pupal stage",
+    "ms": "Peringkat pupa"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "MPOB 建议在幼虫早期和中期用药。",
+   "en": "MPOB advises treating early and middle larvae.",
+   "ms": "MPOB menasihatkan rawatan pada larva awal dan pertengahan."
+  },
+  "src": [
+   "RS12:3"
+  ]
+ },
+ {
+  "stage": 3,
+  "chapter": "p09",
+  "type": "match",
+  "q": {
+   "zh": "把幼虫类型和昆虫配对。",
+   "en": "Match the larva to the insect.",
+   "ms": "Padankan larva dengan serangga."
+  },
+  "pairs": [
+   {
+    "left": {
+     "zh": "蛴螬型",
+     "en": "Grub-like",
+     "ms": "Seperti gendon"
+    },
+    "right": {
+     "zh": "犀角金龟",
+     "en": "Rhinoceros beetle",
+     "ms": "Kumbang badak"
+    }
+   },
+   {
+    "left": {
+     "zh": "蠋型",
+     "en": "Caterpillar-like",
+     "ms": "Seperti ulat"
+    },
+    "right": {
+     "zh": "蛾",
+     "en": "Moth",
+     "ms": "Kupu-kupu"
+    }
+   },
+   {
+    "left": {
+     "zh": "无足型",
+     "en": "Legless",
+     "ms": "Tanpa kaki"
+    },
+    "right": {
+     "zh": "家蝇",
+     "en": "House fly",
+     "ms": "Lalat rumah"
+    }
+   }
+  ],
+  "why": {
+   "zh": "金龟的幼虫是蛴螬型，蛾是蠋型，蝇是无足的蛆。",
+   "en": "Beetle grubs, moth caterpillars, fly maggots.",
+   "ms": "Gendon kumbang, ulat kupu-kupu, berenga lalat."
+  },
+  "src": [
+   "NCSU-META",
+   "LCWU-META"
+  ]
+ }
+]

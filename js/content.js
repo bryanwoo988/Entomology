@@ -42,7 +42,8 @@ export function el(tag, attrs = {}, ...kids) {
 // Text with {{t:…}} terms turned into buttons that open the term sheet.
 export function inline(value, ctx) {
   const frag = document.createDocumentFragment();
-  for (const piece of parseInline(pick(value, ctx.lang))) {
+  // A value carrying a Taiwan form is a name: show both in Chinese.
+  for (const piece of parseInline(value?.zhTw ? displayName(value, ctx.lang) : pick(value, ctx.lang))) {
     if (piece.text !== undefined) { frag.append(piece.text); continue; }
     if (piece.chapter) { frag.append(el('a', { class: 'ch-link', href: `#/ch/${piece.chapter}` }, piece.label)); continue; }
     const term = ctx.terms?.get(piece.term);

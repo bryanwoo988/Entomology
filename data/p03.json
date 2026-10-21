@@ -1,0 +1,329 @@
+{
+ "id": "p03",
+ "num": 3,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "头部：触角、眼睛和口器",
+  "en": "The head: antennae, eyes and mouthparts",
+  "ms": "Kepala: sesungut, mata dan bahagian mulut"
+ },
+ "blurb": {
+  "zh": "触角的七种形状、复眼和单眼、五种口器",
+  "en": "Seven antenna shapes, compound eyes and ocelli, five kinds of mouthparts",
+  "ms": "Tujuh bentuk sesungut, mata majmuk dan oselus, lima jenis bahagian mulut"
+ },
+ "sources": [
+  "TJ",
+  "AES-ANT",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "感觉的中心",
+    "en": "The centre of the senses",
+    "ms": "Pusat deria"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "头部有一对触角、一对复眼、零到三个单眼，和一组口器。",
+      "en": "The head carries a pair of antennae, a pair of compound eyes, up to three simple eyes, and a set of mouthparts.",
+      "ms": "Kepala mempunyai sepasang sesungut, sepasang mata majmuk, sehingga tiga mata ringkas, dan satu set bahagian mulut."
+     },
+     "src": [
+      "TJ:25"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:antenna}}长在头的前面，上面有很多感觉器，可以摸、闻、尝，有的还能听。它分三段：基部的柄节、中间的梗节和最长的鞭节。",
+      "en": "The {{t:antenna}} sits at the front of the head and is covered with sense organs for touch, smell and taste, and in some insects hearing. It has three parts: the scape at the base, the pedicel, and the long flagellum.",
+      "ms": "{{t:antenna}} terletak di hadapan kepala dan dipenuhi organ deria untuk sentuhan, bau dan rasa, malah pendengaran bagi sesetengah serangga. Ia ada tiga bahagian: skap di pangkal, pedisel, dan flagelum yang panjang."
+     },
+     "defines": [
+      "antenna"
+     ],
+     "src": [
+      "TJ:25"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:compound-eye}}由许多小眼组成。眼睛越大，小眼越多，看得越清楚：蜻蜓的复眼很大，蚂蚁的很小。",
+      "en": "A {{t:compound-eye}} is made of many small units. The larger the eye, the more units and the sharper the sight: dragonflies have huge compound eyes, ants small ones.",
+      "ms": "{{t:compound-eye}} terdiri daripada banyak unit kecil. Lebih besar mata, lebih banyak unit dan lebih jelas penglihatan: pepatung bermata majmuk besar, semut kecil."
+     },
+     "defines": [
+      "compound-eye"
+     ],
+     "src": [
+      "TJ:27"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:ocellus}}通常在两个复眼之间，最多三个，只分得出明暗，帮助复眼看东西。有些昆虫没有单眼。",
+      "en": "An {{t:ocellus}} (simple eye) usually sits between the compound eyes; there are at most three. It senses light and dark and helps the compound eyes. Some insects have none.",
+      "ms": "{{t:ocellus}} (mata ringkas) biasanya terletak di antara mata majmuk; paling banyak tiga. Ia mengesan terang dan gelap dan membantu mata majmuk. Sesetengah serangga tiada oselus."
+     },
+     "defines": [
+      "ocellus"
+     ],
+     "src": [
+      "TJ:25"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "触角的形状",
+    "en": "Antenna shapes",
+    "ms": "Bentuk sesungut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "触角的形状常常能帮你分辨昆虫的类群：",
+      "en": "The shape of the antennae often tells you which group an insect belongs to:",
+      "ms": "Bentuk sesungut sering menunjukkan kumpulan serangga itu:"
+     },
+     "src": [
+      "AES-ANT",
+      "TJ:38"
+     ]
+    },
+    {
+     "type": "keyval",
+     "src": [
+      "AES-ANT",
+      "TJ:38",
+      "WTK:2",
+      "WTK:5"
+     ],
+     "defines": [
+      "moniliform",
+      "geniculate"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "丝状",
+        "en": "Filiform (thread-like)",
+        "ms": "Filiform (seperti benang)"
+       },
+       "v": {
+        "zh": "许多大小差不多的小节连成细线，如螽斯、蟋蟀",
+        "en": "Many similar segments forming a thin thread; katydids, crickets",
+        "ms": "Banyak ruas serupa membentuk benang halus; katidid, cengkerik"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:moniliform}}",
+        "en": "{{t:moniliform|Moniliform (bead-like)}}",
+        "ms": "{{t:moniliform|Moniliform (seperti manik)}}"
+       },
+       "v": {
+        "zh": "一节节圆珠，像一串念珠，如白蚁",
+        "en": "Round segments like a string of beads; termites",
+        "ms": "Ruas bulat seperti rantai manik; anai-anai"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:geniculate}}",
+        "en": "{{t:geniculate|Geniculate (elbowed)}}",
+        "ms": "{{t:geniculate|Genikulat (bersiku)}}"
+       },
+       "v": {
+        "zh": "中间折成一个角，像手肘，如蚂蚁和一些蜂",
+        "en": "Bent sharply in the middle like an elbow; ants and some bees",
+        "ms": "Bengkok tajam di tengah seperti siku; semut dan sesetengah lebah"
+       }
+      },
+      {
+       "k": {
+        "zh": "棍棒状",
+        "en": "Clavate (clubbed)",
+        "ms": "Klavat (berbonjol)"
+       },
+       "v": {
+        "zh": "末端渐渐或突然变粗，如蝴蝶",
+        "en": "Thickening towards the tip; butterflies",
+        "ms": "Menebal ke hujung; rama-rama"
+       }
+      },
+      {
+       "k": {
+        "zh": "锯齿状",
+        "en": "Serrate (saw-edged)",
+        "ms": "Serat (bergerigi)"
+       },
+       "v": {
+        "zh": "每节一边突出，像锯子边",
+        "en": "Each segment juts out on one side like a saw",
+        "ms": "Setiap ruas menonjol pada satu sisi seperti gergaji"
+       }
+      },
+      {
+       "k": {
+        "zh": "栉齿状、羽状",
+        "en": "Pectinate, plumose (comb-like, feathery)",
+        "ms": "Pektinat, plumos (seperti sikat, berbulu pelepah)"
+       },
+       "v": {
+        "zh": "一边或两边有长突起，像梳子或羽毛，如许多蛾",
+        "en": "Long side branches like a comb or feather; many moths",
+        "ms": "Cabang sisi panjang seperti sikat atau bulu pelepah; banyak kupu-kupu"
+       }
+      },
+      {
+       "k": {
+        "zh": "鳃叶状",
+        "en": "Lamellate (plate-tipped)",
+        "ms": "Lamelat (berlamela)"
+       },
+       "v": {
+        "zh": "末端几节变成可以张开的薄片，如金龟",
+        "en": "The last segments are flat plates that can fan out; scarab beetles",
+        "ms": "Ruas hujung menjadi kepingan leper yang boleh dikembangkan; kumbang skarab"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "口器",
+    "en": "Mouthparts",
+    "ms": "Bahagian mulut"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:mouthparts}}有五个基本部分：上唇、大颚、小颚、下唇和舌。不同的昆虫吃不同的食物，口器也变成不同的样子：",
+      "en": "{{t:mouthparts}} have five basic parts: the upper lip (labrum), mandibles, maxillae, lower lip (labium) and tongue (hypopharynx). Insects that eat different food have mouthparts of different shapes:",
+      "ms": "{{t:mouthparts}} mempunyai lima bahagian asas: bibir atas (labrum), mandibel, maksila, bibir bawah (labium) dan lidah (hipofarinks). Serangga yang makan makanan berbeza mempunyai bahagian mulut yang berbeza bentuk:"
+     },
+     "defines": [
+      "mouthparts"
+     ],
+     "src": [
+      "TJ:27"
+     ]
+    },
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:27"
+     ],
+     "defines": [
+      "piercing-sucking"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "咀嚼式",
+        "en": "Chewing",
+        "ms": "Mengunyah"
+       },
+       "v": {
+        "zh": "用大颚咬碎食物，如土蜂",
+        "en": "Mandibles bite and grind food; scoliid wasps",
+        "ms": "Mandibel menggigit dan mengunyah makanan; tebuan skolid"
+       }
+      },
+      {
+       "k": {
+        "zh": "嚼吸式",
+        "zhTw": "咀吸式",
+        "en": "Chewing-lapping",
+        "ms": "Mengunyah-menjilat"
+       },
+       "v": {
+        "zh": "既能咬也能舔吸花蜜，如许多蜂",
+        "en": "Can both bite and lap up nectar; many bees and wasps",
+        "ms": "Boleh menggigit dan menjilat nektar; banyak lebah dan tebuan"
+       }
+      },
+      {
+       "k": {
+        "zh": "舐吸式",
+        "zhTw": "舐吮式",
+        "en": "Sponging",
+        "ms": "Menyerap"
+       },
+       "v": {
+        "zh": "用海绵状的口器吸取液体，如果实蝇",
+        "en": "A sponge-like pad soaks up liquids; fruit flies",
+        "ms": "Pad seperti span menyerap cecair; lalat buah"
+       }
+      },
+      {
+       "k": {
+        "zh": "虹吸式",
+        "en": "Siphoning",
+        "ms": "Menyedut (sifon)"
+       },
+       "v": {
+        "zh": "一根卷起来的长吸管，如蝴蝶",
+        "en": "A long coiled tube; butterflies",
+        "ms": "Tiub panjang bergulung; rama-rama"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:piercing-sucking}}",
+        "en": "{{t:piercing-sucking|Piercing-sucking}}",
+        "ms": "{{t:piercing-sucking|Menusuk-menghisap}}"
+       },
+       "v": {
+        "zh": "针管状，刺进植物或动物吸汁，如蝽",
+        "en": "A needle-like beak that pierces plants or animals and sucks; stink bugs",
+        "ms": "Paruh seperti jarum yang menusuk tumbuhan atau haiwan dan menghisap; pepijat busuk"
+       }
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "看口器就能猜到它吃什么、怎样危害作物：刺吸式的害虫（蚜虫、飞虱）吸汁，咀嚼式的（毛虫、甲虫）把叶子咬出洞。",
+      "en": "Mouthparts tell you how an insect feeds and how it harms crops: piercing-sucking pests (aphids, planthoppers) suck sap; chewing pests (caterpillars, beetles) bite holes in leaves.",
+      "ms": "Bahagian mulut menunjukkan cara serangga makan dan merosakkan tanaman: perosak menusuk-menghisap (afid, bena perang) menghisap cecair; perosak mengunyah (ulat, kumbang) menggigit daun hingga berlubang."
+     },
+     "src": [
+      "TJ:27",
+      "TJ:39"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "antenna",
+  "compound-eye",
+  "ocellus",
+  "moniliform",
+  "geniculate",
+  "mouthparts",
+  "piercing-sucking"
+ ]
+}

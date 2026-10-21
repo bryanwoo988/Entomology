@@ -58,14 +58,14 @@ await test('first visit shows the language picker with English as default', asyn
 });
 
 await testIf(P.length > 0, 'deep link survives the language picker', async () => {
-  const a = await openApp({ hash: '#/ch/ch05/s4' });
+  const a = await openApp({ hash: '#/ch/p09/s3' });
   a.d.querySelector('#picker [data-lang="zh"]').click();
-  await until(() => a.d.getElementById('s4'));
-  assert(a.w.location.hash === '#/ch/ch05/s4', `hash is ${a.w.location.hash}`);
+  await until(() => a.d.getElementById('s3'));
+  assert(a.w.location.hash === '#/ch/p09/s3', `hash is ${a.w.location.hash}`);
   assert(a.d.documentElement.lang.startsWith('zh'), 'language not applied');
   await sleep(200);
-  const top = a.d.getElementById('s4').getBoundingClientRect().top;
-  assert(top > -5 && top < 160, `section s4 at ${top}px`);
+  const top = a.d.getElementById('s3').getBoundingClientRect().top;
+  assert(top > -5 && top < 160, `section s3 at ${top}px`);
   a.close();
 });
 
@@ -96,7 +96,7 @@ await test('theme is applied by an inline script before the stylesheet', async (
 
 await testIf(P.length > 0, 'text size 1.3 switches the chapter to a single column', async () => {
   const cols = async scale => {
-    const a = await openApp({ hash: '#/ch/ch05', width: 1200, prefs: { scale } });
+    const a = await openApp({ hash: '#/ch/p05', width: 1200, prefs: { scale } });
     await until(() => a.d.getElementById('s1'));
     const n = a.w.getComputedStyle(a.d.querySelector('.page-chapter')).gridTemplateColumns.split(' ').length;
     const single = 'single' in a.d.documentElement.dataset;
@@ -111,7 +111,7 @@ await testIf(P.length > 0, 'text size 1.3 switches the chapter to a single colum
 
 for (const lang of ['ms', 'zh', 'en']) {
   await test(`no horizontal overflow at 375px × scale 1.5 in ${lang}`, async () => {
-    for (const hash of ['#/', '#/key', '#/key/1.0.1.1.1.1.1.1.0', ...P.slice(0, 1).map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards', '#/tools/exam', '#/tools/wrong', '#/tools/progress']) {
+    for (const hash of ['#/', '#/key', '#/key/1.0.1.1.1.1.1.1.0', ...P.map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards', '#/tools/exam', '#/tools/wrong', '#/tools/progress']) {
       const a = await openApp({ hash, prefs: { lang, scale: 1.5 } });
       await sleep(250);
       const sw = a.d.scrollingElement.scrollWidth;
@@ -136,9 +136,9 @@ const type = (a, input, text) => { input.value = text; input.dispatchEvent(new a
 await testIf(P.length > 0, 'search finds a chapter from a query in another language', async () => {
   const a = await openApp({ hash: '#/search', prefs: { lang: 'ms' } });
   const input = await until(() => a.d.querySelector('#search-input'));
-  type(a, input, '露点');
+  type(a, input, '复眼');
   const first = await until(() => a.d.querySelector('.search-results a'));
-  assert(first.getAttribute('href').startsWith('#/ch/ch05'), first.getAttribute('href'));
+  assert(first.getAttribute('href').startsWith('#/ch/p03'), first.getAttribute('href'));
   assert(!/[\u4e00-\u9fff]/.test(first.querySelector('.hit-title').textContent), 'title not in Malay');
   a.close();
 });
@@ -147,7 +147,12 @@ await testIf(P.length > 0, 'a stage quiz scores answers and remembers the best',
   const a = await openApp({ hash: '#/tools/quiz/3', prefs: { lang: 'en' } });
   await until(() => a.d.querySelector('.quiz-q'));
   const qs = a.d.querySelectorAll('.quiz-q');
-  for (const q of qs) q.querySelectorAll('.quiz-opt')[Number(q.dataset.answer)].click();
+  for (const q of qs) {
+    if (q.dataset.answer !== undefined) { q.querySelectorAll('.quiz-opt')[Number(q.dataset.answer)].click(); continue; }
+    const lefts = q.querySelectorAll('.match-left button');
+    lefts.forEach((b, i) => { b.click(); q.querySelector(`.match-right button[data-i="${i}"]`).click(); });
+    q.querySelector('.match-submit').click();
+  }
   const score = await until(() => a.d.querySelector('.quiz-score'));
   assert(score.textContent.includes(`${qs.length}/${qs.length}`), score.textContent);
   const saved = JSON.parse(a.w.localStorage.getItem('bugs.prefs.v1'));
@@ -212,6 +217,9 @@ await test('a species page renders its card, credited photo, IPM headings and th
   const warn = host.querySelector('.note-warn');
   assert(warn && warn.textContent.includes('使用任何农药前'), 'pesticide warning missing');
   assert(!/\[object /.test(host.textContent), 'object text');
+  const kv = document.createElement('div');
+  kv.append(renderSections({ id: 'p91', sections: [{ id: 's1', heading: T('h'), blocks: [{ type: 'keyval', src: ['TJ'], rows: [{ k: { zh: '蝽', zhTw: '椿象', en: 'Stink bug', ms: 'Pepijat busuk' }, v: T('x') }] }] }] }, ctx));
+  assert(kv.querySelector('dt').textContent === '蝽（大陆）／椿象（台湾）', `keyval name: ${kv.querySelector('dt').textContent}`);
 });
 
 await test('key walks to a result and back', async () => {
@@ -296,7 +304,7 @@ const firstP = a => until(() => a.d.querySelector('#s2 > p[data-rk]'));
 
 await testIf(P.length > 0, 'tapping a paragraph and a colour marks it in every language, after a reload', async () => {
   localStorage.removeItem(RKEY);
-  let a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'en' } });
+  let a = await openApp({ hash: '#/ch/p01', prefs: { lang: 'en' } });
   const p = await firstP(a);
   const key = p.dataset.rk;
   p.click();
@@ -307,7 +315,7 @@ await testIf(P.length > 0, 'tapping a paragraph and a colour marks it in every l
   await until(() => p.querySelector('.rd-ink[data-hl="pink"]'));
   assert(reader().marks[key].hl === 'pink', JSON.stringify(reader().marks));
   a.close();
-  a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'zh' } });
+  a = await openApp({ hash: '#/ch/p01', prefs: { lang: 'zh' } });
   await until(() => a.d.querySelector(`[data-rk="${key}"] .rd-ink[data-hl="pink"]`));
   a.close();
   localStorage.removeItem(RKEY);
@@ -315,7 +323,7 @@ await testIf(P.length > 0, 'tapping a paragraph and a colour marks it in every l
 
 await testIf(P.length > 0, 'long-press words: only those words are marked, in that language', async () => {
   localStorage.removeItem(RKEY);
-  const a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'en' } });
+  const a = await openApp({ hash: '#/ch/p01', prefs: { lang: 'en' } });
   const p = await firstP(a);
   // The first run of plain text long enough to select 12 characters from.
   const tw = a.d.createTreeWalker(p, 4);
@@ -341,7 +349,7 @@ await testIf(P.length > 0, 'long-press words: only those words are marked, in th
 
 await testIf(P.length > 0, 'a note and a bookmark show in Notes and Bookmarks, and lead back', async () => {
   localStorage.removeItem(RKEY);
-  const a = await openApp({ hash: '#/ch/ch01', prefs: { lang: 'en' } });
+  const a = await openApp({ hash: '#/ch/p01', prefs: { lang: 'en' } });
   let p = await firstP(a);
   const key = p.dataset.rk;
   p.click();
@@ -362,7 +370,7 @@ await testIf(P.length > 0, 'a note and a bookmark show in Notes and Bookmarks, a
   assert(item.querySelector('.rd-item-where').textContent.startsWith('Chapter 1'), item.textContent);
   item.click();
   p = await until(() => a.d.querySelector(`[data-rk="${key}"]`));
-  assert(a.w.location.hash === '#/ch/ch01', a.w.location.hash);
+  assert(a.w.location.hash === '#/ch/p01', a.w.location.hash);
   a.close();
   localStorage.removeItem(RKEY);
 });
@@ -372,7 +380,7 @@ await testIf(P.length > 0, 'Read aloud asks for a chapter first, then plays and 
   a.d.querySelector('[data-nav="listen"]').click();
   await until(() => !a.d.getElementById('toast').hidden && a.d.getElementById('toast').textContent.includes('Open a chapter'));
   if (a.w.speechSynthesis) {
-    a.w.location.hash = '#/ch/ch01';
+    a.w.location.hash = '#/ch/p01';
     await firstP(a);
     a.d.querySelector('[data-nav="listen"]').click();
     const pl = await until(() => { const x = a.d.querySelector('.rd-player'); return x && !x.hidden && x; });

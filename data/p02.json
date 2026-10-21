@@ -1,0 +1,259 @@
+{
+ "id": "p02",
+ "num": 2,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "哪些不是昆虫",
+  "en": "What is not an insect",
+  "ms": "Yang bukan serangga"
+ },
+ "blurb": {
+  "zh": "蜘蛛、蜱、蜈蚣、马陆和弹尾虫：常被误认的节肢动物",
+  "en": "Spiders, ticks, centipedes, millipedes and springtails: arthropods often mistaken for insects",
+  "ms": "Labah-labah, sengkenit, lipan, ulat gonggok dan ekor pegas: artropod yang sering disangka serangga"
+ },
+ "sources": [
+  "TJ",
+  "UMN-ARTH",
+  "ENC-ARK",
+  "WTK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "节肢动物大家族",
+    "en": "The arthropod family",
+    "ms": "Keluarga artropod"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:arthropod}}是身体分节、有外骨骼、脚也分节的动物。昆虫只是其中一群；蜘蛛、蜈蚣、马陆、虾蟹也是节肢动物，但不是昆虫。",
+      "en": "An {{t:arthropod}} is an animal with a segmented body, an exoskeleton and jointed legs. Insects are one group of them; spiders, centipedes, millipedes, prawns and crabs are arthropods too, but not insects.",
+      "ms": "{{t:arthropod}} ialah haiwan dengan badan beruas, rangka luar dan kaki bersendi. Serangga hanyalah satu kumpulannya; labah-labah, lipan, ulat gonggok, udang dan ketam juga artropod, tetapi bukan serangga."
+     },
+     "defines": [
+      "arthropod"
+     ],
+     "src": [
+      "TJ:20",
+      "TJ:22",
+      "UMN-ARTH"
+     ]
+    },
+    {
+     "type": "table",
+     "src": [
+      "TJ:22",
+      "UMN-ARTH",
+      "WTK:10"
+     ],
+     "defines": [
+      "arachnid"
+     ],
+     "caption": {
+      "zh": "数脚和看身体分区，就能分开它们",
+      "en": "Count the legs and the body parts to tell them apart",
+      "ms": "Kira kaki dan bahagian badan untuk membezakannya"
+     },
+     "headers": [
+      {
+       "zh": "类群",
+       "en": "Group",
+       "ms": "Kumpulan"
+      },
+      {
+       "zh": "脚",
+       "en": "Legs",
+       "ms": "Kaki"
+      },
+      {
+       "zh": "身体分区",
+       "en": "Body parts",
+       "ms": "Bahagian badan"
+      },
+      {
+       "zh": "例子",
+       "en": "Examples",
+       "ms": "Contoh"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "昆虫",
+        "en": "Insects",
+        "ms": "Serangga"
+       },
+       {
+        "zh": "6 只",
+        "en": "6",
+        "ms": "6"
+       },
+       {
+        "zh": "3：头、胸、腹",
+        "en": "3: head, thorax, abdomen",
+        "ms": "3: kepala, toraks, abdomen"
+       },
+       {
+        "zh": "蝴蝶、甲虫、蚂蚁",
+        "en": "Butterflies, beetles, ants",
+        "ms": "Rama-rama, kumbang, semut"
+       }
+      ],
+      [
+       {
+        "zh": "{{t:arachnid}}",
+        "en": "{{t:arachnid}}",
+        "ms": "{{t:arachnid}}"
+       },
+       {
+        "zh": "8 只",
+        "en": "8",
+        "ms": "8"
+       },
+       {
+        "zh": "2：头胸部、腹部",
+        "en": "2: cephalothorax, abdomen",
+        "ms": "2: sefalotoraks, abdomen"
+       },
+       {
+        "zh": "蜘蛛、蜱、蝎子",
+        "en": "Spiders, ticks, scorpions",
+        "ms": "Labah-labah, sengkenit, kala jengking"
+       }
+      ],
+      [
+       {
+        "zh": "蜈蚣",
+        "en": "Centipedes",
+        "ms": "Lipan"
+       },
+       {
+        "zh": "每节 1 对",
+        "en": "1 pair per segment",
+        "ms": "1 pasang setiap ruas"
+       },
+       {
+        "zh": "头 + 许多体节",
+        "en": "Head + many segments",
+        "ms": "Kepala + banyak ruas"
+       },
+       {
+        "zh": "蜈蚣",
+        "en": "Centipedes",
+        "ms": "Lipan"
+       }
+      ],
+      [
+       {
+        "zh": "马陆",
+        "en": "Millipedes",
+        "ms": "Ulat gonggok"
+       },
+       {
+        "zh": "每节 2 对",
+        "en": "2 pairs per segment",
+        "ms": "2 pasang setiap ruas"
+       },
+       {
+        "zh": "头 + 许多体节",
+        "en": "Head + many segments",
+        "ms": "Kepala + banyak ruas"
+       },
+       {
+        "zh": "马陆",
+        "en": "Millipedes",
+        "ms": "Ulat gonggok"
+       }
+      ],
+      [
+       {
+        "zh": "甲壳动物",
+        "en": "Crustaceans",
+        "ms": "Krustasia"
+       },
+       {
+        "zh": "很多对",
+        "en": "Many pairs",
+        "ms": "Banyak pasang"
+       },
+       {
+        "zh": "多为头胸部、腹部",
+        "en": "Usually cephalothorax, abdomen",
+        "ms": "Biasanya sefalotoraks, abdomen"
+       },
+       {
+        "zh": "虾、蟹、鼠妇",
+        "en": "Prawns, crabs, woodlice",
+        "ms": "Udang, ketam, kutu kayu"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "蜱常被当成小甲虫。数一数：成年的蜱有四对、八只脚，所以属于蛛形纲，不是昆虫。",
+      "en": "Ticks are often taken for small beetles. Count the legs: an adult tick has four pairs, eight legs, so it is an arachnid, not an insect.",
+      "ms": "Sengkenit sering disangka kumbang kecil. Kira kakinya: sengkenit dewasa mempunyai empat pasang, lapan kaki, jadi ia araknid, bukan serangga."
+     },
+     "src": [
+      "WTK:10",
+      "UMN-ARTH"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "六只脚，却不是昆虫",
+    "en": "Six legs, but not insects",
+    "ms": "Enam kaki, tetapi bukan serangga"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:springtail}}、原尾虫和双尾虫都有六只脚，过去被算作昆虫。它们的口器藏在头里面，现在归为{{t:hexapod}}，但不属于昆虫纲。",
+      "en": "{{t:springtail|Springtails}}, proturans and diplurans all have six legs and used to be counted as insects. Their mouthparts sit inside the head, and today they are classed as {{t:hexapod|hexapods}} but not as insects.",
+      "ms": "{{t:springtail|Ekor pegas}}, protura dan diplura semuanya berkaki enam dan dahulu dikira sebagai serangga. Bahagian mulutnya terletak di dalam kepala, dan kini ia dikelaskan sebagai {{t:hexapod|heksapod}} tetapi bukan serangga."
+     },
+     "defines": [
+      "springtail",
+      "hexapod"
+     ],
+     "src": [
+      "TJ:22",
+      "ENC-ARK"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "弹尾虫很小，通常只有 1–3 毫米，住在土壤和落叶里，帮助分解有机物。",
+      "en": "Springtails are tiny, usually 1–3 mm long, and live in soil and leaf litter, where they help break down dead plant matter.",
+      "ms": "Ekor pegas sangat kecil, biasanya 1–3 mm panjang, dan hidup dalam tanah dan sarap daun, membantu mengurai bahan tumbuhan mati."
+     },
+     "src": [
+      "WTK:10",
+      "ENC-ARK"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "arthropod",
+  "arachnid",
+  "springtail",
+  "hexapod"
+ ]
+}

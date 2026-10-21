@@ -1,0 +1,229 @@
+{
+ "id": "p04",
+ "num": 4,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "胸部和足",
+  "en": "The thorax and legs",
+  "ms": "Toraks dan kaki"
+ },
+ "blurb": {
+  "zh": "三个胸节、足的六节，以及为跑、跳、挖、游、抓而变形的足",
+  "en": "Three thoracic segments, the six parts of a leg, and legs shaped for running, jumping, digging, swimming and grabbing",
+  "ms": "Tiga ruas toraks, enam bahagian kaki, dan kaki yang berubah bentuk untuk berlari, melompat, menggali, berenang dan menangkap"
+ },
+ "sources": [
+  "TJ",
+  "PURDUE-TA"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "运动的中心",
+    "en": "The centre of movement",
+    "ms": "Pusat pergerakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "胸部由三节组成：{{t:prothorax}}、{{t:mesothorax}}和{{t:metathorax}}。每一节下面有一对足；翅长在中胸和后胸的背面。",
+      "en": "The thorax has three segments: the {{t:prothorax}}, {{t:mesothorax}} and {{t:metathorax}}. Each carries a pair of legs underneath; the wings grow from the top of the mesothorax and metathorax.",
+      "ms": "Toraks mempunyai tiga ruas: {{t:prothorax}}, {{t:mesothorax}} dan {{t:metathorax}}. Setiap ruas mempunyai sepasang kaki di bawah; sayap tumbuh dari bahagian atas mesotoraks dan metatoraks."
+     },
+     "defines": [
+      "prothorax",
+      "mesothorax",
+      "metathorax"
+     ],
+     "src": [
+      "TJ:29"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "足的六个部分",
+    "en": "The six parts of a leg",
+    "ms": "Enam bahagian kaki"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "从身体往外数，每只足有六个部分：",
+      "en": "Counting outwards from the body, each leg has six parts:",
+      "ms": "Dikira dari badan ke luar, setiap kaki mempunyai enam bahagian:"
+     },
+     "src": [
+      "TJ:29"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{t:coxa}}：连在身体上的第一节",
+       "en": "{{t:coxa}}: the first part, joined to the body",
+       "ms": "{{t:coxa}}: bahagian pertama, bersambung dengan badan"
+      },
+      {
+       "zh": "{{t:trochanter}}：很短的一小节",
+       "en": "{{t:trochanter}}: a short small part",
+       "ms": "{{t:trochanter}}: bahagian kecil yang pendek"
+      },
+      {
+       "zh": "{{t:femur}}：通常最粗壮的一节",
+       "en": "{{t:femur}}: usually the thickest part",
+       "ms": "{{t:femur}}: biasanya bahagian paling tebal"
+      },
+      {
+       "zh": "{{t:tibia}}：细长，常有刺",
+       "en": "{{t:tibia}}: long and thin, often spiny",
+       "ms": "{{t:tibia}}: panjang dan halus, selalunya berduri"
+      },
+      {
+       "zh": "{{t:tarsus}}：由几小节组成的脚掌",
+       "en": "{{t:tarsus}}: the 'foot', made of a few small segments",
+       "ms": "{{t:tarsus}}: 'tapak kaki', terdiri daripada beberapa ruas kecil"
+      },
+      {
+       "zh": "前跗节：最末端，带有{{t:claw}}",
+       "en": "Pretarsus: the very tip, with the {{t:claw|claws}}",
+       "ms": "Pratarsus: hujung sekali, dengan {{t:claw|kuku}}"
+      }
+     ],
+     "ordered": true,
+     "defines": [
+      "coxa",
+      "trochanter",
+      "femur",
+      "tibia",
+      "tarsus",
+      "claw"
+     ],
+     "src": [
+      "TJ:29"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "变了形的足",
+    "en": "Legs shaped for a job",
+    "ms": "Kaki yang berubah bentuk"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "足的形状告诉你这只昆虫怎样生活：",
+      "en": "The shape of the legs tells you how an insect lives:",
+      "ms": "Bentuk kaki menunjukkan cara serangga itu hidup:"
+     },
+     "src": [
+      "TJ:29",
+      "PURDUE-TA"
+     ]
+    },
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:29",
+      "PURDUE-TA"
+     ],
+     "defines": [
+      "raptorial",
+      "saltatorial",
+      "fossorial"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "步行足",
+        "en": "Walking or running legs",
+        "ms": "Kaki berjalan atau berlari"
+       },
+       "v": {
+        "zh": "细长、各节差不多，适合快跑，如蟑螂",
+        "en": "Slender with similar parts, for running; cockroaches",
+        "ms": "Langsing dengan bahagian serupa, untuk berlari; lipas"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:saltatorial}}",
+        "en": "{{t:saltatorial|Jumping legs}}",
+        "ms": "{{t:saltatorial|Kaki melompat}}"
+       },
+       "v": {
+        "zh": "后足的腿节特别粗，如蝗虫",
+        "en": "Hind legs with a greatly enlarged femur; grasshoppers",
+        "ms": "Kaki belakang dengan femur yang sangat besar; belalang"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:raptorial}}",
+        "en": "{{t:raptorial|Grasping legs}}",
+        "ms": "{{t:raptorial|Kaki penangkap}}"
+       },
+       "v": {
+        "zh": "前足有刺，可以折起来夹住猎物，如螳螂",
+        "en": "Spiny front legs that fold shut on prey; mantids",
+        "ms": "Kaki depan berduri yang dilipat untuk menangkap mangsa; cengkadak"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:fossorial}}",
+        "en": "{{t:fossorial|Digging legs}}",
+        "ms": "{{t:fossorial|Kaki penggali}}"
+       },
+       "v": {
+        "zh": "前足宽扁像铲子，如蝼蛄",
+        "en": "Broad, flat front legs like spades; mole crickets",
+        "ms": "Kaki depan lebar dan leper seperti penyodok; anjing tanah"
+       }
+      },
+      {
+       "k": {
+        "zh": "游泳足",
+        "en": "Swimming legs",
+        "ms": "Kaki berenang"
+       },
+       "v": {
+        "zh": "扁平、有长毛，像桨，如龙虱",
+        "en": "Flattened and fringed with hairs like oars; diving beetles",
+        "ms": "Leper dan berbulu panjang seperti dayung; kumbang penyelam"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "prothorax",
+  "mesothorax",
+  "metathorax",
+  "coxa",
+  "trochanter",
+  "femur",
+  "tibia",
+  "tarsus",
+  "claw",
+  "raptorial",
+  "saltatorial",
+  "fossorial"
+ ]
+}

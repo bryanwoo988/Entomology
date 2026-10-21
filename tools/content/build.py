@@ -56,6 +56,29 @@ def CONTROL(level, zh, en, ms, src, ai=()):
     return b
 
 
+def MC(q, options, answer, why, src, img=None):
+    """Multiple choice (2–4 options); true/false is MC with two options."""
+    b = {"q": q, "options": list(options), "answer": answer, "why": why, "src": list(src)}
+    if img:
+        b["img"] = img
+    return b
+
+
+def TF(q, true, why, src):
+    return MC(q, [T("对", "True", "Betul"), T("错", "False", "Salah")], 0 if true else 1, why, src)
+
+
+def MATCH(q, pairs, why, src):
+    return {"type": "match", "q": q, "pairs": [{"left": l, "right": r} for l, r in pairs], "why": why, "src": list(src)}
+
+
+def FIG(src, caption, alt=None):
+    b = {"type": "figure", "src": src, "caption": caption}
+    if alt:
+        b["alt"] = alt
+    return b
+
+
 def _load(name, default):
     p = DATA / f"{name}.json"
     return json.loads(p.read_text()) if p.exists() else default
@@ -98,6 +121,7 @@ def write_chapter(chapter, terms, sources, quiz, datasets=()):
         by_id[s["id"]] = s
     _dump("sources", sorted(by_id.values(), key=lambda s: s["id"]))
 
+    quiz = [{"stage": chapter["stage"], "chapter": cid, **q} for q in quiz]
     _dump("quiz", [q for q in _load("quiz", []) if q["chapter"] != cid] + quiz)
 
     if datasets:
@@ -106,10 +130,14 @@ def write_chapter(chapter, terms, sources, quiz, datasets=()):
             by[d["id"]] = tidy(d)
         _dump("datasets", list(by.values()))
 
+    # Register the page in index.json (in its stage, in id order) and refresh its title.
     index = _load("index", None)
-    for c in index["chapters"]:
-        if c["id"] == cid:
-            c.pop("ready", None)
-            c["title"] = chapter["title"]
+    meta = {"id": cid, "num": num, "stage": chapter["stage"], "kind": chapter.get("kind", "lesson"),
+            "title": chapter["title"], "blurb": chapter.get("blurb", chapter["title"])}
+    index["chapters"] = sorted([c for c in index["chapters"] if c["id"] != cid] + [meta], key=lambda c: c["num"])
+    for st in index["stages"]:
+        st["chapters"] = [x for x in st["chapters"] if x != cid]
+        if st["n"] == chapter["stage"]:
+            st["chapters"] = sorted(st["chapters"] + [cid])
     _dump("index", index)
     print(f"{cid}: {sum(len(s['blocks']) for s in chapter['sections'])} blocks, {len(terms)} terms, {len(quiz)} questions")

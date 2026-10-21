@@ -9,13 +9,22 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'bugs-dc33040ffd';
+const CACHE = 'bugs-004f932381';
 const ASSETS = [
   './',
   'css/app.css',
   'css/reader.css',
   'data/index.json',
   'data/key.json',
+  'data/p01.json',
+  'data/p02.json',
+  'data/p03.json',
+  'data/p04.json',
+  'data/p05.json',
+  'data/p06.json',
+  'data/p07.json',
+  'data/p08.json',
+  'data/p09.json',
   'data/pesticides.json',
   'data/photos.json',
   'data/quiz.json',

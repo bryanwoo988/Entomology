@@ -17,7 +17,14 @@
     "en": "An insect's body: head, thorax, abdomen, legs and wings",
     "ms": "Badan serangga: kepala, toraks, abdomen, kaki dan sayap"
    },
-   "chapters": []
+   "chapters": [
+    "p01",
+    "p02",
+    "p03",
+    "p04",
+    "p05",
+    "p06"
+   ]
   },
   {
    "n": 2,
@@ -31,7 +38,10 @@
     "en": "Reading scientific names, and identifying an insect to its order step by step",
     "ms": "Membaca nama saintifik, dan mengecam serangga hingga ordernya langkah demi langkah"
    },
-   "chapters": []
+   "chapters": [
+    "p07",
+    "p08"
+   ]
   },
   {
    "n": 3,
@@ -45,7 +55,9 @@
     "en": "From egg to adult: three ways insects grow up",
     "ms": "Daripada telur hingga dewasa: tiga cara serangga membesar"
    },
-   "chapters": []
+   "chapters": [
+    "p09"
+   ]
   },
   {
    "n": 4,
@@ -90,5 +102,150 @@
    "chapters": []
   }
  ],
- "chapters": []
+ "chapters": [
+  {
+   "id": "p01",
+   "num": 1,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "什么是昆虫",
+    "en": "What is an insect?",
+    "ms": "Apakah serangga?"
+   },
+   "blurb": {
+    "zh": "六只脚、三个体区，以及怎样一眼认出昆虫",
+    "en": "Six legs, three body parts, and how to tell an insect at a glance",
+    "ms": "Enam kaki, tiga bahagian badan, dan cara mengecam serangga sepintas lalu"
+   }
+  },
+  {
+   "id": "p02",
+   "num": 2,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "哪些不是昆虫",
+    "en": "What is not an insect",
+    "ms": "Yang bukan serangga"
+   },
+   "blurb": {
+    "zh": "蜘蛛、蜱、蜈蚣、马陆和弹尾虫：常被误认的节肢动物",
+    "en": "Spiders, ticks, centipedes, millipedes and springtails: arthropods often mistaken for insects",
+    "ms": "Labah-labah, sengkenit, lipan, ulat gonggok dan ekor pegas: artropod yang sering disangka serangga"
+   }
+  },
+  {
+   "id": "p03",
+   "num": 3,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "头部：触角、眼睛和口器",
+    "en": "The head: antennae, eyes and mouthparts",
+    "ms": "Kepala: sesungut, mata dan bahagian mulut"
+   },
+   "blurb": {
+    "zh": "触角的七种形状、复眼和单眼、五种口器",
+    "en": "Seven antenna shapes, compound eyes and ocelli, five kinds of mouthparts",
+    "ms": "Tujuh bentuk sesungut, mata majmuk dan oselus, lima jenis bahagian mulut"
+   }
+  },
+  {
+   "id": "p04",
+   "num": 4,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "胸部和足",
+    "en": "The thorax and legs",
+    "ms": "Toraks dan kaki"
+   },
+   "blurb": {
+    "zh": "三个胸节、足的六节，以及为跑、跳、挖、游、抓而变形的足",
+    "en": "Three thoracic segments, the six parts of a leg, and legs shaped for running, jumping, digging, swimming and grabbing",
+    "ms": "Tiga ruas toraks, enam bahagian kaki, dan kaki yang berubah bentuk untuk berlari, melompat, menggali, berenang dan menangkap"
+   }
+  },
+  {
+   "id": "p05",
+   "num": 5,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "翅",
+    "en": "Wings",
+    "ms": "Sayap"
+   },
+   "blurb": {
+    "zh": "前翅和后翅、六种翅、平衡棒和小盾片",
+    "en": "Forewings and hind wings, six kinds of wing, halteres and the scutellum",
+    "ms": "Sayap depan dan belakang, enam jenis sayap, halter dan skutelum"
+   }
+  },
+  {
+   "id": "p06",
+   "num": 6,
+   "stage": 1,
+   "kind": "lesson",
+   "title": {
+    "zh": "腹部",
+    "en": "The abdomen",
+    "ms": "Abdomen"
+   },
+   "blurb": {
+    "zh": "气门、产卵器、尾须、尾铗和螫针",
+    "en": "Spiracles, ovipositor, cerci, forceps and sting",
+    "ms": "Spirakel, ovipositor, serkus, penyepit dan sengat"
+   }
+  },
+  {
+   "id": "p07",
+   "num": 7,
+   "stage": 2,
+   "kind": "lesson",
+   "title": {
+    "zh": "分类与学名",
+    "en": "Classification and scientific names",
+    "ms": "Pengelasan dan nama saintifik"
+   },
+   "blurb": {
+    "zh": "界门纲目科属种，以及怎样读一个学名",
+    "en": "Kingdom to species, and how to read a scientific name",
+    "ms": "Daripada alam hingga spesies, dan cara membaca nama saintifik"
+   }
+  },
+  {
+   "id": "p08",
+   "num": 8,
+   "stage": 2,
+   "kind": "lesson",
+   "title": {
+    "zh": "用检索表辨识",
+    "en": "Identifying with a key",
+    "ms": "Mengecam dengan kunci"
+   },
+   "blurb": {
+    "zh": "二分检索表怎样一步步缩小范围，以及用图练习",
+    "en": "How a dichotomous key narrows things down, with picture practice",
+    "ms": "Bagaimana kunci dikotomi mengecilkan pilihan, dengan latihan bergambar"
+   }
+  },
+  {
+   "id": "p09",
+   "num": 9,
+   "stage": 3,
+   "kind": "lesson",
+   "title": {
+    "zh": "生活史",
+    "en": "Life cycles",
+    "ms": "Kitaran hidup"
+   },
+   "blurb": {
+    "zh": "蜕皮、三种发育方式、幼虫和蛹的样子，以及为什么防治要看虫期",
+    "en": "Moulting, three ways of growing up, what larvae and pupae look like, and why pest control depends on the stage",
+    "ms": "Salin kulit, tiga cara membesar, rupa larva dan pupa, dan mengapa kawalan perosak bergantung pada peringkat"
+   }
+  }
+ ]
 }

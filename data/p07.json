@@ -1,0 +1,212 @@
+{
+ "id": "p07",
+ "num": 7,
+ "stage": 2,
+ "kind": "lesson",
+ "title": {
+  "zh": "分类与学名",
+  "en": "Classification and scientific names",
+  "ms": "Pengelasan dan nama saintifik"
+ },
+ "blurb": {
+  "zh": "界门纲目科属种，以及怎样读一个学名",
+  "en": "Kingdom to species, and how to read a scientific name",
+  "ms": "Daripada alam hingga spesies, dan cara membaca nama saintifik"
+ },
+ "sources": [
+  "TJ",
+  "ICZN"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "七个基本阶层",
+    "en": "Seven basic ranks",
+    "ms": "Tujuh peringkat asas"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "生物分类有七个基本阶层：界、门、纲、目、科、属、种。昆虫属于动物界、节肢动物门、昆虫纲。昆虫纲下面再分成许多{{t:order}}，这个 App 主要就是帮你辨识到目。",
+      "en": "Living things are classified in seven basic ranks: kingdom, phylum, class, order, family, genus and species. Insects belong to the animal kingdom, the phylum Arthropoda and the class Insecta. The class is split into {{t:order|orders}}, and this app mainly helps you identify an insect to its order.",
+      "ms": "Benda hidup dikelaskan dalam tujuh peringkat asas: alam, filum, kelas, order, famili, genus dan spesies. Serangga tergolong dalam alam haiwan, filum Arthropoda dan kelas Insecta. Kelas itu dibahagikan kepada banyak {{t:order}}, dan aplikasi ini terutamanya membantu anda mengecam serangga hingga ordernya."
+     },
+     "defines": [
+      "order"
+     ],
+     "src": [
+      "TJ:22"
+     ]
+    },
+    {
+     "type": "table",
+     "src": [
+      "TJ:22",
+      "TJ:148"
+     ],
+     "caption": {
+      "zh": "例子：狭臀瓢虫",
+      "zhTw": "例子：波纹瓢虫",
+      "en": "Example: the transverse ladybird",
+      "ms": "Contoh: kumbang kura-kura melintang"
+     },
+     "headers": [
+      {
+       "zh": "阶层",
+       "en": "Rank",
+       "ms": "Peringkat"
+      },
+      {
+       "zh": "名称",
+       "en": "Name",
+       "ms": "Nama"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "界",
+        "en": "Kingdom",
+        "ms": "Alam"
+       },
+       {
+        "zh": "动物界 Animalia",
+        "en": "Animalia",
+        "ms": "Animalia"
+       }
+      ],
+      [
+       {
+        "zh": "门",
+        "en": "Phylum",
+        "ms": "Filum"
+       },
+       {
+        "zh": "节肢动物门 Arthropoda",
+        "en": "Arthropoda",
+        "ms": "Arthropoda"
+       }
+      ],
+      [
+       {
+        "zh": "纲",
+        "en": "Class",
+        "ms": "Kelas"
+       },
+       {
+        "zh": "昆虫纲 Insecta",
+        "en": "Insecta",
+        "ms": "Insecta"
+       }
+      ],
+      [
+       {
+        "zh": "目",
+        "en": "Order",
+        "ms": "Order"
+       },
+       {
+        "zh": "鞘翅目 Coleoptera",
+        "en": "Coleoptera",
+        "ms": "Coleoptera"
+       }
+      ],
+      [
+       {
+        "zh": "科",
+        "en": "Family",
+        "ms": "Famili"
+       },
+       {
+        "zh": "瓢虫科 Coccinellidae",
+        "en": "Coccinellidae",
+        "ms": "Coccinellidae"
+       }
+      ],
+      [
+       {
+        "zh": "属",
+        "en": "Genus",
+        "ms": "Genus"
+       },
+       {
+        "zh": "Coccinella",
+        "en": "Coccinella",
+        "ms": "Coccinella"
+       }
+      ],
+      [
+       {
+        "zh": "种",
+        "en": "Species",
+        "ms": "Spesies"
+       },
+       {
+        "zh": "Coccinella transversalis",
+        "en": "Coccinella transversalis",
+        "ms": "Coccinella transversalis"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "怎样读学名",
+    "en": "Reading a scientific name",
+    "ms": "Membaca nama saintifik"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "每个物种都有一个由两个词组成的{{t:binomial-name}}：第一个是属名，首字母大写；第二个是种小名，全部小写。学名用斜体书写。",
+      "en": "Every species has a two-word {{t:binomial-name}}: the genus name, with a capital letter, then the species name, all lower case. Scientific names are written in italics.",
+      "ms": "Setiap spesies mempunyai {{t:binomial-name}} dua perkataan: nama genus dengan huruf besar, kemudian nama spesies dengan huruf kecil. Nama saintifik ditulis dalam huruf condong."
+     },
+     "defines": [
+      "binomial-name"
+     ],
+     "src": [
+      "ICZN:5.1"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "学名后面常跟着命名者和年份，例如 Coccinella transversalis Fabricius, 1781。如果命名者和年份放在括号里，表示这个物种后来被移到了另一个属：六斑月瓢虫最初被放在 Coccinella，现在写作 Cheilomenes sexmaculata (Fabricius, 1781)。",
+      "en": "A name is often followed by its author and year, as in Coccinella transversalis Fabricius, 1781. When the author and year are in brackets, the species has since been moved to another genus: the six-spotted ladybird was first placed in Coccinella and is now written Cheilomenes sexmaculata (Fabricius, 1781).",
+      "ms": "Nama sering diikuti oleh pengarang dan tahun, seperti Coccinella transversalis Fabricius, 1781. Apabila pengarang dan tahun dalam kurungan, spesies itu telah dipindahkan ke genus lain: kumbang kura-kura enam bintik mula-mula diletakkan dalam Coccinella dan kini ditulis Cheilomenes sexmaculata (Fabricius, 1781)."
+     },
+     "src": [
+      "ICZN:51.3",
+      "TJ:146",
+      "TJ:148"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "中文俗名各地不同，同一种昆虫在大陆和台湾的叫法常常不一样（例如蝽和椿象）。学名是全世界共用的，查资料时最可靠。",
+      "en": "Common names vary from place to place; the same insect often has different Chinese names in mainland China and Taiwan (for example 蝽 and 椿象). A scientific name is shared worldwide, so it is the safest way to look an insect up.",
+      "ms": "Nama biasa berbeza mengikut tempat; serangga yang sama sering mempunyai nama Cina yang berlainan di China dan Taiwan. Nama saintifik dikongsi di seluruh dunia, jadi ia cara paling selamat untuk mencari maklumat."
+     },
+     "src": [
+      "ICZN:5.1"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "order",
+  "binomial-name"
+ ]
+}

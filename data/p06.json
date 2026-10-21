@@ -1,0 +1,130 @@
+{
+ "id": "p06",
+ "num": 6,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "腹部",
+  "en": "The abdomen",
+  "ms": "Abdomen"
+ },
+ "blurb": {
+  "zh": "气门、产卵器、尾须、尾铗和螫针",
+  "en": "Spiracles, ovipositor, cerci, forceps and sting",
+  "ms": "Spirakel, ovipositor, serkus, penyepit dan sengat"
+ },
+ "sources": [
+  "TJ",
+  "PURDUE-TA"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "消化与生殖",
+    "en": "Digestion and reproduction",
+    "ms": "Pencernaan dan pembiakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "腹部装着消化和生殖器官，由许多环节组成，通常没有脚。",
+      "en": "The abdomen holds the digestive and reproductive organs. It is made of many ring-like segments and usually has no legs.",
+      "ms": "Abdomen menempatkan organ pencernaan dan pembiakan. Ia terdiri daripada banyak ruas seperti cincin dan biasanya tiada kaki."
+     },
+     "src": [
+      "TJ:33",
+      "PURDUE-TA"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "身体两侧有一排小孔叫{{t:spiracle}}，空气从这里进入体内的气管。昆虫用气门呼吸，不是用嘴。",
+      "en": "Along each side is a row of small holes called {{t:spiracle|spiracles}}; air enters the breathing tubes through them. Insects breathe through spiracles, not through the mouth.",
+      "ms": "Di sepanjang setiap sisi terdapat barisan lubang kecil dipanggil {{t:spiracle}}; udara masuk ke dalam salur pernafasan melaluinya. Serangga bernafas melalui spirakel, bukan melalui mulut."
+     },
+     "defines": [
+      "spiracle"
+     ],
+     "src": [
+      "PURDUE-TA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "腹部末端的构造",
+    "en": "At the tip of the abdomen",
+    "ms": "Di hujung abdomen"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{t:ovipositor}}：雌虫产卵用的管子，螽斯的又长又像刀",
+       "en": "{{t:ovipositor}}: the female's egg-laying tube; long and blade-like in katydids",
+       "ms": "{{t:ovipositor}}: tiub bertelur betina; panjang seperti bilah pada katidid"
+      },
+      {
+       "zh": "{{t:cercus}}：一对细长的尾巴状附器",
+       "en": "{{t:cercus|Cerci}}: a pair of slender tail-like feelers",
+       "ms": "{{t:cercus}}: sepasang tambahan halus seperti ekor"
+      },
+      {
+       "zh": "尾铗：蠼螋腹末的一对钳子",
+       "en": "Forceps: the earwig's pair of pincers",
+       "ms": "Penyepit: sepasang sepit di hujung abdomen cocopet"
+      },
+      {
+       "zh": "螫针：蜂类的螫刺",
+       "en": "Sting: in bees and wasps",
+       "ms": "Sengat: pada lebah dan tebuan"
+      },
+      {
+       "zh": "攫握器：雄蜻蜓交配时抓住雌虫用",
+       "en": "Claspers: male dragonflies hold the female with them",
+       "ms": "Pengapit: pepatung jantan memegang betina dengannya"
+      },
+      {
+       "zh": "发音器：雄蝉腹部的鸣叫器官",
+       "en": "Sound organs: in the abdomen of male cicadas",
+       "ms": "Organ bunyi: dalam abdomen riang-riang jantan"
+      }
+     ],
+     "defines": [
+      "ovipositor",
+      "cercus"
+     ],
+     "src": [
+      "TJ:33"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "看到腹末有一对钳子，几乎一定是蠼螋；看到一根长长的“刀”，多半是雌螽斯。",
+      "en": "A pair of pincers at the tail almost always means an earwig; a long 'blade' usually means a female katydid.",
+      "ms": "Sepasang sepit di hujung hampir pasti cocopet; 'bilah' panjang biasanya katidid betina."
+     },
+     "src": [
+      "TJ:33",
+      "TJ:40"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "spiracle",
+  "ovipositor",
+  "cercus"
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "id": "p01",
+ "num": 1,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "什么是昆虫",
+  "en": "What is an insect?",
+  "ms": "Apakah serangga?"
+ },
+ "blurb": {
+  "zh": "六只脚、三个体区，以及怎样一眼认出昆虫",
+  "en": "Six legs, three body parts, and how to tell an insect at a glance",
+  "ms": "Enam kaki, tiga bahagian badan, dan cara mengecam serangga sepintas lalu"
+ },
+ "sources": [
+  "TJ"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "昆虫的三个记号",
+    "en": "Three signs of an insect",
+    "ms": "Tiga tanda serangga"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:insect}}是一类节肢动物：身体由许多节组成，外面包着一层坚硬的{{t:exoskeleton}}。在所有无脊椎动物里，只有昆虫会飞。",
+      "en": "An {{t:insect}} is a kind of arthropod: its body is made of many segments and wrapped in a hard {{t:exoskeleton}}. Of all animals without a backbone, only insects can fly.",
+      "ms": "{{t:insect}} ialah sejenis artropod: badannya terdiri daripada banyak ruas dan dibalut oleh {{t:exoskeleton}} yang keras. Antara semua haiwan tanpa tulang belakang, hanya serangga yang boleh terbang."
+     },
+     "defines": [
+      "insect",
+      "exoskeleton"
+     ],
+     "src": [
+      "TJ:20",
+      "TJ:31"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "要判断一只成年的小动物是不是昆虫，看这三件事：",
+      "en": "To tell whether an adult creature is an insect, check three things:",
+      "ms": "Untuk mengetahui sama ada haiwan dewasa itu serangga, semak tiga perkara:"
+     },
+     "src": [
+      "TJ:20-21"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "六只脚（三对）：最容易看的特征",
+       "en": "Six legs (three pairs): the easiest feature to check",
+       "ms": "Enam kaki (tiga pasang): ciri yang paling mudah disemak"
+      },
+      {
+       "zh": "身体分成{{t:head}}、{{t:thorax}}、{{t:abdomen}}三部分",
+       "en": "A body in three parts: {{t:head}}, {{t:thorax}} and {{t:abdomen}}",
+       "ms": "Badan tiga bahagian: {{t:head}}, {{t:thorax}} dan {{t:abdomen}}"
+      },
+      {
+       "zh": "多数成虫有两对翅；有些只有一对，有些没有翅",
+       "en": "Most adults have two pairs of wings; some have one pair, some none",
+       "ms": "Kebanyakan dewasa mempunyai dua pasang sayap; ada yang sepasang, ada yang tiada"
+      }
+     ],
+     "defines": [
+      "head",
+      "thorax",
+      "abdomen"
+     ],
+     "src": [
+      "TJ:20-21",
+      "TJ:31"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "这个方法只适用于成虫。毛虫、蛆这些幼虫的样子和成虫很不一样。",
+      "en": "This works for adults only. Larvae such as caterpillars and maggots look very different from their adults.",
+      "ms": "Kaedah ini untuk serangga dewasa sahaja. Larva seperti ulat dan berenga kelihatan sangat berbeza daripada dewasanya."
+     },
+     "src": [
+      "TJ:20"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "myth",
+     "text": {
+      "zh": "有些蝴蝶看起来只有四只脚。其实它们的前足退化得很小，收在身体前面，仍然是六只脚的昆虫。",
+      "en": "Some butterflies seem to have only four legs. Their front legs are just very small and held against the body; they are still six-legged insects.",
+      "ms": "Sesetengah rama-rama kelihatan berkaki empat. Sebenarnya kaki depannya sangat kecil dan dilipat rapat ke badan; ia tetap serangga berkaki enam."
+     },
+     "src": [
+      "TJ:21"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "三个体区各管什么",
+    "en": "What each part does",
+    "ms": "Tugas setiap bahagian"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:25",
+      "TJ:29",
+      "TJ:33"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "头部",
+        "en": "Head",
+        "ms": "Kepala"
+       },
+       "v": {
+        "zh": "感觉与取食的中心：触角、眼睛和口器都在这里",
+        "en": "The centre for senses and feeding: antennae, eyes and mouthparts",
+        "ms": "Pusat deria dan makan: sesungut, mata dan bahagian mulut"
+       }
+      },
+      {
+       "k": {
+        "zh": "胸部",
+        "en": "Thorax",
+        "ms": "Toraks"
+       },
+       "v": {
+        "zh": "运动的中心：三对足和翅都长在这里",
+        "en": "The centre for movement: all three pairs of legs and the wings",
+        "ms": "Pusat pergerakan: tiga pasang kaki dan sayap"
+       }
+      },
+      {
+       "k": {
+        "zh": "腹部",
+        "en": "Abdomen",
+        "ms": "Abdomen"
+       },
+       "v": {
+        "zh": "消化和生殖器官所在的地方",
+        "en": "Holds the digestive and reproductive organs",
+        "ms": "Menempatkan organ pencernaan dan pembiakan"
+       }
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "点一下图上的部位，看看它叫什么、在哪一页讲解。",
+      "en": "Tap a part of the drawing to see its name and where it is explained.",
+      "ms": "Ketik bahagian lukisan untuk melihat namanya dan di mana ia diterangkan."
+     },
+     "src": [
+      "TJ:20-21"
+     ]
+    },
+    {
+     "type": "widget",
+     "id": "anatomy"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "昆虫有多少种",
+    "en": "How many kinds of insects?",
+    "ms": "Berapa banyak jenis serangga?"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "世界上已知的昆虫超过一百万种，比其他所有动物加起来还多，占已知物种的一半以上。从高山到海边的潮间带，到处都有昆虫。",
+      "en": "More than a million kinds of insects are known, more than all other animals put together and over half of all known species. They live almost everywhere, from mountains to the seashore.",
+      "ms": "Lebih sejuta jenis serangga telah diketahui, lebih banyak daripada semua haiwan lain digabungkan dan lebih separuh daripada semua spesies yang diketahui. Serangga hidup hampir di mana-mana, dari gunung hingga ke pantai."
+     },
+     "src": [
+      "TJ:22"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "insect",
+  "exoskeleton",
+  "head",
+  "thorax",
+  "abdomen"
+ ]
+}

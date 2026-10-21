@@ -11,7 +11,7 @@ test('the diagram has exactly one hotspot per part', () => {
   assert.equal(new Set(parts).size, parts.length);
 });
 
-test('every part is a glossary term', { todo: 'terms are written in Task 9' }, () => {
+test('every part is a glossary term', () => {
   const terms = new Set(JSON.parse(readFileSync(new URL('../data/terms.json', import.meta.url), 'utf8')).map(t => t.id));
   for (const p of PARTS) assert.ok(terms.has(p), p);
 });

@@ -17,7 +17,7 @@ const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(
    Immediate mode reveals the answer and calls onDone(correct, response) once.
    Deferred mode (exams) only records: onDone is called on every change. */
 export function renderItem(item, lang, onDone, { deferred = false } = {}) {
-  const li = el('div', { class: 'quiz-q', 'data-id': itemId(item) },
+  const li = el('div', { class: 'quiz-q', 'data-id': itemId(item), 'data-answer': kindOf(item) === 'mc' ? String(item.answer) : null },
     el('p', { class: 'quiz-text' }, pick(item.q, lang)),
     item.img ? el('img', { class: 'quiz-img', src: item.img, alt: '' }) : null);
   const why = el('p', { class: 'quiz-why', hidden: true }, pick(item.why, lang));

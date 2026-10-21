@@ -1,1 +1,695 @@
-[]
+[
+ {
+  "id": "abdomen",
+  "name": {
+   "zh": "腹部",
+   "en": "Abdomen",
+   "ms": "Abdomen"
+  },
+  "short": {
+   "zh": "昆虫身体的最后一段，有消化和生殖器官。",
+   "en": "The last body part, holding the digestive and reproductive organs.",
+   "ms": "Bahagian akhir badan, menempatkan organ pencernaan dan pembiakan."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "exoskeleton",
+  "name": {
+   "zh": "外骨骼",
+   "en": "Exoskeleton",
+   "ms": "Rangka luar"
+  },
+  "short": {
+   "zh": "包在身体外面的坚硬外壳，支撑和保护身体。",
+   "en": "The hard outer casing that supports and protects the body.",
+   "ms": "Kulit luar yang keras yang menyokong dan melindungi badan."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "head",
+  "name": {
+   "zh": "头部",
+   "en": "Head",
+   "ms": "Kepala"
+  },
+  "short": {
+   "zh": "昆虫身体的第一部分，有触角、眼睛和口器。",
+   "en": "The first body part, carrying the antennae, eyes and mouthparts.",
+   "ms": "Bahagian pertama badan, dengan sesungut, mata dan bahagian mulut."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "insect",
+  "name": {
+   "zh": "昆虫",
+   "en": "Insect",
+   "ms": "Serangga"
+  },
+  "short": {
+   "zh": "身体分头、胸、腹三部分，有六只脚的节肢动物。",
+   "en": "An arthropod with a three-part body and six legs.",
+   "ms": "Artropod dengan badan tiga bahagian dan enam kaki."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "thorax",
+  "name": {
+   "zh": "胸部",
+   "en": "Thorax",
+   "ms": "Toraks"
+  },
+  "short": {
+   "zh": "昆虫身体的中段，长着三对足和翅。",
+   "en": "The middle body part, carrying the three pairs of legs and the wings.",
+   "ms": "Bahagian tengah badan, dengan tiga pasang kaki dan sayap."
+  },
+  "chapter": 1
+ },
+ {
+  "id": "arachnid",
+  "name": {
+   "zh": "蛛形纲动物",
+   "en": "Arachnid",
+   "ms": "Araknid"
+  },
+  "short": {
+   "zh": "有八只脚、身体分两部分的节肢动物，如蜘蛛、蜱、蝎子。",
+   "en": "An arthropod with eight legs and a two-part body: spiders, ticks, scorpions.",
+   "ms": "Artropod berkaki lapan dengan badan dua bahagian: labah-labah, sengkenit, kala jengking."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "arthropod",
+  "name": {
+   "zh": "节肢动物",
+   "en": "Arthropod",
+   "ms": "Artropod"
+  },
+  "short": {
+   "zh": "身体分节、有外骨骼和分节的脚的动物，包括昆虫、蜘蛛、蜈蚣和虾蟹。",
+   "en": "An animal with a segmented body, exoskeleton and jointed legs: insects, spiders, centipedes, crabs.",
+   "ms": "Haiwan dengan badan beruas, rangka luar dan kaki bersendi: serangga, labah-labah, lipan, ketam."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "hexapod",
+  "name": {
+   "zh": "六足动物",
+   "en": "Hexapod",
+   "ms": "Heksapod"
+  },
+  "short": {
+   "zh": "所有六只脚的节肢动物：昆虫，加上弹尾虫、原尾虫和双尾虫。",
+   "en": "All six-legged arthropods: insects plus springtails, proturans and diplurans.",
+   "ms": "Semua artropod berkaki enam: serangga serta ekor pegas, protura dan diplura."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "springtail",
+  "name": {
+   "zh": "弹尾虫",
+   "en": "Springtail",
+   "ms": "Ekor pegas"
+  },
+  "short": {
+   "zh": "土壤里很小的六足动物，不属于昆虫纲。",
+   "en": "A tiny six-legged soil animal that is not an insect.",
+   "ms": "Haiwan tanah berkaki enam yang sangat kecil dan bukan serangga."
+  },
+  "chapter": 2
+ },
+ {
+  "id": "antenna",
+  "name": {
+   "zh": "触角",
+   "en": "Antenna",
+   "ms": "Sesungut"
+  },
+  "short": {
+   "zh": "头前面一对分节的感觉器官，能摸、闻、尝。",
+   "en": "A pair of jointed feelers on the head, used to touch, smell and taste.",
+   "ms": "Sepasang organ deria beruas di kepala untuk menyentuh, menghidu dan merasa."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "compound-eye",
+  "name": {
+   "zh": "复眼",
+   "en": "Compound eye",
+   "ms": "Mata majmuk"
+  },
+  "short": {
+   "zh": "由许多小眼组成的大眼睛。",
+   "en": "A large eye made of many small units.",
+   "ms": "Mata besar yang terdiri daripada banyak unit kecil."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "geniculate",
+  "name": {
+   "zh": "膝状触角",
+   "zhTw": "屈膝状触角",
+   "en": "Geniculate antenna",
+   "ms": "Sesungut genikulat"
+  },
+  "short": {
+   "zh": "中间折成一个角的触角，蚂蚁有这种触角。",
+   "en": "An antenna bent like an elbow, as in ants.",
+   "ms": "Sesungut yang bengkok seperti siku, seperti pada semut."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "moniliform",
+  "name": {
+   "zh": "念珠状触角",
+   "en": "Moniliform antenna",
+   "ms": "Sesungut moniliform"
+  },
+  "short": {
+   "zh": "像一串圆珠的触角，白蚁有这种触角。",
+   "en": "A bead-like antenna, as in termites.",
+   "ms": "Sesungut seperti rantai manik, seperti pada anai-anai."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "mouthparts",
+  "name": {
+   "zh": "口器",
+   "en": "Mouthparts",
+   "ms": "Bahagian mulut"
+  },
+  "short": {
+   "zh": "昆虫用来取食的一组构造。",
+   "en": "The set of parts an insect feeds with.",
+   "ms": "Set bahagian yang digunakan serangga untuk makan."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "ocellus",
+  "name": {
+   "zh": "单眼",
+   "en": "Ocellus (simple eye)",
+   "ms": "Oselus (mata ringkas)"
+  },
+  "short": {
+   "zh": "复眼之间的小眼睛，最多三个，感受明暗。",
+   "en": "A small eye between the compound eyes, at most three, sensing light and dark.",
+   "ms": "Mata kecil di antara mata majmuk, paling banyak tiga, mengesan terang dan gelap."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "piercing-sucking",
+  "name": {
+   "zh": "刺吸式口器",
+   "en": "Piercing-sucking mouthparts",
+   "ms": "Bahagian mulut menusuk-menghisap"
+  },
+  "short": {
+   "zh": "像针管的口器，刺进植物或动物吸汁。",
+   "en": "Needle-like mouthparts that pierce and suck fluids.",
+   "ms": "Bahagian mulut seperti jarum yang menusuk dan menghisap cecair."
+  },
+  "chapter": 3
+ },
+ {
+  "id": "claw",
+  "name": {
+   "zh": "爪",
+   "en": "Claw",
+   "ms": "Kuku"
+  },
+  "short": {
+   "zh": "足最末端的钩子，用来抓住物体。",
+   "en": "The hook at the tip of the leg, for gripping.",
+   "ms": "Cangkuk di hujung kaki, untuk mencengkam."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "coxa",
+  "name": {
+   "zh": "基节",
+   "en": "Coxa",
+   "ms": "Koksa"
+  },
+  "short": {
+   "zh": "足连在身体上的第一节。",
+   "en": "The leg segment joined to the body.",
+   "ms": "Ruas kaki yang bersambung dengan badan."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "femur",
+  "name": {
+   "zh": "腿节",
+   "zhTw": "腿节（股节）",
+   "en": "Femur",
+   "ms": "Femur"
+  },
+  "short": {
+   "zh": "足上通常最粗壮的一节。",
+   "en": "Usually the thickest leg segment.",
+   "ms": "Biasanya ruas kaki yang paling tebal."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "fossorial",
+  "name": {
+   "zh": "挖掘足",
+   "en": "Fossorial (digging) legs",
+   "ms": "Kaki penggali"
+  },
+  "short": {
+   "zh": "宽扁像铲子的前足，如蝼蛄。",
+   "en": "Broad spade-like front legs, as in mole crickets.",
+   "ms": "Kaki depan lebar seperti penyodok, seperti anjing tanah."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "mesothorax",
+  "name": {
+   "zh": "中胸",
+   "en": "Mesothorax",
+   "ms": "Mesotoraks"
+  },
+  "short": {
+   "zh": "胸部的第二节，长着中足和前翅。",
+   "en": "The second thoracic segment, with the middle legs and forewings.",
+   "ms": "Ruas toraks kedua, dengan kaki tengah dan sayap depan."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "metathorax",
+  "name": {
+   "zh": "后胸",
+   "en": "Metathorax",
+   "ms": "Metatoraks"
+  },
+  "short": {
+   "zh": "胸部的第三节，长着后足和后翅。",
+   "en": "The third thoracic segment, with the hind legs and hind wings.",
+   "ms": "Ruas toraks ketiga, dengan kaki belakang dan sayap belakang."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "prothorax",
+  "name": {
+   "zh": "前胸",
+   "en": "Prothorax",
+   "ms": "Protoraks"
+  },
+  "short": {
+   "zh": "胸部的第一节，长着前足。",
+   "en": "The first thoracic segment, carrying the front legs.",
+   "ms": "Ruas toraks pertama, dengan kaki depan."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "raptorial",
+  "name": {
+   "zh": "捕捉足",
+   "en": "Raptorial (grasping) legs",
+   "ms": "Kaki penangkap"
+  },
+  "short": {
+   "zh": "有刺、能夹住猎物的前足，如螳螂。",
+   "en": "Spiny front legs that seize prey, as in mantids.",
+   "ms": "Kaki depan berduri untuk menangkap mangsa, seperti cengkadak."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "saltatorial",
+  "name": {
+   "zh": "跳跃足",
+   "en": "Saltatorial (jumping) legs",
+   "ms": "Kaki melompat"
+  },
+  "short": {
+   "zh": "腿节粗大、用来跳的后足，如蝗虫。",
+   "en": "Hind legs with a thick femur, for jumping, as in grasshoppers.",
+   "ms": "Kaki belakang dengan femur tebal untuk melompat, seperti belalang."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "tarsus",
+  "name": {
+   "zh": "跗节",
+   "en": "Tarsus",
+   "ms": "Tarsus"
+  },
+  "short": {
+   "zh": "由几小节组成的脚掌部分。",
+   "en": "The 'foot', made of a few small segments.",
+   "ms": "'Tapak kaki', terdiri daripada beberapa ruas kecil."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "tibia",
+  "name": {
+   "zh": "胫节",
+   "en": "Tibia",
+   "ms": "Tibia"
+  },
+  "short": {
+   "zh": "腿节下面细长的一节。",
+   "en": "The long thin segment after the femur.",
+   "ms": "Ruas panjang halus selepas femur."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "trochanter",
+  "name": {
+   "zh": "转节",
+   "en": "Trochanter",
+   "ms": "Trokanter"
+  },
+  "short": {
+   "zh": "基节和腿节之间的短小一节。",
+   "en": "The short segment between coxa and femur.",
+   "ms": "Ruas pendek antara koksa dan femur."
+  },
+  "chapter": 4
+ },
+ {
+  "id": "elytra",
+  "name": {
+   "zh": "鞘翅",
+   "zhTw": "翅鞘",
+   "en": "Elytra",
+   "ms": "Elitra"
+  },
+  "short": {
+   "zh": "甲虫坚硬的前翅，在背中线对齐。",
+   "en": "A beetle's hard forewings, meeting in a line down the back.",
+   "ms": "Sayap depan kumbang yang keras, bertemu dalam garis di belakang."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "forewing",
+  "name": {
+   "zh": "前翅",
+   "en": "Forewing",
+   "ms": "Sayap depan"
+  },
+  "short": {
+   "zh": "长在中胸上的一对翅。",
+   "en": "The pair of wings on the mesothorax.",
+   "ms": "Sepasang sayap pada mesotoraks."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "halteres",
+  "name": {
+   "zh": "平衡棒",
+   "en": "Halteres",
+   "ms": "Halter"
+  },
+  "short": {
+   "zh": "蝇和蚊的后翅变成的小棒，帮助平衡。",
+   "en": "The knob-like hind wings of flies, used for balance.",
+   "ms": "Sayap belakang lalat yang menjadi tombol untuk keseimbangan."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "hemelytra",
+  "name": {
+   "zh": "半鞘翅",
+   "en": "Hemelytra",
+   "ms": "Hemelitra"
+  },
+  "short": {
+   "zh": "蝽的前翅，前半段硬、后半段膜质。",
+   "en": "A true bug's forewing, hard at the base and membranous at the tip.",
+   "ms": "Sayap depan pepijat, keras di pangkal dan bermembran di hujung."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "hindwing",
+  "name": {
+   "zh": "后翅",
+   "en": "Hind wing",
+   "ms": "Sayap belakang"
+  },
+  "short": {
+   "zh": "长在后胸上的一对翅。",
+   "en": "The pair of wings on the metathorax.",
+   "ms": "Sepasang sayap pada metatoraks."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "scutellum",
+  "name": {
+   "zh": "小盾片",
+   "zhTw": "小楯片",
+   "en": "Scutellum",
+   "ms": "Skutelum"
+  },
+  "short": {
+   "zh": "胸部背面后方的一块小骨片。",
+   "en": "A small plate at the back of the thorax, seen from above.",
+   "ms": "Plat kecil di bahagian belakang toraks, dilihat dari atas."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "tegmina",
+  "name": {
+   "zh": "覆翅",
+   "en": "Tegmina",
+   "ms": "Tegmina"
+  },
+  "short": {
+   "zh": "像皮革一样的前翅，如蝗虫和蟑螂。",
+   "en": "Leathery forewings, as in grasshoppers and cockroaches.",
+   "ms": "Sayap depan seperti kulit, seperti belalang dan lipas."
+  },
+  "chapter": 5
+ },
+ {
+  "id": "cercus",
+  "name": {
+   "zh": "尾须",
+   "zhTw": "尾毛",
+   "en": "Cercus (pl. cerci)",
+   "ms": "Serkus"
+  },
+  "short": {
+   "zh": "腹末一对细长的尾巴状附器。",
+   "en": "One of a pair of slender tail-like feelers at the tip of the abdomen.",
+   "ms": "Salah satu sepasang tambahan halus seperti ekor di hujung abdomen."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "ovipositor",
+  "name": {
+   "zh": "产卵器",
+   "zhTw": "产卵管",
+   "en": "Ovipositor",
+   "ms": "Ovipositor"
+  },
+  "short": {
+   "zh": "雌虫腹末用来产卵的管子。",
+   "en": "The female's egg-laying tube at the tip of the abdomen.",
+   "ms": "Tiub bertelur betina di hujung abdomen."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "spiracle",
+  "name": {
+   "zh": "气门",
+   "zhTw": "气孔",
+   "en": "Spiracle",
+   "ms": "Spirakel"
+  },
+  "short": {
+   "zh": "身体两侧供空气进出的小孔。",
+   "en": "A small breathing hole along the side of the body.",
+   "ms": "Lubang pernafasan kecil di sisi badan."
+  },
+  "chapter": 6
+ },
+ {
+  "id": "binomial-name",
+  "name": {
+   "zh": "学名（二名法）",
+   "en": "Scientific name (binomial)",
+   "ms": "Nama saintifik (binomial)"
+  },
+  "short": {
+   "zh": "由属名和种小名两个词组成的物种名称。",
+   "en": "A species name made of a genus name and a species name.",
+   "ms": "Nama spesies yang terdiri daripada nama genus dan nama spesies."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "order",
+  "name": {
+   "zh": "目",
+   "en": "Order",
+   "ms": "Order"
+  },
+  "short": {
+   "zh": "纲以下、科以上的分类阶层，例如鞘翅目、鳞翅目。",
+   "en": "The rank below class and above family, such as Coleoptera or Lepidoptera.",
+   "ms": "Peringkat di bawah kelas dan di atas famili, seperti Coleoptera atau Lepidoptera."
+  },
+  "chapter": 7
+ },
+ {
+  "id": "dichotomous-key",
+  "name": {
+   "zh": "二分检索表",
+   "en": "Dichotomous key",
+   "ms": "Kunci dikotomi"
+  },
+  "short": {
+   "zh": "每一步用一个特征把选项分开、逐步缩小范围的辨识工具。",
+   "en": "An identification tool that splits the choices by one feature at each step.",
+   "ms": "Alat pengecaman yang membahagikan pilihan mengikut satu ciri pada setiap langkah."
+  },
+  "chapter": 8
+ },
+ {
+  "id": "ametabolous",
+  "name": {
+   "zh": "无变态",
+   "en": "No metamorphosis (ametabolous)",
+   "ms": "Tanpa metamorfosis (ametabola)"
+  },
+  "short": {
+   "zh": "幼体和成虫外形相同，只是变大。",
+   "en": "Young look like small adults and just grow.",
+   "ms": "Anak kelihatan seperti dewasa kecil dan hanya membesar."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "complete-metamorphosis",
+  "name": {
+   "zh": "完全变态",
+   "en": "Complete metamorphosis",
+   "ms": "Metamorfosis lengkap"
+  },
+  "short": {
+   "zh": "卵、幼虫、蛹、成虫四个阶段。",
+   "en": "Egg, larva, pupa, adult.",
+   "ms": "Telur, larva, pupa, dewasa."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "incomplete-metamorphosis",
+  "name": {
+   "zh": "不完全变态",
+   "en": "Incomplete metamorphosis",
+   "ms": "Metamorfosis tidak lengkap"
+  },
+  "short": {
+   "zh": "卵、若虫、成虫三个阶段，没有蛹。",
+   "en": "Egg, nymph, adult; no pupa.",
+   "ms": "Telur, nimfa, dewasa; tiada pupa."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "instar",
+  "name": {
+   "zh": "龄期",
+   "en": "Instar",
+   "ms": "Instar"
+  },
+  "short": {
+   "zh": "两次蜕皮之间的生长阶段。",
+   "en": "A growth stage between two moults.",
+   "ms": "Peringkat pertumbuhan antara dua salin kulit."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "larva",
+  "name": {
+   "zh": "幼虫",
+   "en": "Larva",
+   "ms": "Larva"
+  },
+  "short": {
+   "zh": "完全变态昆虫的幼体，样子和成虫很不一样。",
+   "en": "The young of an insect with complete metamorphosis, unlike the adult.",
+   "ms": "Anak serangga dengan metamorfosis lengkap, berbeza daripada dewasa."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "moult",
+  "name": {
+   "zh": "蜕皮",
+   "en": "Moult",
+   "ms": "Salin kulit"
+  },
+  "short": {
+   "zh": "脱去旧的外骨骼、换上较大的新外皮。",
+   "en": "Shedding the old exoskeleton for a new, larger one.",
+   "ms": "Menanggalkan rangka luar lama untuk yang baharu dan lebih besar."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "nymph",
+  "name": {
+   "zh": "若虫",
+   "en": "Nymph",
+   "ms": "Nimfa"
+  },
+  "short": {
+   "zh": "不完全变态昆虫的幼体，有翅芽。",
+   "en": "The young of an insect with incomplete metamorphosis; it has wing buds.",
+   "ms": "Anak serangga dengan metamorfosis tidak lengkap; ia mempunyai tunas sayap."
+  },
+  "chapter": 9
+ },
+ {
+  "id": "pupa",
+  "name": {
+   "zh": "蛹",
+   "en": "Pupa",
+   "ms": "Pupa"
+  },
+  "short": {
+   "zh": "幼虫变成成虫之前的休息阶段。",
+   "en": "The resting stage between larva and adult.",
+   "ms": "Peringkat rehat antara larva dan dewasa."
+  },
+  "chapter": 9
+ }
+]

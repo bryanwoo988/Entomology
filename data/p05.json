@@ -1,0 +1,206 @@
+{
+ "id": "p05",
+ "num": 5,
+ "stage": 1,
+ "kind": "lesson",
+ "title": {
+  "zh": "翅",
+  "en": "Wings",
+  "ms": "Sayap"
+ },
+ "blurb": {
+  "zh": "前翅和后翅、六种翅、平衡棒和小盾片",
+  "en": "Forewings and hind wings, six kinds of wing, halteres and the scutellum",
+  "ms": "Sayap depan dan belakang, enam jenis sayap, halter dan skutelum"
+ },
+ "sources": [
+  "TJ",
+  "PURDUE-TA"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "唯一会飞的无脊椎动物",
+    "en": "The only flying invertebrates",
+    "ms": "Satu-satunya invertebrata yang terbang"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "鸟和蝙蝠的翅是由前肢变来的，昆虫的翅却不是。昆虫的翅长在中胸和后胸上：{{t:forewing}}在前，{{t:hindwing}}在后。",
+      "en": "Bird and bat wings evolved from front limbs; insect wings did not. They grow from the mesothorax and metathorax: the {{t:forewing|forewings}} in front, the {{t:hindwing|hind wings}} behind.",
+      "ms": "Sayap burung dan kelawar berasal daripada anggota depan; sayap serangga tidak. Ia tumbuh dari mesotoraks dan metatoraks: {{t:forewing}} di depan, {{t:hindwing}} di belakang."
+     },
+     "defines": [
+      "forewing",
+      "hindwing"
+     ],
+     "src": [
+      "TJ:31"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "翅除了用来飞，还能保护身体、展示花纹、发出声音和帮助平衡。有些昆虫的一对翅变成了小棒，有些完全没有翅。",
+      "en": "Besides flight, wings protect the body, show colour patterns, make sounds and help with balance. In some insects one pair has become tiny knobs; some have no wings at all.",
+      "ms": "Selain terbang, sayap melindungi badan, mempamerkan corak warna, menghasilkan bunyi dan membantu keseimbangan. Pada sesetengah serangga sepasang sayap menjadi tombol kecil; ada yang langsung tiada sayap."
+     },
+     "src": [
+      "TJ:31"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "雄蟋蟀的前翅上有特别的纹路，两片前翅互相摩擦就会发出鸣声。",
+      "en": "A male cricket's forewings carry special ridges; rubbing them together makes its song.",
+      "ms": "Sayap depan cengkerik jantan mempunyai rabung khas; menggeselkannya menghasilkan bunyi nyanyiannya."
+     },
+     "src": [
+      "TJ:30"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "六种翅",
+    "en": "Six kinds of wing",
+    "ms": "Enam jenis sayap"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "keyval",
+     "src": [
+      "TJ:30",
+      "TJ:38",
+      "PURDUE-TA"
+     ],
+     "defines": [
+      "elytra",
+      "hemelytra",
+      "tegmina",
+      "halteres"
+     ],
+     "rows": [
+      {
+       "k": {
+        "zh": "{{t:elytra}}",
+        "zhTw": "{{t:elytra}}",
+        "en": "{{t:elytra|Elytra}}",
+        "ms": "{{t:elytra|Elitra}}"
+       },
+       "v": {
+        "zh": "甲虫坚硬的前翅，盖住后翅和腹部",
+        "en": "A beetle's hard forewings, covering the hind wings and abdomen",
+        "ms": "Sayap depan kumbang yang keras, menutupi sayap belakang dan abdomen"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:hemelytra}}",
+        "en": "{{t:hemelytra|Hemelytra}}",
+        "ms": "{{t:hemelytra|Hemelitra}}"
+       },
+       "v": {
+        "zh": "蝽的前翅：前半段硬、后半段薄而透明",
+        "en": "A true bug's forewings: hard at the base, thin at the tip",
+        "ms": "Sayap depan pepijat: keras di pangkal, nipis di hujung"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:tegmina}}",
+        "en": "{{t:tegmina|Tegmina}}",
+        "ms": "{{t:tegmina|Tegmina}}"
+       },
+       "v": {
+        "zh": "像皮革的前翅，如蝗虫、蟑螂、螳螂",
+        "en": "Leathery forewings; grasshoppers, cockroaches, mantids",
+        "ms": "Sayap depan seperti kulit; belalang, lipas, cengkadak"
+       }
+      },
+      {
+       "k": {
+        "zh": "鳞翅",
+        "en": "Scaly wings",
+        "ms": "Sayap bersisik"
+       },
+       "v": {
+        "zh": "盖满彩色鳞片的翅，如蝴蝶和蛾",
+        "en": "Wings covered in coloured scales; butterflies and moths",
+        "ms": "Sayap diliputi sisik berwarna; rama-rama dan kupu-kupu"
+       }
+      },
+      {
+       "k": {
+        "zh": "膜翅",
+        "en": "Membranous wings",
+        "ms": "Sayap bermembran"
+       },
+       "v": {
+        "zh": "薄而透明的翅，如蜂和蜻蜓",
+        "en": "Thin clear wings; bees and dragonflies",
+        "ms": "Sayap nipis dan jernih; lebah dan pepatung"
+       }
+      },
+      {
+       "k": {
+        "zh": "{{t:halteres}}",
+        "en": "{{t:halteres|Halteres}}",
+        "ms": "{{t:halteres|Halter}}"
+       },
+       "v": {
+        "zh": "蝇和蚊的后翅变成的一对小棒，飞行时帮助平衡",
+        "en": "The hind wings of flies and mosquitoes, reduced to knobs that keep them balanced in flight",
+        "ms": "Sayap belakang lalat dan nyamuk yang menjadi tombol untuk keseimbangan semasa terbang"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "小盾片",
+    "zhTw": "小楯片",
+    "en": "The scutellum",
+    "ms": "Skutelum"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:scutellum}}是中胸（或后胸）背面后方的一块小骨片。它的颜色、形状和大小因种类而不同，是辨认的特征之一：蝽的小盾片常是背上的大三角形。",
+      "en": "The {{t:scutellum}} is a small plate at the back of the mesothorax (or metathorax), seen from above. Its colour, shape and size vary between kinds and help with identification: in stink bugs it is often a large triangle on the back.",
+      "ms": "{{t:scutellum}} ialah plat kecil di bahagian belakang mesotoraks (atau metatoraks), dilihat dari atas. Warna, bentuk dan saiznya berbeza mengikut jenis dan membantu pengecaman: pada pepijat busuk ia sering segi tiga besar di belakang."
+     },
+     "defines": [
+      "scutellum"
+     ],
+     "src": [
+      "TJ:31"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "forewing",
+  "hindwing",
+  "elytra",
+  "hemelytra",
+  "tegmina",
+  "halteres",
+  "scutellum"
+ ]
+}

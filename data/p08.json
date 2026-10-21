@@ -1,0 +1,117 @@
+{
+ "id": "p08",
+ "num": 8,
+ "stage": 2,
+ "kind": "lesson",
+ "title": {
+  "zh": "用检索表辨识",
+  "en": "Identifying with a key",
+  "ms": "Mengecam dengan kunci"
+ },
+ "blurb": {
+  "zh": "二分检索表怎样一步步缩小范围，以及用图练习",
+  "en": "How a dichotomous key narrows things down, with picture practice",
+  "ms": "Bagaimana kunci dikotomi mengecilkan pilihan, dengan latihan bergambar"
+ },
+ "sources": [
+  "TJ"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "一步一个问题",
+    "en": "One question at a time",
+    "ms": "Satu soalan pada satu masa"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:dichotomous-key}}每一步只问一个看得见的特征，给你两个（或几个）选项。每答一题就排除一部分昆虫，几步之后就剩下一个类群。",
+      "en": "A {{t:dichotomous-key}} asks about one visible feature at each step and gives two (or a few) choices. Each answer rules out some insects, and after a few steps only one group is left.",
+      "ms": "{{t:dichotomous-key}} bertanya tentang satu ciri yang boleh dilihat pada setiap langkah dan memberi dua (atau beberapa) pilihan. Setiap jawapan menyingkirkan sebahagian serangga, dan selepas beberapa langkah hanya satu kumpulan yang tinggal."
+     },
+     "defines": [
+      "dichotomous-key"
+     ],
+     "src": [
+      "TJ:40"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "这个 App 底部的「辨识」就是这样一张检索表，根据台江图鉴的检索表，再加上马来西亚常见的竹节虫、蜉蝣、石蛾、蓟马和衣鱼。",
+      "en": "The Identify button at the bottom of this app is such a key. It follows the Taijiang guide's key, with Malaysia's common stick insects, mayflies, caddisflies, thrips and silverfish added.",
+      "ms": "Butang Kenal pasti di bahagian bawah aplikasi ini ialah kunci seperti itu. Ia mengikut kunci panduan Taijiang, dengan tambahan serangga ranting, lalat sehari, lalat kadis, trips dan gegat yang biasa di Malaysia."
+     },
+     "src": [
+      "TJ:38-40"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "用放大镜，从侧面和背面都看一看",
+       "en": "Use a hand lens and look from the side and from above",
+       "ms": "Gunakan kanta pembesar dan lihat dari sisi dan dari atas"
+      },
+      {
+       "zh": "看不清楚就选「看不清楚」，读提示，不要猜",
+       "en": "If you can't tell, choose Can't tell and read the hint rather than guess",
+       "ms": "Jika tidak pasti, pilih Tidak pasti dan baca petunjuk, jangan meneka"
+      },
+      {
+       "zh": "得到结果后，逐项核对它的特征",
+       "en": "When you get a result, check its features one by one",
+       "ms": "Apabila mendapat keputusan, semak cirinya satu demi satu"
+      }
+     ],
+     "src": [
+      "TJ:38-40"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "warn",
+     "text": {
+      "zh": "检索表只适用于常见昆虫的成虫，有许多例外；精确的鉴定仍要请教专家。",
+      "en": "A key works only for adults of common insects and has many exceptions; ask an expert for a firm identification.",
+      "ms": "Kunci hanya sesuai untuk serangga dewasa yang biasa dan mempunyai banyak pengecualian; rujuk pakar untuk pengecaman yang pasti."
+     },
+     "src": [
+      "TJ:40"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "看图练习",
+    "en": "Picture practice",
+    "ms": "Latihan bergambar"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "这一页的小测验用检索表里的示意图练习：每张图左边是「是」，右边是「不是」。",
+      "en": "This page's quiz practises with the key's drawings: in each picture the left side shows 'yes' and the right side 'no'.",
+      "ms": "Kuiz halaman ini berlatih dengan lukisan kunci: dalam setiap gambar, sebelah kiri menunjukkan 'ya' dan sebelah kanan 'tidak'."
+     },
+     "src": [
+      "TJ:38-40"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "dichotomous-key"
+ ]
+}
