@@ -122,3 +122,24 @@ test('non-GET requests (the update check HEAD) are not intercepted', async () =>
   const { handled } = await scope.dispatch('fetch', { request: new FakeRequest('index.html', { method: 'HEAD' }) });
   assert.equal(handled, false);
 });
+
+test('an update with a failed download keeps the old complete copy', async () => {
+  const flaky = async req => (req.url.endsWith('data/p35.json') ? new FakeResponse(null, { status: 503 }) : disk(req));
+  const s = makeScope(flaky);
+  vm.createContext(s);
+  vm.runInContext(readFileSync(join(ROOT, 'sw.js'), 'utf8'), s, { filename: 'sw.js' });
+  await (await s.caches.open('bugs-0ld0ld0ld0')).put('index.html', new FakeResponse('old'));
+  await assert.rejects(s.dispatch('install', {}));
+  assert.deepEqual(await s.caches.keys(), ['bugs-0ld0ld0ld0']);
+  assert.equal(s.skips, 0);
+});
+
+test('a first install keeps what it could fetch', async () => {
+  const flaky = async req => (req.url.endsWith('data/p35.json') ? new FakeResponse(null, { status: 503 }) : disk(req));
+  const s = makeScope(flaky);
+  vm.createContext(s);
+  vm.runInContext(readFileSync(join(ROOT, 'sw.js'), 'utf8'), s, { filename: 'sw.js' });
+  await s.dispatch('install', {});
+  assert.equal((await s.caches.keys()).length, 1);
+  assert.ok(s.skips > 0);
+});

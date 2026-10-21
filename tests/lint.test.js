@@ -117,6 +117,13 @@ test('control blocks must follow IPM order', () => has(errorsOf(c => { sp(c).pus
 test('control blocks in IPM order pass', () => assert.deepEqual(errorsOf(c => { sp(c).push(control('monitor'), control('cultural'), control('biological'), control('chemical', ['cypermethrin'])); }), []));
 test('unknown pesticide status fails', () => has(errorsOf(c => { c.pesticides.push({ id: 'x', name: T('x'), status: 'unknown', src: ['met'], checked: '2026-10-21' }); sp(c).push(control('chemical', ['x'])); }), /status unknown/));
 test('undeclared pesticide fails', () => has(errorsOf(c => { sp(c).push(control('chemical', ['nope'])); }), /unknown pesticide/));
+test('a pesticide named in text must be declared in a chemical block', () => {
+  has(errorsOf(c => { sp(c).push({ type: 'p', text: T('Spray cypermethrin weekly.'), src: ['met'] }); }), /names pesticide "cypermethrin"/);
+  has(errorsOf(c => { sp(c).push(control('chemical')); sp(c)[sp(c).length - 1].text = T('Use Cypermethrin.'); }), /names pesticide "cypermethrin"/);
+});
+test('a pesticide named in a chemical block that declares it passes', () => assert.deepEqual(errorsOf(c => {
+  sp(c).push(control('chemical', ['cypermethrin'])); sp(c)[sp(c).length - 1].text = T('Use cypermethrin.');
+}), []));
 test('a photo block must name a registered photo', () => has(errorsOf(c => { sp(c).push({ type: 'photo', id: 'ghost' }); }), /unknown photo "ghost"/));
 test('a photo needs a licence', () => has(errorsOf(c => { delete c.photos[0].licence; }), /photo bug.*licence/));
 test('a photo licence must be open or MPOB permission', () => has(errorsOf(c => { c.photos[0].licence = 'CC BY-NC 4.0'; }), /photo bug.*licence/));

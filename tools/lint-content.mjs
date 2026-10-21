@@ -118,6 +118,14 @@ export function lint(root) {
         }
         if ((b.ai ?? []).length && b.level !== 'chemical') errors.push(`${at}: active ingredients only in chemical control`);
       }
+      // A pesticide named anywhere in a block's text must be declared in that chemical block's ai,
+      // so the renderer can label it (banned ones especially).
+      for (const [id, pest] of pesticides) {
+        const names = [...new Set([...LANGS.map(l => pest.name?.[l]), pest.name?.zhTw].filter(Boolean).map(n => n.toLowerCase()))];
+        let named = false;
+        walkStrings({ ...b, ai: undefined, src: undefined }, str => { if (names.some(n => str.toLowerCase().includes(n))) named = true; });
+        if (named && !(b.type === 'control' && b.level === 'chemical' && (b.ai ?? []).includes(id))) errors.push(`${at}: names pesticide "${id}" outside a chemical block that declares it`);
+      }
       if (b.type === 'photo' && !photoIds.has(b.id)) errors.push(`${at}: unknown photo "${b.id}"`);
       if (b.type === 'species') {
         const binomial = /^[A-Z][a-z]+( \([A-Z][a-z]+\))? [a-z-]+( [a-z-]+)?$/;
