@@ -11,6 +11,10 @@ import { fileURLToPath } from 'node:url';
 import { termIds, chapterIds, pageId } from '../js/markup.js';
 
 const LANGS = ['zh', 'en', 'ms'];
+// Blocks a reader can mark; every one of them names its source (spec §10.4).
+const MARKABLE = new Set(['p', 'list', 'keyval', 'table', 'note', 'control']);
+const IPM = ['monitor', 'cultural', 'biological', 'chemical'];
+export const LICENCES = ['MPOB-permission', 'own', 'CC0', 'CC BY 2.0', 'CC BY 3.0', 'CC BY 4.0', 'CC BY-SA 2.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
 const isTri = v => v && typeof v === 'object' && !Array.isArray(v) && LANGS.some(l => l in v);
 
 function walkStrings(v, fn, path = '') {
@@ -44,6 +48,21 @@ export function lint(root) {
   checkTri(index, 'index.json', errors);
   checkTri(terms, 'terms.json', errors);
   checkTri(quiz, 'quiz.json', errors);
+  const pesticides = new Map(opt('pesticides.json', []).map(p => [p.id, p]));
+  const photos = opt('photos.json', []);
+  const photoIds = new Set(photos.map(p => p.id));
+  checkTri([...pesticides.values()], 'pesticides.json', errors);
+  checkTri(photos, 'photos.json', errors);
+  for (const p of pesticides.values()) {
+    if (!['registered', 'banned', 'unknown'].includes(p.status)) errors.push(`pesticide ${p.id}: bad status "${p.status}"`);
+    if (!p.src?.length || !/^\d{4}-\d{2}-\d{2}$/.test(p.checked ?? '')) errors.push(`pesticide ${p.id}: needs src and a checked date`);
+    for (const s of p.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`pesticide ${p.id}: unknown source "${s}"`);
+  }
+  for (const p of photos) {
+    if (!LICENCES.includes(p.licence)) errors.push(`photo ${p.id}: licence "${p.licence}" is missing or not allowed`);
+    if (!p.author || !p.url) errors.push(`photo ${p.id}: needs author and url`);
+    if (!p.file || !existsSync(join(root, p.file))) errors.push(`photo ${p.id}: file ${p.file} not found`);
+  }
   if (existsSync(join(root, 'data', 'releases.json'))) checkTri(read('releases.json'), 'releases.json', errors);
 
   const defined = new Map();      // term → number of defining blocks
@@ -64,6 +83,7 @@ export function lint(root) {
       errors.push(`${ch.id} newTerms ${JSON.stringify(ch.newTerms ?? [])} should be ${JSON.stringify(own)}`);
     }
     const seenHere = new Set();   // terms whose defining block has been passed in this chapter
+    let ipm = -1;                 // furthest IPM level reached on this page
     let bi = 0;
     for (const sec of ch.sections ?? []) for (const b of sec.blocks ?? []) {
       bi++; stats.blocks++;
@@ -84,7 +104,25 @@ export function lint(root) {
       for (const d of b.defines ?? []) seenHere.add(d);
 
       for (const s of b.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`${at}: unknown source "${s}"`);
-      if (ch.stage === 6 && !(b.src ?? []).length) errors.push(`${ch.id} ${at}: stage 6 block has no src`);
+      if (MARKABLE.has(b.type) && !(b.src ?? []).length) errors.push(`${at}: block has no src`);
+      if (b.type === 'control') {
+        const lv = IPM.indexOf(b.level);
+        if (lv < 0) errors.push(`${at}: control level "${b.level}" unknown`);
+        else if (lv < ipm) errors.push(`${at}: ${b.level} after ${IPM[ipm]} breaks IPM order`);
+        else ipm = lv;
+        for (const id of b.ai ?? []) {
+          const p = pesticides.get(id);
+          if (!p) errors.push(`${at}: unknown pesticide "${id}"`);
+          else if (p.status === 'unknown') errors.push(`${at}: pesticide "${id}" has status unknown`);
+        }
+        if ((b.ai ?? []).length && b.level !== 'chemical') errors.push(`${at}: active ingredients only in chemical control`);
+      }
+      if (b.type === 'photo' && !photoIds.has(b.id)) errors.push(`${at}: unknown photo "${b.id}"`);
+      if (b.type === 'species') {
+        if (!/^[A-Z][a-z]+( \([A-Z][a-z]+\))? [a-z-]+( [a-z-]+)?$/.test(b.sci ?? '')) errors.push(`${at}: species needs sci (Genus species), got "${b.sci ?? ''}"`);
+        if (!chapterSet.has(b.order)) errors.push(`${at}: species links unknown order page "${b.order}"`);
+        if (!(b.src ?? []).length) errors.push(`${at}: species block has no src`);
+      }
       if (b.type === 'table') (b.rows ?? []).forEach((r, i) => {
         if (r.length !== b.headers.length) errors.push(`${ch.id} table row ${i + 1} has ${r.length} cells, header has ${b.headers.length} (${at})`);
       });

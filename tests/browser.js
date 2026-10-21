@@ -183,6 +183,37 @@ await test('no chapter shows "[object …]" text', async () => {
   assert(!bad.length, 'broken text in ' + bad.join(', '));
 });
 
+await test('a species page renders its card, credited photo, IPM headings and the label warning', async () => {
+  const { renderSections } = await import('../js/content.js');
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const page = { id: 'p90', sections: [{ id: 's1', heading: T('Bagworm'), blocks: [
+    { type: 'species', names: { zh: '袋蛾', zhTw: '避债蛾', en: 'Bagworm', ms: 'Ulat bungkus' }, sci: 'Metisa plana', authority: 'Walker, 1883', order: 'p11', crops: [T('Oil palm')], stage: T('Larva'), src: ['RS34'] },
+    { type: 'photo', id: 'bug' },
+    { type: 'control', level: 'monitor', text: T('Count larvae'), src: ['RS34'] },
+    { type: 'control', level: 'chemical', text: T('Trunk injection'), ai: ['cypermethrin', 'endosulfan'], src: ['RS34'] },
+  ] }] };
+  const ctx = {
+    lang: 'zh', terms: new Map(), sourceLabel: s => s,
+    pageTitle: id => (id === 'p11' ? '鳞翅目' : id),
+    photos: new Map([['bug', { id: 'bug', file: 'icons/icon-192.png', subject: T('bags'), credit: { zh: '照片：MPOB', en: 'Photo: MPOB', ms: 'Foto: MPOB' } }]]),
+    pesticides: new Map([['cypermethrin', { name: T('Cypermethrin'), status: 'registered' }], ['endosulfan', { name: { zh: '硫丹', en: 'Endosulfan', ms: 'Endosulfan' }, status: 'banned' }]]),
+  };
+  const host = document.createElement('div');
+  host.append(renderSections(page, ctx));
+  const card = host.querySelector('.species-card');
+  assert(card && card.textContent.includes('袋蛾（大陆）／避债蛾（台湾）'), 'dual name missing');
+  assert(card.querySelector('i')?.textContent === 'Metisa plana', 'sci name not italic');
+  assert(card.querySelector('a[href="#/ch/p11"]')?.textContent.includes('鳞翅目'), 'order link missing');
+  assert(host.querySelector('figure.photo img')?.getAttribute('src') === 'icons/icon-192.png', 'photo missing');
+  assert(host.querySelector('figure.photo .photo-credit')?.textContent === '照片：MPOB', 'credit missing');
+  const heads = [...host.querySelectorAll('.ipm-head')].map(h => h.textContent);
+  assert(heads.length === 2 && heads[0] === '监测' && heads[1] === '化学防治', `IPM heads: ${heads}`);
+  assert(host.textContent.includes('硫丹（已禁用）'), 'banned label missing');
+  const warn = host.querySelector('.note-warn');
+  assert(warn && warn.textContent.includes('使用任何农药前'), 'pesticide warning missing');
+  assert(!/\[object /.test(host.textContent), 'object text');
+});
+
 const RKEY = 'bugs.reader';
 const reader = () => JSON.parse(localStorage.getItem(RKEY) || '{}');
 const bar = a => until(() => { const b = a.d.querySelector('.rd-bar'); return b && !b.hidden && b; });

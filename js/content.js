@@ -5,6 +5,8 @@
 
 import { pick, t } from './i18n.js';
 import { parseInline } from './markup.js';
+import { displayName } from './names.js';
+import { aiLabel } from './pesticides.js';
 
 const cache = new Map();
 // Resolved against this module, not the page, so it works from any route or test page.
@@ -83,6 +85,28 @@ function block(b, ctx) {
       return el('figure', { class: 'figure' },
         el('img', { src: b.src, alt: pick(b.alt ?? b.caption, ctx.lang), loading: 'lazy' }),
         b.caption ? el('figcaption', {}, inline(b.caption, ctx)) : null);
+    case 'species':
+      return el('header', { class: 'species-card' },
+        el('p', { class: 'species-name' }, displayName(b.names, ctx.lang)),
+        el('p', { class: 'species-sci' }, el('i', {}, b.sci), b.authority ? ` ${b.authority}` : null),
+        el('dl', { class: 'species-facts' },
+          el('div', {}, el('dt', {}, t('orderLabel', null, ctx.lang)), el('dd', {}, el('a', { href: `#/ch/${b.order}` }, ctx.pageTitle?.(b.order) ?? b.order))),
+          b.crops?.length ? el('div', {}, el('dt', {}, t('cropsLabel', null, ctx.lang)), el('dd', {}, b.crops.map(c => pick(c, ctx.lang)).join(ctx.lang === 'zh' ? '、' : ', '))) : null,
+          el('div', {}, el('dt', {}, t('damagingStage', null, ctx.lang)), el('dd', {}, inline(b.stage, ctx)))));
+    case 'photo': {
+      const ph = ctx.photos?.get(b.id);
+      if (!ph) return null;
+      return el('figure', { class: 'photo' },
+        el('img', { src: ph.file, alt: pick(ph.subject, ctx.lang), loading: 'lazy' }),
+        el('figcaption', {}, el('span', { class: 'photo-subject' }, pick(ph.subject, ctx.lang)), el('span', { class: 'photo-credit' }, pick(ph.credit, ctx.lang))));
+    }
+    case 'control': {
+      const ais = (b.ai ?? []).map(id => ctx.pesticides?.get(id)).filter(Boolean);
+      return el('div', { class: `control control-${b.level}` },
+        el('p', {}, inline(b.text, ctx)),
+        ais.length ? el('p', { class: 'control-ai' }, `${t('activeIngredients', null, ctx.lang)}: `,
+          ais.map((p, i) => [i ? (ctx.lang === 'zh' ? '、' : ', ') : null, el('span', { class: p.status === 'banned' ? 'ai ai-banned' : 'ai' }, aiLabel(p, ctx.lang))])) : null);
+    }
     case 'widget': {
       const host = el('div', { class: `widget widget-${b.type}`, 'data-widget': b.id });
       ctx.mountWidget?.(host, b.id, { lang: ctx.lang, opts: b.opts ?? {} });
@@ -96,15 +120,25 @@ function block(b, ctx) {
 
 /* What a reader can mark, bookmark or have read aloud (reader.js), in
    reading order within a section. */
-const MARKABLE = new Set(['p', 'list', 'keyval', 'table', 'note']);
-const UNITS = ':scope > p[data-blk], :scope > ul[data-blk] > li, :scope > ol[data-blk] > li, '
+const MARKABLE = new Set(['p', 'list', 'keyval', 'table', 'note', 'control']);
+const UNITS = ':scope > p[data-blk], :scope > div.control[data-blk], :scope > ul[data-blk] > li, :scope > ol[data-blk] > li, '
   + ':scope > dl[data-blk] > .keyval-row, :scope > aside[data-blk], :scope > figure[data-blk] tbody tr';
 
 export function renderSections(chapter, ctx) {
   const frag = document.createDocumentFragment();
+  let level = null, lastChemical = null;
   for (const sec of chapter.sections) {
     const body = sec.blocks.map(b => {
       const node = block(b, ctx);
+      // Control methods are grouped under an IPM heading each time the level changes.
+      if (b.type === 'control' && node) {
+        const head = b.level !== level ? el('h3', { class: 'ipm-head' }, t(`ipm_${b.level}`, null, ctx.lang)) : null;
+        level = b.level;
+        if (b.level === 'chemical') lastChemical = node;
+        const src = sourceTag(b, ctx);
+        node.dataset.blk = '';
+        return [head, node, src];
+      }
       if (node && MARKABLE.has(b.type)) node.dataset.blk = '';
       const src = b.type === 'widget' ? null : sourceTag(b, ctx);
       return src && node ? [node, src] : node;
@@ -116,6 +150,12 @@ export function renderSections(chapter, ctx) {
     } else {
       frag.append(el('section', { class: 'section', id: sec.id }, el('h2', {}, inline(sec.heading, ctx)), ...body));
     }
+  }
+  // Any page that names chemical control ends that group with the label warning.
+  if (lastChemical) {
+    const warn = el('aside', { class: 'note note-warn' }, el('p', { class: 'note-label' }, t('noteWarn', null, ctx.lang)), el('p', {}, t('pesticideWarning', null, ctx.lang)));
+    const after = lastChemical.nextElementSibling?.classList.contains('block-src') ? lastChemical.nextElementSibling : lastChemical;
+    after.after(warn);
   }
   // Each markable block gets a key that is the same in every language:
   // chapter, section, place in the section.

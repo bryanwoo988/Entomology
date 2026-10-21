@@ -36,7 +36,7 @@ const ICON = {
 };
 
 /* ---------- State ---------- */
-let index = null, terms = null, sources = null, releases = [];
+let index = null, terms = null, sources = null, releases = [], photos = new Map(), pesticides = new Map();
 let current = { route: null, chapterNum: null };
 let visibleSince = performance.now();
 let asked = false;
@@ -96,6 +96,9 @@ function parse(hash) {
 const ctxFor = () => ({
   lang: lang(),
   terms,
+  photos,
+  pesticides,
+  pageTitle: id => { const c = index.chapters.find(x => x.id === id); return c ? pick(c.title, lang()) : id; },
   onTerm: id => openTermSheet(id, { lang: lang(), openSheet, currentChapter: current.chapterNum }),
   mountWidget: (host, id, c) => mountWidget(host, id, c),
   sourceLabel: s => {
@@ -596,9 +599,13 @@ function showPicker() {
 async function boot() {
   prefs.init();
   prefs.applyToDocument();
-  [index, terms, sources, releases] = await Promise.all([
+  let photoList, pestList;
+  [index, terms, sources, releases, photoList, pestList] = await Promise.all([
     loadIndex(), loadTerms(), loadData('sources'), loadData('releases').catch(() => []),
+    loadData('photos').catch(() => []), loadData('pesticides').catch(() => []),
   ]);
+  photos = new Map(photoList.map(p => [p.id, p]));
+  pesticides = new Map(pestList.map(p => [p.id, p]));
   window.Reader.init({
     app: 'bugs',
     root: () => main,

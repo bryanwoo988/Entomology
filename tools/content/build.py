@@ -32,6 +32,30 @@ def N(kind, zh, en, ms, **kw):
     return {"type": "note", "kind": kind, "text": T(zh, en, ms), **kw}
 
 
+def SPECIES(names, sci, order, crops, stage, src, authority=None):
+    """Header card of a species page. names from T2/T, crops a list of T, stage a T."""
+    b = {"type": "species", "names": names, "sci": sci, "order": order, "crops": list(crops), "stage": stage, "src": list(src)}
+    if authority:
+        b["authority"] = authority
+    return b
+
+
+def PHOTO(pid):
+    return {"type": "photo", "id": pid}
+
+
+IPM = ("monitor", "cultural", "biological", "chemical")
+
+
+def CONTROL(level, zh, en, ms, src, ai=()):
+    """One control method; level is one of IPM, in that order on a page."""
+    assert level in IPM, level
+    b = {"type": "control", "level": level, "text": T(zh, en, ms), "src": list(src)}
+    if ai:
+        b["ai"] = list(ai)
+    return b
+
+
 def _load(name, default):
     p = DATA / f"{name}.json"
     return json.loads(p.read_text()) if p.exists() else default

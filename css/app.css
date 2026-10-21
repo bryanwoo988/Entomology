@@ -627,3 +627,22 @@ rect.cl-ice, circle.cl-ice { fill: var(--cloud); stroke: var(--sky); stroke-widt
 .lib-list { padding-top: 0; padding-bottom: 0; }
 .lib-h { margin: 28px 0 10px; }
 .about h3 { margin: 18px 0 4px; }
+
+/* ---------- Species pages ---------- */
+.species-card { border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin: 0 0 18px; background: var(--bg); }
+.species-name { font-size: 1.25em; font-weight: 700; margin: 0; }
+.species-sci { margin: 2px 0 10px; color: var(--muted); }
+.species-facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0; }
+.species-facts > div { display: contents; }
+.species-facts dt { color: var(--muted); }
+.species-facts dd { margin: 0; }
+figure.photo { margin: 12px 0 18px; }
+figure.photo img { display: block; max-width: 100%; height: auto; border-radius: 10px; }
+figure.photo figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; font-size: .9em; }
+.photo-credit { font-size: .82em; color: var(--muted); }
+.ipm-head { margin: 18px 0 6px; font-size: 1.02em; }
+.control { border-left: 3px solid var(--line); padding-left: 12px; margin: 8px 0; }
+.control-chemical { border-left-color: var(--warn); }
+.control p { margin: 4px 0; }
+.control-ai { font-size: .92em; }
+.ai-banned { color: var(--warn); font-weight: 600; }

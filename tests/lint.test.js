@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mkdtempSync, mkdirSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
 import { lint } from '../tools/lint-content.mjs';
 
 const T = (en) => ({ zh: `中${en}`, en, ms: `M${en}` });
@@ -23,10 +23,14 @@ function base() {
       { stage: 6, chapter: 'p02', q: T('q'), options: [T('a'), T('b'), T('c'), T('d')], answer: 3, why: T('w') },
     ],
     datasets: [],
+    pesticides: [{ id: 'cypermethrin', name: T('Cypermethrin'), status: 'registered', src: ['met'], checked: '2026-10-21' },
+      { id: 'endosulfan', name: T('Endosulfan'), status: 'banned', src: ['met'], checked: '2026-10-21' }],
+    photos: [{ id: 'bug', file: 'img/species/bug.webp', subject: T('bug'), credit: T('MPOB'), licence: 'MPOB-permission', author: 'MPOB', url: 'https://mpob.gov.my/' }],
+    files: { 'img/species/bug.webp': 'x' },
     p01: { id: 'p01', num: 1, stage: 1, title: T('One'), newTerms: ['air'], sources: ['PAM'], sections: [
       { id: 's1', heading: T('h'), level: 'basic', blocks: [
-        { type: 'p', defines: ['air'], text: { zh: '{{t:air}} 是', en: '{{t:air}} is', ms: '{{t:air}} ialah' } },
-        { type: 'table', caption: T('c'), headers: [T('a'), T('b')], rows: [[T('1'), T('2')]] },
+        { type: 'p', src: ['PAM'], defines: ['air'], text: { zh: '{{t:air}} 是', en: '{{t:air}} is', ms: '{{t:air}} ialah' } },
+        { type: 'table', src: ['PAM'], caption: T('c'), headers: [T('a'), T('b')], rows: [[T('1'), T('2')]] },
       ] }] },
     p02: { id: 'p02', num: 2, stage: 6, title: T('Two'), newTerms: ['monsoon'], sources: ['met'], sections: [
       { id: 's1', heading: T('h'), level: 'basic', blocks: [
@@ -41,6 +45,8 @@ function write(c) {
   const w = (f, v) => writeFileSync(join(root, 'data', f), JSON.stringify(v));
   w('index.json', c.index); w('terms.json', c.terms); w('sources.json', c.sources);
   w('quiz.json', c.quiz); w('datasets.json', c.datasets); w('p01.json', c.p01); w('p02.json', c.p02);
+  w('pesticides.json', c.pesticides); w('photos.json', c.photos);
+  for (const [f, body] of Object.entries(c.files)) { mkdirSync(join(root, dirname(f)), { recursive: true }); writeFileSync(join(root, f), body); }
   return root;
 }
 const errorsOf = mutate => { const c = base(); mutate(c); return lint(write(c)).errors; };
@@ -69,7 +75,7 @@ test('newTerms must match the terms of that chapter', () => has(errorsOf(c => { 
 
 test('unknown source', () => has(errorsOf(c => { c.p01.sources.push('ghost'); }), /unknown source "ghost"/));
 
-test('a Malaysia-stage block without a source', () => has(errorsOf(c => { delete c.p02.sections[0].blocks[0].src; }), /p02 .*stage 6 block has no src/));
+test('a Malaysia-stage block without a source', () => has(errorsOf(c => { delete c.p02.sections[0].blocks[0].src; }), /p02 .*no src/));
 
 test('table rows must match headers', () => has(errorsOf(c => { c.p01.sections[0].blocks[1].rows[0].push(T('3')); }), /p01 table row 1 has 3 cells/));
 
@@ -92,3 +98,21 @@ test('a link to a chapter that does not exist', () => has(errorsOf(c => {
 }), /unknown chapter "ch99"/));
 
 test('empty zhTw is an error', () => has(errorsOf(c => { c.terms[0].name.zhTw = ''; }), /zhTw/));
+
+// Species pages, photos and control sections (p02 doubles as a species page here).
+const sp = c => c.p02.sections[0].blocks;
+const control = (level, ai) => ({ type: 'control', level, text: T(level), src: ['met'], ...(ai ? { ai } : {}) });
+
+test('a markable block without src is an error on any stage', () => has(errorsOf(c => { delete c.p01.sections[0].blocks[0].src; }), /p01.*no src/));
+test('control blocks must follow IPM order', () => has(errorsOf(c => { sp(c).push(control('chemical', ['cypermethrin']), control('cultural')); }), /IPM order/));
+test('control blocks in IPM order pass', () => assert.deepEqual(errorsOf(c => { sp(c).push(control('monitor'), control('cultural'), control('biological'), control('chemical', ['cypermethrin'])); }), []));
+test('unknown pesticide status fails', () => has(errorsOf(c => { c.pesticides.push({ id: 'x', name: T('x'), status: 'unknown', src: ['met'], checked: '2026-10-21' }); sp(c).push(control('chemical', ['x'])); }), /status unknown/));
+test('undeclared pesticide fails', () => has(errorsOf(c => { sp(c).push(control('chemical', ['nope'])); }), /unknown pesticide/));
+test('a photo block must name a registered photo', () => has(errorsOf(c => { sp(c).push({ type: 'photo', id: 'ghost' }); }), /unknown photo "ghost"/));
+test('a photo needs a licence', () => has(errorsOf(c => { delete c.photos[0].licence; }), /photo bug.*licence/));
+test('a photo licence must be open or MPOB permission', () => has(errorsOf(c => { c.photos[0].licence = 'CC BY-NC 4.0'; }), /photo bug.*licence/));
+test('a photo file must exist', () => has(errorsOf(c => { c.files = {}; }), /photo bug.*not found/));
+test('species block needs sci and an existing order page', () => {
+  has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bug'), order: 'p01', crops: [], stage: T('larva'), src: ['met'] }); }), /species.*sci/);
+  has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bug'), sci: 'Bugus bugus', order: 'p99', crops: [], stage: T('larva'), src: ['met'] }); }), /order page "p99"/);
+});
