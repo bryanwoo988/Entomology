@@ -1,0 +1,173 @@
+{
+ "id": "p54",
+ "num": 54,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "弄蝶（Erionota）",
+  "en": "Banana skipper",
+  "ms": "Rama-rama pisang"
+ },
+ "blurb": {
+  "zh": "Erionota thrax",
+  "en": "Erionota thrax",
+  "ms": "Erionota thrax"
+ },
+ "sources": [
+  "BIODIV-ET",
+  "PHA-BSK",
+  "PLAZI-ET",
+  "SANDS-BSK"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "弄蝶（Erionota）",
+      "en": "Banana skipper",
+      "ms": "Rama-rama pisang"
+     },
+     "sci": "Erionota thrax",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "香蕉",
+       "en": "Banana",
+       "ms": "Pisang"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "PHA-BSK"
+     ],
+     "authority": "(Linnaeus)"
+    },
+    {
+     "type": "photo",
+     "id": "erionota-thrax-larva"
+    },
+    {
+     "type": "photo",
+     "id": "erionota-thrax-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:banana-skipper}}的辨认要点：",
+      "en": "How to recognise {{t:banana-skipper}}:",
+      "ms": "Cara mengecam {{t:banana-skipper}}:"
+     },
+     "defines": [
+      "banana-skipper"
+     ],
+     "src": [
+      "PHA-BSK"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "幼虫头部黑亮，身体淡绿色，盖着白色蜡粉，长可达 6 厘米",
+       "en": "The caterpillar has a shiny black head and a pale green body covered in white waxy powder, up to 6 cm long",
+       "ms": "Ulat berkepala hitam berkilat dan berbadan hijau pucat yang ditutup serbuk lilin putih, sehingga 6 cm panjang"
+      },
+      {
+       "zh": "躲在长达 15 厘米的叶卷里，叶卷内有白色蜡质",
+       "en": "It hides in leaf rolls up to 15 cm long, lined with white wax",
+       "ms": "Ia bersembunyi dalam gulungan daun sehingga 15 cm panjang, berlapik lilin putih"
+      }
+     ],
+     "src": [
+      "PHA-BSK"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "大发生时，可吃掉香蕉多达 60% 的叶面积。",
+      "en": "Outbreaks have destroyed up to 60% of banana leaf area.",
+      "ms": "Serangan besar telah memusnahkan sehingga 60% keluasan daun pisang."
+     },
+     "src": [
+      "PHA-BSK"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "近缘种 Erionota torus 分布到马来西亚半岛，很容易和 E. thrax 混淆，确认可能要检查雄虫的生殖器。",
+      "en": "The related Erionota torus ranges into Peninsular Malaysia and is easily confused with E. thrax; confirming it may require examining the male genitalia.",
+      "ms": "Spesies berkait Erionota torus terdapat hingga Semenanjung Malaysia dan mudah dikelirukan dengan E. thrax; pengesahan mungkin memerlukan pemeriksaan genitalia jantan."
+     },
+     "src": [
+      "PLAZI-ET"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "关岛、毛里求斯和夏威夷从泰国引进卵寄生蜂 Ooencyrtus erionotae 和幼虫寄生蜂 Cotesia erionotae 后，生物防治成功。在印尼，这两种也是主要的寄生蜂。",
+      "en": "Biological control worked in Guam, Mauritius and Hawaii after the egg parasitoid Ooencyrtus erionotae and the larval parasitoid Cotesia erionotae were brought in from Thailand. In Indonesia these two are also among the main parasitoids.",
+      "ms": "Kawalan biologi berjaya di Guam, Mauritius dan Hawaii selepas parasitoid telur Ooencyrtus erionotae dan parasitoid larva Cotesia erionotae dibawa masuk dari Thailand. Di Indonesia kedua-duanya juga antara parasitoid utama."
+     },
+     "src": [
+      "SANDS-BSK",
+      "BIODIV-ET"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "banana-skipper"
+ ]
+}

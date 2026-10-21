@@ -1,0 +1,229 @@
+{
+ "id": "p47",
+ "num": 47,
+ "stage": 5,
+ "kind": "species",
+ "order": "p14",
+ "title": {
+  "zh": "瓜实蝇",
+  "en": "Melon fly",
+  "ms": "Lalat buah tembikai"
+ },
+ "blurb": {
+  "zh": "Zeugodacus cucurbitae",
+  "en": "Zeugodacus cucurbitae",
+  "ms": "Zeugodacus cucurbitae"
+ },
+ "sources": [
+  "AUSVEG-MF",
+  "DHILLON-MF",
+  "DOA-MRL",
+  "FFID-LURE",
+  "IPPC-FFID",
+  "PP-MF",
+  "RBZ-BACT",
+  "TJ"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "瓜实蝇",
+      "en": "Melon fly",
+      "ms": "Lalat buah tembikai"
+     },
+     "sci": "Zeugodacus cucurbitae",
+     "order": "p14",
+     "crops": [
+      {
+       "zh": "瓜类",
+       "en": "Cucurbits",
+       "ms": "Tanaman labu"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫（蛆）",
+      "en": "Larva (maggot)",
+      "ms": "Larva (berenga)"
+     },
+     "src": [
+      "AUSVEG-MF",
+      "IPPC-FFID",
+      "DHILLON-MF"
+     ],
+     "authority": "(Coquillett)"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "暂无合适的开放授权照片。",
+      "en": "No suitable openly licensed photo yet.",
+      "ms": "Belum ada foto berlesen terbuka yang sesuai."
+     },
+     "src": [
+      "TJ"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:melon-fly}}的辨认要点：",
+      "en": "How to recognise {{t:melon-fly}}:",
+      "ms": "Cara mengecam {{t:melon-fly}}:"
+     },
+     "defines": [
+      "melon-fly"
+     ],
+     "src": [
+      "AUSVEG-MF",
+      "IPPC-FFID",
+      "DHILLON-MF"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫约 8 毫米",
+       "en": "Adults are about 8 mm long",
+       "ms": "Dewasa kira-kira 8 mm panjang"
+      },
+      {
+       "zh": "翅前缘有一条宽的褐色带，在翅尖形成一个斑；翅的后半部还有一条宽的褐色横带（盖在 dm-cu 横脉上）",
+       "en": "A broad brown band runs along the front edge of the wing and ends in a spot at the tip; a second broad brown band crosses the back half of the wing (over crossvein dm-cu)",
+       "ms": "Jalur perang lebar di sepanjang tepi hadapan sayap berakhir dengan tompok di hujung; jalur perang lebar kedua merentasi separuh belakang sayap (atas urat silang dm-cu)"
+      },
+      {
+       "zh": "旧名 Bactrocera cucurbitae、Dacus cucurbitae",
+       "en": "Older names: Bactrocera cucurbitae, Dacus cucurbitae",
+       "ms": "Nama lama: Bactrocera cucurbitae, Dacus cucurbitae"
+      }
+     ],
+     "src": [
+      "AUSVEG-MF",
+      "IPPC-FFID",
+      "DHILLON-MF"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "寄主主要是瓜类：苦瓜、黄瓜、丝瓜、甜瓜、南瓜、蛇瓜、西瓜和冬瓜。苦瓜最早的症状是果实提早变黄；之后果实腐烂、表皮有小洞，里面有蛆，果实通常会掉落。幼虫在土里化蛹。",
+      "en": "Its hosts are mainly cucurbits: bitter gourd, cucumber, luffa, melon, pumpkin, snake gourd, watermelon and wax gourd. The first sign on bitter gourd is early yellowing; then the fruit rots, shows small holes in the skin and has maggots inside, and usually drops. The larvae pupate in the soil.",
+      "ms": "Perumahnya terutamanya tanaman labu: peria, timun, petola, tembikai susu, labu, ketola ular, tembikai dan kundur. Tanda pertama pada peria ialah menguning awal; kemudian buah reput, ada lubang kecil di kulit dan berenga di dalam, dan biasanya gugur. Larva menjadi pupa di dalam tanah."
+     },
+     "src": [
+      "PP-MF"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "它在马来西亚半岛广泛分布，北部比较多。",
+      "en": "It is widespread in Peninsular Malaysia, more common in the north.",
+      "ms": "Ia tersebar luas di Semenanjung Malaysia, lebih banyak di utara."
+     },
+     "src": [
+      "RBZ-BACT"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "瓜实蝇的雄虫被 cue-lure 吸引；{{ch:p52|橘小实蝇}}的雄虫被甲基丁香酚吸引。不过只靠诱剂不能断定种类。另一种 Zeugodacus tau 的翅后半部没有那条褐色横带。",
+      "en": "Melon fly males come to cue-lure; {{ch:p52|oriental fruit fly}} males come to methyl eugenol. Lures alone do not prove the species, though. The look-alike Zeugodacus tau lacks the brown band across the back half of the wing.",
+      "ms": "Lalat buah tembikai jantan tertarik kepada cue-lure; jantan {{ch:p52|lalat buah oriental}} tertarik kepada metil eugenol. Namun perangkap sahaja tidak membuktikan spesies. Spesies serupa Zeugodacus tau tiada jalur perang merentasi separuh belakang sayap."
+     },
+     "src": [
+      "FFID-LURE",
+      "IPPC-FFID"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "用雄虫诱剂（cue-lure）诱捕器监测。",
+      "en": "Monitor with male-lure (cue-lure) traps.",
+      "ms": "Pantau dengan perangkap pemikat jantan (cue-lure)."
+     },
+     "src": [
+      "PP-MF",
+      "FFID-LURE"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "套袋保护果实，提早采收，销毁落果和受害果，轮作，清除作物残株。",
+      "en": "Bag the fruit, harvest early, destroy fallen and damaged fruit, rotate crops and clear crop residues.",
+      "ms": "Balut buah, tuai awal, musnahkan buah gugur dan rosak, giliran tanaman dan bersihkan sisa tanaman."
+     },
+     "src": [
+      "PP-MF"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "用蛋白诱饵点喷：把酵母水解蛋白混入杀虫剂，点喷在植株上，而不是全面喷洒。真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "Use protein bait spot sprays: yeast protein hydrolysate mixed with an insecticide, sprayed in spots rather than over the whole crop. If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Gunakan semburan tompok umpan protein: hidrolisat protein yis dicampur racun serangga, disembur bertompok dan bukan ke seluruh tanaman. Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "PP-MF",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "melon-fly"
+ ]
+}

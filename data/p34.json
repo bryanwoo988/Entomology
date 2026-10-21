@@ -1,0 +1,126 @@
+{
+ "id": "p34",
+ "num": 34,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "水稻的昆虫",
+  "en": "Rice insects",
+  "ms": "Serangga padi"
+ },
+ "blurb": {
+  "zh": "马来西亚稻田常见的五种害虫和它们的天敌",
+  "en": "Five common rice pests in Malaysia, and their natural enemies",
+  "ms": "Lima perosak padi biasa di Malaysia, dan musuh semula jadinya"
+ },
+ "sources": [
+  "IRRI-BPH",
+  "IRRI-GLH",
+  "IRRI-LF",
+  "IRRI-RB",
+  "IRRI-SB",
+  "JIRCAS-19",
+  "MADA-IPM",
+  "PMC-CYRT",
+  "PP-BPH",
+  "UTAR-RICE"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "马来西亚稻田的主要害虫包括钻茎的螟虫、黏虫、马来亚黑蝽和褐飞虱。这个 App 介绍五种：",
+      "en": "The main rice pests in Malaysia include stem borers, armyworms, the Malayan black bug and the brown planthopper. This app covers five:",
+      "ms": "Perosak utama padi di Malaysia termasuk pengorek batang, ulat ratus, pianggang hitam Malaya dan bena perang. Aplikasi ini merangkumi lima:"
+     },
+     "src": [
+      "UTAR-RICE"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p35|褐飞虱}}：在稻丛基部吸汁，大发生时造成「虱烧」",
+       "en": "{{ch:p35|Brown planthopper}}: sucks sap at the base of the plants; outbreaks cause hopperburn",
+       "ms": "{{ch:p35|Bena perang}}: menghisap cecair di pangkal pokok; serangan besar menyebabkan 'hopperburn'"
+      },
+      {
+       "zh": "{{ch:p36|叶蝉}}：传播东格鲁病（penyakit merah）",
+       "en": "{{ch:p36|Green leafhopper}}: spreads tungro (penyakit merah)",
+       "ms": "{{ch:p36|Bena hijau}}: menyebarkan penyakit tungro (penyakit merah)"
+      },
+      {
+       "zh": "{{ch:p37|稻缘蝽}}：吸食正在灌浆的谷粒",
+       "en": "{{ch:p37|Rice bug}}: sucks the filling grains",
+       "ms": "{{ch:p37|Pianggang}}: menghisap bijirin yang sedang berisi"
+      },
+      {
+       "zh": "{{ch:p38|三化螟}}：幼虫钻进茎里，造成枯心和白穗",
+       "en": "{{ch:p38|Yellow stem borer}}: larvae bore into the stem, causing deadhearts and whiteheads",
+       "ms": "{{ch:p38|Pengorek batang kuning}}: larva mengorek batang, menyebabkan pucuk mati dan tangkai putih"
+      },
+      {
+       "zh": "{{ch:p39|稻纵卷叶螟}}：幼虫把叶子卷起来吃",
+       "en": "{{ch:p39|Rice leaffolder}}: larvae fold the leaves and feed inside",
+       "ms": "{{ch:p39|Ulat lipat daun}}: larva melipat daun dan makan di dalamnya"
+      }
+     ],
+     "src": [
+      "IRRI-BPH",
+      "IRRI-GLH",
+      "JIRCAS-19",
+      "IRRI-RB",
+      "IRRI-SB",
+      "IRRI-LF"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "稻田里也有许多天敌。捕食性盲蝽 Cyrtorhinus lividipennis 吃飞虱的卵和小若虫，在田间平均消灭约 30% 的褐飞虱卵，最高达 70%。蜘蛛、瓢虫、蜻蜓和豆娘吃飞虱的若虫和成虫。",
+      "en": "Rice fields also hold many natural enemies. The predatory mirid bug Cyrtorhinus lividipennis eats planthopper eggs and young nymphs, destroying on average about 30% of brown planthopper eggs in the field and up to 70%. Spiders, ladybirds, dragonflies and damselflies eat the nymphs and adults.",
+      "ms": "Sawah juga mempunyai banyak musuh semula jadi. Pepijat mirid pemangsa Cyrtorhinus lividipennis memakan telur dan nimfa muda bena, memusnahkan secara purata kira-kira 30% telur bena perang di sawah dan sehingga 70%. Labah-labah, kumbang kura-kura, pepatung dan pepatung jarum memakan nimfa dan dewasa."
+     },
+     "src": [
+      "PMC-CYRT",
+      "PP-BPH"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "不要一看到虫就喷广谱杀虫剂：喷药会杀死蜘蛛和捕食性盲蝽，害虫之后反而更多。",
+      "en": "Do not reach for a broad-spectrum spray at the first sight of a pest: spraying kills spiders and predatory mirid bugs, and the pest often comes back in greater numbers.",
+      "ms": "Jangan terus menyembur racun spektrum luas sebaik ternampak perosak: semburan membunuh labah-labah dan pepijat mirid pemangsa, dan perosak sering kembali lebih banyak."
+     },
+     "src": [
+      "PP-BPH"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "在吉打的慕达灌溉区（MADA），综合防治计划就是为了减少稻农滥用农药而推行的。",
+      "en": "In the Muda irrigation area of Kedah (MADA), an integrated pest management programme was set up to cut the misuse of pesticides by rice farmers.",
+      "ms": "Di kawasan pengairan Muda, Kedah (MADA), program pengurusan perosak bersepadu diwujudkan untuk mengurangkan penyalahgunaan racun perosak oleh pesawah."
+     },
+     "src": [
+      "MADA-IPM"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

@@ -1,0 +1,208 @@
+{
+ "id": "p35",
+ "num": 35,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "褐飞虱",
+  "en": "Brown planthopper",
+  "ms": "Bena perang"
+ },
+ "blurb": {
+  "zh": "Nilaparvata lugens",
+  "en": "Nilaparvata lugens",
+  "ms": "Nilaparvata lugens"
+ },
+ "sources": [
+  "IRRI-BPH",
+  "JIRCAS-14",
+  "PMC-CYRT",
+  "PP-BPH"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "褐飞虱",
+      "en": "Brown planthopper",
+      "ms": "Bena perang"
+     },
+     "sci": "Nilaparvata lugens",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "水稻",
+       "en": "Rice",
+       "ms": "Padi"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "IRRI-BPH",
+      "PP-BPH"
+     ],
+     "authority": "(Stål)"
+    },
+    {
+     "type": "photo",
+     "id": "nilaparvata-lugens-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:brown-planthopper}}的辨认要点：",
+      "en": "How to recognise {{t:brown-planthopper}}:",
+      "ms": "Cara mengecam {{t:brown-planthopper}}:"
+     },
+     "defines": [
+      "brown-planthopper"
+     ],
+     "src": [
+      "IRRI-BPH",
+      "PP-BPH"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "在稻丛基部、阴湿处找：白色到褐色的若虫，和褐色的成虫",
+       "en": "Look at the shady, humid base of the plants: white to brown nymphs and brown adults",
+       "ms": "Lihat di pangkal pokok yang teduh dan lembap: nimfa putih hingga perang dan dewasa perang"
+      },
+      {
+       "zh": "成虫有长翅型和短翅型两种；长翅型约 3.5–4.5 毫米",
+       "en": "Adults come long-winged or short-winged; long-winged adults are about 3.5–4.5 mm",
+       "ms": "Dewasa bersayap panjang atau bersayap pendek; dewasa bersayap panjang kira-kira 3.5–4.5 mm"
+      },
+      {
+       "zh": "卵是新月形、白色，产在叶鞘或中肋里",
+       "en": "Eggs are crescent-shaped and white, laid inside the leaf sheath or midrib",
+       "ms": "Telur berbentuk bulan sabit dan putih, diletakkan di dalam pelepah atau tulang daun"
+      },
+      {
+       "zh": "数量多时，稻丛基部会长出煤污病（黑色霉层）",
+       "en": "In large numbers they leave sooty mould at the base of the plants",
+       "ms": "Dalam jumlah besar ia meninggalkan kulapuk jelaga di pangkal pokok"
+      }
+     ],
+     "src": [
+      "IRRI-BPH",
+      "PP-BPH"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "若虫和成虫吸食稻株汁液。大发生时出现「虱烧」：稻叶先变橙黄，再变褐色、干枯，整丛倒伏。褐飞虱还传播草状丛矮病和锯齿叶矮缩病两种病毒病。",
+      "en": "Nymphs and adults suck the sap. In outbreaks they cause hopperburn: the leaves turn orange-yellow, then brown and dry, and the plants collapse. The brown planthopper also spreads two virus diseases, grassy stunt and ragged stunt.",
+      "ms": "Nimfa dan dewasa menghisap cecair pokok. Dalam serangan besar ia menyebabkan 'hopperburn': daun menjadi jingga kekuningan, kemudian perang dan kering, dan pokok rebah. Bena perang juga menyebarkan dua penyakit virus, kerdil rumput dan kerdil koyak."
+     },
+     "src": [
+      "IRRI-BPH"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "1977 年，褐飞虱在雪兰莪丹绒加弄（Tanjong Karang）毁掉了 1,829 公顷稻田。",
+      "en": "In 1977 the brown planthopper destroyed 1,829 ha of rice at Tanjong Karang, Selangor.",
+      "ms": "Pada 1977 bena perang memusnahkan 1,829 ha padi di Tanjong Karang, Selangor."
+     },
+     "src": [
+      "JIRCAS-14"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "定期检查稻丛基部的若虫和成虫，留意稻丛基部的煤污病。",
+      "en": "Check the base of the plants regularly for nymphs and adults, and watch for sooty mould there.",
+      "ms": "Periksa pangkal pokok secara berkala untuk nimfa dan dewasa, dan perhatikan kulapuk jelaga di situ."
+     },
+     "src": [
+      "IRRI-BPH",
+      "PP-BPH"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "不要插得太密：株距 10×10 厘米的田比 20×20 厘米的田更容易出现虱烧。种植抗虫品种。",
+      "en": "Do not plant too densely: fields spaced at 10 × 10 cm get hopperburn more easily than fields at 20 × 20 cm. Grow resistant varieties.",
+      "ms": "Jangan tanam terlalu rapat: petak berjarak 10 × 10 cm lebih mudah terkena 'hopperburn' berbanding 20 × 20 cm. Tanam varieti rintang."
+     },
+     "src": [
+      "IRRI-BPH"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "保护天敌：蜘蛛、瓢虫、蜻蜓和豆娘吃若虫和成虫，捕食性盲蝽吃卵。",
+      "en": "Protect the natural enemies: spiders, ladybirds, dragonflies and damselflies eat the nymphs and adults, and predatory mirid bugs eat the eggs.",
+      "ms": "Lindungi musuh semula jadi: labah-labah, kumbang kura-kura, pepatung dan pepatung jarum memakan nimfa dan dewasa, dan pepijat mirid pemangsa memakan telur."
+     },
+     "src": [
+      "PP-BPH",
+      "PMC-CYRT"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "滥用杀虫剂是褐飞虱大发生的主要原因：喷药杀死天敌，飞虱之后比喷药前更多（再猖獗）。只在超过防治阈值时才用药，并依照农业局登记的产品标签。",
+      "en": "Overuse of insecticides is the main cause of brown planthopper outbreaks: spraying kills the natural enemies, and the planthoppers end up more numerous than before (resurgence). Spray only past the action threshold, with a product registered by the Department of Agriculture, following its label.",
+      "ms": "Penggunaan racun serangga berlebihan ialah punca utama serangan bena perang: semburan membunuh musuh semula jadi, dan bena menjadi lebih banyak daripada sebelumnya (lonjakan semula). Sembur hanya selepas ambang tindakan, dengan produk berdaftar Jabatan Pertanian, mengikut labelnya."
+     },
+     "src": [
+      "PP-BPH"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "brown-planthopper"
+ ]
+}

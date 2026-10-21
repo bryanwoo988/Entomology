@@ -1,0 +1,176 @@
+{
+ "id": "p39",
+ "num": 39,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "稻纵卷叶螟",
+  "en": "Rice leaffolder",
+  "ms": "Ulat lipat daun padi"
+ },
+ "blurb": {
+  "zh": "Cnaphalocrocis medinalis",
+  "en": "Cnaphalocrocis medinalis",
+  "ms": "Cnaphalocrocis medinalis"
+ },
+ "sources": [
+  "IRRI-LF",
+  "PP-LF"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "稻纵卷叶螟",
+      "en": "Rice leaffolder",
+      "ms": "Ulat lipat daun padi"
+     },
+     "sci": "Cnaphalocrocis medinalis",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "水稻",
+       "en": "Rice",
+       "ms": "Padi"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "IRRI-LF",
+      "PP-LF"
+     ],
+     "authority": "(Guenée)"
+    },
+    {
+     "type": "photo",
+     "id": "cnaphalocrocis-medinalis-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:rice-leaffolder}}的辨认要点：",
+      "en": "How to recognise {{t:rice-leaffolder}}:",
+      "ms": "Cara mengecam {{t:rice-leaffolder}}:"
+     },
+     "defines": [
+      "rice-leaffolder"
+     ],
+     "src": [
+      "IRRI-LF",
+      "PP-LF"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "叶片被纵向卷起、用丝缝住，里面有绿色的幼虫和粪粒",
+       "en": "Leaves are folded lengthwise and tied with silk, with a green larva and droppings inside",
+       "ms": "Daun dilipat memanjang dan diikat dengan sutera, dengan larva hijau dan najis di dalamnya"
+      },
+      {
+       "zh": "幼虫在卷叶里吃，留下白色、半透明的条纹",
+       "en": "The larva feeds inside the fold, leaving white, see-through streaks",
+       "ms": "Larva makan di dalam lipatan, meninggalkan jalur putih lut sinar"
+      },
+      {
+       "zh": "另一种卷叶螟 Marasmia patnalis 长得很像，要专家才分得清",
+       "en": "Another leaffolder, Marasmia patnalis, looks very similar; an expert is needed to tell them apart",
+       "ms": "Ulat lipat daun lain, Marasmia patnalis, sangat serupa; pakar diperlukan untuk membezakannya"
+      }
+     ],
+     "src": [
+      "IRRI-LF",
+      "PP-LF"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "幼虫吃掉叶肉，留下白色条纹，减少叶片的光合作用。施肥过多、湿度高、田里阴暗的地方，以及田内外的禾本科杂草，都有利于它发生。",
+      "en": "The larvae eat the leaf tissue, leaving white streaks and cutting the leaf's photosynthesis. Heavy fertiliser, high humidity, shady parts of the field and grassy weeds in and around fields all favour it.",
+      "ms": "Larva memakan tisu daun, meninggalkan jalur putih dan mengurangkan fotosintesis daun. Baja berlebihan, kelembapan tinggi, bahagian petak yang teduh dan rumpai rumput di dalam dan sekitar petak semuanya menggalakkannya."
+     },
+     "src": [
+      "IRRI-LF"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "清除田埂上的杂草（许多是幼虫的寄主），收割后休耕或轮作，不要过量施氮肥。",
+      "en": "Clear weeds on the bunds (many are larval hosts), leave the land fallow or rotate crops after rice, and do not over-apply nitrogen.",
+      "ms": "Bersihkan rumpai di batas (banyak ialah perumah larva), biarkan tanah rehat atau giliran tanaman selepas padi, dan jangan beri nitrogen berlebihan."
+     },
+     "src": [
+      "PP-LF"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "许多寄生蜂寄生它的卵、幼虫和蛹，瓢虫、捕食蝽和蜘蛛也会吃它——保护这些天敌。",
+      "en": "Many parasitic wasps attack its eggs, larvae and pupae, and ladybirds, predatory bugs and spiders eat it: protect these natural enemies.",
+      "ms": "Banyak tebuan parasit menyerang telur, larva dan pupanya, dan kumbang kura-kura, pepijat pemangsa dan labah-labah memakannya: lindungi musuh semula jadi ini."
+     },
+     "src": [
+      "PP-LF"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "最好不用杀虫剂，尤其是插秧后头 40 天：稻株能从早期的叶片损伤中恢复。要用的话，避免广谱产品。",
+      "en": "Best avoid insecticides, especially in the first 40 days: rice recovers from early leaf damage. If you must spray, avoid broad-spectrum products.",
+      "ms": "Sebaiknya elakkan racun serangga, terutama dalam 40 hari pertama: padi pulih daripada kerosakan daun awal. Jika perlu menyembur, elakkan produk spektrum luas."
+     },
+     "src": [
+      "PP-LF"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "rice-leaffolder"
+ ]
+}

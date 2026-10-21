@@ -1,0 +1,124 @@
+{
+ "id": "p55",
+ "num": 55,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "凤蝶（Papilio demoleus）",
+  "en": "Lime butterfly",
+  "ms": "Rama-rama limau"
+ },
+ "blurb": {
+  "zh": "Papilio demoleus",
+  "en": "Papilio demoleus",
+  "ms": "Papilio demoleus"
+ },
+ "sources": [
+  "UF-PD"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "凤蝶（Papilio demoleus）",
+      "en": "Lime butterfly",
+      "ms": "Rama-rama limau"
+     },
+     "sci": "Papilio demoleus",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "柑橘类",
+       "en": "Citrus",
+       "ms": "Limau"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "UF-PD"
+     ],
+     "authority": "Linnaeus"
+    },
+    {
+     "type": "photo",
+     "id": "papilio-demoleus-larva"
+    },
+    {
+     "type": "photo",
+     "id": "papilio-demoleus-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:lime-butterfly}}的辨认要点：",
+      "en": "How to recognise {{t:lime-butterfly}}:",
+      "ms": "Cara mengecam {{t:lime-butterfly}}:"
+     },
+     "defines": [
+      "lime-butterfly"
+     ],
+     "src": [
+      "UF-PD"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "1–4 龄幼虫黑色，前、中、后有宽的灰白色横带，看起来像鸟粪",
+       "en": "Caterpillars in stages 1–4 are black with broad off-white bands at the front, middle and rear, so they look like bird droppings",
+       "ms": "Ulat peringkat 1–4 hitam dengan jalur putih kusam lebar di depan, tengah dan belakang, jadi kelihatan seperti najis burung"
+      },
+      {
+       "zh": "第 5 龄（最后一龄）变成绿色",
+       "en": "The fifth (last) stage turns green",
+       "ms": "Peringkat kelima (terakhir) menjadi hijau"
+      }
+     ],
+     "src": [
+      "UF-PD"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "幼虫吃柑橘类的叶子，是柑橘的害虫。",
+      "en": "The caterpillars eat the leaves of citrus and are a pest of citrus.",
+      "ms": "Ulatnya memakan daun limau dan merupakan perosak limau."
+     },
+     "src": [
+      "UF-PD"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "lime-butterfly"
+ ]
+}

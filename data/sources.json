@@ -24,6 +24,60 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "ANTKEY-DT",
+  "short": "Antkey: Dolichoderus thoracicus",
+  "title": "Dolichoderus thoracicus (species page)",
+  "publisher": "Antkey",
+  "url": "https://antkey.myspecies.info/en/content/dolichoderus-thoracicus",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "AUSVEG-MF",
+  "short": "AUSVEG: melon fruit fly",
+  "title": "Melon fruit fly fact sheet (2024)",
+  "publisher": "AUSVEG",
+  "url": "https://ausveg.com.au/app/uploads/2024/10/Melonfruitfly_FactSheet.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "AZHAR-CPB",
+  "short": "Azhar: cocoa pod borer in Malaysia",
+  "title": "Overview of cocoa pest management focused on Conopomorpha cramerella in Malaysia",
+  "publisher": "I. Azhar (catalogue record)",
+  "url": "https://repositorio.fedepalma.org/items/a4e3dc38-a1d3-40c1-b54c-b4be4824fc84/full",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "AZHAR-LONG",
+  "short": "Azhar & Long 1996: CPB egg parasitism",
+  "title": "Egg distribution and parasitism of the cocoa pod borer in relation to pod age",
+  "publisher": "I. Azhar and G. E. Long, 1996 (FAO AGRIS record)",
+  "url": "https://agris.fao.org/search/en/providers/122535/records/65dffcc54c5aef494fe75ce8",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "BAKAR-2020",
+  "short": "Bakar 2020: cocoa pod borer and mirid",
+  "title": "Infestations of two major pests of cocoa, Conopomorpha cramerella and Helopeltis theivora, under natural condition",
+  "publisher": "Saripah binti Bakar, 2020 (DOAJ record)",
+  "url": "https://doaj.org/article/ef398d92d1274cdc9cf1ad1cfebb4d6c",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "BIODIV-ET",
+  "short": "Biodiversitas: banana skipper parasitoids",
+  "title": "Parasitoids of the banana skipper Erionota thrax in Indonesia",
+  "publisher": "Biodiversitas Journal of Biological Diversity",
+  "url": "https://smujo.id/biodiv/article/view/235",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "BIODIV-SETORA",
   "short": "Biodiversitas: nettle caterpillars on peat",
   "title": "Nettle caterpillar species in oil palm plantations on peatland (Biodiversitas)",
@@ -40,6 +94,51 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "BRIS-CT",
+  "short": "Brisbane Insects: transverse ladybird",
+  "title": "Transverse ladybird, Coccinella transversalis (naturalist site)",
+  "publisher": "Brisbane Insects and Spiders",
+  "url": "https://ipv6.brisbaneinsects.com/brisbane_ladybirds/Transverse.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "CABI-RB",
+  "short": "CABI: slender rice bug",
+  "title": "Leptocorisa oratorius (slender rice bug)",
+  "publisher": "PlantwisePlus Knowledge Bank, CABI",
+  "url": "https://plantwiseplusknowledgebank.org/doi/full/10.1079/pwkb.species.30366",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "CLEMSON-BR",
+  "short": "Clemson: brassica pests",
+  "title": "Identification of common insect pests of brassica crops",
+  "publisher": "Clemson Cooperative Extension",
+  "url": "https://lgpress.clemson.edu/publication/identification-of-common-insect-pests-of-brassica-crops/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "CLRRI-NPV",
+  "short": "CLRRI: Spodoptera litura NPV",
+  "title": "Nuclear polyhedrosis virus for Spodoptera litura (resistance to chemicals in the Mekong Delta)",
+  "publisher": "Cuu Long Delta Rice Research Institute, Vietnam",
+  "url": "https://www.clrri.org/ver2/uploads/noidung/10-5.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "COOK-EPI",
+  "short": "Cook Islands: 28-spotted ladybird",
+  "title": "28-spotted ladybird beetle (pest bulletin)",
+  "publisher": "Cook Islands Ministry of Agriculture (SPREP data portal)",
+  "url": "https://cookislands-data.sprep.org/resource/1267/download/file",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "CSU-THRIPS",
   "short": "Colorado State: thrips",
   "title": "Thrips (IPM pests)",
@@ -48,12 +147,57 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "DAY-CPB",
+  "short": "Day: CPB yield loss in Sabah",
+  "title": "Effect of cocoa pod borer on cocoa yield and quality in Sabah, Malaysia",
+  "publisher": "R. K. Day (catalogue record)",
+  "url": "https://sidalc.net/search/Record/KOHA-OAI-BVE:70664",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "DBM-CH",
+  "short": "DBM resistance, Cameron Highlands",
+  "title": "Insecticide resistance in Plutella xylostella collected from the Cameron Highlands of Malaysia",
+  "publisher": "FAO AGRIS record",
+  "url": "https://sidalc.net/search/Record/unfao:733733",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "DEFRA-TP",
+  "short": "DEFRA: Thrips palmi",
+  "title": "Thrips palmi plant pest factsheet (2022)",
+  "publisher": "DEFRA Plant Health Portal, UK",
+  "url": "https://planthealthportal.defra.gov.uk/assets/factsheets/T.palmi-Plant-Pest-Factsheet-Template-Accessibility-Updated-2022.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "DHILLON-MF",
+  "short": "Dhillon 2005: melon fly review",
+  "title": "The melon fruit fly, Bactrocera cucurbitae: a review of its biology and management",
+  "publisher": "Dhillon et al., Journal of Insect Science 5(40), 2005",
+  "url": "https://oar.icrisat.org/2127",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "DOA-BAN",
   "short": "DOA: banned and restricted pesticides (Aug 2025)",
   "title": "Senarai racun perosak yang diharamkan dan dihadkan (Ogos 2025)",
   "publisher": "Bahagian Kawalan Racun Perosak dan Baja, Jabatan Pertanian Malaysia",
   "url": "https://www.doa.gov.my/doa/resources/aktiviti_sumber/sumber_awam/maklumat_racun_perosak/pendaftaran_rmp/senarai_racun_perosak_haram_terhad_ogos2025.pdf",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "DOA-CARAM",
+  "short": "DOA: starfruit market access",
+  "title": "Technical document for market access on star fruit (carambola), October 2004",
+  "publisher": "Crop Protection and Plant Quarantine Services Division, Department of Agriculture Malaysia",
+  "url": "https://www.ippc.int/static/media/files/cnpublications/2014/05/07/1115281083940_Technical_Document_Carambola.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "DOA-CARBO",
@@ -72,12 +216,30 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "DPIRD-ACP",
+  "short": "DPIRD: Asiatic citrus psyllid",
+  "title": "Asiatic citrus psyllid (fact sheet)",
+  "publisher": "Department of Primary Industries and Regional Development, Western Australia",
+  "url": "https://dpird-web.matrix.squiz.cloud/__data/assets/pdf_file/0012/1395399/Asiatic-citrus-psyllid.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "ENC-ARK",
   "short": "Encyclopedia of Arkansas: Collembolans",
   "title": "Collembolans",
   "publisher": "CALS Encyclopedia of Arkansas",
   "url": "https://encyclopediaofarkansas.net/entries/collembollans-14332/",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "EPPO-SL",
+  "short": "EPPO: Spodoptera litura",
+  "title": "Spodoptera litura (datasheet and distribution)",
+  "publisher": "EPPO Global Database",
+  "url": "https://gd.eppo.int/taxon/PRODLI/distribution/MY_pm",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "ETYM",
@@ -88,12 +250,111 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "EWS-SL",
+  "short": "East-West Seed: cutworm",
+  "title": "Plant Doctor: Spodoptera litura",
+  "publisher": "East-West Seed",
+  "url": "https://plantdoctor.eastwestseed.com/node/549",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "FFID-CARAM",
+  "short": "Fruit fly ID: B. carambolae",
+  "title": "Bactrocera carambolae (species page)",
+  "publisher": "Australian Fruit Fly Identification",
+  "url": "https://fruitflyidentification.org.au/species/bactrocera-carambolae/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "FFID-DORS",
+  "short": "Fruit fly ID: B. dorsalis",
+  "title": "Bactrocera dorsalis (species page)",
+  "publisher": "Australian Fruit Fly Identification",
+  "url": "https://www.fruitflyidentification.org.au/species/bactrocera-dorsalis",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "FFID-LURE",
+  "short": "Fruit fly lures",
+  "title": "Fruit fly lures (male attractants)",
+  "publisher": "Australian Fruit Fly Identification",
+  "url": "https://fruitflyidentification.org.au/?p=2162",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "FFTC-HLB",
+  "short": "FFTC: HLB in Malaysia",
+  "title": "Huanglongbing status in Malaysia",
+  "publisher": "FFTC Agricultural Policy Platform",
+  "url": "https://km.fftc.org.tw/article/251",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "FRONT-CHILCV",
+  "short": "Whitefly and chilli leaf curl",
+  "title": "Asia II 1 Bemisia tabaci and chilli leaf curl virus",
+  "publisher": "Frontiers in Microbiology, 2022",
+  "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.890807/full",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "HALL-2008",
+  "short": "Hall 2008: psyllid biocontrol",
+  "title": "Biological control of the Asian citrus psyllid",
+  "publisher": "D. G. Hall, USDA Agricultural Research Service, 2008",
+  "url": "https://www.ars.usda.gov/ARSUserFiles/35403/Hallpsyllidbiocontrol2008.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "HELO-IPM",
+  "short": "Helopeltis IPM in Malaysia",
+  "title": "Towards the development of an integrated pest management system of Helopeltis in Malaysia",
+  "publisher": "Catalogue record",
+  "url": "https://sidalc.net/search/Record/KOHA-OAI-BVE:71532",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "HO-1997",
+  "short": "Ho & Khoo 1997: ant and mealybug",
+  "title": "Partners in biological control of cocoa pests: mutualism between Dolichoderus thoracicus and Cataenococcus hispidus",
+  "publisher": "C. T. Ho and K. C. Khoo, Bulletin of Entomological Research 87: 461–470, 1997",
+  "url": "https://www.cambridge.org/core/journals/bulletin-of-entomological-research/article/abs/partners-in-biological-control-of-cocoa-pests-mutualism-between-dolichoderus-thoracicus-hymenoptera-formicidae-and-cataenococcus-hispidus-hemiptera-pseudococcidae/B4551B1789BC2917F765A3217055D6DF",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "ICZN",
   "short": "ICZN Code",
   "title": "International Code of Zoological Nomenclature, 4th edition",
   "publisher": "International Commission on Zoological Nomenclature",
   "url": "https://code.iczn.org/",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "IDRC-BEE",
+  "short": "IDRC: beekeeping in Malaysia",
+  "title": "Beekeeping: Malaysia research and development (1987–1990)",
+  "publisher": "International Development Research Centre",
+  "url": "https://idl-bnc-idrc.dspacedirect.org/handle/10625/50556",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IJCMAS-CS",
+  "short": "Cheilomenes sexmaculata colour forms",
+  "title": "Studies on Cheilomenes sexmaculata (colour forms and size)",
+  "publisher": "Shanmugapriya et al., International Journal of Current Microbiology and Applied Sciences 6(3), 2017",
+  "url": "https://www.ijcmas.com/6-3-2017/V.%20Shanmugapriya,%20et%20al.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "INAT-ODO",
@@ -104,12 +365,134 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "INDJ-CT",
+  "short": "Coccinella transversalis on mustard aphid",
+  "title": "Feeding potential of Coccinella transversalis on Lipaphis erysimi (Assam)",
+  "publisher": "Indian Journal of Entomology",
+  "url": "https://indianentomology.org/index.php/ije/article/download/385/1077/5959",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "INWARD2007",
   "short": "Inward et al. 2007",
   "title": "Death of an order: a comprehensive molecular phylogenetic study confirms that termites are eusocial cockroaches",
   "publisher": "D. Inward, G. Beccaloni & P. Eggleton, Biology Letters 3: 331–335 (2007)",
   "url": "https://doi.org/10.1098/rsbl.2007.0102",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "IPPC-DP29",
+  "short": "IPPC DP 29: Bactrocera",
+  "title": "Diagnostic protocol DP 29: Genus Bactrocera (2019)",
+  "publisher": "International Plant Protection Convention",
+  "url": "https://www.ippc.int/static/media/files/publication/en/2019/03/DP_29_2019_En_Bactrocera_2019-03-11.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IPPC-FAW",
+  "short": "IPPC: fall armyworm in Malaysia",
+  "title": "Fall armyworm (Spodoptera frugiperda) control, pest report MYS-02/4 (2019)",
+  "publisher": "Department of Agriculture Malaysia, via the International Plant Protection Convention",
+  "url": "https://www.ippc.int/en/countries/malaysia/pestreports/2019/11/fall-armyworm-spodoptera-frugiperda-control/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IPPC-FFID",
+  "short": "IPPC: fruit fly identification",
+  "title": "Morphological identification of economically important fruit flies",
+  "publisher": "Zhihong Li, IPPC, 2019",
+  "url": "https://assets.ippc.int/static/media/files/publication/en/2020/01/20191217_ZhihongLi_Morphological_Identification_of_Economically_Important_Fruit_Flies_isYIE8L.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IRRI-BPH",
+  "short": "IRRI: planthopper",
+  "title": "Planthopper (fact sheet)",
+  "publisher": "IRRI Rice Knowledge Bank",
+  "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/planthopper",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "IRRI-GLH",
+  "short": "IRRI: green leafhopper",
+  "title": "Green leafhopper (fact sheet)",
+  "publisher": "IRRI Rice Knowledge Bank",
+  "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/green-leafhopper",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "IRRI-LF",
+  "short": "IRRI: leaffolder",
+  "title": "Rice leaffolder (fact sheet)",
+  "publisher": "IRRI Rice Knowledge Bank",
+  "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/rice-leaffolder",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IRRI-RB",
+  "short": "IRRI: rice bug",
+  "title": "Rice bug (fact sheet)",
+  "publisher": "IRRI Rice Knowledge Bank",
+  "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/rice-bug",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "IRRI-SB",
+  "short": "IRRI: stem borer",
+  "title": "Stem borer (fact sheet)",
+  "publisher": "IRRI Rice Knowledge Bank",
+  "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/insects/item/stem-borer",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "JEE-ROCK",
+  "short": "Stingless bees and rockmelon",
+  "title": "Effects of pollination by the Indo-Malaya stingless bee on rockmelon",
+  "publisher": "Journal of Economic Entomology 112(1): 20, 2019",
+  "url": "https://academic.oup.com/jee/article/112/1/20/5113423",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "JIRCAS-14",
+  "short": "JIRCAS TARS 14",
+  "title": "Tropical Agriculture Research Series No. 14, pp. 1–11 (rice planthopper in Malaysia)",
+  "publisher": "JIRCAS",
+  "url": "https://www.jircas.go.jp/sites/default/files/publication/tars/tars14-_1-11.pdf",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "JIRCAS-19",
+  "short": "JIRCAS TARS 19: virus diseases",
+  "title": "Virus diseases of rice and leguminous crops in Malaysia (TARS 19, pp. 33–39)",
+  "publisher": "JIRCAS",
+  "url": "https://www.jircas.go.jp/sites/default/files/publication/tars/tars19-_33-39.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "JIRCAS-MUDA",
+  "short": "JIRCAS TARS 20: Muda",
+  "title": "Status of rice pests and measures of control in the double cropping area of the Muda Irrigation Scheme, Malaysia (TARS 20, pp. 107–115)",
+  "publisher": "JIRCAS",
+  "url": "https://www.jircas.go.jp/en/publication/tars/20/107",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "JIS-YST",
+  "short": "Yellow sticky traps and whitefly",
+  "title": "Are yellow sticky traps an effective method for control of sweetpotato whitefly?",
+  "publisher": "Journal of Insect Science 12:113 (PMC3620036)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3620036/",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "JOPR-SYCANUS",
@@ -128,12 +511,66 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "JPP-EPI",
+  "short": "28-spotted ladybird in brinjal",
+  "title": "Study on management of damage caused by Henosepilachna vigintioctopunctata in brinjal",
+  "publisher": "Journal of Pharmacognosy and Phytochemistry 9(5), 2020",
+  "url": "https://www.phytojournal.com/archives/2020.v9.i5.12777/study-on-management-of-damage-caused-by-henosepilachna-vigintioctopunctata-in-brinjal",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "KAPUR-1950",
+  "short": "Kapur 1950: Epilachninae larvae",
+  "title": "Larvae of the Epilachninae (Coccinellidae)",
+  "publisher": "A. P. Kapur, 1950",
+  "url": "https://www.zin.ru/ANIMALIA/COLEOPTERA/ADDPAGES/Andrey_Ukrainsky_Library/References_files/Kapur50b.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "KERALA-COCC",
+  "short": "Predatory ladybirds in Kerala vegetables",
+  "title": "Biodiversity and bionomics of predatory coccinellids in vegetable crops (thesis, 2003)",
+  "publisher": "Kerala Agricultural University (KrishiKosh)",
+  "url": "https://krishikosh.egranth.ac.in/items/b8ab62aa-6d83-416b-87dc-af407b161948",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "KHOO-1992",
+  "short": "Khoo & Ho 1992: black cocoa ant",
+  "title": "Influence of Dolichoderus thoracicus on losses due to Helopeltis theivora, black pod disease and mammalian pests in cocoa in Malaysia",
+  "publisher": "K. C. Khoo and C. T. Ho, Bulletin of Entomological Research 82: 485–491, 1992",
+  "url": "https://www.cambridge.org/core/journals/bulletin-of-entomological-research/article/influence-of-dolichoderus-thoracicus-hymenoptera-formicidae-on-losses-due-to-helopeltis-theivora-heteroptera-miridae-black-pod-disease-and-mammalian-pests-in-cocoa-in-malaysia/34AD496F69800713BD7106386E690C8A",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "KOETZ-2013",
+  "short": "Koetz 2013: Apis cerana",
+  "title": "Ecology, behaviour and control of Apis cerana with a focus on relevance to the Australian incursion",
+  "publisher": "A. H. Koetz, Insects 4: 558 (2013)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4553504/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "LCWU-META",
   "short": "LCWU: metamorphosis",
   "title": "Metamorphosis in insects (lecture notes, ZOO-Ento-401)",
   "publisher": "Lahore College for Women University",
   "url": "https://ocd.lcwu.edu.pk/cfiles/Zoology/SP/ZOO-Ento-401/Metamorphosisininsects.pdf",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "LEPINT-SL",
+  "short": "USDA LepIntercept: S. litura",
+  "title": "Spodoptera litura (fact sheet)",
+  "publisher": "USDA APHIS LepIntercept",
+  "url": "https://idtools.org/lepintercept/files/litura.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "LSJ",
@@ -144,12 +581,48 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "MAB-MELON",
+  "short": "Melon Manis Terengganu pollination",
+  "title": "Stingless bee pollination of Melon Manis Terengganu",
+  "publisher": "Malaysian Applied Biology, 2022",
+  "url": "https://jms.mabjournal.com/index.php/mab/article/view/2360",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "MADA-IPM",
+  "short": "MADA rice IPM",
+  "title": "Economic evaluation of rice IPM practices in MADA, Malaysia",
+  "publisher": "CORE repository",
+  "url": "https://core.ac.uk/download/pdf/234645686.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "MDC-FISH",
   "short": "MDC: fishflies",
   "title": "Fishflies (field guide)",
   "publisher": "Missouri Department of Conservation",
   "url": "https://mdc.mo.gov/discover-nature/field-guide/fishflies",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "MPI-FAW",
+  "short": "NZ MPI: fall armyworm",
+  "title": "Fall armyworm identification guide",
+  "publisher": "New Zealand Ministry for Primary Industries",
+  "url": "https://mpi.govt.nz/dmsdocument/50842/direct",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "MSU-SL",
+  "short": "MSU: oriental leafworm",
+  "title": "Oriental leafworm (Spodoptera litura): invasion risk sheet",
+  "publisher": "Michigan State University IPM",
+  "url": "https://www.canr.msu.edu/ipm/uploads/files/Forecasting_invasion_risks/orientalLeafworm.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "NCSU-META",
@@ -160,12 +633,39 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "NIS-2022",
+  "short": "Nature in Singapore 2022: stingless bees",
+  "title": "Notes on stingless bees (Nature in Singapore 2022-0031)",
+  "publisher": "Lee Kong Chian Natural History Museum, NUS",
+  "url": "https://www.science.nus.edu.sg/wp-content/uploads/sites/11/2024/03/NIS-2022-0031.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "OPB-TERMITE",
   "short": "OPB: termite control trial",
   "title": "Evaluation of entomopathogenic fungi and chemical to control termite, Coptotermes curvignathus on mature oil palm and supply seedlings on peat",
   "publisher": "Oil Palm Bulletin, MPOB",
   "url": "https://opb.mpob.gov.my/evaluation-of-entomopathogenic-fungi-and-chemical-to-control-termite-coptotermes-curvignathus-on-mature-oil-palm-and-supply-seedlings-on-peat/",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "PHA-BSK",
+  "short": "Plant Health Australia: banana skipper",
+  "title": "Banana skipper butterfly (fact sheet)",
+  "publisher": "Plant Health Australia",
+  "url": "https://www.planthealthaustralia.com.au/wp-content/uploads/2024/01/Banana-skipper-butterfly-FS.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PHILRICE-SB",
+  "short": "PhilRice: stem borers",
+  "title": "Yellow and white rice stemborers (fact sheet)",
+  "publisher": "Philippine Rice Research Institute",
+  "url": "https://dbmp.philrice.gov.ph/CPD/Stemborer/PDF%20files/Stemborer%20fact%20sheet.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "PLANTER-TERMITE",
@@ -176,6 +676,33 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "PLAZI-ET",
+  "short": "Plazi: Erionota torus",
+  "title": "Erionota torus Evans, 1941 (taxonomic treatment)",
+  "publisher": "Plazi TreatmentBank",
+  "url": "https://tb.plazi.org/GgServer/html/0386D843FFA2B13ACEEC96232494FC49",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PMC-CYRT",
+  "short": "Cyrtorhinus and nectar plants",
+  "title": "Selection of nectar plants for use in ecological engineering to promote biological control of rice pests by the predatory bug Cyrtorhinus lividipennis",
+  "publisher": "PLoS ONE (PMC4177894)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4177894/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PMC-HLB",
+  "short": "Sarawak citrus psyllid IPM review",
+  "title": "Integrated pest management strategies for Asian citrus psyllid and huanglongbing in citrus for Sarawak, East Malaysia, Borneo",
+  "publisher": "PMC9604280",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9604280/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "PNM-IPM",
   "short": "PNM: oil palm insect pest management",
   "title": "Sustainable Oil Palm Insect Pest Management in Malaysia",
@@ -184,12 +711,111 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "PP-BPH",
+  "short": "Pacific Pests: brown planthopper",
+  "title": "Rice brown planthopper (fact sheet 064)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / ACIAR)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/rice_brown_planthopper_064.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-COTESIA",
+  "short": "Pacific Pests: Cotesia",
+  "title": "Cotesia species (fact sheet 287)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://www.pestnet.org/fact_sheets/cotesia_species_287.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-CPB",
+  "short": "Pacific Pests: cocoa pod borer",
+  "title": "Cocoa pod borer (fact sheet 175)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/cocoa_pod_borer_175.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-GLH",
+  "short": "Pacific Pests: green leafhopper",
+  "title": "Rice green leafhopper (fact sheet 417)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / ACIAR)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/rice_green_leafhopper_417.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-LF",
+  "short": "Pacific Pests: rice leaf folder",
+  "title": "Rice leaf folder (fact sheet 414)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / ACIAR)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/rice_leaf_folder_414.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-MF",
+  "short": "Pacific Pests: melon fly",
+  "title": "Melon fly (fact sheet 505)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/melon_fly_505.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-MIRID",
+  "short": "Pacific Pests: cocoa mirids",
+  "title": "Cocoa mirids (fact sheet 274)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/cocoa_mirids_274.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-TP",
+  "short": "Pacific Pests: melon thrips",
+  "title": "Melon thrips (fact sheet 106)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/melon_thrips_106.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PP-WF",
+  "short": "Pacific Pests: whitefly",
+  "title": "Sweetpotato whitefly (fact sheet 284)",
+  "publisher": "Pacific Pests, Pathogens & Weeds (Lucid / SPC)",
+  "url": "https://apps.lucidcentral.org/ppp/text/web_full/entities/sweetpotato_whitefly_284.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "PRIN-1989",
+  "short": "Principes 1989: bees and palms",
+  "title": "Pollination of coconut by the Malaysian honey bee (Principes 33(2): 74–77)",
+  "publisher": "International Palm Society, 1989",
+  "url": "https://palms.org/wp-content/uploads/2016/05/vol33n2p74-77.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "PURDUE-TA",
   "short": "Purdue: thorax and abdomen",
   "title": "Insect Thorax and Abdomen",
   "publisher": "Purdue University Extension Entomology",
   "url": "https://extension.entm.purdue.edu/landscapelab/cliffs_notes/powerpoint/general/Insect_Thorax_and_Abdomen.pdf",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "RBZ-BACT",
+  "short": "Bactrocera in Thailand and Peninsular Malaysia",
+  "title": "Survey of seven Bactrocera species in Thailand and Peninsular Malaysia",
+  "publisher": "Raffles Bulletin of Zoology 49, 2001",
+  "url": "https://www.science.nus.edu.sg/wp-content/uploads/sites/11/2001/12/49rbz207-220.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "RS12",
@@ -224,12 +850,30 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "SANDS-BSK",
+  "short": "Sands et al.: banana skipper biocontrol",
+  "title": "Biological control of the banana skipper, Erionota thrax",
+  "publisher": "Sands et al., Micronesica Supplement 4",
+  "url": "https://www.micronesica.org/sites/default/files/sup04-15-sandsetal2ed.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "SEOW-PHASMID",
   "short": "Seow-Choen 2021",
   "title": "A Taxonomic Guide to the Stick Insects of Peninsular Malaysia, Vol. 1 (publisher's listing)",
   "publisher": "F. Seow-Choen, Natural History Publications (Borneo); listing at Pemberley Books",
   "url": "https://www.pemberleybooks.com/product/a-taxonomic-guide-to-the-stick-insects-of-peninsular-malaysia.-vol.-1/48924/",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "SER-FAW",
+  "short": "Serangga 2021: fall armyworm",
+  "title": "Field status, damage symptoms and potential natural enemies of the invasive fall armyworm Spodoptera frugiperda in Malaysia",
+  "publisher": "Jamil et al. (MARDI and DOA), Serangga (UKM), 2021",
+  "url": "https://ejournal.ukm.my/serangga/article/view/48755",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "SER-SYCANUS",
@@ -248,12 +892,138 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "SHIRAI-EPI",
+  "short": "Shirai 1999: host plants",
+  "title": "Host plants of Henosepilachna vigintioctopunctata populations from Japan, Thailand, Malaysia and Indonesia",
+  "publisher": "Shirai et al., 1999",
+  "url": "https://www.zin.ru/ANIMALIA/coleoptera/addpages/Andrey_Ukrainsky_Library/References_files/Shirai99a.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "SIME-1989",
+  "short": "Sime Darby 1989: Helopeltis control",
+  "title": "Chemical control of Helopeltis and crop loss assessment in cocoa",
+  "publisher": "Sime Darby study, 1989 (FAO AGRIS record)",
+  "url": "https://agris.fao.org/search/ar/records/647753a3a3fd11e4303972a4",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "TJ",
   "short": "台江昆蟲圖鑑",
   "title": "游黽飛蛉：台江昆蟲圖鑑",
   "publisher": "黃文伯、張原謀、莊棨州撰文，台江國家公園管理處，2015",
   "url": "https://ws.moi.gov.tw/001/Upload/415/ebook/ebook_180690//pdf/full.pdf",
   "accessed": "2026-10-19"
+ },
+ {
+  "id": "TLSR-2022",
+  "short": "Atmowidi 2022: stingless bee pollination",
+  "title": "Stingless bees pollination increases fruit formation of strawberry and melon",
+  "publisher": "Atmowidi et al., Tropical Life Sciences Research 33(1), 2022",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9128655/",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "TNAU-GLH",
+  "short": "TNAU: green leafhopper",
+  "title": "Green leafhopper, Nephotettix virescens",
+  "publisher": "TNAU Agritech Portal, Tamil Nadu Agricultural University",
+  "url": "https://agritech.tnau.ac.in/crop_protection/rice/crop_prot_crop_insectpest%20_cereals_paddy_2.html",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "TNAU-YSB",
+  "short": "TNAU: yellow stem borer",
+  "title": "Yellow stem borer, Scirpophaga incertulas",
+  "publisher": "TNAU Agritech Portal, Tamil Nadu Agricultural University",
+  "url": "https://agritech.tnau.ac.in/crop_protection/rice/crop_prot_crop_insectpest%20_cereals_paddy_4.html",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UC-ACP",
+  "short": "UC IPM: Asian citrus psyllid",
+  "title": "Asian citrus psyllid (Pest Notes)",
+  "publisher": "University of California Agriculture and Natural Resources",
+  "url": "https://ipm.ucanr.edu/legacy_assets/PDF/PESTNOTES/pnasiancitruspsyllid.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-APH",
+  "short": "UF/IFAS: melon aphid",
+  "title": "Melon aphid, Aphis gossypii",
+  "publisher": "University of Florida IFAS (vegetable pests gallery)",
+  "url": "https://entnemdept.ufl.edu/projex/gallery/dl/Vegetable_Pests_II/text/melon_aphid.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-DBM",
+  "short": "UF/IFAS: diamondback moth",
+  "title": "Diamondback moth, Plutella xylostella (Featured Creatures EENY-119)",
+  "publisher": "J. L. Capinera, University of Florida IFAS",
+  "url": "https://entnemdept.ufl.edu/creatures/veg/leaf/diamondback_moth.htm",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-DBMG",
+  "short": "UF: diamondback moth (gallery)",
+  "title": "Diamondback moth, Plutella xylostella (beneficial arthropods gallery)",
+  "publisher": "University of Florida",
+  "url": "https://entnemdept.ufl.edu/projex/gallery/dl/Beneficial_Arthropods_Parasitoids/TEXT/LEP_Diamondback_moth_Plutella_xylostella.html",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-PD",
+  "short": "UF/IFAS: lime swallowtail",
+  "title": "Lime swallowtail, Papilio demoleus (EDIS IN786)",
+  "publisher": "University of Florida IFAS",
+  "url": "https://edis.ifas.ufl.edu/publication/IN786/pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-TAMAR",
+  "short": "Chen & Stansly 2014: Tamarixia",
+  "title": "Biology of Tamarixia radiata, parasitoid of the Asian citrus psyllid",
+  "publisher": "Chen and Stansly, UF/IFAS SWFREC, 2014",
+  "url": "https://swfrec.ifas.ufl.edu/hlb/database/pdf/12_ChenStansly_14.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-TP",
+  "short": "UF/IFAS: melon thrips",
+  "title": "Melon thrips, Thrips palmi (EDIS IN292)",
+  "publisher": "J. L. Capinera, University of Florida IFAS",
+  "url": "https://edis.ifas.ufl.edu/publication/IN292/pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-TPG",
+  "short": "UF/IFAS: melon thrips guide",
+  "title": "Pest identification guide: melon thrips, Thrips palmi Karny",
+  "publisher": "J. D. Cluever and H. A. Smith, UF/IFAS EDIS, 2016",
+  "url": "https://journals.flvc.org/edis/article/view/127823",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UF-WF",
+  "short": "UF/IFAS: whitefly",
+  "title": "Sweetpotato whitefly / silverleaf whitefly (EDIS IN286)",
+  "publisher": "University of Florida IFAS",
+  "url": "https://edis.ifas.ufl.edu/publication/IN286/pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "UMD-THRIPS",
@@ -288,12 +1058,66 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "UPM-CHILLI",
+  "short": "Wagiman: ladybird and aphid in chilli",
+  "title": "Numerical response and density-dependent relationship of Menochilus sexmaculatus against Aphis gossypii",
+  "publisher": "F. X. Wagiman et al. (Universiti Putra Malaysia), Jurnal Perlindungan Tanaman Indonesia",
+  "url": "https://journal.ugm.ac.id/jpti/article/view/12888",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UPM-DIST",
+  "short": "Wagiman 1998: aphid and ladybird distribution",
+  "title": "Distribution pattern of Aphis gossypii and its coccinellid predator Menochilus sexmaculatus in the chilli ecosystem",
+  "publisher": "F. X. Wagiman et al., Jurnal Perlindungan Tanaman Indonesia 4(1): 32–37, 1998",
+  "url": "https://journal.ugm.ac.id/jpti/article/view/9847",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UPSI-CPB",
+  "short": "UPSI: cocoa pod borer",
+  "title": "Cocoa pod borer in Malaysia (EJSMT article)",
+  "publisher": "Universiti Pendidikan Sultan Idris",
+  "url": "https://ojs.upsi.edu.my/index.php/EJSMT/article/download/43/36/68",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "UTAR-RICE",
+  "short": "UTAR 2015: rice pests",
+  "title": "Common insect pests of rice and their natural biological control",
+  "publisher": "UTAR Agriculture Science Journal 1(1), 2015",
+  "url": "http://eprints.utar.edu.my/1681/1/UASJ_2015_Vol_1(1),_10_Common_Insect_Pests_of_Rice_and_their_Natural_Biological_Control.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "VT-STING",
   "short": "Virginia Tech: stinging caterpillars",
   "title": "Stinging and Venomous Caterpillars (ENTO-621)",
   "publisher": "Virginia Cooperative Extension, Virginia Tech",
   "url": "https://www.pubs.ext.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-75/ENTO-621.pdf",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "WAY-1991",
+  "short": "Way & Khoo 1991: ant nesting",
+  "title": "Colony dispersion and nesting habits of the ants Dolichoderus thoracicus and Oecophylla smaragdina in relation to their success as biological control agents on cocoa",
+  "publisher": "M. J. Way and K. C. Khoo, Bulletin of Entomological Research 81: 341–350, 1991",
+  "url": "https://resolve-he.cambridge.org/core/journals/bulletin-of-entomological-research/article/abs/colony-dispersion-and-nesting-habits-of-the-ants-dolichoderus-thoracicus-and-oecophylla-smaragdina-hymenoptera-formicidae-in-relation-to-their-success-as-biological-control-agents-on-cocoa/54ACFB37690F8959B8AC004C10D5E156",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "WF-MY",
+  "short": "Bemisia tabaci in Malaysia",
+  "title": "Genetic diversity of Bemisia tabaci species complex across Malaysia",
+  "publisher": "Shadmany et al., Journal of Economic Entomology 112(1), 2019",
+  "url": "https://bioone.org/journals/journal-of-economic-entomology/volume-112/issue-1/toy273/Genetic-Diversity-of-Bemisia-tabaci-Hemiptera--Aleyrodidae-Species-Complex/10.1093/jee/toy273.full",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "WTK",

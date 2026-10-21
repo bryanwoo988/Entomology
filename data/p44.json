@@ -1,0 +1,234 @@
+{
+ "id": "p44",
+ "num": 44,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "粉虱（Bemisia tabaci）",
+  "en": "Whitefly",
+  "ms": "Lalat putih"
+ },
+ "blurb": {
+  "zh": "Bemisia tabaci",
+  "en": "Bemisia tabaci",
+  "ms": "Bemisia tabaci"
+ },
+ "sources": [
+  "DOA-MRL",
+  "FRONT-CHILCV",
+  "JIS-YST",
+  "PP-WF",
+  "UF-WF",
+  "WF-MY"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "粉虱（Bemisia tabaci）",
+      "en": "Whitefly",
+      "ms": "Lalat putih"
+     },
+     "sci": "Bemisia tabaci",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "辣椒",
+       "en": "Chilli",
+       "ms": "Cili"
+      },
+      {
+       "zh": "蔬菜",
+       "en": "Vegetables",
+       "ms": "Sayur-sayuran"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "UF-WF",
+      "PP-WF"
+     ],
+     "authority": "(Gennadius)"
+    },
+    {
+     "type": "photo",
+     "id": "bemisia-tabaci-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:whitefly}}的辨认要点：",
+      "en": "How to recognise {{t:whitefly}}:",
+      "ms": "Cara mengecam {{t:whitefly}}:"
+     },
+     "defines": [
+      "whitefly"
+     ],
+     "src": [
+      "UF-WF",
+      "PP-WF"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫约 1 毫米，身体淡黄，身体和翅都盖着白色蜡粉",
+       "en": "Adults are about 1 mm, with a pale yellow body; body and wings are covered in white wax powder",
+       "ms": "Dewasa kira-kira 1 mm, badan kuning pucat; badan dan sayap ditutup serbuk lilin putih"
+      },
+      {
+       "zh": "翅像屋顶一样合在背上，中间稍微分开，能看到黄色的身体",
+       "en": "Wings are held tent-like over the body and slightly apart, so the yellow body shows",
+       "ms": "Sayap dipegang seperti khemah di atas badan dan sedikit renggang, jadi badan kuning kelihatan"
+      },
+      {
+       "zh": "卵产在叶背，孵出会爬的若虫，之后变成扁平、像介壳的若虫",
+       "en": "Eggs are laid under the leaf and hatch into crawlers, which settle as flat, scale-like nymphs",
+       "ms": "Telur diletakkan di bawah daun dan menetas menjadi nimfa merayap, yang kemudian menjadi nimfa leper seperti sisik"
+      }
+     ],
+     "src": [
+      "UF-WF",
+      "PP-WF"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "粉虱吸汁，排出的蜜露长出黑色煤污病，遮住阳光。更严重的是它传播辣椒卷叶病毒；在印度，这种病让辣椒减产 20%–50%。",
+      "en": "Whiteflies suck sap, and their honeydew grows black sooty mould that blocks light. Worse, they spread chilli leaf curl virus; in India this disease cuts chilli yields by 20–50%.",
+      "ms": "Lalat putih menghisap cecair, dan embun madunya menumbuhkan kulapuk jelaga hitam yang menghalang cahaya. Lebih teruk, ia menyebarkan virus keriting daun cili; di India penyakit ini mengurangkan hasil cili sebanyak 20–50%."
+     },
+     "src": [
+      "PP-WF",
+      "FRONT-CHILCV"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "Bemisia tabaci 其实是一群外形一样、只能用分子方法区分的种。2010–2012 年在马来西亚 10 个州采到的粉虱，属于 7 个不同的种。",
+      "en": "Bemisia tabaci is really a group of look-alike species that only molecular tests can tell apart. Whiteflies sampled in 10 Malaysian states in 2010–2012 belonged to seven of them.",
+      "ms": "Bemisia tabaci sebenarnya sekumpulan spesies yang serupa rupa dan hanya dapat dibezakan dengan ujian molekul. Lalat putih yang disampel di 10 negeri Malaysia pada 2010–2012 tergolong dalam tujuh daripadanya."
+     },
+     "src": [
+      "PP-WF",
+      "WF-MY"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "温室粉虱（Trialeurodes vaporariorum）的翅比较平、比较松；Bemisia 的翅贴近身体、像屋顶。",
+      "en": "The greenhouse whitefly (Trialeurodes vaporariorum) holds its wings flatter and looser; Bemisia holds them close and tent-like.",
+      "ms": "Lalat putih rumah hijau (Trialeurodes vaporariorum) memegang sayapnya lebih rata dan longgar; Bemisia memegangnya rapat seperti khemah."
+     },
+     "src": [
+      "UF-WF"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "黄色黏虫板可以用来发现粉虱；不过在田间，单靠黏虫板压不住它。",
+      "en": "Yellow sticky traps help you detect whiteflies; in the field, though, traps alone do not keep them down.",
+      "ms": "Perangkap melekit kuning membantu mengesan lalat putih; namun di ladang, perangkap sahaja tidak dapat mengawalnya."
+     },
+     "src": [
+      "JIS-YST"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "铺反光地膜可以驱赶粉虱，延后它几个星期才多起来；清除杂草（病毒来源）。",
+      "en": "Reflective mulch repels whiteflies and delays their build-up by several weeks; remove weeds, which harbour the viruses.",
+      "ms": "Sungkupan berkilat menghalau lalat putih dan melambatkan peningkatannya beberapa minggu; buang rumpai, yang menjadi sumber virus."
+     },
+     "src": [
+      "PP-WF"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "保护捕食者和寄生蜂。",
+      "en": "Protect predators and parasitic wasps.",
+      "ms": "Lindungi pemangsa dan tebuan parasit."
+     },
+     "src": [
+      "PP-WF"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "粉虱对许多杀虫剂已有抗性，能用的方法很有限。真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "Whiteflies resist many insecticides, so chemical options are limited. If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Lalat putih rintang terhadap banyak racun serangga, jadi pilihan kimia terhad. Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "PP-WF",
+      "FRONT-CHILCV",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "whitefly"
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "id": "p43",
+ "num": 43,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "草地贪夜蛾",
+  "en": "Fall armyworm",
+  "ms": "Fall armyworm"
+ },
+ "blurb": {
+  "zh": "Spodoptera frugiperda",
+  "en": "Spodoptera frugiperda",
+  "ms": "Spodoptera frugiperda"
+ },
+ "sources": [
+  "DOA-MRL",
+  "IPPC-FAW",
+  "MPI-FAW",
+  "SER-FAW"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "草地贪夜蛾",
+      "en": "Fall armyworm",
+      "ms": "Fall armyworm"
+     },
+     "sci": "Spodoptera frugiperda",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "玉米",
+       "en": "Maize",
+       "ms": "Jagung"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "MPI-FAW"
+     ],
+     "authority": "(J. E. Smith)"
+    },
+    {
+     "type": "photo",
+     "id": "spodoptera-frugiperda-larva"
+    },
+    {
+     "type": "photo",
+     "id": "spodoptera-frugiperda-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:fall-armyworm}}的辨认要点：",
+      "en": "How to recognise {{t:fall-armyworm}}:",
+      "ms": "Cara mengecam {{t:fall-armyworm}}:"
+     },
+     "defines": [
+      "fall-armyworm"
+     ],
+     "src": [
+      "MPI-FAW"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "中、老龄幼虫头部正面有一个浅色的倒「Y」字（单靠这一点不一定准）",
+       "en": "Mid- to late-stage larvae have a pale upside-down 'Y' on the front of the head (not reliable on its own)",
+       "ms": "Larva peringkat pertengahan hingga akhir mempunyai 'Y' terbalik yang pucat di hadapan kepala (tidak boleh dipercayai jika bersendirian)"
+      },
+      {
+       "zh": "腹部第 8 节（倒数第二节）背上有四个大黑点，排成正方形",
+       "en": "Four large black dots in a square on abdominal segment 8, the second-to-last",
+       "ms": "Empat titik hitam besar membentuk segi empat sama pada ruas abdomen 8, iaitu kedua terakhir"
+      },
+      {
+       "zh": "几种 Spodoptera 很像，最好由专家确认",
+       "en": "Several Spodoptera look alike; ideally an expert confirms it",
+       "ms": "Beberapa Spodoptera kelihatan serupa; sebaiknya pakar mengesahkannya"
+      }
+     ],
+     "src": [
+      "MPI-FAW"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "2019 年 2 月，农业局的昆虫学家从玻璃市 Chuping 谷地的玉米样本，以形态和分子方法首次确认马来西亚有草地贪夜蛾；到 2019 年 9 月，半岛 11 个州都已发现，之后在砂拉越古晋也发现了。",
+      "en": "In February 2019, Department of Agriculture entomologists first confirmed the fall armyworm in Malaysia, by its form and by molecular tests, from maize samples in the Chuping Valley, Perlis. By September 2019 it had been found in 11 states of the Peninsula, and later in Kuching, Sarawak.",
+      "ms": "Pada Februari 2019, ahli entomologi Jabatan Pertanian pertama kali mengesahkan fall armyworm di Malaysia, melalui rupa bentuk dan ujian molekul, daripada sampel jagung di Lembah Chuping, Perlis. Menjelang September 2019 ia ditemui di 11 negeri di Semenanjung, dan kemudian di Kuching, Sarawak."
+     },
+     "src": [
+      "IPPC-FAW"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "它危害超过 350 种植物，包括最重要的主粮水稻；在马来西亚是危害玉米的新入侵害虫。",
+      "en": "It has been recorded on more than 350 plant species, including the most important staple, rice; in Malaysia it is a new invasive pest of maize.",
+      "ms": "Ia direkodkan pada lebih 350 spesies tumbuhan, termasuk makanan ruji terpenting, padi; di Malaysia ia perosak ceroboh baharu jagung."
+     },
+     "src": [
+      "SER-FAW"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "检查玉米心叶里的幼虫，用头部倒 Y 和第 8 节四个黑点辨认；怀疑是新发生的地区，交给农业局确认。",
+      "en": "Check the maize whorls for larvae, and recognise them by the upside-down Y and the four dots on segment 8; in an area where it has not been seen before, send a sample to the Department of Agriculture to confirm.",
+      "ms": "Periksa umbut jagung untuk larva, dan kenali melalui Y terbalik dan empat titik pada ruas 8; di kawasan yang belum pernah ditemui, hantar sampel ke Jabatan Pertanian untuk pengesahan."
+     },
+     "src": [
+      "MPI-FAW",
+      "IPPC-FAW"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "马来西亚的田间调查发现，瓢虫 Micraspis discolor 的幼虫和隐翅虫会捕食草地贪夜蛾，要保护它们。",
+      "en": "A Malaysian field survey found larvae of the ladybird Micraspis discolor and rove beetles preying on fall armyworm; protect them.",
+      "ms": "Tinjauan lapangan Malaysia mendapati larva kumbang kura-kura Micraspis discolor dan kumbang rove memangsa fall armyworm; lindungi mereka."
+     },
+     "src": [
+      "SER-FAW"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "fall-armyworm"
+ ]
+}

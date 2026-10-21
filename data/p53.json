@@ -1,0 +1,194 @@
+{
+ "id": "p53",
+ "num": 53,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "柑橘木虱（Diaphorina citri）",
+  "en": "Asian citrus psyllid",
+  "ms": "Psilid limau Asia"
+ },
+ "blurb": {
+  "zh": "Diaphorina citri",
+  "en": "Diaphorina citri",
+  "ms": "Diaphorina citri"
+ },
+ "sources": [
+  "DOA-MRL",
+  "DPIRD-ACP",
+  "FFTC-HLB",
+  "HALL-2008",
+  "PMC-HLB",
+  "UC-ACP",
+  "UF-TAMAR"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "柑橘木虱（Diaphorina citri）",
+      "en": "Asian citrus psyllid",
+      "ms": "Psilid limau Asia"
+     },
+     "sci": "Diaphorina citri",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "柑橘类",
+       "en": "Citrus",
+       "ms": "Limau"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "DPIRD-ACP",
+      "UC-ACP"
+     ],
+     "authority": "Kuwayama"
+    },
+    {
+     "type": "photo",
+     "id": "diaphorina-citri-adult"
+    },
+    {
+     "type": "photo",
+     "id": "diaphorina-citri-nymph"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:citrus-psyllid}}的辨认要点：",
+      "en": "How to recognise {{t:citrus-psyllid}}:",
+      "ms": "Cara mengecam {{t:citrus-psyllid}}:"
+     },
+     "defines": [
+      "citrus-psyllid"
+     ],
+     "src": [
+      "DPIRD-ACP",
+      "UC-ACP"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "吸食时身体和叶面约成 45 度：头低贴叶，腹部翘起",
+       "en": "When feeding, it holds its body at about 45° to the leaf, head down and abdomen raised",
+       "ms": "Semasa makan, badannya kira-kira 45° dari daun, kepala ke bawah dan abdomen terangkat"
+      },
+      {
+       "zh": "若虫从尾部分泌卷曲、末端成球状的蜡管，用来排走蜜露；这种蜡管是它独有的",
+       "en": "Each nymph makes a curly waxy tube with a bulb at the end to carry its honeydew away; this tube is unique to it",
+       "ms": "Setiap nimfa membuat tiub lilin berpintal dengan bebola di hujung untuk membuang embun madunya; tiub ini unik kepadanya"
+      }
+     ],
+     "src": [
+      "DPIRD-ACP",
+      "UC-ACP"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "它传播 'Candidatus Liberibacter asiaticus'，即亚洲型黄龙病（柑橘绿化病）的病原，这是马来西亚最严重的柑橘病害。",
+      "en": "It spreads 'Candidatus Liberibacter asiaticus', the cause of the severe Asian form of huanglongbing (citrus greening), the most serious citrus disease in Malaysia.",
+      "ms": "Ia menyebarkan 'Candidatus Liberibacter asiaticus', punca bentuk Asia huanglongbing (penghijauan limau) yang teruk, penyakit limau paling serius di Malaysia."
+     },
+     "src": [
+      "PMC-HLB"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "黄龙病在马来西亚扩散，主要是因为广泛使用带病的圈枝（高压）苗，加上田间发现得慢。",
+      "en": "Its spread in Malaysia was helped mainly by the wide use of infected air-layered planting material, and by slow detection in the field.",
+      "ms": "Penularannya di Malaysia dibantu terutamanya oleh penggunaan meluas anak benih tut yang dijangkiti, dan pengesanan yang lambat di ladang."
+     },
+     "src": [
+      "FFTC-HLB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "种无病种苗，砍除染病的树。",
+      "en": "Plant disease-free planting material and remove infected trees.",
+      "ms": "Tanam bahan tanaman bebas penyakit dan buang pokok yang dijangkiti."
+     },
+     "src": [
+      "PMC-HLB",
+      "FFTC-HLB"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "寄生蜂 Tamarixia radiata 寄生木虱若虫。不过在巴西和美国，许多果农认为单靠天敌不足以减缓黄龙病的扩散。",
+      "en": "The wasp Tamarixia radiata parasitises the psyllid's nymphs. In Brazil and the USA, though, many growers consider natural enemies alone not enough to slow the spread of huanglongbing.",
+      "ms": "Tebuan Tamarixia radiata memparasit nimfa psilid. Namun di Brazil dan Amerika Syarikat, ramai penanam menganggap musuh semula jadi sahaja tidak cukup untuk melambatkan penularan huanglongbing."
+     },
+     "src": [
+      "UF-TAMAR",
+      "HALL-2008"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "砂拉越的综合防治建议是审慎地使用杀虫剂。只用农业局为柑橘登记的产品，并依照标签。",
+      "en": "The Sarawak IPM review advises careful (judicious) use of insecticides. Use only products registered by the Department of Agriculture for citrus, and follow the label.",
+      "ms": "Kajian IPM Sarawak menasihatkan penggunaan racun serangga secara berhemat. Gunakan hanya produk berdaftar Jabatan Pertanian untuk limau, dan ikut label."
+     },
+     "src": [
+      "PMC-HLB",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "citrus-psyllid"
+ ]
+}

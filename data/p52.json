@@ -1,0 +1,277 @@
+{
+ "id": "p52",
+ "num": 52,
+ "stage": 5,
+ "kind": "species",
+ "order": "p14",
+ "title": {
+  "zh": "实蝇（Bactrocera）",
+  "en": "Fruit flies (carambola and oriental)",
+  "ms": "Lalat buah (belimbing dan oriental)"
+ },
+ "blurb": {
+  "zh": "Bactrocera carambolae, Bactrocera dorsalis",
+  "en": "Bactrocera carambolae, Bactrocera dorsalis",
+  "ms": "Bactrocera carambolae, Bactrocera dorsalis"
+ },
+ "sources": [
+  "DOA-CARAM",
+  "FFID-CARAM",
+  "FFID-DORS",
+  "FFID-LURE",
+  "IPPC-DP29"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "实蝇（Bactrocera）",
+      "en": "Fruit flies (carambola and oriental)",
+      "ms": "Lalat buah (belimbing dan oriental)"
+     },
+     "sci": "Bactrocera carambolae, Bactrocera dorsalis",
+     "order": "p14",
+     "crops": [
+      {
+       "zh": "杨桃",
+       "en": "Starfruit",
+       "ms": "Belimbing"
+      },
+      {
+       "zh": "果树",
+       "en": "Fruit trees",
+       "ms": "Pokok buah"
+      }
+     ],
+     "stage": {
+      "zh": "成虫",
+      "en": "Adult",
+      "ms": "Dewasa"
+     },
+     "src": [
+      "FFID-CARAM"
+     ]
+    },
+    {
+     "type": "photo",
+     "id": "bactrocera-carambolae-adult"
+    },
+    {
+     "type": "photo",
+     "id": "bactrocera-dorsalis-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:fruit-fly}}的辨认要点：",
+      "en": "How to recognise {{t:fruit-fly}}:",
+      "ms": "Cara mengecam {{t:fruit-fly}}:"
+     },
+     "defines": [
+      "fruit-fly"
+     ],
+     "src": [
+      "FFID-CARAM"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "杨桃实蝇：胸部背面暗黑色，小盾片黄色",
+       "en": "Carambola fruit fly: the top of the thorax is dull black and the scutellum (the shield behind it) is yellow",
+       "ms": "Lalat buah belimbing: bahagian atas toraks hitam kusam dan skutelum (perisai di belakangnya) kuning"
+      },
+      {
+       "zh": "胸部两侧各有一条宽的黄色纵带，中间没有黄带",
+       "en": "Two broad yellow stripes run along the sides of the thorax, with no middle stripe",
+       "ms": "Dua jalur kuning lebar di sisi toraks, tanpa jalur tengah"
+      },
+      {
+       "zh": "翅前缘有一条窄的深色带，到翅尖变宽",
+       "en": "A narrow dark band along the front edge of the wing widens at the tip",
+       "ms": "Jalur gelap sempit di tepi hadapan sayap melebar di hujung"
+      }
+     ],
+     "src": [
+      "FFID-CARAM"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "实蝇是杨桃出口必须管理的害虫：马来西亚农业局 2004 年为杨桃出口写的市场准入技术文件，有专门一节讲实蝇的管理。",
+      "en": "Fruit flies are a pest that starfruit exports must manage: the Department of Agriculture's 2004 market-access document for exporting starfruit has a section on managing them.",
+      "ms": "Lalat buah ialah perosak yang mesti diurus untuk eksport belimbing: dokumen teknikal akses pasaran Jabatan Pertanian 2004 untuk eksport belimbing mempunyai bahagian tentang pengurusannya."
+     },
+     "src": [
+      "DOA-CARAM"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "table",
+     "src": [
+      "FFID-CARAM",
+      "FFID-DORS"
+     ],
+     "caption": {
+      "zh": "杨桃实蝇和橘小实蝇",
+      "en": "Carambola and oriental fruit flies",
+      "ms": "Lalat buah belimbing dan oriental"
+     },
+     "headers": [
+      {
+       "zh": "比较",
+       "en": "Compare",
+       "ms": "Banding"
+      },
+      {
+       "zh": "杨桃实蝇",
+       "en": "Carambola fruit fly",
+       "ms": "Lalat buah belimbing"
+      },
+      {
+       "zh": "橘小实蝇",
+       "en": "Oriental fruit fly",
+       "ms": "Lalat buah oriental"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "zh": "翅尖的深色带",
+        "en": "Dark band at the wing tip",
+        "ms": "Jalur gelap di hujung sayap"
+       },
+       {
+        "zh": "变宽",
+        "en": "Widens",
+        "ms": "Melebar"
+       },
+       {
+        "zh": "很窄",
+        "en": "Stays very narrow",
+        "ms": "Kekal sangat sempit"
+       }
+      ],
+      [
+       {
+        "zh": "腹部第 4–5 节前角的黑斑",
+        "en": "Dark front corners of abdominal segments 4–5",
+        "ms": "Sudut hadapan gelap ruas abdomen 4–5"
+       },
+       {
+        "zh": "长方形",
+        "en": "Rectangular",
+        "ms": "Segi empat tepat"
+       },
+       {
+        "zh": "三角形",
+        "en": "Triangular",
+        "ms": "Segi tiga"
+       }
+      ],
+      [
+       {
+        "zh": "脸上的黑斑",
+        "en": "Face spots",
+        "ms": "Bintik muka"
+       },
+       {
+        "zh": "椭圆形",
+        "en": "Oval",
+        "ms": "Bujur"
+       },
+       {
+        "zh": "圆形",
+        "en": "Round",
+        "ms": "Bulat"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "两者外形和基因都很接近，诱捕到的虫最好做基因确认。看不准时，交给农业局或专家。",
+      "en": "The two are very close in form and genes, so trapped flies are best confirmed genetically. When unsure, send them to the Department of Agriculture or an expert.",
+      "ms": "Kedua-duanya sangat hampir dari segi rupa dan gen, jadi lalat yang diperangkap sebaiknya disahkan secara genetik. Jika tidak pasti, hantar ke Jabatan Pertanian atau pakar."
+     },
+     "src": [
+      "IPPC-DP29"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "橘小实蝇的雄虫被甲基丁香酚吸引，可用诱捕器监测；但只靠诱剂不能断定种类。",
+      "en": "Oriental fruit fly males are drawn to methyl eugenol, so traps can be used to monitor them; lures alone do not prove the species, though.",
+      "ms": "Lalat buah oriental jantan tertarik kepada metil eugenol, jadi perangkap boleh digunakan untuk memantaunya; namun pemikat sahaja tidak membuktikan spesies."
+     },
+     "src": [
+      "FFID-LURE"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "出口杨桃要依照农业局市场准入文件里的实蝇管理规定。",
+      "en": "For export starfruit, follow the fruit fly management rules in the Department of Agriculture's market-access document.",
+      "ms": "Untuk belimbing eksport, ikut peraturan pengurusan lalat buah dalam dokumen akses pasaran Jabatan Pertanian."
+     },
+     "src": [
+      "DOA-CARAM"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "fruit-fly"
+ ]
+}

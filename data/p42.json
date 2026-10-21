@@ -1,0 +1,187 @@
+{
+ "id": "p42",
+ "num": 42,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "斜纹夜蛾",
+  "en": "Common cutworm",
+  "ms": "Ulat Spodoptera litura"
+ },
+ "blurb": {
+  "zh": "Spodoptera litura",
+  "en": "Spodoptera litura",
+  "ms": "Spodoptera litura"
+ },
+ "sources": [
+  "CLRRI-NPV",
+  "DOA-MRL",
+  "EPPO-SL",
+  "EWS-SL",
+  "LEPINT-SL",
+  "MSU-SL"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "斜纹夜蛾",
+      "en": "Common cutworm",
+      "ms": "Ulat Spodoptera litura"
+     },
+     "sci": "Spodoptera litura",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "蔬菜",
+       "en": "Vegetables",
+       "ms": "Sayur-sayuran"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "MSU-SL",
+      "LEPINT-SL"
+     ],
+     "authority": "(Fabricius)"
+    },
+    {
+     "type": "photo",
+     "id": "spodoptera-litura-adult"
+    },
+    {
+     "type": "photo",
+     "id": "spodoptera-litura-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:common-cutworm}}的辨认要点：",
+      "en": "How to recognise {{t:common-cutworm}}:",
+      "ms": "Cara mengecam {{t:common-cutworm}}:"
+     },
+     "defines": [
+      "common-cutworm"
+     ],
+     "src": [
+      "MSU-SL",
+      "LEPINT-SL"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "卵块直径 4–7 毫米，白黄色，盖着雌蛾身上的鳞毛",
+       "en": "Egg masses are 4–7 mm across, whitish yellow, covered with scales from the female",
+       "ms": "Kelompok telur berdiameter 4–7 mm, putih kekuningan, ditutup sisik dari betina"
+      },
+      {
+       "zh": "幼虫绿色、黄褐色到深蓝灰色；背上的黑色三角形，尖端常有一个白点",
+       "en": "Larvae are green, yellow-brown or dark blue-grey; the dark triangles on the back often have a white dot at the tip",
+       "ms": "Larva hijau, perang kekuningan atau kelabu biru tua; segi tiga gelap di belakang selalunya bertitik putih di hujung"
+      },
+      {
+       "zh": "胸部第 2–3 节黑斑基部有一个小黄点",
+       "en": "A small yellow dot at the base of the black patch on thoracic segments 2–3",
+       "ms": "Titik kuning kecil di pangkal tompok hitam pada ruas toraks 2–3"
+      }
+     ],
+     "src": [
+      "MSU-SL",
+      "LEPINT-SL"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "寄主极多：至少 40 个科、120 种植物，包括包菜等十字花科、甜椒、瓜类、茄子和豆类。刚孵化的幼虫成群刮食叶面，大一点的幼虫咬出不规则的大洞，严重时整株叶子被吃光。马来西亚半岛普遍分布，沙巴和砂拉越也有。",
+      "en": "It has a huge host list, at least 120 plants in more than 40 families, including crucifers, sweet pepper, cucurbits, brinjal and beans. Newly hatched larvae feed in groups, scraping the leaf surface; older larvae chew large irregular holes and can strip the plant. It is widespread in Peninsular Malaysia and also found in Sabah and Sarawak.",
+      "ms": "Perumahnya sangat banyak, sekurang-kurangnya 120 tumbuhan dalam lebih 40 famili, termasuk kubis-kubis, lada benggala, labu, terung dan kacang. Larva yang baru menetas makan berkumpulan, mengikis permukaan daun; larva lebih tua menggigit lubang besar yang tidak sekata dan boleh menggondolkan pokok. Ia tersebar luas di Semenanjung Malaysia dan juga terdapat di Sabah dan Sarawak."
+     },
+     "src": [
+      "MSU-SL",
+      "EWS-SL",
+      "EPPO-SL"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "定期巡田，找成群的小幼虫和卵块。",
+      "en": "Check the plots regularly for egg masses and groups of young larvae.",
+      "ms": "Periksa kebun secara berkala untuk kelompok telur dan kumpulan larva muda."
+     },
+     "src": [
+      "EWS-SL"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "用手摘除卵块和幼虫；清除杂草和自生植株；翻土，并用塑料地膜减少幼虫在土里化蛹。",
+      "en": "Pick off egg masses and larvae by hand; remove weeds and volunteer plants; till the soil, and use plastic mulch to cut pupation in the soil.",
+      "ms": "Kutip kelompok telur dan larva dengan tangan; buang rumpai dan anak pokok liar; gemburkan tanah, dan gunakan sungkupan plastik untuk mengurangkan pempupaan dalam tanah."
+     },
+     "src": [
+      "EWS-SL"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "这种夜蛾容易产生抗药性（越南就因此改用病毒制剂）。真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "This moth readily becomes resistant to insecticides (in Vietnam this led to work on a virus product instead). If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Rama-rama ini mudah menjadi rintang terhadap racun serangga (di Vietnam ini membawa kepada kerja pada produk virus). Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "CLRRI-NPV",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "common-cutworm"
+ ]
+}

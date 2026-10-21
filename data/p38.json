@@ -1,0 +1,196 @@
+{
+ "id": "p38",
+ "num": 38,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "三化螟",
+  "en": "Yellow stem borer",
+  "ms": "Pengorek batang kuning"
+ },
+ "blurb": {
+  "zh": "Scirpophaga incertulas",
+  "en": "Scirpophaga incertulas",
+  "ms": "Scirpophaga incertulas"
+ },
+ "sources": [
+  "IRRI-SB",
+  "PHILRICE-SB",
+  "PMC-CYRT",
+  "TNAU-YSB",
+  "UTAR-RICE"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "三化螟",
+      "en": "Yellow stem borer",
+      "ms": "Pengorek batang kuning"
+     },
+     "sci": "Scirpophaga incertulas",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "水稻",
+       "en": "Rice",
+       "ms": "Padi"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫（在茎里）",
+      "en": "Larva (inside the stem)",
+      "ms": "Larva (di dalam batang)"
+     },
+     "src": [
+      "TNAU-YSB",
+      "IRRI-SB"
+     ],
+     "authority": "(Walker)"
+    },
+    {
+     "type": "photo",
+     "id": "scirpophaga-incertulas-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:yellow-stem-borer}}的辨认要点：",
+      "en": "How to recognise {{t:yellow-stem-borer}}:",
+      "ms": "Cara mengecam {{t:yellow-stem-borer}}:"
+     },
+     "defines": [
+      "yellow-stem-borer"
+     ],
+     "src": [
+      "TNAU-YSB",
+      "IRRI-SB"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "雌蛾前翅黄褐色，每边各有一个黑点；雄蛾较小，前翅淡黄色、没有黑点",
+       "en": "Females have yellowish-brown forewings with one black spot each; males are smaller, with pale yellow forewings and no spot",
+       "ms": "Betina bersayap depan kuning keperangan dengan satu bintik hitam setiap satu; jantan lebih kecil, bersayap depan kuning pucat tanpa bintik"
+      },
+      {
+       "zh": "卵块扁平椭圆，盖着浅褐色的毛，产在叶片上，常在叶尖附近",
+       "en": "Egg masses are flat and oval, covered with buff hairs, laid on the leaf, often near the tip",
+       "ms": "Kelompok telur leper dan bujur, ditutup bulu perang muda, diletakkan pada daun, selalunya dekat hujung"
+      },
+      {
+       "zh": "幼虫淡黄白色，头深褐色，长大后约 20 毫米",
+       "en": "Larvae are pale yellowish white with a dark brown head, about 20 mm when grown",
+       "ms": "Larva kuning keputihan pucat dengan kepala perang tua, kira-kira 20 mm apabila matang"
+      },
+      {
+       "zh": "要确认，就拔起受害稻茎剖开，找幼虫或蛹",
+       "en": "To be sure, pull up and split a damaged stem to find the larva or pupa",
+       "ms": "Untuk kepastian, cabut dan belah batang yang rosak untuk mencari larva atau pupa"
+      }
+     ],
+     "src": [
+      "TNAU-YSB",
+      "IRRI-SB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "营养生长期受害，中心的嫩叶枯死，叫「枯心」；生殖生长期受害，稻穗变白、是空的，叫「白穗」。老鼠、穗颈瘟和黑蝽也会造成相似的症状。",
+      "en": "Attack in the vegetative stage kills the central shoot (a deadheart); attack in the reproductive stage leaves an empty white panicle (a whitehead). Rats, neck blast and black bug can cause similar symptoms.",
+      "ms": "Serangan pada peringkat vegetatif membunuh pucuk tengah (pucuk mati); serangan pada peringkat pembiakan meninggalkan tangkai putih yang hampa. Tikus, karah tangkai dan pianggang hitam boleh menyebabkan simptom serupa."
+     },
+     "src": [
+      "IRRI-SB"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "分蘖早期的枯心通常会被新长出的分蘖补回来，减产很少。",
+      "en": "Deadhearts early in tillering are usually made up by new tillers, so the yield loss is small.",
+      "ms": "Pucuk mati pada awal pertunasan biasanya digantikan oleh anak baharu, jadi kehilangan hasil kecil."
+     },
+     "src": [
+      "PHILRICE-SB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "数叶片上的卵块；菲律宾稻米研究所以每平方米 1–2 个卵块作为行动点。",
+      "en": "Count egg masses on the leaves; the Philippine Rice Research Institute uses 1–2 egg masses per square metre as its action point.",
+      "ms": "Kira kelompok telur pada daun; Institut Penyelidikan Padi Filipina menggunakan 1–2 kelompok telur semeter persegi sebagai titik tindakan."
+     },
+     "src": [
+      "PHILRICE-SB"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "收割后立即犁田或旋耕，杀死留在稻桩里的幼虫和蛹。",
+      "en": "Plough or rotavate right after harvest to kill larvae and pupae left in the stubble.",
+      "ms": "Bajak atau rotavator sejurus selepas menuai untuk membunuh larva dan pupa yang tinggal dalam tunggul."
+     },
+     "src": [
+      "PHILRICE-SB"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "保护寄生在卵块里的小蜂；捕食性盲蝽 Cyrtorhinus lividipennis 也吃螟虫的卵。",
+      "en": "Protect the tiny wasps that parasitise the egg masses; the predatory mirid Cyrtorhinus lividipennis also eats stem borer eggs.",
+      "ms": "Lindungi tebuan kecil yang memparasit kelompok telur; mirid pemangsa Cyrtorhinus lividipennis juga memakan telur pengorek batang."
+     },
+     "src": [
+      "UTAR-RICE",
+      "PMC-CYRT"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "yellow-stem-borer"
+ ]
+}

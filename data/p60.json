@@ -1,0 +1,61 @@
+{
+ "id": "p60",
+ "num": 60,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "授粉昆虫",
+  "en": "Pollinators",
+  "ms": "Serangga pendebunga"
+ },
+ "blurb": {
+  "zh": "帮马来西亚作物授粉的蜜蜂、无刺蜂和象甲",
+  "en": "The bees, stingless bees and weevil that pollinate Malaysian crops",
+  "ms": "Lebah, kelulut dan kumbang yang mendebungakan tanaman Malaysia"
+ },
+ "sources": [
+  "BORNEO-EK",
+  "PRIN-1989",
+  "SAINSMY-EK",
+  "TLSR-2022"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p61|蜜蜂 Apis cerana}}：椰子最主要的授粉者，可以养在蜂箱里",
+       "en": "{{ch:p61|Asian honey bee}}: the main pollinator of coconut, and can be kept in hives",
+       "ms": "{{ch:p61|Lebah madu Asia}}: pendebunga utama kelapa, dan boleh dipelihara dalam sarang"
+      },
+      {
+       "zh": "{{ch:p62|无刺蜂 Heterotrigona itama}}（kelulut）：提高甜瓜和哈密瓜的结果",
+       "en": "{{ch:p62|Stingless bee}} (kelulut): raises fruit set in melon and rockmelon",
+       "ms": "{{ch:p62|Kelulut}}: meningkatkan pembentukan buah tembikai susu dan rockmelon"
+      },
+      {
+       "zh": "{{ch:p32|油棕授粉象甲}}：帮油棕的雌花授粉",
+       "en": "{{ch:p32|Oil palm pollinating weevil}}: pollinates oil palm's female flowers",
+       "ms": "{{ch:p32|Kumbang pendebunga sawit}}: mendebungakan bunga betina sawit"
+      }
+     ],
+     "src": [
+      "PRIN-1989",
+      "TLSR-2022",
+      "SAINSMY-EK"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

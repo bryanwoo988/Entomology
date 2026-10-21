@@ -1,0 +1,72 @@
+{
+ "id": "p56",
+ "num": 56,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "可可的昆虫",
+  "en": "Cocoa insects",
+  "ms": "Serangga koko"
+ },
+ "blurb": {
+  "zh": "可可荚螟、盲蝽，以及保护可可的黑蚂蚁",
+  "en": "The cocoa pod borer, the cocoa mirid, and the black ant that protects cocoa",
+  "ms": "Pengorek buah koko, kepinding koko, dan semut hitam yang melindungi koko"
+ },
+ "sources": [
+  "BAKAR-2020",
+  "KHOO-1992",
+  "PP-CPB",
+  "PP-MIRID"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p57|可可荚螟}}：幼虫钻进可可荚里吃",
+       "en": "{{ch:p57|Cocoa pod borer}}: its larvae tunnel into the pods",
+       "ms": "{{ch:p57|Pengorek buah koko}}: larvanya mengorek ke dalam buah"
+      },
+      {
+       "zh": "{{ch:p58|盲蝽}}：吸食荚和嫩梢，留下黑斑",
+       "en": "{{ch:p58|Cocoa mirid}}: sucks pods and shoots, leaving black spots",
+       "ms": "{{ch:p58|Kepinding koko}}: menghisap buah dan pucuk, meninggalkan bintik hitam"
+      },
+      {
+       "zh": "{{ch:p59|黑可可蚁}}（益虫）：减少盲蝽的危害",
+       "en": "{{ch:p59|Black cocoa ant}} (helpful): reduces mirid damage",
+       "ms": "{{ch:p59|Semut hitam koko}} (berguna): mengurangkan kerosakan kepinding"
+      }
+     ],
+     "src": [
+      "PP-CPB",
+      "PP-MIRID",
+      "KHOO-1992"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "盲蝽很早就开始危害小荚，可可荚螟则从荚长超过 7 厘米才开始；大部分荚到 8 厘米时已经被盲蝽危害。所以两种害虫的管理都要在荚长不到 8 厘米时开始。",
+      "en": "Mirids attack the pods very early, while the pod borer starts on pods longer than 7 cm; most pods had been attacked by mirids by the time they reached 8 cm. So management of both pests must start while pods are still under 8 cm.",
+      "ms": "Kepinding menyerang buah sangat awal, manakala pengorek buah bermula pada buah lebih 7 cm; kebanyakan buah telah diserang kepinding apabila mencapai 8 cm. Jadi pengurusan kedua-dua perosak mesti bermula semasa buah masih di bawah 8 cm."
+     },
+     "src": [
+      "BAKAR-2020"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

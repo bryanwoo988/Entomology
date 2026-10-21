@@ -1,0 +1,211 @@
+{
+ "id": "p57",
+ "num": 57,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "细蛾（Conopomorpha cramerella）",
+  "en": "Cocoa pod borer",
+  "ms": "Pengorek buah koko"
+ },
+ "blurb": {
+  "zh": "Conopomorpha cramerella",
+  "en": "Conopomorpha cramerella",
+  "ms": "Conopomorpha cramerella"
+ },
+ "sources": [
+  "AZHAR-CPB",
+  "AZHAR-LONG",
+  "BAKAR-2020",
+  "DAY-CPB",
+  "DOA-MRL",
+  "PP-CPB",
+  "TJ",
+  "UPSI-CPB"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "细蛾（Conopomorpha cramerella）",
+      "en": "Cocoa pod borer",
+      "ms": "Pengorek buah koko"
+     },
+     "sci": "Conopomorpha cramerella",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "可可",
+       "en": "Cocoa",
+       "ms": "Koko"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫（在荚里）",
+      "en": "Larva (inside the pod)",
+      "ms": "Larva (di dalam buah)"
+     },
+     "src": [
+      "PP-CPB",
+      "BAKAR-2020"
+     ],
+     "authority": "(Snellen)"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "暂无合适的开放授权照片。",
+      "en": "No suitable openly licensed photo yet.",
+      "ms": "Belum ada foto berlesen terbuka yang sesuai."
+     },
+     "src": [
+      "TJ"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:cocoa-pod-borer}}的辨认要点：",
+      "en": "How to recognise {{t:cocoa-pod-borer}}:",
+      "ms": "Cara mengecam {{t:cocoa-pod-borer}}:"
+     },
+     "defines": [
+      "cocoa-pod-borer"
+     ],
+     "src": [
+      "PP-CPB",
+      "BAKAR-2020"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "被害荚里的可可豆小而扁，常被干掉的黏液粘成一团",
+       "en": "Beans from attacked pods are small and flat, often stuck together in dried mucilage",
+       "ms": "Biji dari buah yang diserang kecil dan leper, sering melekat bersama dalam lendir kering"
+      },
+      {
+       "zh": "从荚长超过 7 厘米开始危害；荚长超过 150 毫米时产卵最多",
+       "en": "Attack starts on pods longer than 7 cm; most eggs are laid on pods longer than 150 mm",
+       "ms": "Serangan bermula pada buah lebih 7 cm; paling banyak telur diletakkan pada buah lebih 150 mm"
+      }
+     ],
+     "src": [
+      "PP-CPB",
+      "BAKAR-2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "1980 年代后期，可可荚螟在沙巴斗湖一带毁掉约 5,000 公顷可可，约两年半内就遍布沙巴和马来西亚半岛。",
+      "en": "In the late 1980s the pod borer devastated about 5,000 ha of cocoa around Tawau, Sabah, and within about two and a half years it had spread throughout Sabah and Peninsular Malaysia.",
+      "ms": "Pada akhir 1980-an pengorek buah koko memusnahkan kira-kira 5,000 ha koko di sekitar Tawau, Sabah, dan dalam kira-kira dua tahun setengah ia merebak ke seluruh Sabah dan Semenanjung Malaysia."
+     },
+     "src": [
+      "UPSI-CPB"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "可可豆品质变差。防治不足的小农损失 20%–50%；沙巴两个商业园在 1982–1984 年的年损失为 22%–54%。",
+      "en": "Bean quality falls. Smallholders with limited control lose 20–50%; two commercial fields in Sabah lost 22–54% a year in 1982–1984.",
+      "ms": "Mutu biji menurun. Pekebun kecil yang kurang kawalan kehilangan 20–50%; dua ladang komersial di Sabah kehilangan 22–54% setahun pada 1982–1984."
+     },
+     "src": [
+      "PP-CPB",
+      "DAY-CPB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "荚长不到 8 厘米时就开始管理。",
+      "en": "Start management while pods are under 8 cm long.",
+      "ms": "Mulakan pengurusan semasa buah masih di bawah 8 cm."
+     },
+     "src": [
+      "BAKAR-2020"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "马来西亚的经验包括：设无寄主期、给荚套袋（pod sleeving），以及种植抗性无性系。",
+      "en": "Malaysian practice includes a host-free period, sleeving the pods, and planting resistant clones.",
+      "ms": "Amalan Malaysia termasuk tempoh bebas perumah, menyarung buah, dan menanam klon rintang."
+     },
+     "src": [
+      "AZHAR-CPB"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "黑可可蚁 Dolichoderus thoracicus 和卵寄生蜂 Trichogrammatoidea bactrae fumata 都被用过；不过田间卵寄生率偏低，这种寄生蜂单独效果不大。",
+      "en": "The black cocoa ant Dolichoderus thoracicus and the egg parasitoid Trichogrammatoidea bactrae fumata have both been used; field egg parasitism was low, though, so the wasp alone does little.",
+      "ms": "Semut hitam koko Dolichoderus thoracicus dan parasitoid telur Trichogrammatoidea bactrae fumata pernah digunakan; namun kadar parasitisme telur di ladang rendah, jadi tebuan ini sahaja kurang berkesan."
+     },
+     "src": [
+      "AZHAR-CPB",
+      "AZHAR-LONG"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "化学防治也是马来西亚综合管理的一部分。只用农业局为可可登记的产品，并依照标签。",
+      "en": "Chemical control is part of integrated management in Malaysia. Use only products registered by the Department of Agriculture for cocoa, and follow the label.",
+      "ms": "Kawalan kimia ialah sebahagian pengurusan bersepadu di Malaysia. Gunakan hanya produk berdaftar Jabatan Pertanian untuk koko, dan ikut label."
+     },
+     "src": [
+      "AZHAR-CPB",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "cocoa-pod-borer"
+ ]
+}

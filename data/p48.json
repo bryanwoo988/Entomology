@@ -1,0 +1,203 @@
+{
+ "id": "p48",
+ "num": 48,
+ "stage": 5,
+ "kind": "species",
+ "order": "p10",
+ "title": {
+  "zh": "二十八星瓢虫",
+  "en": "28-spotted ladybird",
+  "ms": "Kumbang kura-kura 28 bintik"
+ },
+ "blurb": {
+  "zh": "Henosepilachna vigintioctopunctata",
+  "en": "Henosepilachna vigintioctopunctata",
+  "ms": "Henosepilachna vigintioctopunctata"
+ },
+ "sources": [
+  "COOK-EPI",
+  "JPP-EPI",
+  "KAPUR-1950",
+  "SHIRAI-EPI",
+  "UPM-CHILLI"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "二十八星瓢虫",
+      "en": "28-spotted ladybird",
+      "ms": "Kumbang kura-kura 28 bintik"
+     },
+     "sci": "Henosepilachna vigintioctopunctata",
+     "order": "p10",
+     "crops": [
+      {
+       "zh": "茄子",
+       "en": "Brinjal",
+       "ms": "Terung"
+      }
+     ],
+     "stage": {
+      "zh": "成虫和幼虫",
+      "en": "Adults and larvae",
+      "ms": "Dewasa dan larva"
+     },
+     "src": [
+      "COOK-EPI",
+      "KAPUR-1950"
+     ],
+     "authority": "(Fabricius)"
+    },
+    {
+     "type": "photo",
+     "id": "henosepilachna-vigintioctopunctata-adult"
+    },
+    {
+     "type": "photo",
+     "id": "henosepilachna-vigintioctopunctata-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:epilachna}}的辨认要点：",
+      "en": "How to recognise {{t:epilachna}}:",
+      "ms": "Cara mengecam {{t:epilachna}}:"
+     },
+     "defines": [
+      "epilachna"
+     ],
+     "src": [
+      "COOK-EPI",
+      "KAPUR-1950"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫 6–7 毫米，黄橙色，鞘翅上通常有 28 个黑点",
+       "en": "Adults are 6–7 mm, yellowish orange, usually with 28 black spots on the wing covers",
+       "ms": "Dewasa 6–7 mm, jingga kekuningan, biasanya dengan 28 bintik hitam pada kepak"
+      },
+      {
+       "zh": "幼虫身上长满分枝的长刺",
+       "en": "Larvae are covered in long branched spines",
+       "ms": "Larva dipenuhi duri panjang bercabang"
+      }
+     ],
+     "src": [
+      "COOK-EPI",
+      "KAPUR-1950"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "成虫和幼虫都刮食叶片的绿色组织，只留下一层薄皮（叶片被「骨架化」）。插秧（移植）后一星期就可能开始受害。",
+      "en": "Adults and larvae scrape off the green leaf tissue and leave a thin skin behind (the leaf is 'skeletonised'). Attack can start a week after transplanting.",
+      "ms": "Dewasa dan larva mengikis tisu hijau daun dan meninggalkan kulit nipis (daun 'dirangkakan'). Serangan boleh bermula seminggu selepas mengubah anak pokok."
+     },
+     "src": [
+      "JPP-EPI"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "它主要吃茄科植物，如茄子、马铃薯、番茄和辣椒，在龙葵（Solanum nigrum）等杂草上也繁殖得很好。研究马来西亚的种群发现，它在茄属植物上生长最好，单靠瓜类无法完成生活史。",
+      "en": "It feeds mainly on the tomato family, such as brinjal, potato, tomato and chilli, and breeds well on weeds such as Solanum nigrum. A study including a Malaysian population found it does best on Solanum and cannot complete its life on cucurbits alone.",
+      "ms": "Ia memakan terutamanya famili tomato, seperti terung, kentang, tomato dan cili, dan membiak dengan baik pada rumpai seperti Solanum nigrum. Kajian termasuk populasi Malaysia mendapati ia paling baik pada Solanum dan tidak dapat melengkapkan hidupnya pada tanaman labu sahaja."
+     },
+     "src": [
+      "COOK-EPI",
+      "JPP-EPI",
+      "SHIRAI-EPI"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "怎样分辨吃叶的瓢虫和吃蚜虫的瓢虫：吃叶的瓢虫留下只剩薄皮的叶片，幼虫满身分枝的刺；{{ch:p49|横斑瓢虫}}和{{ch:p50|六斑月瓢虫}}则在蚜虫群里出现。",
+      "en": "How to tell a leaf-eating ladybird from an aphid-eating one: leaf-eaters leave leaves scraped to a thin skin and have larvae covered in branched spines; the {{ch:p49|transverse}} and {{ch:p50|zigzag}} ladybirds turn up in aphid colonies.",
+      "ms": "Cara membezakan kumbang kura-kura pemakan daun daripada pemakan afid: pemakan daun meninggalkan daun yang dikikis hingga kulit nipis dan larvanya dipenuhi duri bercabang; kumbang kura-kura {{ch:p49|melintang}} dan {{ch:p50|zigzag}} muncul dalam koloni afid."
+     },
+     "src": [
+      "JPP-EPI",
+      "KAPUR-1950",
+      "UPM-CHILLI"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "移植后第一星期开始检查叶片。",
+      "en": "Start checking the leaves from the first week after transplanting.",
+      "ms": "Mula memeriksa daun dari minggu pertama selepas mengubah."
+     },
+     "src": [
+      "JPP-EPI"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "龙葵等茄科杂草是它的繁殖地，要留意田边的这些杂草。",
+      "en": "Solanaceous weeds such as Solanum nigrum are breeding sites; keep an eye on them around the plot.",
+      "ms": "Rumpai famili tomato seperti Solanum nigrum ialah tempat pembiakan; awasinya di sekitar kebun."
+     },
+     "src": [
+      "JPP-EPI"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "epilachna"
+ ]
+}

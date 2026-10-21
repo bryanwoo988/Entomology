@@ -1,0 +1,159 @@
+{
+ "id": "p50",
+ "num": 50,
+ "stage": 5,
+ "kind": "species",
+ "order": "p10",
+ "title": {
+  "zh": "六斑月瓢虫（Cheilomenes sexmaculata）",
+  "en": "Zigzag ladybird",
+  "ms": "Kumbang kura-kura zigzag"
+ },
+ "blurb": {
+  "zh": "Cheilomenes sexmaculata",
+  "en": "Cheilomenes sexmaculata",
+  "ms": "Cheilomenes sexmaculata"
+ },
+ "sources": [
+  "IJCMAS-CS",
+  "UF-APH",
+  "UPM-CHILLI",
+  "UPM-DIST"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "六斑月瓢虫（Cheilomenes sexmaculata）",
+      "en": "Zigzag ladybird",
+      "ms": "Kumbang kura-kura zigzag"
+     },
+     "sci": "Cheilomenes sexmaculata",
+     "order": "p10",
+     "crops": [
+      {
+       "zh": "辣椒",
+       "en": "Chilli",
+       "ms": "Cili"
+      }
+     ],
+     "stage": {
+      "zh": "成虫和幼虫（益虫）",
+      "en": "Adults and larvae (helpful)",
+      "ms": "Dewasa dan larva (berguna)"
+     },
+     "src": [
+      "IJCMAS-CS",
+      "UPM-DIST"
+     ],
+     "authority": "(Fabricius)"
+    },
+    {
+     "type": "photo",
+     "id": "cheilomenes-sexmaculata-adult"
+    },
+    {
+     "type": "photo",
+     "id": "cheilomenes-sexmaculata-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:zigzag-ladybird}}的辨认要点：",
+      "en": "How to recognise {{t:zigzag-ladybird}}:",
+      "ms": "Cara mengecam {{t:zigzag-ladybird}}:"
+     },
+     "defines": [
+      "zigzag-ladybird"
+     ],
+     "src": [
+      "IJCMAS-CS",
+      "UPM-DIST"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫约 3–4 毫米",
+       "en": "Adults are about 3–4 mm",
+       "ms": "Dewasa kira-kira 3–4 mm"
+      },
+      {
+       "zh": "颜色变化很大：印度的调查就找到橙色、浅红、黑色和黄色四种色型",
+       "en": "Colour varies a lot: a survey in India found four colour forms (orange, light red, black and yellow)",
+       "ms": "Warnanya sangat berbeza: tinjauan di India menemui empat bentuk warna (jingga, merah muda, hitam dan kuning)"
+      },
+      {
+       "zh": "马来西亚较早的论文称它为 Menochilus sexmaculatus",
+       "en": "Older Malaysian papers call it Menochilus sexmaculatus",
+       "ms": "Kertas Malaysia yang lebih lama memanggilnya Menochilus sexmaculatus"
+      }
+     ],
+     "src": [
+      "IJCMAS-CS",
+      "UPM-DIST"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "博特拉大学在辣椒田的研究发现，它是瓜蚜最主要的捕食者，蚜虫越多，它也越多；它在植株上的分布也跟着蚜虫走。",
+      "en": "Studies by Universiti Putra Malaysia in chilli fields found it is the main predator of the melon aphid: as aphids increase, so does the ladybird, and its spread over the plants follows the aphids.",
+      "ms": "Kajian Universiti Putra Malaysia di ladang cili mendapati ia pemangsa utama afid kapas: apabila afid bertambah, kumbang ini turut bertambah, dan taburannya pada pokok mengikut afid."
+     },
+     "src": [
+      "UPM-CHILLI",
+      "UPM-DIST"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "这很重要，因为{{ch:p46|瓜蚜}}在马来西亚传播辣椒脉斑驳病毒，可让辣椒减产高达 60%。",
+      "en": "This matters because the {{ch:p46|melon aphid}} spreads chilli veinal mottle virus in Malaysia, which can cut chilli yields by up to 60%.",
+      "ms": "Ini penting kerana {{ch:p46|afid kapas}} menyebarkan virus belang urat cili di Malaysia, yang boleh mengurangkan hasil cili sehingga 60%."
+     },
+     "src": [
+      "UPM-CHILLI"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "保护它：不要不必要地喷杀虫剂。",
+      "en": "Protect it: avoid needless insecticide sprays.",
+      "ms": "Lindunginya: elakkan semburan racun serangga yang tidak perlu."
+     },
+     "src": [
+      "UF-APH"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "zigzag-ladybird"
+ ]
+}

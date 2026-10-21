@@ -1,0 +1,140 @@
+{
+ "id": "p62",
+ "num": 62,
+ "stage": 5,
+ "kind": "species",
+ "order": "p13",
+ "title": {
+  "zh": "无刺蜂（Heterotrigona itama）",
+  "en": "Stingless bee (kelulut)",
+  "ms": "Kelulut (Heterotrigona itama)"
+ },
+ "blurb": {
+  "zh": "Heterotrigona itama",
+  "en": "Heterotrigona itama",
+  "ms": "Heterotrigona itama"
+ },
+ "sources": [
+  "JEE-ROCK",
+  "MAB-MELON",
+  "NIS-2022",
+  "TLSR-2022"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "无刺蜂（Heterotrigona itama）",
+      "en": "Stingless bee (kelulut)",
+      "ms": "Kelulut (Heterotrigona itama)"
+     },
+     "sci": "Heterotrigona itama",
+     "order": "p13",
+     "crops": [
+      {
+       "zh": "甜瓜和哈密瓜",
+       "en": "Melon and rockmelon",
+       "ms": "Tembikai susu dan rockmelon"
+      }
+     ],
+     "stage": {
+      "zh": "工蜂（益虫）",
+      "en": "Workers (helpful)",
+      "ms": "Lebah pekerja (berguna)"
+     },
+     "src": [
+      "NIS-2022"
+     ],
+     "authority": "(Cockerell)"
+    },
+    {
+     "type": "photo",
+     "id": "heterotrigona-itama-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:kelulut}}的辨认要点：",
+      "en": "How to recognise {{t:kelulut}}:",
+      "ms": "Cara mengecam {{t:kelulut}}:"
+     },
+     "defines": [
+      "kelulut"
+     ],
+     "src": [
+      "NIS-2022"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体黑色",
+       "en": "Dark, blackish body",
+       "ms": "Badan gelap kehitaman"
+      },
+      {
+       "zh": "巢用植物树脂做成；出入口是一根比较大、光滑、琥珀黄色的树脂管，管口常不规则地张开",
+       "en": "The nest is built of plant resin; the entrance is a relatively large, smooth, amber-yellow resin tube, often irregularly flared at the tip",
+       "ms": "Sarang dibina daripada resin tumbuhan; pintu masuknya tiub resin yang agak besar, licin dan kuning ambar, sering mengembang tidak sekata di hujung"
+      },
+      {
+       "zh": "柔佛和廖内群岛有一种很像的蜂，翅较深、胸背毛较多，可能是还没命名的种",
+       "en": "A similar bee in Johor and the Riau Islands, with darker wings and more hair on the thorax, is probably an undescribed species",
+       "ms": "Lebah serupa di Johor dan Kepulauan Riau, dengan sayap lebih gelap dan lebih banyak bulu pada toraks, mungkin spesies yang belum diperihalkan"
+      }
+     ],
+     "src": [
+      "NIS-2022"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "在登嘉楼的温室试验中，有无刺蜂授粉的甜瓜每株结 6.1 个果，露天种植的 2.6 个，没有授粉的只有 0.2 个；蜂在早上最活跃。",
+      "en": "In a greenhouse trial in Terengganu, melons pollinated by this bee set 6.1 fruits per plant, against 2.6 in the open field and 0.2 with no pollination; the bees were busiest in the morning.",
+      "ms": "Dalam ujian rumah hijau di Terengganu, tembikai susu yang didebungakan lebah ini menghasilkan 6.1 buah sepokok, berbanding 2.6 di ladang terbuka dan 0.2 tanpa pendebungaan; lebah paling aktif pada waktu pagi."
+     },
+     "src": [
+      "TLSR-2022"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "登嘉楼甜瓜（Melon Manis Terengganu）经它授粉后，果实比自花授粉的更重、更大、更甜。哈密瓜经它授粉，结果率较高、果实较重较大、种子也较多。",
+      "en": "Melon Manis Terengganu pollinated by it gave heavier, larger and sweeter fruit than self-pollinated plants. Rockmelon pollinated by it had higher fruit set, heavier and larger fruit, and more seeds.",
+      "ms": "Melon Manis Terengganu yang didebungakannya menghasilkan buah lebih berat, besar dan manis berbanding pendebungaan sendiri. Rockmelon yang didebungakannya mempunyai pembentukan buah lebih tinggi, buah lebih berat dan besar, dan lebih banyak biji."
+     },
+     "src": [
+      "MAB-MELON",
+      "JEE-ROCK"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "kelulut"
+ ]
+}

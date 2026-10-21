@@ -1,0 +1,192 @@
+{
+ "id": "p36",
+ "num": 36,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "叶蝉（Nephotettix）",
+  "en": "Green leafhopper",
+  "ms": "Bena hijau"
+ },
+ "blurb": {
+  "zh": "Nephotettix virescens",
+  "en": "Nephotettix virescens",
+  "ms": "Nephotettix virescens"
+ },
+ "sources": [
+  "IRRI-GLH",
+  "JIRCAS-19",
+  "JIRCAS-MUDA",
+  "PP-GLH",
+  "TNAU-GLH"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "叶蝉（Nephotettix）",
+      "en": "Green leafhopper",
+      "ms": "Bena hijau"
+     },
+     "sci": "Nephotettix virescens",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "水稻",
+       "en": "Rice",
+       "ms": "Padi"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "TNAU-GLH",
+      "IRRI-GLH"
+     ],
+     "authority": "(Distant)"
+    },
+    {
+     "type": "photo",
+     "id": "nephotettix-virescens-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:green-leafhopper}}的辨认要点：",
+      "en": "How to recognise {{t:green-leafhopper}}:",
+      "ms": "Cara mengecam {{t:green-leafhopper}}:"
+     },
+     "defines": [
+      "green-leafhopper"
+     ],
+     "src": [
+      "TNAU-GLH",
+      "IRRI-GLH"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫约 3–5 毫米，鲜绿色，楔形",
+       "en": "Adults are about 3–5 mm, bright green and wedge-shaped",
+       "ms": "Dewasa kira-kira 3–5 mm, hijau terang dan berbentuk baji"
+      },
+      {
+       "zh": "雄虫前翅中央有一个黑斑，雌虫没有",
+       "en": "Males have a black spot in the middle of the forewing; females do not",
+       "ms": "Jantan mempunyai bintik hitam di tengah sayap depan; betina tiada"
+      },
+      {
+       "zh": "几种 Nephotettix 长得很像，要准确鉴定需由专家检查",
+       "en": "Several Nephotettix species look alike; an expert is needed to be sure",
+       "ms": "Beberapa spesies Nephotettix kelihatan serupa; pakar diperlukan untuk kepastian"
+      }
+     ],
+     "src": [
+      "TNAU-GLH",
+      "IRRI-GLH"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "叶蝉本身吸汁的危害不大，真正的问题是它传播东格鲁病（马来西亚称 penyakit merah）。传播这种病的主要是 Nephotettix malayanus 和 N. virescens 两种。东格鲁病的症状容易被误认为缺氮、铁中毒或酸性土。",
+      "en": "The leafhopper's own feeding does little harm; the real problem is that it spreads tungro, called penyakit merah in Malaysia. Two species carry it: Nephotettix malayanus and N. virescens. Tungro is easily mistaken for nitrogen deficiency, iron toxicity or acid soil.",
+      "ms": "Kerosakan akibat bena ini menghisap tidak besar; masalah sebenar ialah ia menyebarkan tungro, dikenali sebagai penyakit merah di Malaysia. Dua spesies membawanya: Nephotettix malayanus dan N. virescens. Tungro mudah disangka kekurangan nitrogen, keracunan besi atau tanah berasid."
+     },
+     "src": [
+      "IRRI-GLH",
+      "JIRCAS-19"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "1981–1983 年，东格鲁病在吉打的慕达灌溉区流行。1984 年旱季全区同步休耕一个多月后，病害大幅减少。",
+      "en": "Tungro struck the Muda irrigation area of Kedah in 1981–1983. After the whole area left its fields fallow together for more than a month in the 1984 dry season, the disease fell sharply.",
+      "ms": "Tungro melanda kawasan pengairan Muda, Kedah, pada 1981–1983. Selepas seluruh kawasan membiarkan sawah rehat serentak lebih sebulan pada musim kering 1984, penyakit itu menurun dengan ketara."
+     },
+     "src": [
+      "JIRCAS-MUDA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "注意稻株发黄、矮小的症状，并和缺氮、铁中毒、酸性土的症状区分。",
+      "en": "Watch for yellow, stunted plants, and tell tungro apart from nitrogen deficiency, iron toxicity and acid soil.",
+      "ms": "Perhatikan pokok yang kuning dan kerdil, dan bezakan tungro daripada kekurangan nitrogen, keracunan besi dan tanah berasid."
+     },
+     "src": [
+      "IRRI-GLH"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "同一地区同步插秧，并留一段没有稻子的休耕期；错开种植会让叶蝉增加。种植抗病虫品种。",
+      "en": "Plant at the same time as your neighbours and leave a rice-free fallow period; staggered planting lets the leafhoppers build up. Grow resistant varieties.",
+      "ms": "Tanam serentak dengan jiran dan biarkan tempoh rehat tanpa padi; tanaman berperingkat membolehkan bena bertambah. Tanam varieti rintang."
+     },
+     "src": [
+      "IRRI-GLH",
+      "JIRCAS-MUDA"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "用杀虫剂杀叶蝉往往控制不了东格鲁病，而且花费大；没有药能治病毒本身。",
+      "en": "Killing the leafhoppers with insecticide often fails to control tungro and costs a lot; no chemical cures the virus itself.",
+      "ms": "Membunuh bena dengan racun serangga sering gagal mengawal tungro dan mahal; tiada bahan kimia yang merawat virus itu sendiri."
+     },
+     "src": [
+      "PP-GLH"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "green-leafhopper"
+ ]
+}

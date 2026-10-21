@@ -1,0 +1,141 @@
+{
+ "id": "p49",
+ "num": 49,
+ "stage": 5,
+ "kind": "species",
+ "order": "p10",
+ "title": {
+  "zh": "横斑瓢虫（Coccinella transversalis）",
+  "en": "Transverse ladybird",
+  "ms": "Kumbang kura-kura melintang"
+ },
+ "blurb": {
+  "zh": "Coccinella transversalis",
+  "en": "Coccinella transversalis",
+  "ms": "Coccinella transversalis"
+ },
+ "sources": [
+  "BRIS-CT",
+  "INDJ-CT",
+  "JPP-EPI",
+  "KERALA-COCC",
+  "UF-APH"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "横斑瓢虫（Coccinella transversalis）",
+      "en": "Transverse ladybird",
+      "ms": "Kumbang kura-kura melintang"
+     },
+     "sci": "Coccinella transversalis",
+     "order": "p10",
+     "crops": [
+      {
+       "zh": "蔬菜",
+       "en": "Vegetables",
+       "ms": "Sayur-sayuran"
+      }
+     ],
+     "stage": {
+      "zh": "成虫和幼虫（益虫）",
+      "en": "Adults and larvae (helpful)",
+      "ms": "Dewasa dan larva (berguna)"
+     },
+     "src": [
+      "BRIS-CT"
+     ],
+     "authority": "Fabricius"
+    },
+    {
+     "type": "photo",
+     "id": "coccinella-transversalis-adult"
+    },
+    {
+     "type": "photo",
+     "id": "coccinella-transversalis-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:transverse-ladybird}}的辨认要点：",
+      "en": "How to recognise {{t:transverse-ladybird}}:",
+      "ms": "Cara mengecam {{t:transverse-ladybird}}:"
+     },
+     "defines": [
+      "transverse-ladybird"
+     ],
+     "src": [
+      "BRIS-CT"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫约 5 毫米，鲜橙色到橙红色，有黑色花纹",
+       "en": "Adults are about 5 mm, bright orange to orange-red with a black pattern",
+       "ms": "Dewasa kira-kira 5 mm, jingga terang hingga jingga kemerahan dengan corak hitam"
+      },
+      {
+       "zh": "鞘翅合缝处有一条黑色纵线，两边有 V 字形黑斑",
+       "en": "A black line runs down the middle where the wing covers meet, with V-shaped black marks on each side",
+       "ms": "Garis hitam di tengah tempat kepak bertemu, dengan tanda hitam berbentuk V di setiap sisi"
+      }
+     ],
+     "src": [
+      "BRIS-CT"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "成虫和幼虫都吃蚜虫。在印度阿萨姆的实验中，一只四龄幼虫 24 小时内吃了约 66 只芥菜蚜（Lipaphis erysimi）；在喀拉拉邦，它也留在菜田里捕食蚜虫。",
+      "en": "Adults and larvae eat aphids. In a study in Assam, India, one fourth-stage larva ate about 66 adult mustard aphids (Lipaphis erysimi) in 24 hours; in Kerala it stays in vegetable fields hunting aphids.",
+      "ms": "Dewasa dan larva memakan afid. Dalam kajian di Assam, India, seekor larva peringkat keempat memakan kira-kira 66 afid sawi dewasa (Lipaphis erysimi) dalam 24 jam; di Kerala ia kekal di ladang sayur memburu afid."
+     },
+     "src": [
+      "INDJ-CT",
+      "KERALA-COCC"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "保护它：不要不必要地喷杀虫剂，喷药会改变田里天敌的数量。",
+      "en": "Protect it: avoid needless insecticide sprays, which change the numbers of natural enemies in the field.",
+      "ms": "Lindunginya: elakkan semburan racun serangga yang tidak perlu, yang mengubah bilangan musuh semula jadi di ladang."
+     },
+     "src": [
+      "UF-APH"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "transverse-ladybird"
+ ]
+}

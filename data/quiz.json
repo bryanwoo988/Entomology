@@ -3785,5 +3785,2730 @@
   "src": [
    "JOPR-SYCANUS"
   ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p34",
+  "q": {
+   "zh": "哪一种害虫会造成「枯心」和「白穗」？",
+   "en": "Which pest causes deadhearts and whiteheads?",
+   "ms": "Perosak manakah menyebabkan pucuk mati dan tangkai putih?"
+  },
+  "options": [
+   {
+    "zh": "三化螟",
+    "en": "Yellow stem borer",
+    "ms": "Pengorek batang kuning"
+   },
+   {
+    "zh": "褐飞虱",
+    "en": "Brown planthopper",
+    "ms": "Bena perang"
+   },
+   {
+    "zh": "稻缘蝽",
+    "en": "Rice bug",
+    "ms": "Pianggang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "幼虫钻在茎里吃。",
+   "en": "The larvae feed inside the stem.",
+   "ms": "Larva makan di dalam batang."
+  },
+  "src": [
+   "IRRI-SB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p34",
+  "q": {
+   "zh": "喷广谱杀虫剂可能让褐飞虱变得更多。",
+   "en": "Broad-spectrum sprays can make brown planthoppers more numerous.",
+   "ms": "Semburan spektrum luas boleh menyebabkan bena perang bertambah."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "喷药杀死了天敌，飞虱因而「再猖獗」。",
+   "en": "Spraying kills the natural enemies, so the planthoppers resurge.",
+   "ms": "Semburan membunuh musuh semula jadi, jadi bena kembali melonjak."
+  },
+  "src": [
+   "PP-BPH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p34",
+  "q": {
+   "zh": "Cyrtorhinus lividipennis 吃什么？",
+   "en": "What does Cyrtorhinus lividipennis eat?",
+   "ms": "Apakah makanan Cyrtorhinus lividipennis?"
+  },
+  "options": [
+   {
+    "zh": "飞虱的卵和小若虫",
+    "en": "Planthopper eggs and young nymphs",
+    "ms": "Telur dan nimfa muda bena"
+   },
+   {
+    "zh": "稻叶",
+    "en": "Rice leaves",
+    "ms": "Daun padi"
+   },
+   {
+    "zh": "谷粒",
+    "en": "Rice grains",
+    "ms": "Bijirin padi"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它是捕食性盲蝽，是益虫。",
+   "en": "It is a predatory mirid bug, a helpful insect.",
+   "ms": "Ia pepijat mirid pemangsa, serangga berguna."
+  },
+  "src": [
+   "PMC-CYRT"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p35",
+  "q": {
+   "zh": "「虱烧」时稻叶会怎样？",
+   "en": "What happens to the leaves in hopperburn?",
+   "ms": "Apa yang berlaku pada daun semasa 'hopperburn'?"
+  },
+  "options": [
+   {
+    "zh": "先变橙黄，再变褐色干枯",
+    "en": "They turn orange-yellow, then brown and dry",
+    "ms": "Menjadi jingga kekuningan, kemudian perang dan kering"
+   },
+   {
+    "zh": "出现白色条纹",
+    "en": "White streaks appear",
+    "ms": "Jalur putih muncul"
+   },
+   {
+    "zh": "被卷起来",
+    "en": "They are rolled up",
+    "ms": "Ia digulung"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是褐飞虱大量吸汁的结果。",
+   "en": "It comes from heavy sap-sucking by the planthoppers.",
+   "ms": "Ia akibat bena menghisap cecair dengan banyak."
+  },
+  "src": [
+   "IRRI-BPH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p35",
+  "q": {
+   "zh": "在哪里最容易找到褐飞虱？",
+   "en": "Where are brown planthoppers easiest to find?",
+   "ms": "Di manakah bena perang paling mudah dijumpai?"
+  },
+  "options": [
+   {
+    "zh": "稻丛基部",
+    "en": "At the base of the plants",
+    "ms": "Di pangkal pokok"
+   },
+   {
+    "zh": "稻穗上",
+    "en": "On the panicles",
+    "ms": "Pada tangkai"
+   },
+   {
+    "zh": "土里",
+    "en": "In the soil",
+    "ms": "Di dalam tanah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它们喜欢阴湿的稻丛基部。",
+   "en": "They prefer the shady, humid base of the plants.",
+   "ms": "Ia suka pangkal pokok yang teduh dan lembap."
+  },
+  "src": [
+   "PP-BPH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p35",
+  "q": {
+   "zh": "插秧插得越密，越不容易发生虱烧。",
+   "en": "The closer the spacing, the less hopperburn.",
+   "ms": "Semakin rapat jarak tanaman, semakin kurang 'hopperburn'."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "10×10 厘米的田比 20×20 厘米的田更容易发生。",
+   "en": "Fields at 10 × 10 cm suffer more than fields at 20 × 20 cm.",
+   "ms": "Petak 10 × 10 cm lebih teruk berbanding 20 × 20 cm."
+  },
+  "src": [
+   "IRRI-BPH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p36",
+  "q": {
+   "zh": "叶蝉最大的危害是什么？",
+   "en": "What is the green leafhopper's main harm?",
+   "ms": "Apakah kemudaratan utama bena hijau?"
+  },
+  "options": [
+   {
+    "zh": "传播东格鲁病",
+    "en": "It spreads tungro",
+    "ms": "Ia menyebarkan tungro"
+   },
+   {
+    "zh": "吃谷粒",
+    "en": "It eats the grains",
+    "ms": "Ia memakan bijirin"
+   },
+   {
+    "zh": "钻茎",
+    "en": "It bores the stem",
+    "ms": "Ia mengorek batang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "东格鲁病在马来西亚称 penyakit merah。",
+   "en": "Tungro is called penyakit merah in Malaysia.",
+   "ms": "Tungro dipanggil penyakit merah di Malaysia."
+  },
+  "src": [
+   "IRRI-GLH",
+   "JIRCAS-19"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p36",
+  "q": {
+   "zh": "同步插秧和休耕可以减少东格鲁病。",
+   "en": "Synchronised planting and a fallow period reduce tungro.",
+   "ms": "Tanaman serentak dan tempoh rehat mengurangkan tungro."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "1984 年慕达区同步休耕后病害大减。",
+   "en": "Tungro fell sharply in Muda after the 1984 synchronised fallow.",
+   "ms": "Tungro menurun di Muda selepas rehat serentak 1984."
+  },
+  "src": [
+   "JIRCAS-MUDA"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p36",
+  "q": {
+   "zh": "怎样分辨叶蝉的雄虫？",
+   "en": "How do you tell a male green leafhopper?",
+   "ms": "Bagaimana mengenal bena hijau jantan?"
+  },
+  "options": [
+   {
+    "zh": "前翅中央有黑斑",
+    "en": "A black spot in the middle of the forewing",
+    "ms": "Bintik hitam di tengah sayap depan"
+   },
+   {
+    "zh": "身体是红色",
+    "en": "Its body is red",
+    "ms": "Badannya merah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "雌虫没有这个黑斑。",
+   "en": "Females lack the spot.",
+   "ms": "Betina tiada bintik itu."
+  },
+  "src": [
+   "TNAU-GLH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p37",
+  "q": {
+   "zh": "稻缘蝽在什么时候危害最大？",
+   "en": "When does the rice bug do most harm?",
+   "ms": "Bilakah pianggang paling merosakkan?"
+  },
+  "options": [
+   {
+    "zh": "开花到乳熟期",
+    "en": "Flowering to the milky stage",
+    "ms": "Berbunga hingga bersusu"
+   },
+   {
+    "zh": "插秧后第一周",
+    "en": "The first week after transplanting",
+    "ms": "Minggu pertama selepas mengubah"
+   },
+   {
+    "zh": "收割后",
+    "en": "After harvest",
+    "ms": "Selepas menuai"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它吸食正在灌浆的谷粒。",
+   "en": "It sucks the filling grains.",
+   "ms": "Ia menghisap bijirin yang sedang berisi."
+  },
+  "src": [
+   "IRRI-RB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p37",
+  "q": {
+   "zh": "每丛多少只才考虑防治？",
+   "en": "At how many bugs per hill should you consider treatment?",
+   "ms": "Pada berapa ekor serumpun patut dipertimbangkan rawatan?"
+  },
+  "options": [
+   {
+    "zh": "10 只或以上",
+    "en": "10 or more",
+    "ms": "10 ekor atau lebih"
+   },
+   {
+    "zh": "1 只",
+    "en": "1",
+    "ms": "1 ekor"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "随机查 20 丛后计算平均数。",
+   "en": "Average over 20 hills checked at random.",
+   "ms": "Purata daripada 20 rumpun yang diperiksa secara rawak."
+  },
+  "src": [
+   "CABI-RB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p37",
+  "q": {
+   "zh": "清除田边的禾本科杂草有助减少稻缘蝽。",
+   "en": "Clearing grassy weeds around fields helps reduce rice bugs.",
+   "ms": "Membersihkan rumpai rumput di sekitar petak membantu mengurangkan pianggang."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "稗草等杂草是它的寄主。",
+   "en": "Weeds such as barnyard grass are its hosts.",
+   "ms": "Rumpai seperti rumput sambau ialah perumahnya."
+  },
+  "src": [
+   "JIRCAS-MUDA"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p38",
+  "q": {
+   "zh": "「白穗」是什么？",
+   "en": "What is a whitehead?",
+   "ms": "Apakah tangkai putih?"
+  },
+  "options": [
+   {
+    "zh": "变白的空穗",
+    "en": "An empty white panicle",
+    "ms": "Tangkai putih yang hampa"
+   },
+   {
+    "zh": "白色的卵块",
+    "en": "A white egg mass",
+    "ms": "Kelompok telur putih"
+   },
+   {
+    "zh": "白色的蛾",
+    "en": "A white moth",
+    "ms": "Rama-rama putih"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "生殖生长期受螟虫危害的结果。",
+   "en": "It comes from stem borer attack in the reproductive stage.",
+   "ms": "Ia akibat serangan pengorek batang pada peringkat pembiakan."
+  },
+  "src": [
+   "IRRI-SB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p38",
+  "q": {
+   "zh": "怎样分辨三化螟的雌蛾？",
+   "en": "How do you recognise a female yellow stem borer?",
+   "ms": "Bagaimana mengenal betina pengorek batang kuning?"
+  },
+  "options": [
+   {
+    "zh": "前翅各有一个黑点",
+    "en": "One black spot on each forewing",
+    "ms": "Satu bintik hitam pada setiap sayap depan"
+   },
+   {
+    "zh": "翅上有绿色条纹",
+    "en": "Green stripes on the wings",
+    "ms": "Jalur hijau pada sayap"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "雄蛾较小，没有黑点。",
+   "en": "Males are smaller and lack the spot.",
+   "ms": "Jantan lebih kecil dan tiada bintik."
+  },
+  "src": [
+   "TNAU-YSB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p38",
+  "q": {
+   "zh": "收割后立即犁田可以减少下一季的螟虫。",
+   "en": "Ploughing right after harvest reduces stem borers next season.",
+   "ms": "Membajak sejurus selepas menuai mengurangkan pengorek batang musim depan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "可以杀死稻桩里的幼虫和蛹。",
+   "en": "It kills larvae and pupae in the stubble.",
+   "ms": "Ia membunuh larva dan pupa dalam tunggul."
+  },
+  "src": [
+   "PHILRICE-SB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p39",
+  "q": {
+   "zh": "稻纵卷叶螟的幼虫在哪里吃？",
+   "en": "Where does the rice leaffolder larva feed?",
+   "ms": "Di manakah larva ulat lipat daun makan?"
+  },
+  "options": [
+   {
+    "zh": "卷起来的叶子里",
+    "en": "Inside a folded leaf",
+    "ms": "Di dalam daun yang dilipat"
+   },
+   {
+    "zh": "稻茎里",
+    "en": "Inside the stem",
+    "ms": "Di dalam batang"
+   },
+   {
+    "zh": "根部",
+    "en": "On the roots",
+    "ms": "Pada akar"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它用丝把叶子缝起来。",
+   "en": "It ties the leaf with silk.",
+   "ms": "Ia mengikat daun dengan sutera."
+  },
+  "src": [
+   "IRRI-LF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p39",
+  "q": {
+   "zh": "插秧后头 40 天最好不要为卷叶螟喷药。",
+   "en": "It is best not to spray for leaffolders in the first 40 days.",
+   "ms": "Sebaiknya tidak menyembur untuk ulat lipat daun dalam 40 hari pertama."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "稻株能从早期损伤中恢复。",
+   "en": "Rice recovers from early damage.",
+   "ms": "Padi pulih daripada kerosakan awal."
+  },
+  "src": [
+   "PP-LF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p39",
+  "q": {
+   "zh": "什么会让卷叶螟变多？",
+   "en": "What favours leaffolders?",
+   "ms": "Apakah yang menggalakkan ulat lipat daun?"
+  },
+  "options": [
+   {
+    "zh": "施太多肥料",
+    "en": "Too much fertiliser",
+    "ms": "Baja terlalu banyak"
+   },
+   {
+    "zh": "干燥的天气",
+    "en": "Dry weather",
+    "ms": "Cuaca kering"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "高湿度和阴暗处也有利于它。",
+   "en": "High humidity and shade also favour it.",
+   "ms": "Kelembapan tinggi dan teduhan juga menggalakkannya."
+  },
+  "src": [
+   "IRRI-LF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p40",
+  "q": {
+   "zh": "哪一种瓢虫是害虫？",
+   "en": "Which ladybird is a pest?",
+   "ms": "Kumbang kura-kura manakah perosak?"
+  },
+  "options": [
+   {
+    "zh": "二十八星瓢虫",
+    "en": "28-spotted ladybird",
+    "ms": "Kumbang kura-kura 28 bintik"
+   },
+   {
+    "zh": "六斑月瓢虫",
+    "en": "Zigzag ladybird",
+    "ms": "Kumbang kura-kura zigzag"
+   },
+   {
+    "zh": "横斑瓢虫",
+    "en": "Transverse ladybird",
+    "ms": "Kumbang kura-kura melintang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它吃茄子等茄科植物的叶子。",
+   "en": "It eats the leaves of brinjal and its relatives.",
+   "ms": "Ia memakan daun terung dan saudaranya."
+  },
+  "src": [
+   "JPP-EPI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p40",
+  "q": {
+   "zh": "草地贪夜蛾哪一年在马来西亚首次确认？",
+   "en": "When was the fall armyworm first confirmed in Malaysia?",
+   "ms": "Bilakah fall armyworm pertama kali disahkan di Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "2019 年",
+    "en": "2019",
+    "ms": "2019"
+   },
+   {
+    "zh": "1999 年",
+    "en": "1999",
+    "ms": "1999"
+   },
+   {
+    "zh": "2009 年",
+    "en": "2009",
+    "ms": "2009"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "样本来自玻璃市 Chuping 的玉米田。",
+   "en": "The sample came from maize at Chuping, Perlis.",
+   "ms": "Sampel dari jagung di Chuping, Perlis."
+  },
+  "src": [
+   "IPPC-FAW"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p40",
+  "q": {
+   "zh": "粉虱和蚜虫都会传播植物病毒。",
+   "en": "Whiteflies and aphids both spread plant viruses.",
+   "ms": "Lalat putih dan afid kedua-duanya menyebarkan virus tumbuhan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "粉虱传播辣椒卷叶病毒，蚜虫传播辣椒脉斑驳病毒。",
+   "en": "Whiteflies spread chilli leaf curl virus; aphids spread chilli veinal mottle virus.",
+   "ms": "Lalat putih menyebarkan virus keriting daun cili; afid menyebarkan virus belang urat cili."
+  },
+  "src": [
+   "FRONT-CHILCV",
+   "UPM-CHILLI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p41",
+  "q": {
+   "zh": "小菜蛾停下时，翅膀上有什么花纹？",
+   "en": "What pattern shows on a resting diamondback moth?",
+   "ms": "Corak apakah kelihatan pada ulat belakang berlian yang hinggap?"
+  },
+  "options": [
+   {
+    "zh": "菱形",
+    "en": "A diamond",
+    "ms": "Berlian"
+   },
+   {
+    "zh": "圆点",
+    "en": "Round spots",
+    "ms": "Bintik bulat"
+   },
+   {
+    "zh": "横带",
+    "en": "Cross-bands",
+    "ms": "Jalur melintang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "名字就是这样来的。",
+   "en": "That is where the name comes from.",
+   "ms": "Dari situlah namanya."
+  },
+  "src": [
+   "CLEMSON-BR"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p41",
+  "q": {
+   "zh": "一直只用 Bt 也不会让小菜蛾产生抗性。",
+   "en": "Using only Bt, over and over, cannot make the moth resistant.",
+   "ms": "Menggunakan Bt sahaja berulang kali tidak boleh menjadikan rama-rama ini rintang."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "金马仑高原的小菜蛾早在 1994 年就对 Bt 有抗性。",
+   "en": "Cameron Highlands moths already resisted Bt in 1994.",
+   "ms": "Rama-rama Cameron Highlands sudah rintang terhadap Bt pada 1994."
+  },
+  "src": [
+   "DBM-CH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p41",
+  "q": {
+   "zh": "「窗孔」是怎样形成的？",
+   "en": "How do 'windowpanes' form?",
+   "ms": "Bagaimana 'tingkap' terbentuk?"
+  },
+  "options": [
+   {
+    "zh": "幼虫吃掉叶肉，只留一层表皮",
+    "en": "Larvae eat the tissue and leave only the upper skin",
+    "ms": "Larva memakan tisu dan tinggal kulit atas sahaja"
+   },
+   {
+    "zh": "叶子被晒伤",
+    "en": "Sunburn",
+    "ms": "Selaran matahari"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是小菜蛾幼虫典型的吃法。",
+   "en": "It is the typical feeding sign of the larvae.",
+   "ms": "Ia tanda makan biasa larva ini."
+  },
+  "src": [
+   "UF-DBM"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p42",
+  "q": {
+   "zh": "斜纹夜蛾的卵块是什么样子？",
+   "en": "What does a common cutworm egg mass look like?",
+   "ms": "Bagaimanakah rupa kelompok telur ulat Spodoptera litura?"
+  },
+  "options": [
+   {
+    "zh": "盖着鳞毛的白黄色卵块",
+    "en": "Whitish yellow, covered with scales",
+    "ms": "Putih kekuningan, ditutup sisik"
+   },
+   {
+    "zh": "单粒红色的卵",
+    "en": "Single red eggs",
+    "ms": "Telur merah sebiji-sebiji"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "鳞毛来自雌蛾身上。",
+   "en": "The scales come from the female moth.",
+   "ms": "Sisik itu dari rama-rama betina."
+  },
+  "src": [
+   "MSU-SL"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p42",
+  "q": {
+   "zh": "斜纹夜蛾只吃一种植物。",
+   "en": "The common cutworm eats only one kind of plant.",
+   "ms": "Ulat Spodoptera litura hanya memakan satu jenis tumbuhan."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "它的寄主超过 120 种植物。",
+   "en": "It has more than 120 host plants.",
+   "ms": "Ia mempunyai lebih 120 tumbuhan perumah."
+  },
+  "src": [
+   "MSU-SL"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p42",
+  "q": {
+   "zh": "刚孵化的幼虫怎样吃？",
+   "en": "How do newly hatched larvae feed?",
+   "ms": "Bagaimana larva yang baru menetas makan?"
+  },
+  "options": [
+   {
+    "zh": "成群刮食叶面",
+    "en": "In groups, scraping the leaf surface",
+    "ms": "Berkumpulan, mengikis permukaan daun"
+   },
+   {
+    "zh": "钻进根里",
+    "en": "Boring into the roots",
+    "ms": "Mengorek akar"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "大一点后才分散、咬出大洞。",
+   "en": "They spread out and chew big holes later.",
+   "ms": "Ia berselerak dan menggigit lubang besar kemudian."
+  },
+  "src": [
+   "EWS-SL"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p43",
+  "q": {
+   "zh": "草地贪夜蛾在马来西亚首次在哪里确认？",
+   "en": "Where in Malaysia was the fall armyworm first confirmed?",
+   "ms": "Di manakah fall armyworm pertama kali disahkan di Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "玻璃市 Chuping 的玉米",
+    "en": "Maize at Chuping, Perlis",
+    "ms": "Jagung di Chuping, Perlis"
+   },
+   {
+    "zh": "金马仑高原的包菜",
+    "en": "Cabbage in the Cameron Highlands",
+    "ms": "Kubis di Cameron Highlands"
+   },
+   {
+    "zh": "沙巴的油棕",
+    "en": "Oil palm in Sabah",
+    "ms": "Sawit di Sabah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "2019 年 2 月采的样本。",
+   "en": "Samples collected in February 2019.",
+   "ms": "Sampel dikutip pada Februari 2019."
+  },
+  "src": [
+   "IPPC-FAW"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p43",
+  "q": {
+   "zh": "幼虫腹部第 8 节有什么特征？",
+   "en": "What marks segment 8 of the larva?",
+   "ms": "Apakah tanda pada ruas 8 larva?"
+  },
+  "options": [
+   {
+    "zh": "四个大黑点排成正方形",
+    "en": "Four large black dots in a square",
+    "ms": "Empat titik hitam besar dalam segi empat sama"
+   },
+   {
+    "zh": "一条白色横带",
+    "en": "A white band",
+    "ms": "Jalur putih"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "加上头部的倒 Y，就是辨认重点。",
+   "en": "With the upside-down Y on the head, this is the key mark.",
+   "ms": "Bersama Y terbalik di kepala, inilah tanda utama."
+  },
+  "src": [
+   "MPI-FAW"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p43",
+  "q": {
+   "zh": "草地贪夜蛾只吃玉米。",
+   "en": "The fall armyworm eats only maize.",
+   "ms": "Fall armyworm hanya memakan jagung."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "记录到的寄主超过 350 种，包括水稻。",
+   "en": "More than 350 host species are recorded, including rice.",
+   "ms": "Lebih 350 spesies perumah direkodkan, termasuk padi."
+  },
+  "src": [
+   "SER-FAW"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p44",
+  "q": {
+   "zh": "粉虱传播哪一种辣椒病毒？",
+   "en": "Which chilli virus does the whitefly spread?",
+   "ms": "Virus cili manakah disebarkan lalat putih?"
+  },
+  "options": [
+   {
+    "zh": "辣椒卷叶病毒",
+    "en": "Chilli leaf curl virus",
+    "ms": "Virus keriting daun cili"
+   },
+   {
+    "zh": "东格鲁病毒",
+    "en": "Tungro virus",
+    "ms": "Virus tungro"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "在印度可让辣椒减产 20%–50%。",
+   "en": "In India it cuts chilli yields by 20–50%.",
+   "ms": "Di India ia mengurangkan hasil cili 20–50%."
+  },
+  "src": [
+   "FRONT-CHILCV"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p44",
+  "q": {
+   "zh": "单靠黄色黏虫板就能在田间控制粉虱。",
+   "en": "Yellow sticky traps alone control whiteflies in the field.",
+   "ms": "Perangkap melekit kuning sahaja mengawal lalat putih di ladang."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "黏虫板适合用来发现粉虱，田间单用效果不明显。",
+   "en": "Traps are good for detecting them, but alone do little in the field.",
+   "ms": "Perangkap baik untuk mengesan, tetapi sahaja kurang berkesan di ladang."
+  },
+  "src": [
+   "JIS-YST"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p44",
+  "q": {
+   "zh": "粉虱的蜜露会引起什么？",
+   "en": "What does whitefly honeydew lead to?",
+   "ms": "Embun madu lalat putih membawa kepada apa?"
+  },
+  "options": [
+   {
+    "zh": "黑色的煤污病",
+    "en": "Black sooty mould",
+    "ms": "Kulapuk jelaga hitam"
+   },
+   {
+    "zh": "叶子变红",
+    "en": "Red leaves",
+    "ms": "Daun merah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "煤污病遮住阳光。",
+   "en": "The mould blocks light.",
+   "ms": "Kulapuk itu menghalang cahaya."
+  },
+  "src": [
+   "PP-WF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p45",
+  "q": {
+   "zh": "在金马仑高原，棕榈蓟马主要在哪里吃？",
+   "en": "Where do melon thrips mainly feed in the Cameron Highlands?",
+   "ms": "Di manakah trips melon makan terutamanya di Cameron Highlands?"
+  },
+  "options": [
+   {
+    "zh": "花里",
+    "en": "Inside the flowers",
+    "ms": "Di dalam bunga"
+   },
+   {
+    "zh": "根部",
+    "en": "On the roots",
+    "ms": "Pada akar"
+   },
+   {
+    "zh": "茎里",
+    "en": "Inside the stem",
+    "ms": "Di dalam batang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "每朵花约 5 只。",
+   "en": "About five per flower.",
+   "ms": "Kira-kira lima sekuntum."
+  },
+  "src": [
+   "SER-THRIPS"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p45",
+  "q": {
+   "zh": "棕榈蓟马成虫大约多长？",
+   "en": "How long is an adult melon thrips?",
+   "ms": "Berapa panjang trips melon dewasa?"
+  },
+  "options": [
+   {
+    "zh": "1.0–1.3 毫米",
+    "en": "1.0–1.3 mm",
+    "ms": "1.0–1.3 mm"
+   },
+   {
+    "zh": "1 厘米",
+    "en": "1 cm",
+    "ms": "1 cm"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "要用放大镜或显微镜才看得清。",
+   "en": "You need a lens or microscope to see it well.",
+   "ms": "Kanta atau mikroskop diperlukan untuk melihatnya dengan jelas."
+  },
+  "src": [
+   "DEFRA-TP"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p45",
+  "q": {
+   "zh": "广谱杀虫剂对蓟马天敌的伤害比对蓟马大。",
+   "en": "Broad-spectrum insecticides harm thrips' natural enemies more than the thrips.",
+   "ms": "Racun spektrum luas lebih memudaratkan musuh semula jadi trips daripada trips."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "所以要避免使用。",
+   "en": "So avoid them.",
+   "ms": "Jadi elakkan."
+  },
+  "src": [
+   "PP-TP"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p46",
+  "q": {
+   "zh": "在马来西亚，瓜蚜传播哪一种辣椒病毒？",
+   "en": "Which chilli virus does the melon aphid spread in Malaysia?",
+   "ms": "Virus cili manakah disebarkan afid kapas di Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "辣椒脉斑驳病毒",
+    "en": "Chilli veinal mottle virus",
+    "ms": "Virus belang urat cili"
+   },
+   {
+    "zh": "东格鲁病毒",
+    "en": "Tungro virus",
+    "ms": "Virus tungro"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "可减产高达 60%。",
+   "en": "It can cut yields by up to 60%.",
+   "ms": "Ia boleh mengurangkan hasil sehingga 60%."
+  },
+  "src": [
+   "UPM-CHILLI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p46",
+  "q": {
+   "zh": "蚂蚁会保护蚜虫。",
+   "en": "Ants can protect aphids.",
+   "ms": "Semut boleh melindungi afid."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蚂蚁为了蜜露照顾蚜虫，可能赶走天敌。",
+   "en": "Ants tend aphids for honeydew and may keep predators away.",
+   "ms": "Semut menjaga afid untuk embun madu dan mungkin menghalang pemangsa."
+  },
+  "src": [
+   "UF-APH"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p46",
+  "q": {
+   "zh": "马来西亚辣椒田里吃瓜蚜最主要的天敌是谁？",
+   "en": "What is the main predator of the melon aphid in Malaysian chilli?",
+   "ms": "Apakah pemangsa utama afid kapas di ladang cili Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "六斑月瓢虫",
+    "en": "Zigzag ladybird",
+    "ms": "Kumbang kura-kura zigzag"
+   },
+   {
+    "zh": "二十八星瓢虫",
+    "en": "28-spotted ladybird",
+    "ms": "Kumbang kura-kura 28 bintik"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "二十八星瓢虫吃叶子，不吃蚜虫。",
+   "en": "The 28-spotted ladybird eats leaves, not aphids.",
+   "ms": "Kumbang kura-kura 28 bintik memakan daun, bukan afid."
+  },
+  "src": [
+   "UPM-CHILLI",
+   "JPP-EPI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p47",
+  "q": {
+   "zh": "苦瓜被瓜实蝇危害，最早的症状是什么？",
+   "en": "What is the first sign of melon fly on bitter gourd?",
+   "ms": "Apakah tanda pertama lalat buah tembikai pada peria?"
+  },
+  "options": [
+   {
+    "zh": "果实提早变黄",
+    "en": "Early yellowing of the fruit",
+    "ms": "Buah menguning awal"
+   },
+   {
+    "zh": "叶子出现白色条纹",
+    "en": "White streaks on leaves",
+    "ms": "Jalur putih pada daun"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "之后果实腐烂、掉落。",
+   "en": "Then the fruit rots and drops.",
+   "ms": "Kemudian buah reput dan gugur."
+  },
+  "src": [
+   "PP-MF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p47",
+  "q": {
+   "zh": "瓜实蝇雄虫被哪一种诱剂吸引？",
+   "en": "Which lure attracts melon fly males?",
+   "ms": "Pemikat manakah menarik lalat buah tembikai jantan?"
+  },
+  "options": [
+   {
+    "zh": "Cue-lure",
+    "en": "Cue-lure",
+    "ms": "Cue-lure"
+   },
+   {
+    "zh": "甲基丁香酚",
+    "en": "Methyl eugenol",
+    "ms": "Metil eugenol"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "甲基丁香酚吸引的是橘小实蝇。",
+   "en": "Methyl eugenol attracts the oriental fruit fly.",
+   "ms": "Metil eugenol menarik lalat buah oriental."
+  },
+  "src": [
+   "FFID-LURE"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p47",
+  "q": {
+   "zh": "套袋可以保护瓜果不被瓜实蝇产卵。",
+   "en": "Bagging protects gourds from melon fly egg-laying.",
+   "ms": "Membalut melindungi labu daripada telur lalat buah tembikai."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "套袋是主要的栽培防治方法之一。",
+   "en": "Bagging is one of the main cultural methods.",
+   "ms": "Membalut ialah salah satu kaedah kultur utama."
+  },
+  "src": [
+   "PP-MF"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p48",
+  "q": {
+   "zh": "二十八星瓢虫吃什么？",
+   "en": "What does the 28-spotted ladybird eat?",
+   "ms": "Apakah makanan kumbang kura-kura 28 bintik?"
+  },
+  "options": [
+   {
+    "zh": "茄子等植物的叶子",
+    "en": "Leaves of brinjal and similar plants",
+    "ms": "Daun terung dan tumbuhan serupa"
+   },
+   {
+    "zh": "蚜虫",
+    "en": "Aphids",
+    "ms": "Afid"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "所以它是害虫。",
+   "en": "So it is a pest.",
+   "ms": "Jadi ia perosak."
+  },
+  "src": [
+   "JPP-EPI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p48",
+  "q": {
+   "zh": "它的幼虫有什么特征？",
+   "en": "What marks its larva?",
+   "ms": "Apakah ciri larvanya?"
+  },
+  "options": [
+   {
+    "zh": "满身分枝的刺",
+    "en": "Covered in branched spines",
+    "ms": "Dipenuhi duri bercabang"
+   },
+   {
+    "zh": "光滑无毛",
+    "en": "Smooth and bare",
+    "ms": "Licin tanpa bulu"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "吃叶的瓢虫亚科（Epilachninae）幼虫都是这样。",
+   "en": "Larvae of the leaf-eating ladybirds (Epilachninae) look like this.",
+   "ms": "Larva kumbang kura-kura pemakan daun (Epilachninae) kelihatan begini."
+  },
+  "src": [
+   "KAPUR-1950"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p48",
+  "q": {
+   "zh": "单靠瓜类，二十八星瓢虫无法完成生活史。",
+   "en": "It cannot complete its life on cucurbits alone.",
+   "ms": "Ia tidak dapat melengkapkan hidupnya pada tanaman labu sahaja."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它主要靠茄科植物。",
+   "en": "It relies mainly on the tomato family.",
+   "ms": "Ia bergantung terutamanya pada famili tomato."
+  },
+  "src": [
+   "SHIRAI-EPI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p49",
+  "q": {
+   "zh": "横斑瓢虫吃什么？",
+   "en": "What does the transverse ladybird eat?",
+   "ms": "Apakah makanan kumbang kura-kura melintang?"
+  },
+  "options": [
+   {
+    "zh": "蚜虫",
+    "en": "Aphids",
+    "ms": "Afid"
+   },
+   {
+    "zh": "茄子叶",
+    "en": "Brinjal leaves",
+    "ms": "Daun terung"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它是益虫。",
+   "en": "It is a helpful insect.",
+   "ms": "Ia serangga berguna."
+  },
+  "src": [
+   "INDJ-CT"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p49",
+  "q": {
+   "zh": "横斑瓢虫鞘翅中央有什么？",
+   "en": "What runs down the middle of the transverse ladybird's wing covers?",
+   "ms": "Apakah yang terdapat di tengah kepak kumbang kura-kura melintang?"
+  },
+  "options": [
+   {
+    "zh": "一条黑色纵线",
+    "en": "A black line",
+    "ms": "Garis hitam"
+   },
+   {
+    "zh": "28 个黑点",
+    "en": "28 black spots",
+    "ms": "28 bintik hitam"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "两边还有 V 字形黑斑。",
+   "en": "With V-shaped black marks on each side.",
+   "ms": "Dengan tanda V hitam di setiap sisi."
+  },
+  "src": [
+   "BRIS-CT"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p49",
+  "q": {
+   "zh": "所有瓢虫都是益虫。",
+   "en": "All ladybirds are helpful.",
+   "ms": "Semua kumbang kura-kura berguna."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "二十八星瓢虫吃叶子，是害虫。",
+   "en": "The 28-spotted ladybird eats leaves and is a pest.",
+   "ms": "Kumbang kura-kura 28 bintik memakan daun dan ialah perosak."
+  },
+  "src": [
+   "JPP-EPI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p50",
+  "q": {
+   "zh": "在马来西亚辣椒田，六斑月瓢虫吃什么？",
+   "en": "What does the zigzag ladybird eat in Malaysian chilli fields?",
+   "ms": "Apakah makanan kumbang kura-kura zigzag di ladang cili Malaysia?"
+  },
+  "options": [
+   {
+    "zh": "瓜蚜",
+    "en": "Melon aphids",
+    "ms": "Afid kapas"
+   },
+   {
+    "zh": "辣椒叶",
+    "en": "Chilli leaves",
+    "ms": "Daun cili"
+   },
+   {
+    "zh": "花粉",
+    "en": "Pollen",
+    "ms": "Debunga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它是瓜蚜最主要的捕食者。",
+   "en": "It is the main predator of the melon aphid.",
+   "ms": "Ia pemangsa utama afid kapas."
+  },
+  "src": [
+   "UPM-CHILLI"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p50",
+  "q": {
+   "zh": "六斑月瓢虫的颜色每只都一样。",
+   "en": "Every zigzag ladybird has the same colours.",
+   "ms": "Setiap kumbang kura-kura zigzag berwarna sama."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "它有好几种色型。",
+   "en": "It has several colour forms.",
+   "ms": "Ia mempunyai beberapa bentuk warna."
+  },
+  "src": [
+   "IJCMAS-CS"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p50",
+  "q": {
+   "zh": "马来西亚较早的论文用什么学名？",
+   "en": "What name do older Malaysian papers use?",
+   "ms": "Nama apakah digunakan kertas Malaysia yang lebih lama?"
+  },
+  "options": [
+   {
+    "zh": "Menochilus sexmaculatus",
+    "en": "Menochilus sexmaculatus",
+    "ms": "Menochilus sexmaculatus"
+   },
+   {
+    "zh": "Epilachna sexmaculata",
+    "en": "Epilachna sexmaculata",
+    "ms": "Epilachna sexmaculata"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "现在归入 Cheilomenes。",
+   "en": "It is now placed in Cheilomenes.",
+   "ms": "Kini diletakkan dalam Cheilomenes."
+  },
+  "src": [
+   "UPM-DIST"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p51",
+  "q": {
+   "zh": "柑橘木虱传播哪一种病？",
+   "en": "Which disease does the Asian citrus psyllid spread?",
+   "ms": "Penyakit apakah disebarkan psilid limau Asia?"
+  },
+  "options": [
+   {
+    "zh": "黄龙病",
+    "en": "Huanglongbing (citrus greening)",
+    "ms": "Huanglongbing (penghijauan limau)"
+   },
+   {
+    "zh": "东格鲁病",
+    "en": "Tungro",
+    "ms": "Tungro"
+   },
+   {
+    "zh": "煤污病",
+    "en": "Sooty mould",
+    "ms": "Kulapuk jelaga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "黄龙病是马来西亚最严重的柑橘病害。",
+   "en": "It is the most serious citrus disease in Malaysia.",
+   "ms": "Ia penyakit limau paling serius di Malaysia."
+  },
+  "src": [
+   "PMC-HLB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p51",
+  "q": {
+   "zh": "杨桃实蝇和橘小实蝇用肉眼就能轻易分清。",
+   "en": "Carambola and oriental fruit flies are easy to tell apart by eye.",
+   "ms": "Lalat buah belimbing dan oriental mudah dibezakan dengan mata."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "两者非常接近，需要专家。",
+   "en": "They are very close; an expert is needed.",
+   "ms": "Kedua-duanya sangat hampir; pakar diperlukan."
+  },
+  "src": [
+   "IPPC-DP29"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p51",
+  "q": {
+   "zh": "哪一种幼虫小时候像鸟粪？",
+   "en": "Which caterpillar looks like a bird dropping when young?",
+   "ms": "Ulat manakah menyerupai najis burung semasa muda?"
+  },
+  "options": [
+   {
+    "zh": "柑橘凤蝶",
+    "en": "Lime butterfly",
+    "ms": "Rama-rama limau"
+   },
+   {
+    "zh": "香蕉弄蝶",
+    "en": "Banana skipper",
+    "ms": "Rama-rama pisang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "最后一龄才变成绿色。",
+   "en": "It turns green only in the last stage.",
+   "ms": "Ia menjadi hijau hanya pada peringkat terakhir."
+  },
+  "src": [
+   "UF-PD"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p52",
+  "q": {
+   "zh": "杨桃实蝇翅尖的深色带是怎样的？",
+   "en": "What does the dark band at the carambola fruit fly's wing tip do?",
+   "ms": "Bagaimanakah jalur gelap di hujung sayap lalat buah belimbing?"
+  },
+  "options": [
+   {
+    "zh": "变宽",
+    "en": "It widens",
+    "ms": "Ia melebar"
+   },
+   {
+    "zh": "消失",
+    "en": "It disappears",
+    "ms": "Ia hilang"
+   },
+   {
+    "zh": "变成红色",
+    "en": "It turns red",
+    "ms": "Ia menjadi merah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "橘小实蝇的则保持很窄。",
+   "en": "In the oriental fruit fly it stays very narrow.",
+   "ms": "Pada lalat buah oriental ia kekal sangat sempit."
+  },
+  "src": [
+   "FFID-CARAM",
+   "FFID-DORS"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p52",
+  "q": {
+   "zh": "橘小实蝇的雄虫被什么吸引？",
+   "en": "What attracts oriental fruit fly males?",
+   "ms": "Apakah yang menarik lalat buah oriental jantan?"
+  },
+  "options": [
+   {
+    "zh": "甲基丁香酚",
+    "en": "Methyl eugenol",
+    "ms": "Metil eugenol"
+   },
+   {
+    "zh": "Cue-lure",
+    "en": "Cue-lure",
+    "ms": "Cue-lure"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "Cue-lure 吸引的是瓜实蝇。",
+   "en": "Cue-lure attracts the melon fly.",
+   "ms": "Cue-lure menarik lalat buah tembikai."
+  },
+  "src": [
+   "FFID-LURE"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p52",
+  "q": {
+   "zh": "杨桃实蝇胸部中央有一条黄色纵带。",
+   "en": "The carambola fruit fly has a yellow stripe down the middle of the thorax.",
+   "ms": "Lalat buah belimbing mempunyai jalur kuning di tengah toraks."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "它只有两侧的黄带，中间没有。",
+   "en": "It has only the side stripes, none in the middle.",
+   "ms": "Ia hanya mempunyai jalur sisi, tiada di tengah."
+  },
+  "src": [
+   "FFID-CARAM"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p53",
+  "q": {
+   "zh": "柑橘木虱吸食时是什么姿势？",
+   "en": "How does the citrus psyllid sit when feeding?",
+   "ms": "Bagaimanakah kedudukan psilid limau semasa makan?"
+  },
+  "options": [
+   {
+    "zh": "头低尾翘，约 45 度",
+    "en": "Head down, abdomen raised, about 45°",
+    "ms": "Kepala ke bawah, abdomen terangkat, kira-kira 45°"
+   },
+   {
+    "zh": "平贴在叶上",
+    "en": "Flat on the leaf",
+    "ms": "Rata pada daun"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这个姿势有助野外辨认。",
+   "en": "The posture helps identify it in the field.",
+   "ms": "Kedudukan ini membantu pengecaman di lapangan."
+  },
+  "src": [
+   "DPIRD-ACP"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p53",
+  "q": {
+   "zh": "用带病的圈枝苗是黄龙病在马来西亚扩散的主要原因之一。",
+   "en": "Infected air-layered planting material helped huanglongbing spread in Malaysia.",
+   "ms": "Anak benih tut yang dijangkiti membantu penularan huanglongbing di Malaysia."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "所以要用无病种苗。",
+   "en": "So use disease-free planting material.",
+   "ms": "Jadi gunakan bahan tanaman bebas penyakit."
+  },
+  "src": [
+   "FFTC-HLB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p53",
+  "q": {
+   "zh": "Tamarixia radiata 是什么？",
+   "en": "What is Tamarixia radiata?",
+   "ms": "Apakah Tamarixia radiata?"
+  },
+  "options": [
+   {
+    "zh": "寄生木虱若虫的小蜂",
+    "en": "A wasp that parasitises psyllid nymphs",
+    "ms": "Tebuan yang memparasit nimfa psilid"
+   },
+   {
+    "zh": "一种柑橘品种",
+    "en": "A citrus variety",
+    "ms": "Varieti limau"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它是天敌。",
+   "en": "It is a natural enemy.",
+   "ms": "Ia musuh semula jadi."
+  },
+  "src": [
+   "UF-TAMAR"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p54",
+  "q": {
+   "zh": "香蕉弄蝶的幼虫住在哪里？",
+   "en": "Where does the banana skipper caterpillar live?",
+   "ms": "Di manakah ulat rama-rama pisang tinggal?"
+  },
+  "options": [
+   {
+    "zh": "卷起来的香蕉叶里",
+    "en": "Inside a rolled banana leaf",
+    "ms": "Di dalam daun pisang yang digulung"
+   },
+   {
+    "zh": "香蕉果里",
+    "en": "Inside the fruit",
+    "ms": "Di dalam buah"
+   },
+   {
+    "zh": "土里",
+    "en": "In the soil",
+    "ms": "Di dalam tanah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "叶卷长达 15 厘米。",
+   "en": "The rolls are up to 15 cm long.",
+   "ms": "Gulungan sehingga 15 cm panjang."
+  },
+  "src": [
+   "PHA-BSK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p54",
+  "q": {
+   "zh": "幼虫身上盖着什么？",
+   "en": "What covers the caterpillar's body?",
+   "ms": "Apakah yang menutupi badan ulat?"
+  },
+  "options": [
+   {
+    "zh": "白色蜡粉",
+    "en": "White waxy powder",
+    "ms": "Serbuk lilin putih"
+   },
+   {
+    "zh": "黑色长毛",
+    "en": "Long black hairs",
+    "ms": "Bulu hitam panjang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "头部则是黑亮的。",
+   "en": "Its head is shiny black.",
+   "ms": "Kepalanya hitam berkilat."
+  },
+  "src": [
+   "PHA-BSK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p54",
+  "q": {
+   "zh": "引进寄生蜂曾成功控制香蕉弄蝶。",
+   "en": "Introduced parasitoids have controlled the banana skipper.",
+   "ms": "Parasitoid yang dibawa masuk pernah mengawal rama-rama pisang."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "关岛、毛里求斯和夏威夷都成功了。",
+   "en": "It worked in Guam, Mauritius and Hawaii.",
+   "ms": "Ia berjaya di Guam, Mauritius dan Hawaii."
+  },
+  "src": [
+   "SANDS-BSK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p55",
+  "q": {
+   "zh": "柑橘凤蝶的小幼虫看起来像什么？",
+   "en": "What do young lime butterfly caterpillars look like?",
+   "ms": "Ulat muda rama-rama limau kelihatan seperti apa?"
+  },
+  "options": [
+   {
+    "zh": "鸟粪",
+    "en": "Bird droppings",
+    "ms": "Najis burung"
+   },
+   {
+    "zh": "树枝",
+    "en": "Twigs",
+    "ms": "Ranting"
+   },
+   {
+    "zh": "花",
+    "en": "Flowers",
+    "ms": "Bunga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "黑色加灰白色横带。",
+   "en": "Black with off-white bands.",
+   "ms": "Hitam dengan jalur putih kusam."
+  },
+  "src": [
+   "UF-PD"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p55",
+  "q": {
+   "zh": "柑橘凤蝶的最后一龄幼虫是绿色的。",
+   "en": "The last-stage lime butterfly caterpillar is green.",
+   "ms": "Ulat rama-rama limau peringkat terakhir berwarna hijau."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "第 5 龄变绿。",
+   "en": "The fifth stage turns green.",
+   "ms": "Peringkat kelima menjadi hijau."
+  },
+  "src": [
+   "UF-PD"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p55",
+  "q": {
+   "zh": "柑橘凤蝶的幼虫吃什么？",
+   "en": "What do lime butterfly caterpillars eat?",
+   "ms": "Apakah makanan ulat rama-rama limau?"
+  },
+  "options": [
+   {
+    "zh": "柑橘叶",
+    "en": "Citrus leaves",
+    "ms": "Daun limau"
+   },
+   {
+    "zh": "香蕉叶",
+    "en": "Banana leaves",
+    "ms": "Daun pisang"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "所以叫柑橘凤蝶。",
+   "en": "Hence its name.",
+   "ms": "Itulah sebab namanya."
+  },
+  "src": [
+   "UF-PD"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p56",
+  "q": {
+   "zh": "可可荚螟从多长的荚开始危害？",
+   "en": "From what pod length does the pod borer attack?",
+   "ms": "Dari panjang buah berapakah pengorek buah menyerang?"
+  },
+  "options": [
+   {
+    "zh": "超过 7 厘米",
+    "en": "Longer than 7 cm",
+    "ms": "Lebih 7 cm"
+   },
+   {
+    "zh": "超过 30 厘米",
+    "en": "Longer than 30 cm",
+    "ms": "Lebih 30 cm"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "盲蝽则更早开始。",
+   "en": "Mirids start even earlier.",
+   "ms": "Kepinding bermula lebih awal."
+  },
+  "src": [
+   "BAKAR-2020"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p56",
+  "q": {
+   "zh": "两种可可害虫的管理要在荚长不到 8 厘米时开始。",
+   "en": "Management of both cocoa pests should start before pods reach 8 cm.",
+   "ms": "Pengurusan kedua-dua perosak koko patut bermula sebelum buah mencapai 8 cm."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是 2020 年马来西亚田间研究的建议。",
+   "en": "That is the advice from a 2020 field study in Malaysia.",
+   "ms": "Itu nasihat kajian lapangan 2020 di Malaysia."
+  },
+  "src": [
+   "BAKAR-2020"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p56",
+  "q": {
+   "zh": "哪一种昆虫是可可的益虫？",
+   "en": "Which insect helps cocoa?",
+   "ms": "Serangga manakah membantu koko?"
+  },
+  "options": [
+   {
+    "zh": "黑可可蚁",
+    "en": "The black cocoa ant",
+    "ms": "Semut hitam koko"
+   },
+   {
+    "zh": "盲蝽",
+    "en": "The cocoa mirid",
+    "ms": "Kepinding koko"
+   },
+   {
+    "zh": "可可荚螟",
+    "en": "The pod borer",
+    "ms": "Pengorek buah koko"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "蚂蚁多的地方，盲蝽少。",
+   "en": "Where ants are many, mirids are few.",
+   "ms": "Di mana semut banyak, kepinding sedikit."
+  },
+  "src": [
+   "KHOO-1992"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p57",
+  "q": {
+   "zh": "可可荚螟让可可豆变成怎样？",
+   "en": "What does the pod borer do to the beans?",
+   "ms": "Apakah kesan pengorek buah pada biji koko?"
+  },
+  "options": [
+   {
+    "zh": "小而扁，粘成一团",
+    "en": "Small, flat and stuck together",
+    "ms": "Kecil, leper dan melekat bersama"
+   },
+   {
+    "zh": "变得更大",
+    "en": "Makes them bigger",
+    "ms": "Menjadikannya lebih besar"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "所以可可品质变差。",
+   "en": "So the cocoa is of poor quality.",
+   "ms": "Jadi mutu koko rendah."
+  },
+  "src": [
+   "PP-CPB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p57",
+  "q": {
+   "zh": "1980 年代后期，可可荚螟在哪里造成大面积损失？",
+   "en": "Where did the pod borer cause heavy losses in the late 1980s?",
+   "ms": "Di manakah pengorek buah menyebabkan kerugian besar pada akhir 1980-an?"
+  },
+  "options": [
+   {
+    "zh": "沙巴斗湖",
+    "en": "Tawau, Sabah",
+    "ms": "Tawau, Sabah"
+   },
+   {
+    "zh": "金马仑高原",
+    "en": "Cameron Highlands",
+    "ms": "Cameron Highlands"
+   },
+   {
+    "zh": "吉打慕达",
+    "en": "Muda, Kedah",
+    "ms": "Muda, Kedah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "约 5,000 公顷。",
+   "en": "About 5,000 ha.",
+   "ms": "Kira-kira 5,000 ha."
+  },
+  "src": [
+   "UPSI-CPB"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p57",
+  "q": {
+   "zh": "单靠卵寄生蜂就能控制可可荚螟。",
+   "en": "The egg parasitoid alone controls the pod borer.",
+   "ms": "Parasitoid telur sahaja mengawal pengorek buah."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "田间卵寄生率偏低。",
+   "en": "Field egg parasitism was low.",
+   "ms": "Kadar parasitisme telur di ladang rendah."
+  },
+  "src": [
+   "AZHAR-LONG"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p58",
+  "q": {
+   "zh": "Helopeltis 的小盾片上有什么？",
+   "en": "What rises from the scutellum of Helopeltis?",
+   "ms": "Apakah yang timbul dari skutelum Helopeltis?"
+  },
+  "options": [
+   {
+    "zh": "一根末端膨大的刺",
+    "en": "A spine with a knob at the tip",
+    "ms": "Duri berbonggol di hujung"
+   },
+   {
+    "zh": "一对翅膀",
+    "en": "A pair of wings",
+    "ms": "Sepasang sayap"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "像鼓槌一样。",
+   "en": "Like a drumstick.",
+   "ms": "Seperti kayu dram."
+  },
+  "src": [
+   "PP-MIRID"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p58",
+  "q": {
+   "zh": "盲蝽在可可荚上留下什么？",
+   "en": "What does the mirid leave on cocoa pods?",
+   "ms": "Apakah yang ditinggalkan kepinding pada buah koko?"
+  },
+  "options": [
+   {
+    "zh": "先褐后黑的小斑",
+    "en": "Small spots, brown then black",
+    "ms": "Bintik kecil, perang kemudian hitam"
+   },
+   {
+    "zh": "小洞和蛆",
+    "en": "Holes and maggots",
+    "ms": "Lubang dan berenga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "每个斑约 3 毫米。",
+   "en": "Each spot is about 3 mm.",
+   "ms": "Setiap bintik kira-kira 3 mm."
+  },
+  "src": [
+   "PP-MIRID"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p58",
+  "q": {
+   "zh": "每棵树有足够的黑可可蚁，可以保护它免受盲蝽危害。",
+   "en": "Enough black cocoa ants on a tree protect it against mirids.",
+   "ms": "Semut hitam koko yang cukup pada pokok melindunginya daripada kepinding."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "约 200–2,000 只。",
+   "en": "About 200–2,000 ants.",
+   "ms": "Kira-kira 200–2,000 ekor."
+  },
+  "src": [
+   "WAY-1991"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p59",
+  "q": {
+   "zh": "黑可可蚁多的可可园里，什么会减少？",
+   "en": "What falls where black cocoa ants are many?",
+   "ms": "Apakah yang berkurang di mana semut hitam koko banyak?"
+  },
+  "options": [
+   {
+    "zh": "盲蝽和黑荚病",
+    "en": "Mirids and black pod disease",
+    "ms": "Kepinding dan penyakit buah hitam"
+   },
+   {
+    "zh": "可可产量",
+    "en": "Cocoa yield",
+    "ms": "Hasil koko"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是马来西亚两年的田间研究结果。",
+   "en": "That came from a two-year field study in Malaysia.",
+   "ms": "Itu hasil kajian lapangan dua tahun di Malaysia."
+  },
+  "src": [
+   "KHOO-1992"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p59",
+  "q": {
+   "zh": "可可和椰子混种时，黑可可蚁在哪里筑稳定的巢？",
+   "en": "Where does the ant nest stably in cocoa mixed with coconut?",
+   "ms": "Di manakah semut ini bersarang dengan stabil dalam campuran koko dan kelapa?"
+  },
+  "options": [
+   {
+    "zh": "椰子的佛焰花序",
+    "en": "Coconut flower spikes",
+    "ms": "Mayang kelapa"
+   },
+   {
+    "zh": "地上",
+    "en": "On the ground",
+    "ms": "Di tanah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "地上和可可树上的巢只是暂时的。",
+   "en": "Nests on the ground and on cocoa are temporary.",
+   "ms": "Sarang di tanah dan pada koko hanya sementara."
+  },
+  "src": [
+   "WAY-1991"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p59",
+  "q": {
+   "zh": "黑可可蚁要和粉蚧一起管理。",
+   "en": "The ant and its mealybug partner must be managed together.",
+   "ms": "Semut dan koya pasangannya mesti diurus bersama."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它靠粉蚧的蜜露为食。",
+   "en": "It feeds on the mealybug's honeydew.",
+   "ms": "Ia makan embun madu koya."
+  },
+  "src": [
+   "HO-1997"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p60",
+  "q": {
+   "zh": "哪一种昆虫是椰子最主要的授粉者？",
+   "en": "Which insect is the main pollinator of coconut?",
+   "ms": "Serangga manakah pendebunga utama kelapa?"
+  },
+  "options": [
+   {
+    "zh": "蜜蜂 Apis cerana",
+    "en": "The Asian honey bee",
+    "ms": "Lebah madu Asia"
+   },
+   {
+    "zh": "无刺蜂",
+    "en": "The stingless bee",
+    "ms": "Kelulut"
+   },
+   {
+    "zh": "授粉象甲",
+    "en": "The pollinating weevil",
+    "ms": "Kumbang pendebunga"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "它也是椰子花上最多的访客。",
+   "en": "It is also the most common visitor to coconut flowers.",
+   "ms": "Ia juga pelawat paling biasa bunga kelapa."
+  },
+  "src": [
+   "PRIN-1989"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p60",
+  "q": {
+   "zh": "无刺蜂可以提高甜瓜的结果数。",
+   "en": "Stingless bees can raise fruit numbers in melon.",
+   "ms": "Kelulut boleh meningkatkan bilangan buah tembikai susu."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "登嘉楼温室的试验证明了这一点。",
+   "en": "A greenhouse trial in Terengganu showed this.",
+   "ms": "Ujian rumah hijau di Terengganu menunjukkannya."
+  },
+  "src": [
+   "TLSR-2022"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p60",
+  "q": {
+   "zh": "油棕授粉象甲帮哪一种作物授粉？",
+   "en": "Which crop does the pollinating weevil pollinate?",
+   "ms": "Tanaman manakah didebungakan kumbang pendebunga?"
+  },
+  "options": [
+   {
+    "zh": "油棕",
+    "en": "Oil palm",
+    "ms": "Sawit"
+   },
+   {
+    "zh": "水稻",
+    "en": "Rice",
+    "ms": "Padi"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "1981 年引进马来西亚。",
+   "en": "It was brought to Malaysia in 1981.",
+   "ms": "Ia dibawa ke Malaysia pada 1981."
+  },
+  "src": [
+   "BORNEO-EK"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p61",
+  "q": {
+   "zh": "能不能靠体型分辨 Apis cerana 和 Apis mellifera？",
+   "en": "Can body size tell Apis cerana from Apis mellifera?",
+   "ms": "Bolehkah saiz badan membezakan Apis cerana daripada Apis mellifera?"
+  },
+  "options": [
+   {
+    "zh": "不能，两者差不多大",
+    "en": "No, they are about the same size",
+    "ms": "Tidak, saiznya hampir sama"
+   },
+   {
+    "zh": "能，cerana 大一倍",
+    "en": "Yes, cerana is twice as big",
+    "ms": "Ya, cerana dua kali ganda lebih besar"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "两者都约 10–11 毫米。",
+   "en": "Both are about 10–11 mm.",
+   "ms": "Kedua-duanya kira-kira 10–11 mm."
+  },
+  "src": [
+   "KOETZ-2013"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p61",
+  "q": {
+   "zh": "马来西亚的本地蜜蜂可以养在蜂箱里。",
+   "en": "The Malaysian honey bee can be kept in hives.",
+   "ms": "Lebah madu Malaysia boleh dipelihara dalam sarang."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "野生蜂群也很容易找到。",
+   "en": "Wild colonies are also easy to find.",
+   "ms": "Koloni liar juga mudah dijumpai."
+  },
+  "src": [
+   "PRIN-1989",
+   "IDRC-BEE"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p61",
+  "q": {
+   "zh": "为什么不建议让它采油棕花粉？",
+   "en": "Why is oil palm pollen not recommended for it?",
+   "ms": "Mengapa debunga sawit tidak disyorkan untuknya?"
+  },
+  "options": [
+   {
+    "zh": "蜜会变得颜色深、味道苦",
+    "en": "It gives dark, bitter honey",
+    "ms": "Ia menghasilkan madu gelap dan pahit"
+   },
+   {
+    "zh": "会害死蜜蜂",
+    "en": "It kills the bees",
+    "ms": "Ia membunuh lebah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "这是 1989 年研究的观察。",
+   "en": "That was observed in a 1989 study.",
+   "ms": "Itu diperhatikan dalam kajian 1989."
+  },
+  "src": [
+   "PRIN-1989"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p62",
+  "q": {
+   "zh": "温室甜瓜有无刺蜂授粉时，每株结几个果？",
+   "en": "How many fruits per plant did greenhouse melons set with the stingless bee?",
+   "ms": "Berapa buah sepokok dihasilkan tembikai susu rumah hijau dengan kelulut?"
+  },
+  "options": [
+   {
+    "zh": "6.1 个",
+    "en": "6.1",
+    "ms": "6.1"
+   },
+   {
+    "zh": "0.2 个",
+    "en": "0.2",
+    "ms": "0.2"
+   },
+   {
+    "zh": "2.6 个",
+    "en": "2.6",
+    "ms": "2.6"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "没有授粉只有 0.2 个。",
+   "en": "With no pollination, only 0.2.",
+   "ms": "Tanpa pendebungaan, hanya 0.2."
+  },
+  "src": [
+   "TLSR-2022"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p62",
+  "q": {
+   "zh": "怎样认出 Heterotrigona itama 的巢？",
+   "en": "How do you recognise a Heterotrigona itama nest?",
+   "ms": "Bagaimana mengenal sarang Heterotrigona itama?"
+  },
+  "options": [
+   {
+    "zh": "琥珀黄色、光滑的大树脂管",
+    "en": "A large, smooth, amber-yellow resin tube",
+    "ms": "Tiub resin besar, licin dan kuning ambar"
+   },
+   {
+    "zh": "挂在树枝下的单片巢脾",
+    "en": "A single comb hanging under a branch",
+    "ms": "Sisir tunggal tergantung di bawah dahan"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "管口常不规则地张开。",
+   "en": "The tip is often irregularly flared.",
+   "ms": "Hujungnya sering mengembang tidak sekata."
+  },
+  "src": [
+   "NIS-2022"
+  ]
+ },
+ {
+  "stage": 5,
+  "chapter": "p62",
+  "q": {
+   "zh": "无刺蜂授粉的登嘉楼甜瓜比自花授粉的更甜。",
+   "en": "Melon Manis Terengganu pollinated by stingless bees is sweeter than self-pollinated fruit.",
+   "ms": "Melon Manis Terengganu yang didebungakan kelulut lebih manis berbanding pendebungaan sendiri."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "而且更重、更大。",
+   "en": "And heavier and larger.",
+   "ms": "Dan lebih berat serta besar."
+  },
+  "src": [
+   "MAB-MELON"
+  ]
  }
 ]

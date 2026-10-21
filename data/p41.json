@@ -1,0 +1,197 @@
+{
+ "id": "p41",
+ "num": 41,
+ "stage": 5,
+ "kind": "species",
+ "order": "p11",
+ "title": {
+  "zh": "小菜蛾",
+  "en": "Diamondback moth",
+  "ms": "Ulat belakang berlian"
+ },
+ "blurb": {
+  "zh": "Plutella xylostella",
+  "en": "Plutella xylostella",
+  "ms": "Plutella xylostella"
+ },
+ "sources": [
+  "CLEMSON-BR",
+  "DBM-CH",
+  "DOA-MRL",
+  "PP-COTESIA",
+  "UF-DBM",
+  "UF-DBMG"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "小菜蛾",
+      "en": "Diamondback moth",
+      "ms": "Ulat belakang berlian"
+     },
+     "sci": "Plutella xylostella",
+     "order": "p11",
+     "crops": [
+      {
+       "zh": "十字花科蔬菜（包菜、芥兰等）",
+       "en": "Crucifers (cabbage, kailan and others)",
+       "ms": "Sayur kubis-kubis (kubis, kailan dan lain-lain)"
+      }
+     ],
+     "stage": {
+      "zh": "幼虫",
+      "en": "Larva",
+      "ms": "Larva"
+     },
+     "src": [
+      "CLEMSON-BR",
+      "UF-DBMG"
+     ],
+     "authority": "(Linnaeus)"
+    },
+    {
+     "type": "photo",
+     "id": "plutella-xylostella-adult"
+    },
+    {
+     "type": "photo",
+     "id": "plutella-xylostella-larva"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:diamondback-moth}}的辨认要点：",
+      "en": "How to recognise {{t:diamondback-moth}}:",
+      "ms": "Cara mengecam {{t:diamondback-moth}}:"
+     },
+     "defines": [
+      "diamondback-moth"
+     ],
+     "src": [
+      "CLEMSON-BR",
+      "UF-DBMG"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫是小型褐色蛾；停下时，翅背面出现菱形的花纹",
+       "en": "Adults are small brownish moths; at rest, a diamond-shaped pattern shows on top of the wings",
+       "ms": "Dewasa ialah rama-rama kecil keperangan; apabila hinggap, corak berbentuk berlian kelihatan di atas sayap"
+      },
+      {
+       "zh": "成虫约 6 毫米，细长，灰褐色",
+       "en": "Adults are about 6 mm long, slender and grey-brown",
+       "ms": "Dewasa kira-kira 6 mm panjang, langsing dan kelabu keperangan"
+      },
+      {
+       "zh": "蛹包在疏松的丝茧里，贴在叶上",
+       "en": "The pupa sits in a loose silk cocoon on the foliage",
+       "ms": "Pupa berada dalam kepompong sutera longgar pada daun"
+      }
+     ],
+     "src": [
+      "CLEMSON-BR",
+      "UF-DBMG"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "小幼虫钻在叶子里吃；大一点的幼虫在叶面吃，留下只剩一层表皮的「窗孔」。危害严重时叶子被吃得只剩叶脉，包菜也结不了球。",
+      "en": "Young larvae mine inside the leaf; older larvae feed on the surface and leave 'windowpanes' where only the upper skin remains. In heavy attacks leaves are stripped to the veins and cabbages fail to form heads.",
+      "ms": "Larva muda mengorek di dalam daun; larva lebih tua makan di permukaan dan meninggalkan 'tingkap' yang tinggal kulit atas sahaja. Dalam serangan teruk daun tinggal urat dan kubis tidak membentuk kepala."
+     },
+     "src": [
+      "UF-DBM"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "1994 年采自金马仑高原的小菜蛾，已对两种 Bt（kurstaki 和 aizawai 亚种）产生抗性，这也是田间小菜蛾对阿维菌素产生抗性的首个证据。",
+      "en": "Diamondback moths collected in the Cameron Highlands in 1994 resisted two kinds of Bt (subspecies kurstaki and aizawai), and gave the first evidence of field resistance to abamectin.",
+      "ms": "Ulat belakang berlian yang dikutip di Cameron Highlands pada 1994 rintang terhadap dua jenis Bt (subspesies kurstaki dan aizawai), dan memberi bukti pertama kerintangan lapangan terhadap abamektin."
+     },
+     "src": [
+      "DBM-CH"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "保护寄生蜂：1970 年代中期马来西亚高原引进了小菜蛾的寄生蜂，害虫和用药都逐渐减少。Cotesia 单独控制不了小菜蛾，但和 Bt 一起用效果很好。",
+      "en": "Protect the parasitic wasps: parasitoids were brought into Malaysia's highlands in the mid-1970s, and both the pest and pesticide use fell over time. Cotesia cannot control the moth alone, but works well together with Bt.",
+      "ms": "Lindungi tebuan parasit: parasitoid dibawa masuk ke tanah tinggi Malaysia pada pertengahan 1970-an, dan perosak serta penggunaan racun berkurang secara beransur. Cotesia tidak dapat mengawal rama-rama ini sendirian, tetapi berkesan bersama Bt."
+     },
+     "src": [
+      "PP-COTESIA"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "Bt 能杀死幼虫，尤其是小幼虫，对 Cotesia 伤害较小；但一直用会选出有抗性的小菜蛾，要轮换使用。",
+      "en": "Bt kills the larvae, especially young ones, and does relatively little harm to Cotesia; but repeated use selects resistant moths, so rotate it with other methods.",
+      "ms": "Bt membunuh larva, terutama yang muda, dan kurang memudaratkan Cotesia; tetapi penggunaan berulang memilih rama-rama yang rintang, jadi gilirkan dengan kaedah lain."
+     },
+     "src": [
+      "PP-COTESIA",
+      "DBM-CH"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "广谱杀虫剂会杀死寄生蜂，小菜蛾之后再度猖獗。真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "Broad-spectrum insecticides kill the parasitic wasps, and the moth comes back. If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Racun serangga spektrum luas membunuh tebuan parasit, dan rama-rama ini kembali. Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "PP-COTESIA",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "diamondback-moth"
+ ]
+}

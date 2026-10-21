@@ -1,0 +1,80 @@
+{
+ "id": "p51",
+ "num": 51,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "果树的昆虫",
+  "en": "Fruit tree insects",
+  "ms": "Serangga pokok buah"
+ },
+ "blurb": {
+  "zh": "实蝇、柑橘木虱、香蕉弄蝶和柑橘凤蝶",
+  "en": "Fruit flies, the citrus psyllid, the banana skipper and the lime butterfly",
+  "ms": "Lalat buah, psilid limau, rama-rama pisang dan rama-rama limau"
+ },
+ "sources": [
+  "FFID-CARAM",
+  "IPPC-DP29",
+  "PHA-BSK",
+  "PMC-HLB",
+  "UF-PD"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p52|实蝇}}：杨桃实蝇和橘小实蝇，外形非常像",
+       "en": "{{ch:p52|Fruit flies}}: the carambola fruit fly and the oriental fruit fly, which look very alike",
+       "ms": "{{ch:p52|Lalat buah}}: lalat buah belimbing dan lalat buah oriental, yang sangat serupa"
+      },
+      {
+       "zh": "{{ch:p53|柑橘木虱}}：传播黄龙病，马来西亚最严重的柑橘病害",
+       "en": "{{ch:p53|Asian citrus psyllid}}: spreads huanglongbing, the most serious citrus disease in Malaysia",
+       "ms": "{{ch:p53|Psilid limau Asia}}: menyebarkan huanglongbing, penyakit limau paling serius di Malaysia"
+      },
+      {
+       "zh": "{{ch:p54|香蕉弄蝶}}：幼虫把香蕉叶卷起来吃",
+       "en": "{{ch:p54|Banana skipper}}: its caterpillars roll banana leaves and eat them",
+       "ms": "{{ch:p54|Rama-rama pisang}}: ulatnya menggulung daun pisang dan memakannya"
+      },
+      {
+       "zh": "{{ch:p55|柑橘凤蝶}}：幼虫吃柑橘叶，小时候像鸟粪",
+       "en": "{{ch:p55|Lime butterfly}}: its caterpillars eat citrus leaves, and look like bird droppings when young",
+       "ms": "{{ch:p55|Rama-rama limau}}: ulatnya memakan daun limau, dan menyerupai najis burung semasa muda"
+      }
+     ],
+     "src": [
+      "FFID-CARAM",
+      "PMC-HLB",
+      "PHA-BSK",
+      "UF-PD"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "实蝇只看外形很难分到种：杨桃实蝇和橘小实蝇外形和基因都很接近，可靠的鉴定需要专家，有时还要用 DNA。",
+      "en": "Fruit flies are hard to name to species by eye: the carambola and oriental fruit flies are very close in both form and genes, and a reliable identification needs an expert, sometimes with DNA.",
+      "ms": "Lalat buah sukar dinamakan hingga spesies dengan mata: lalat buah belimbing dan oriental sangat hampir dari segi rupa dan gen, dan pengecaman yang boleh dipercayai memerlukan pakar, kadang-kadang dengan DNA."
+     },
+     "src": [
+      "IPPC-DP29"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

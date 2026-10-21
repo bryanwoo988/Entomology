@@ -110,7 +110,36 @@
     "p30",
     "p31",
     "p32",
-    "p33"
+    "p33",
+    "p34",
+    "p35",
+    "p36",
+    "p37",
+    "p38",
+    "p39",
+    "p40",
+    "p41",
+    "p42",
+    "p43",
+    "p44",
+    "p45",
+    "p46",
+    "p47",
+    "p48",
+    "p49",
+    "p50",
+    "p51",
+    "p52",
+    "p53",
+    "p54",
+    "p55",
+    "p56",
+    "p57",
+    "p58",
+    "p59",
+    "p60",
+    "p61",
+    "p62"
    ]
   },
   {
@@ -667,6 +696,496 @@
     "ms": "Sycanus dichotomus"
    },
    "order": "p12"
+  },
+  {
+   "id": "p34",
+   "num": 34,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "水稻的昆虫",
+    "en": "Rice insects",
+    "ms": "Serangga padi"
+   },
+   "blurb": {
+    "zh": "马来西亚稻田常见的五种害虫和它们的天敌",
+    "en": "Five common rice pests in Malaysia, and their natural enemies",
+    "ms": "Lima perosak padi biasa di Malaysia, dan musuh semula jadinya"
+   }
+  },
+  {
+   "id": "p35",
+   "num": 35,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "褐飞虱",
+    "en": "Brown planthopper",
+    "ms": "Bena perang"
+   },
+   "blurb": {
+    "zh": "Nilaparvata lugens",
+    "en": "Nilaparvata lugens",
+    "ms": "Nilaparvata lugens"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p36",
+   "num": 36,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "叶蝉（Nephotettix）",
+    "en": "Green leafhopper",
+    "ms": "Bena hijau"
+   },
+   "blurb": {
+    "zh": "Nephotettix virescens",
+    "en": "Nephotettix virescens",
+    "ms": "Nephotettix virescens"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p37",
+   "num": 37,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "稻缘蝽（Leptocorisa）",
+    "en": "Rice bug",
+    "ms": "Pianggang",
+    "zhTw": "稻缘椿象（Leptocorisa）"
+   },
+   "blurb": {
+    "zh": "Leptocorisa oratoria",
+    "en": "Leptocorisa oratoria",
+    "ms": "Leptocorisa oratoria"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p38",
+   "num": 38,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "三化螟",
+    "en": "Yellow stem borer",
+    "ms": "Pengorek batang kuning"
+   },
+   "blurb": {
+    "zh": "Scirpophaga incertulas",
+    "en": "Scirpophaga incertulas",
+    "ms": "Scirpophaga incertulas"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p39",
+   "num": 39,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "稻纵卷叶螟",
+    "en": "Rice leaffolder",
+    "ms": "Ulat lipat daun padi"
+   },
+   "blurb": {
+    "zh": "Cnaphalocrocis medinalis",
+    "en": "Cnaphalocrocis medinalis",
+    "ms": "Cnaphalocrocis medinalis"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p40",
+   "num": 40,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "蔬菜的昆虫",
+    "en": "Vegetable insects",
+    "ms": "Serangga sayur-sayuran"
+   },
+   "blurb": {
+    "zh": "十字花科、辣椒、茄子、瓜类和玉米上的害虫，以及三种瓢虫",
+    "en": "Pests of crucifers, chilli, brinjal, cucurbits and maize, and three ladybirds",
+    "ms": "Perosak kubis-kubis, cili, terung, labu dan jagung, serta tiga kumbang kura-kura"
+   }
+  },
+  {
+   "id": "p41",
+   "num": 41,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "小菜蛾",
+    "en": "Diamondback moth",
+    "ms": "Ulat belakang berlian"
+   },
+   "blurb": {
+    "zh": "Plutella xylostella",
+    "en": "Plutella xylostella",
+    "ms": "Plutella xylostella"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p42",
+   "num": 42,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "斜纹夜蛾",
+    "en": "Common cutworm",
+    "ms": "Ulat Spodoptera litura"
+   },
+   "blurb": {
+    "zh": "Spodoptera litura",
+    "en": "Spodoptera litura",
+    "ms": "Spodoptera litura"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p43",
+   "num": 43,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "草地贪夜蛾",
+    "en": "Fall armyworm",
+    "ms": "Fall armyworm"
+   },
+   "blurb": {
+    "zh": "Spodoptera frugiperda",
+    "en": "Spodoptera frugiperda",
+    "ms": "Spodoptera frugiperda"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p44",
+   "num": 44,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "粉虱（Bemisia tabaci）",
+    "en": "Whitefly",
+    "ms": "Lalat putih"
+   },
+   "blurb": {
+    "zh": "Bemisia tabaci",
+    "en": "Bemisia tabaci",
+    "ms": "Bemisia tabaci"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p45",
+   "num": 45,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "棕榈蓟马",
+    "en": "Melon thrips",
+    "ms": "Trips melon"
+   },
+   "blurb": {
+    "zh": "Thrips palmi",
+    "en": "Thrips palmi",
+    "ms": "Thrips palmi"
+   },
+   "order": "p20"
+  },
+  {
+   "id": "p46",
+   "num": 46,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "瓜蚜（Aphis gossypii）",
+    "en": "Melon aphid",
+    "ms": "Afid kapas"
+   },
+   "blurb": {
+    "zh": "Aphis gossypii",
+    "en": "Aphis gossypii",
+    "ms": "Aphis gossypii"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p47",
+   "num": 47,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "瓜实蝇",
+    "en": "Melon fly",
+    "ms": "Lalat buah tembikai"
+   },
+   "blurb": {
+    "zh": "Zeugodacus cucurbitae",
+    "en": "Zeugodacus cucurbitae",
+    "ms": "Zeugodacus cucurbitae"
+   },
+   "order": "p14"
+  },
+  {
+   "id": "p48",
+   "num": 48,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "二十八星瓢虫",
+    "en": "28-spotted ladybird",
+    "ms": "Kumbang kura-kura 28 bintik"
+   },
+   "blurb": {
+    "zh": "Henosepilachna vigintioctopunctata",
+    "en": "Henosepilachna vigintioctopunctata",
+    "ms": "Henosepilachna vigintioctopunctata"
+   },
+   "order": "p10"
+  },
+  {
+   "id": "p49",
+   "num": 49,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "横斑瓢虫（Coccinella transversalis）",
+    "en": "Transverse ladybird",
+    "ms": "Kumbang kura-kura melintang"
+   },
+   "blurb": {
+    "zh": "Coccinella transversalis",
+    "en": "Coccinella transversalis",
+    "ms": "Coccinella transversalis"
+   },
+   "order": "p10"
+  },
+  {
+   "id": "p50",
+   "num": 50,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "六斑月瓢虫（Cheilomenes sexmaculata）",
+    "en": "Zigzag ladybird",
+    "ms": "Kumbang kura-kura zigzag"
+   },
+   "blurb": {
+    "zh": "Cheilomenes sexmaculata",
+    "en": "Cheilomenes sexmaculata",
+    "ms": "Cheilomenes sexmaculata"
+   },
+   "order": "p10"
+  },
+  {
+   "id": "p51",
+   "num": 51,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "果树的昆虫",
+    "en": "Fruit tree insects",
+    "ms": "Serangga pokok buah"
+   },
+   "blurb": {
+    "zh": "实蝇、柑橘木虱、香蕉弄蝶和柑橘凤蝶",
+    "en": "Fruit flies, the citrus psyllid, the banana skipper and the lime butterfly",
+    "ms": "Lalat buah, psilid limau, rama-rama pisang dan rama-rama limau"
+   }
+  },
+  {
+   "id": "p52",
+   "num": 52,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "实蝇（Bactrocera）",
+    "en": "Fruit flies (carambola and oriental)",
+    "ms": "Lalat buah (belimbing dan oriental)"
+   },
+   "blurb": {
+    "zh": "Bactrocera carambolae, Bactrocera dorsalis",
+    "en": "Bactrocera carambolae, Bactrocera dorsalis",
+    "ms": "Bactrocera carambolae, Bactrocera dorsalis"
+   },
+   "order": "p14"
+  },
+  {
+   "id": "p53",
+   "num": 53,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "柑橘木虱（Diaphorina citri）",
+    "en": "Asian citrus psyllid",
+    "ms": "Psilid limau Asia"
+   },
+   "blurb": {
+    "zh": "Diaphorina citri",
+    "en": "Diaphorina citri",
+    "ms": "Diaphorina citri"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p54",
+   "num": 54,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "弄蝶（Erionota）",
+    "en": "Banana skipper",
+    "ms": "Rama-rama pisang"
+   },
+   "blurb": {
+    "zh": "Erionota thrax",
+    "en": "Erionota thrax",
+    "ms": "Erionota thrax"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p55",
+   "num": 55,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "凤蝶（Papilio demoleus）",
+    "en": "Lime butterfly",
+    "ms": "Rama-rama limau"
+   },
+   "blurb": {
+    "zh": "Papilio demoleus",
+    "en": "Papilio demoleus",
+    "ms": "Papilio demoleus"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p56",
+   "num": 56,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "可可的昆虫",
+    "en": "Cocoa insects",
+    "ms": "Serangga koko"
+   },
+   "blurb": {
+    "zh": "可可荚螟、盲蝽，以及保护可可的黑蚂蚁",
+    "en": "The cocoa pod borer, the cocoa mirid, and the black ant that protects cocoa",
+    "ms": "Pengorek buah koko, kepinding koko, dan semut hitam yang melindungi koko"
+   }
+  },
+  {
+   "id": "p57",
+   "num": 57,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "细蛾（Conopomorpha cramerella）",
+    "en": "Cocoa pod borer",
+    "ms": "Pengorek buah koko"
+   },
+   "blurb": {
+    "zh": "Conopomorpha cramerella",
+    "en": "Conopomorpha cramerella",
+    "ms": "Conopomorpha cramerella"
+   },
+   "order": "p11"
+  },
+  {
+   "id": "p58",
+   "num": 58,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "盲蝽（Helopeltis）",
+    "en": "Cocoa mirid (mosquito bug)",
+    "ms": "Kepinding koko (Helopeltis)",
+    "zhTw": "盲椿象（Helopeltis）"
+   },
+   "blurb": {
+    "zh": "Helopeltis theivora",
+    "en": "Helopeltis theivora",
+    "ms": "Helopeltis theivora"
+   },
+   "order": "p12"
+  },
+  {
+   "id": "p59",
+   "num": 59,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "蚂蚁（Dolichoderus thoracicus）",
+    "en": "Black cocoa ant",
+    "ms": "Semut hitam koko"
+   },
+   "blurb": {
+    "zh": "Dolichoderus thoracicus",
+    "en": "Dolichoderus thoracicus",
+    "ms": "Dolichoderus thoracicus"
+   },
+   "order": "p13"
+  },
+  {
+   "id": "p60",
+   "num": 60,
+   "stage": 5,
+   "kind": "crop",
+   "title": {
+    "zh": "授粉昆虫",
+    "en": "Pollinators",
+    "ms": "Serangga pendebunga"
+   },
+   "blurb": {
+    "zh": "帮马来西亚作物授粉的蜜蜂、无刺蜂和象甲",
+    "en": "The bees, stingless bees and weevil that pollinate Malaysian crops",
+    "ms": "Lebah, kelulut dan kumbang yang mendebungakan tanaman Malaysia"
+   }
+  },
+  {
+   "id": "p61",
+   "num": 61,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "蜜蜂（Apis cerana）",
+    "en": "Asian honey bee",
+    "ms": "Lebah madu Asia"
+   },
+   "blurb": {
+    "zh": "Apis cerana",
+    "en": "Apis cerana",
+    "ms": "Apis cerana"
+   },
+   "order": "p13"
+  },
+  {
+   "id": "p62",
+   "num": 62,
+   "stage": 5,
+   "kind": "species",
+   "title": {
+    "zh": "无刺蜂（Heterotrigona itama）",
+    "en": "Stingless bee (kelulut)",
+    "ms": "Kelulut (Heterotrigona itama)"
+   },
+   "blurb": {
+    "zh": "Heterotrigona itama",
+    "en": "Heterotrigona itama",
+    "ms": "Heterotrigona itama"
+   },
+   "order": "p13"
   }
  ]
 }

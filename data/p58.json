@@ -1,0 +1,192 @@
+{
+ "id": "p58",
+ "num": 58,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "盲蝽（Helopeltis）",
+  "en": "Cocoa mirid (mosquito bug)",
+  "ms": "Kepinding koko (Helopeltis)",
+  "zhTw": "盲椿象（Helopeltis）"
+ },
+ "blurb": {
+  "zh": "Helopeltis theivora",
+  "en": "Helopeltis theivora",
+  "ms": "Helopeltis theivora"
+ },
+ "sources": [
+  "BAKAR-2020",
+  "DOA-MRL",
+  "HELO-IPM",
+  "PP-MIRID",
+  "SIME-1989",
+  "WAY-1991"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "盲蝽（Helopeltis）",
+      "zhTw": "盲椿象（Helopeltis）",
+      "en": "Cocoa mirid (mosquito bug)",
+      "ms": "Kepinding koko (Helopeltis)"
+     },
+     "sci": "Helopeltis theivora",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "可可",
+       "en": "Cocoa",
+       "ms": "Koko"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "PP-MIRID"
+     ],
+     "authority": "Waterhouse"
+    },
+    {
+     "type": "photo",
+     "id": "helopeltis-theivora-adult"
+    },
+    {
+     "type": "photo",
+     "id": "helopeltis-theivora-nymph"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:cocoa-mirid}}的辨认要点：",
+      "en": "How to recognise {{t:cocoa-mirid}}:",
+      "ms": "Cara mengecam {{t:cocoa-mirid}}:"
+     },
+     "defines": [
+      "cocoa-mirid"
+     ],
+     "src": [
+      "PP-MIRID"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体细长，脚和触角都很长，像蚊子",
+       "en": "Slender, with long legs and long antennae, like a mosquito",
+       "ms": "Langsing, berkaki dan bersesungut panjang, seperti nyamuk"
+      },
+      {
+       "zh": "小盾片中央竖着一根末端膨大的刺（像鼓槌），这是 Helopeltis 的特征",
+       "en": "An upright spine with a knob at the tip (like a drumstick) rises from the middle of the scutellum; this marks Helopeltis",
+       "ms": "Duri tegak berbonggol di hujung (seperti kayu dram) timbul dari tengah skutelum; ini tanda Helopeltis"
+      }
+     ],
+     "src": [
+      "PP-MIRID"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "若虫和成虫吸食荚的汁液，留下约 3 毫米的斑，先褐色、后变黑。不到 10 厘米的小荚会死；较大的荚会变形，豆也比较小。它也吸食嫩梢和枝条，造成枯梢，伤口还会让真菌侵入。",
+      "en": "Nymphs and adults suck sap from the pods, leaving spots about 3 mm across, brown at first and then black. Young pods under 10 cm die; older pods become deformed with smaller beans. They also feed on young shoots and branches, causing dieback, and the wounds let fungi in.",
+      "ms": "Nimfa dan dewasa menghisap cecair buah, meninggalkan bintik kira-kira 3 mm, mula-mula perang kemudian hitam. Buah muda di bawah 10 cm mati; buah lebih tua cacat bentuk dengan biji lebih kecil. Ia juga makan pucuk muda dan dahan, menyebabkan mati rosot, dan luka membolehkan kulat masuk."
+     },
+     "src": [
+      "PP-MIRID"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "它是马来西亚可可的主要害虫之一，而且比可可荚螟更早开始危害。",
+      "en": "It is a major pest of cocoa in Malaysia, and it starts attacking pods earlier than the pod borer.",
+      "ms": "Ia perosak utama koko di Malaysia, dan mula menyerang buah lebih awal daripada pengorek buah."
+     },
+     "src": [
+      "HELO-IPM",
+      "BAKAR-2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "定期调查小荚、荚和嫩梢上的新鲜危害斑，用来决定什么时候才需要防治；马来西亚的研究建议以监测和预警来减少用药。",
+      "en": "Survey fresh damage on young pods, pods and shoots to decide when control is needed; Malaysian research recommends monitoring and early warning to cut chemical use.",
+      "ms": "Tinjau kerosakan baharu pada buah muda, buah dan pucuk untuk menentukan bila kawalan diperlukan; penyelidikan Malaysia mengesyorkan pemantauan dan amaran awal untuk mengurangkan penggunaan kimia."
+     },
+     "src": [
+      "SIME-1989",
+      "HELO-IPM"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "biological",
+     "text": {
+      "zh": "利用蚂蚁：每棵可可树有约 200–2,000 只{{ch:p59|黑可可蚁}}，就能有效保护它免受盲蝽危害。",
+      "en": "Use ants: about 200–2,000 {{ch:p59|black cocoa ants}} per tree protect it well against mirids.",
+      "ms": "Gunakan semut: kira-kira 200–2,000 {{ch:p59|semut hitam koko}} sepokok melindunginya dengan baik daripada kepinding."
+     },
+     "src": [
+      "WAY-1991"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "马来西亚过去以化学药剂为第一道防线。只在调查显示需要时才用药，用农业局为可可登记的产品，并依照标签。",
+      "en": "Malaysia has relied on chemicals as the first line of defence. Spray only when the survey shows it is needed, with a product registered by the Department of Agriculture for cocoa, following its label.",
+      "ms": "Malaysia bergantung pada bahan kimia sebagai barisan pertahanan pertama. Sembur hanya apabila tinjauan menunjukkan perlu, dengan produk berdaftar Jabatan Pertanian untuk koko, mengikut labelnya."
+     },
+     "src": [
+      "HELO-IPM",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "cocoa-mirid"
+ ]
+}

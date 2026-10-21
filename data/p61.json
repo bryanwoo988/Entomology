@@ -1,0 +1,134 @@
+{
+ "id": "p61",
+ "num": 61,
+ "stage": 5,
+ "kind": "species",
+ "order": "p13",
+ "title": {
+  "zh": "蜜蜂（Apis cerana）",
+  "en": "Asian honey bee",
+  "ms": "Lebah madu Asia"
+ },
+ "blurb": {
+  "zh": "Apis cerana",
+  "en": "Apis cerana",
+  "ms": "Apis cerana"
+ },
+ "sources": [
+  "IDRC-BEE",
+  "KOETZ-2013",
+  "PRIN-1989"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "蜜蜂（Apis cerana）",
+      "en": "Asian honey bee",
+      "ms": "Lebah madu Asia"
+     },
+     "sci": "Apis cerana",
+     "order": "p13",
+     "crops": [
+      {
+       "zh": "椰子",
+       "en": "Coconut",
+       "ms": "Kelapa"
+      }
+     ],
+     "stage": {
+      "zh": "工蜂（益虫）",
+      "en": "Workers (helpful)",
+      "ms": "Lebah pekerja (berguna)"
+     },
+     "src": [
+      "KOETZ-2013"
+     ],
+     "authority": "Fabricius"
+    },
+    {
+     "type": "photo",
+     "id": "apis-cerana-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:asian-honey-bee}}的辨认要点：",
+      "en": "How to recognise {{t:asian-honey-bee}}:",
+      "ms": "Cara mengecam {{t:asian-honey-bee}}:"
+     },
+     "defines": [
+      "asian-honey-bee"
+     ],
+     "src": [
+      "KOETZ-2013"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "中型蜜蜂，约 10–11 毫米，和西方蜜蜂 Apis mellifera 一样大，所以不能靠大小来分",
+       "en": "A medium-sized bee, about 10–11 mm, the same as the western honey bee Apis mellifera, so size does not tell them apart",
+       "ms": "Lebah bersaiz sederhana, kira-kira 10–11 mm, sama dengan lebah madu barat Apis mellifera, jadi saiz tidak membezakannya"
+      },
+      {
+       "zh": "在有小出入口的洞穴里筑好几片巢脾",
+       "en": "Builds several combs inside a cavity with a small entrance",
+       "ms": "Membina beberapa sisir di dalam rongga dengan pintu masuk kecil"
+      }
+     ],
+     "src": [
+      "KOETZ-2013"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "马来西亚的本地蜜蜂（Apis cerana indica）可以养在蜂箱里。野生蜂群常在椰子树干、屋子和椰干烘房里找到。",
+      "en": "The Malaysian honey bee (Apis cerana indica) can be kept in hives. Wild colonies are easy to find in coconut trunks, outhouses, copra kilns and houses.",
+      "ms": "Lebah madu Malaysia (Apis cerana indica) boleh dipelihara dalam sarang. Koloni liar mudah dijumpai dalam batang kelapa, bangsal, salai kopra dan rumah."
+     },
+     "src": [
+      "PRIN-1989",
+      "IDRC-BEE"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "它是椰子最主要的授粉者和最多的访客，会访问雄花和雌花（雌花较少）。它也会到油棕雄花采花粉，但这种蜜颜色深、味道苦，不建议。",
+      "en": "It is the main pollinator of coconut and its most common visitor, visiting both male and female flowers (female ones less often). It also takes pollen from oil palm male flowers, but that source is not recommended because it gives dark, bitter honey.",
+      "ms": "Ia pendebunga utama kelapa dan pelawat paling biasa, melawat bunga jantan dan betina (betina kurang kerap). Ia juga mengambil debunga bunga jantan sawit, tetapi sumber itu tidak disyorkan kerana menghasilkan madu gelap dan pahit."
+     },
+     "src": [
+      "PRIN-1989"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "asian-honey-bee"
+ ]
+}

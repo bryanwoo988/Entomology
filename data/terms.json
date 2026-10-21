@@ -1018,5 +1018,343 @@
    "ms": "Pepijat pembunuh yang memakan larva ulat bungkus dan ulat api."
   },
   "chapter": 33
+ },
+ {
+  "id": "brown-planthopper",
+  "name": {
+   "zh": "褐飞虱",
+   "en": "Brown planthopper",
+   "ms": "Bena perang"
+  },
+  "short": {
+   "zh": "在稻丛基部吸汁的小型飞虱，大发生时整片稻田枯黄。",
+   "en": "A small planthopper that sucks sap at the base of rice plants; outbreaks scorch whole fields.",
+   "ms": "Bena kecil yang menghisap cecair di pangkal pokok padi; serangan besar menghanguskan seluruh petak."
+  },
+  "chapter": 35
+ },
+ {
+  "id": "green-leafhopper",
+  "name": {
+   "zh": "叶蝉（Nephotettix）",
+   "en": "Green leafhopper",
+   "ms": "Bena hijau"
+  },
+  "short": {
+   "zh": "传播东格鲁病的绿色叶蝉。",
+   "en": "A green leafhopper that spreads tungro.",
+   "ms": "Bena hijau yang menyebarkan penyakit tungro."
+  },
+  "chapter": 36
+ },
+ {
+  "id": "rice-bug",
+  "name": {
+   "zh": "稻缘蝽（Leptocorisa）",
+   "zhTw": "稻缘椿象（Leptocorisa）",
+   "en": "Rice bug",
+   "ms": "Pianggang"
+  },
+  "short": {
+   "zh": "吸食灌浆谷粒的细长缘蝽。",
+   "en": "A slender bug that sucks the filling rice grains.",
+   "ms": "Pepijat langsing yang menghisap bijirin padi yang sedang berisi."
+  },
+  "chapter": 37
+ },
+ {
+  "id": "yellow-stem-borer",
+  "name": {
+   "zh": "三化螟",
+   "en": "Yellow stem borer",
+   "ms": "Pengorek batang kuning"
+  },
+  "short": {
+   "zh": "幼虫钻进稻茎、造成枯心和白穗的螟蛾。",
+   "en": "A moth whose larvae bore into rice stems, causing deadhearts and whiteheads.",
+   "ms": "Rama-rama yang larvanya mengorek batang padi, menyebabkan pucuk mati dan tangkai putih."
+  },
+  "chapter": 38
+ },
+ {
+  "id": "rice-leaffolder",
+  "name": {
+   "zh": "稻纵卷叶螟",
+   "en": "Rice leaffolder",
+   "ms": "Ulat lipat daun padi"
+  },
+  "short": {
+   "zh": "幼虫把稻叶纵卷起来、在里面吃的螟蛾。",
+   "en": "A moth whose larvae fold rice leaves lengthwise and feed inside.",
+   "ms": "Rama-rama yang larvanya melipat daun padi memanjang dan makan di dalamnya."
+  },
+  "chapter": 39
+ },
+ {
+  "id": "diamondback-moth",
+  "name": {
+   "zh": "小菜蛾",
+   "en": "Diamondback moth",
+   "ms": "Ulat belakang berlian"
+  },
+  "short": {
+   "zh": "十字花科蔬菜的小型蛾，幼虫吃叶。",
+   "en": "A small moth whose larvae eat crucifer leaves.",
+   "ms": "Rama-rama kecil yang larvanya memakan daun kubis-kubis."
+  },
+  "chapter": 41
+ },
+ {
+  "id": "common-cutworm",
+  "name": {
+   "zh": "斜纹夜蛾",
+   "en": "Common cutworm",
+   "ms": "Ulat Spodoptera litura"
+  },
+  "short": {
+   "zh": "几乎什么都吃的夜蛾，幼虫成群吃叶。",
+   "en": "A moth whose larvae eat almost anything, feeding in groups when young.",
+   "ms": "Rama-rama yang larvanya memakan hampir apa sahaja, makan berkumpulan semasa muda."
+  },
+  "chapter": 42
+ },
+ {
+  "id": "fall-armyworm",
+  "name": {
+   "zh": "草地贪夜蛾",
+   "en": "Fall armyworm",
+   "ms": "Fall armyworm"
+  },
+  "short": {
+   "zh": "2019 年入侵马来西亚的夜蛾，幼虫危害玉米。",
+   "en": "A moth that invaded Malaysia in 2019; its larvae attack maize.",
+   "ms": "Rama-rama yang menceroboh Malaysia pada 2019; larvanya menyerang jagung."
+  },
+  "chapter": 43
+ },
+ {
+  "id": "whitefly",
+  "name": {
+   "zh": "粉虱（Bemisia tabaci）",
+   "en": "Whitefly",
+   "ms": "Lalat putih"
+  },
+  "short": {
+   "zh": "在叶背吸汁、传播病毒的小白虫。",
+   "en": "A tiny white insect that sucks sap under leaves and spreads viruses.",
+   "ms": "Serangga putih kecil yang menghisap cecair di bawah daun dan menyebarkan virus."
+  },
+  "chapter": 44
+ },
+ {
+  "id": "melon-thrips",
+  "name": {
+   "zh": "棕榈蓟马",
+   "en": "Melon thrips",
+   "ms": "Trips melon"
+  },
+  "short": {
+   "zh": "在花和叶上吃、会传播病毒的小型蓟马。",
+   "en": "A tiny thrips that feeds in flowers and on leaves and spreads viruses.",
+   "ms": "Trips kecil yang makan di dalam bunga dan pada daun serta menyebarkan virus."
+  },
+  "chapter": 45
+ },
+ {
+  "id": "melon-aphid",
+  "name": {
+   "zh": "瓜蚜（Aphis gossypii）",
+   "en": "Melon aphid",
+   "ms": "Afid kapas"
+  },
+  "short": {
+   "zh": "在叶背和嫩梢吸汁、传播病毒的蚜虫。",
+   "en": "An aphid that sucks sap under leaves and on shoot tips, and spreads viruses.",
+   "ms": "Afid yang menghisap cecair di bawah daun dan pada pucuk, serta menyebarkan virus."
+  },
+  "chapter": 46
+ },
+ {
+  "id": "melon-fly",
+  "name": {
+   "zh": "瓜实蝇",
+   "en": "Melon fly",
+   "ms": "Lalat buah tembikai"
+  },
+  "short": {
+   "zh": "幼虫在瓜果里吃的实蝇。",
+   "en": "A fruit fly whose maggots feed inside gourds and melons.",
+   "ms": "Lalat buah yang berenganya makan di dalam labu dan tembikai."
+  },
+  "chapter": 47
+ },
+ {
+  "id": "epilachna",
+  "name": {
+   "zh": "二十八星瓢虫",
+   "en": "28-spotted ladybird",
+   "ms": "Kumbang kura-kura 28 bintik"
+  },
+  "short": {
+   "zh": "吃茄子叶子的瓢虫，是害虫。",
+   "en": "A ladybird that eats brinjal leaves; a pest.",
+   "ms": "Kumbang kura-kura yang memakan daun terung; perosak."
+  },
+  "chapter": 48
+ },
+ {
+  "id": "transverse-ladybird",
+  "name": {
+   "zh": "横斑瓢虫（Coccinella transversalis）",
+   "en": "Transverse ladybird",
+   "ms": "Kumbang kura-kura melintang"
+  },
+  "short": {
+   "zh": "吃蚜虫的橙色瓢虫。",
+   "en": "An orange ladybird that eats aphids.",
+   "ms": "Kumbang kura-kura jingga yang memakan afid."
+  },
+  "chapter": 49
+ },
+ {
+  "id": "zigzag-ladybird",
+  "name": {
+   "zh": "六斑月瓢虫（Cheilomenes sexmaculata）",
+   "en": "Zigzag ladybird",
+   "ms": "Kumbang kura-kura zigzag"
+  },
+  "short": {
+   "zh": "马来西亚辣椒田里吃蚜虫最主要的瓢虫。",
+   "en": "The main aphid-eating ladybird in Malaysian chilli fields.",
+   "ms": "Kumbang kura-kura pemakan afid utama di ladang cili Malaysia."
+  },
+  "chapter": 50
+ },
+ {
+  "id": "fruit-fly",
+  "name": {
+   "zh": "实蝇（Bactrocera）",
+   "en": "Fruit flies (carambola and oriental)",
+   "ms": "Lalat buah (belimbing dan oriental)"
+  },
+  "short": {
+   "zh": "幼虫在果实里吃的实蝇，两种非常相似。",
+   "en": "Fruit flies whose maggots feed inside fruit; the two species are very alike.",
+   "ms": "Lalat buah yang berenganya makan di dalam buah; dua spesies ini sangat serupa."
+  },
+  "chapter": 52
+ },
+ {
+  "id": "citrus-psyllid",
+  "name": {
+   "zh": "柑橘木虱（Diaphorina citri）",
+   "en": "Asian citrus psyllid",
+   "ms": "Psilid limau Asia"
+  },
+  "short": {
+   "zh": "传播柑橘黄龙病的小型木虱。",
+   "en": "A small psyllid that spreads citrus huanglongbing.",
+   "ms": "Psilid kecil yang menyebarkan huanglongbing limau."
+  },
+  "chapter": 53
+ },
+ {
+  "id": "banana-skipper",
+  "name": {
+   "zh": "弄蝶（Erionota）",
+   "en": "Banana skipper",
+   "ms": "Rama-rama pisang"
+  },
+  "short": {
+   "zh": "幼虫把香蕉叶卷成筒、躲在里面吃的弄蝶。",
+   "en": "A skipper butterfly whose caterpillars roll banana leaves into tubes and feed inside.",
+   "ms": "Rama-rama skipper yang ulatnya menggulung daun pisang menjadi tiub dan makan di dalamnya."
+  },
+  "chapter": 54
+ },
+ {
+  "id": "lime-butterfly",
+  "name": {
+   "zh": "凤蝶（Papilio demoleus）",
+   "en": "Lime butterfly",
+   "ms": "Rama-rama limau"
+  },
+  "short": {
+   "zh": "幼虫吃柑橘叶的凤蝶。",
+   "en": "A swallowtail whose caterpillars eat citrus leaves.",
+   "ms": "Rama-rama ekor walet yang ulatnya memakan daun limau."
+  },
+  "chapter": 55
+ },
+ {
+  "id": "cocoa-pod-borer",
+  "name": {
+   "zh": "细蛾（Conopomorpha cramerella）",
+   "en": "Cocoa pod borer",
+   "ms": "Pengorek buah koko"
+  },
+  "short": {
+   "zh": "幼虫钻进可可荚里吃的小蛾。",
+   "en": "A small moth whose larvae tunnel into cocoa pods.",
+   "ms": "Rama-rama kecil yang larvanya mengorek ke dalam buah koko."
+  },
+  "chapter": 57
+ },
+ {
+  "id": "cocoa-mirid",
+  "name": {
+   "zh": "盲蝽（Helopeltis）",
+   "zhTw": "盲椿象（Helopeltis）",
+   "en": "Cocoa mirid (mosquito bug)",
+   "ms": "Kepinding koko (Helopeltis)"
+  },
+  "short": {
+   "zh": "像蚊子一样细长、吸食可可荚和嫩梢的盲蝽。",
+   "en": "A slender, mosquito-like bug that sucks cocoa pods and shoots.",
+   "ms": "Kepinding langsing seperti nyamuk yang menghisap buah dan pucuk koko."
+  },
+  "chapter": 58
+ },
+ {
+  "id": "black-cocoa-ant",
+  "name": {
+   "zh": "蚂蚁（Dolichoderus thoracicus）",
+   "en": "Black cocoa ant",
+   "ms": "Semut hitam koko"
+  },
+  "short": {
+   "zh": "保护可可免受盲蝽危害的蚂蚁。",
+   "en": "An ant that protects cocoa against mirids.",
+   "ms": "Semut yang melindungi koko daripada kepinding."
+  },
+  "chapter": 59
+ },
+ {
+  "id": "asian-honey-bee",
+  "name": {
+   "zh": "蜜蜂（Apis cerana）",
+   "en": "Asian honey bee",
+   "ms": "Lebah madu Asia"
+  },
+  "short": {
+   "zh": "马来西亚本地的蜜蜂，椰子最主要的授粉者。",
+   "en": "Malaysia's native honey bee, the main pollinator of coconut.",
+   "ms": "Lebah madu asli Malaysia, pendebunga utama kelapa."
+  },
+  "chapter": 61
+ },
+ {
+  "id": "kelulut",
+  "name": {
+   "zh": "无刺蜂（Heterotrigona itama）",
+   "en": "Stingless bee (kelulut)",
+   "ms": "Kelulut (Heterotrigona itama)"
+  },
+  "short": {
+   "zh": "马来西亚常养的无刺蜂，产 kelulut 蜜，也帮瓜类授粉。",
+   "en": "A stingless bee widely kept in Malaysia for kelulut honey, which also pollinates melons.",
+   "ms": "Kelulut yang banyak dipelihara di Malaysia untuk madu kelulut, dan juga mendebungakan tembikai."
+  },
+  "chapter": 62
  }
 ]

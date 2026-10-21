@@ -284,7 +284,8 @@ const VIEWS = {
         el('ul', {}, ch.sources.map(sid => {
           const s = sources.find(x => x.id === sid);
           if (!s) return null;
-          return el('li', {}, s.url ? el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.title, ' ↗') : s.title, `. ${s.publisher}.`);
+          return el('li', {}, s.url ? el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.title, ' ↗') : s.title, `. ${s.publisher}.`,
+            s.via === 'search' ? el('span', { class: 'muted' }, ` ${tr('viaSearch')}`) : null);
         }))),
       el('footer', { class: 'chapter-foot' },
         readBtn,

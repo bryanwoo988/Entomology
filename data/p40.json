@@ -1,0 +1,128 @@
+{
+ "id": "p40",
+ "num": 40,
+ "stage": 5,
+ "kind": "crop",
+ "title": {
+  "zh": "蔬菜的昆虫",
+  "en": "Vegetable insects",
+  "ms": "Serangga sayur-sayuran"
+ },
+ "blurb": {
+  "zh": "十字花科、辣椒、茄子、瓜类和玉米上的害虫，以及三种瓢虫",
+  "en": "Pests of crucifers, chilli, brinjal, cucurbits and maize, and three ladybirds",
+  "ms": "Perosak kubis-kubis, cili, terung, labu dan jagung, serta tiga kumbang kura-kura"
+ },
+ "sources": [
+  "DBM-CH",
+  "FRONT-CHILCV",
+  "INDJ-CT",
+  "IPPC-FAW",
+  "JPP-EPI",
+  "KAPUR-1950",
+  "MSU-SL",
+  "PP-MF",
+  "SER-THRIPS",
+  "UPM-CHILLI"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "概况",
+    "en": "Overview",
+    "ms": "Gambaran"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "这一组介绍马来西亚菜园常见的七种害虫，以及三种瓢虫：一种吃叶的害虫，两种吃蚜虫的益虫。",
+      "en": "This group covers seven common pests of Malaysian vegetable plots, and three ladybirds: one leaf-eating pest and two that eat aphids.",
+      "ms": "Kumpulan ini merangkumi tujuh perosak biasa di kebun sayur Malaysia, dan tiga kumbang kura-kura: satu perosak pemakan daun dan dua yang memakan afid."
+     },
+     "src": [
+      "SER-THRIPS",
+      "UPM-CHILLI"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "{{ch:p41|小菜蛾}}：十字花科蔬菜，金马仑高原的种群对多种药剂有抗性",
+       "en": "{{ch:p41|Diamondback moth}}: crucifers; Cameron Highlands populations resist several insecticides",
+       "ms": "{{ch:p41|Ulat belakang berlian}}: kubis-kubis; populasi Cameron Highlands rintang terhadap beberapa racun"
+      },
+      {
+       "zh": "{{ch:p42|斜纹夜蛾}}：什么都吃的夜蛾幼虫",
+       "en": "{{ch:p42|Common cutworm}}: a caterpillar that eats almost anything",
+       "ms": "{{ch:p42|Ulat Spodoptera litura}}: ulat yang memakan hampir apa sahaja"
+      },
+      {
+       "zh": "{{ch:p43|草地贪夜蛾}}：2019 年入侵马来西亚，危害玉米",
+       "en": "{{ch:p43|Fall armyworm}}: invaded Malaysia in 2019 and attacks maize",
+       "ms": "{{ch:p43|Fall armyworm}}: menceroboh Malaysia pada 2019 dan menyerang jagung"
+      },
+      {
+       "zh": "{{ch:p44|粉虱}}：传播辣椒卷叶病毒",
+       "en": "{{ch:p44|Whitefly}}: spreads chilli leaf curl virus",
+       "ms": "{{ch:p44|Lalat putih}}: menyebarkan virus keriting daun cili"
+      },
+      {
+       "zh": "{{ch:p45|棕榈蓟马}}：在花里吃，果实留下疤痕",
+       "en": "{{ch:p45|Melon thrips}}: feeds inside flowers and scars the fruit",
+       "ms": "{{ch:p45|Trips melon}}: makan di dalam bunga dan meninggalkan parut pada buah"
+      },
+      {
+       "zh": "{{ch:p46|瓜蚜}}：传播辣椒脉斑驳病毒",
+       "en": "{{ch:p46|Melon aphid}}: spreads chilli veinal mottle virus",
+       "ms": "{{ch:p46|Afid kapas}}: menyebarkan virus belang urat cili"
+      },
+      {
+       "zh": "{{ch:p47|瓜实蝇}}：幼虫在瓜果里吃",
+       "en": "{{ch:p47|Melon fly}}: its maggots feed inside gourds",
+       "ms": "{{ch:p47|Lalat buah tembikai}}: berenga makan di dalam buah labu"
+      },
+      {
+       "zh": "{{ch:p48|二十八星瓢虫}}（害虫）：吃茄子的叶子",
+       "en": "{{ch:p48|28-spotted ladybird}} (pest): eats brinjal leaves",
+       "ms": "{{ch:p48|Kumbang kura-kura 28 bintik}} (perosak): memakan daun terung"
+      },
+      {
+       "zh": "{{ch:p49|横斑瓢虫}}和{{ch:p50|六斑月瓢虫}}（益虫）：吃蚜虫",
+       "en": "{{ch:p49|Transverse ladybird}} and {{ch:p50|zigzag ladybird}} (helpful): eat aphids",
+       "ms": "{{ch:p49|Kumbang kura-kura melintang}} dan {{ch:p50|kumbang kura-kura zigzag}} (berguna): memakan afid"
+      }
+     ],
+     "src": [
+      "DBM-CH",
+      "MSU-SL",
+      "IPPC-FAW",
+      "FRONT-CHILCV",
+      "SER-THRIPS",
+      "UPM-CHILLI",
+      "PP-MF",
+      "JPP-EPI",
+      "INDJ-CT"
+     ]
+    },
+    {
+     "type": "note",
+     "kind": "key",
+     "text": {
+      "zh": "瓢虫不一定是益虫：二十八星瓢虫吃叶子，是害虫；它的幼虫身上长满分枝的刺，被吃过的叶子只剩一层薄皮。",
+      "en": "Not every ladybird is a friend: the 28-spotted ladybird eats leaves and is a pest. Its larvae are covered in branched spines, and the leaves it eats are scraped down to a thin skin.",
+      "ms": "Bukan semua kumbang kura-kura berguna: kumbang kura-kura 28 bintik memakan daun dan ialah perosak. Larvanya dipenuhi duri bercabang, dan daun yang dimakannya dikikis hingga tinggal kulit nipis."
+     },
+     "src": [
+      "JPP-EPI",
+      "KAPUR-1950"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": []
+}

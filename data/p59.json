@@ -1,0 +1,135 @@
+{
+ "id": "p59",
+ "num": 59,
+ "stage": 5,
+ "kind": "species",
+ "order": "p13",
+ "title": {
+  "zh": "蚂蚁（Dolichoderus thoracicus）",
+  "en": "Black cocoa ant",
+  "ms": "Semut hitam koko"
+ },
+ "blurb": {
+  "zh": "Dolichoderus thoracicus",
+  "en": "Dolichoderus thoracicus",
+  "ms": "Dolichoderus thoracicus"
+ },
+ "sources": [
+  "ANTKEY-DT",
+  "HO-1997",
+  "KHOO-1992",
+  "WAY-1991"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "蚂蚁（Dolichoderus thoracicus）",
+      "en": "Black cocoa ant",
+      "ms": "Semut hitam koko"
+     },
+     "sci": "Dolichoderus thoracicus",
+     "order": "p13",
+     "crops": [
+      {
+       "zh": "可可",
+       "en": "Cocoa",
+       "ms": "Koko"
+      }
+     ],
+     "stage": {
+      "zh": "工蚁（益虫）",
+      "en": "Workers (helpful)",
+      "ms": "Semut pekerja (berguna)"
+     },
+     "src": [
+      "ANTKEY-DT"
+     ],
+     "authority": "(Smith)"
+    },
+    {
+     "type": "photo",
+     "id": "dolichoderus-thoracicus-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:black-cocoa-ant}}的辨认要点：",
+      "en": "How to recognise {{t:black-cocoa-ant}}:",
+      "ms": "Cara mengecam {{t:black-cocoa-ant}}:"
+     },
+     "defines": [
+      "black-cocoa-ant"
+     ],
+     "src": [
+      "ANTKEY-DT"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "褐色到黑褐色的蚂蚁",
+       "en": "A brown to blackish-brown ant",
+       "ms": "Semut perang hingga perang kehitaman"
+      },
+      {
+       "zh": "胸部背面有一个又深又宽的凹陷",
+       "en": "A deep, broad dip on the upper thorax",
+       "ms": "Lekukan dalam dan lebar di bahagian atas toraks"
+      }
+     ],
+     "src": [
+      "ANTKEY-DT"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "它的作用",
+    "en": "What it does",
+    "ms": "Peranannya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "在马来西亚两个可可园两年的研究中，黑可可蚁越多，盲蝽 Helopeltis theivora 越少，黑荚病也越少。",
+      "en": "In two Malaysian cocoa fields studied over two years, more black cocoa ants clearly meant fewer Helopeltis theivora mirids, and less black pod disease.",
+      "ms": "Dalam dua ladang koko Malaysia yang dikaji selama dua tahun, lebih banyak semut hitam koko jelas bermakna kurang kepinding Helopeltis theivora, dan kurang penyakit buah hitam."
+     },
+     "src": [
+      "KHOO-1992"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "怎样让它留在园里：可可和椰子混种时，椰子的佛焰花序为它提供大而稳定的巢穴，可可树上和地上的巢都只是暂时的。它靠介壳虫、粉蚧排出的蜜露为食；研究指出，要用它防治害虫，必须把蚂蚁和粉蚧 Cataenococcus hispidus 一起管理。",
+      "en": "Keeping it in the field: where cocoa is mixed with coconut, the coconut flower spikes give large, stable nest sites, while nests on cocoa trees and on the ground are only temporary. It lives on honeydew from sap-sucking insects; researchers stress that to use it against pests, the ant and the mealybug Cataenococcus hispidus must be managed together.",
+      "ms": "Mengekalkannya di ladang: di mana koko ditanam bersama kelapa, mayang kelapa memberi tapak sarang yang besar dan stabil, manakala sarang pada pokok koko dan di tanah hanya sementara. Ia hidup daripada embun madu serangga penghisap; penyelidik menegaskan bahawa untuk menggunakannya terhadap perosak, semut dan koya Cataenococcus hispidus mesti diurus bersama."
+     },
+     "src": [
+      "WAY-1991",
+      "HO-1997"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "black-cocoa-ant"
+ ]
+}

@@ -59,6 +59,7 @@ export const UI = {
   newTerms: { zh: '本章新名词', en: 'New in this chapter', ms: 'Istilah baharu bab ini' },
   advanced: { zh: '进阶', en: 'Going deeper', ms: 'Lanjutan' },
   farmInsects: { zh: '这一目的农业昆虫', en: 'Farm insects in this order', ms: 'Serangga pertanian dalam order ini' },
+  viaSearch: { zh: '（经搜索摘要核对，未能打开原文）', en: '(checked through a search summary; the page itself could not be opened)', ms: '(disemak melalui ringkasan carian; halaman asal tidak dapat dibuka)' },
   sources: { zh: '本章来源', en: 'Sources for this chapter', ms: 'Sumber bab ini' },
   prev: { zh: '上一章', en: 'Previous', ms: 'Sebelumnya' },
   next: { zh: '下一章', en: 'Next', ms: 'Seterusnya' },

@@ -1,0 +1,231 @@
+{
+ "id": "p45",
+ "num": 45,
+ "stage": 5,
+ "kind": "species",
+ "order": "p20",
+ "title": {
+  "zh": "棕榈蓟马",
+  "en": "Melon thrips",
+  "ms": "Trips melon"
+ },
+ "blurb": {
+  "zh": "Thrips palmi",
+  "en": "Thrips palmi",
+  "ms": "Thrips palmi"
+ },
+ "sources": [
+  "DEFRA-TP",
+  "DOA-MRL",
+  "PP-TP",
+  "SER-THRIPS",
+  "TJ",
+  "UF-TP",
+  "UF-TPG"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "棕榈蓟马",
+      "en": "Melon thrips",
+      "ms": "Trips melon"
+     },
+     "sci": "Thrips palmi",
+     "order": "p20",
+     "crops": [
+      {
+       "zh": "辣椒",
+       "en": "Chilli",
+       "ms": "Cili"
+      },
+      {
+       "zh": "茄子",
+       "en": "Brinjal",
+       "ms": "Terung"
+      },
+      {
+       "zh": "瓜类",
+       "en": "Cucurbits",
+       "ms": "Tanaman labu"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Larvae and adults",
+      "ms": "Larva dan dewasa"
+     },
+     "src": [
+      "DEFRA-TP",
+      "UF-TP",
+      "UF-TPG"
+     ],
+     "authority": "Karny"
+    },
+    {
+     "type": "note",
+     "kind": "tip",
+     "text": {
+      "zh": "暂无合适的开放授权照片。",
+      "en": "No suitable openly licensed photo yet.",
+      "ms": "Belum ada foto berlesen terbuka yang sesuai."
+     },
+     "src": [
+      "TJ"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:melon-thrips}}的辨认要点：",
+      "en": "How to recognise {{t:melon-thrips}}:",
+      "ms": "Cara mengecam {{t:melon-thrips}}:"
+     },
+     "defines": [
+      "melon-thrips"
+     ],
+     "src": [
+      "DEFRA-TP",
+      "UF-TP",
+      "UF-TPG"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "成虫 1.0–1.3 毫米，身体黄色",
+       "en": "Adults are 1.0–1.3 mm, with a yellow body",
+       "ms": "Dewasa 1.0–1.3 mm, berbadan kuning"
+      },
+      {
+       "zh": "翅合起来时，背中央有一条深色的线",
+       "en": "With the wings closed, a dark line runs down the middle of the back",
+       "ms": "Apabila sayap tertutup, garis gelap kelihatan di tengah belakang"
+      },
+      {
+       "zh": "头顶的单眼有红色色素（洋葱蓟马是灰色）",
+       "en": "The simple eyes on top of the head have red pigment (grey in onion thrips)",
+       "ms": "Mata ringkas di atas kepala berpigmen merah (kelabu pada trips bawang)"
+      },
+      {
+       "zh": "和其他蓟马很难分，确认需要专家用显微镜检查",
+       "en": "Hard to tell from other thrips; an expert with a microscope is needed to be sure",
+       "ms": "Sukar dibezakan daripada trips lain; pakar dengan mikroskop diperlukan untuk kepastian"
+      }
+     ],
+     "src": [
+      "DEFRA-TP",
+      "UF-TP",
+      "UF-TPG"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "在金马仑高原的茄子、辣椒和甜椒上，棕榈蓟马和 Thrips parvispinus 数量很多，主要在花里吃，每朵花约 5 只。危害表现在正在发育的果实上留下疤痕，果实可能变形、看起来干瘪，卖不出好价钱。",
+      "en": "On brinjal, chilli and bell pepper in the Cameron Highlands, Thrips palmi and Thrips parvispinus are abundant and feed mainly inside the flowers, about five per flower. The damage shows as scars on the developing fruit, which may become misshapen and dry-looking and hard to sell.",
+      "ms": "Pada terung, cili dan lada benggala di Cameron Highlands, Thrips palmi dan Thrips parvispinus banyak dan makan terutamanya di dalam bunga, kira-kira lima seekor sekuntum. Kerosakan kelihatan sebagai parut pada buah yang sedang membesar, yang mungkin cacat bentuk dan kelihatan kering serta sukar dijual."
+     },
+     "src": [
+      "SER-THRIPS"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "叶面会出现银白色或古铜色的斑，沿着叶脉最明显。它也传播番茄斑萎病毒等番茄斑萎病毒属（tospovirus）的病毒。",
+      "en": "Leaves show silvering or bronzing on the upper surface, most of all along the veins. It also spreads tospoviruses such as tomato spotted wilt virus.",
+      "ms": "Daun menunjukkan kesan keperakan atau gangsa di permukaan atas, terutamanya di sepanjang urat. Ia juga menyebarkan tospovirus seperti virus layu bertompok tomato."
+     },
+     "src": [
+      "PP-TP",
+      "UF-TPG"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "heading": {
+    "zh": "容易混淆",
+    "en": "Look-alikes",
+    "ms": "Mudah dikelirukan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "洋葱蓟马（Thrips tabaci）身体灰褐色、单眼灰色；在马来西亚，Thrips parvispinus 常和棕榈蓟马出现在同样的作物上。",
+      "en": "Onion thrips (Thrips tabaci) have a grey-brown body and grey simple eyes; in Malaysia, Thrips parvispinus often shares the same crops with melon thrips.",
+      "ms": "Trips bawang (Thrips tabaci) berbadan kelabu keperangan dan bermata ringkas kelabu; di Malaysia, Thrips parvispinus sering berkongsi tanaman yang sama dengan trips melon."
+     },
+     "src": [
+      "UF-TP",
+      "SER-THRIPS"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "不要让同类作物的种植期重叠；清除杂草，尤其是开花的杂草（花粉会吸引蓟马）。",
+      "en": "Avoid overlapping plantings of susceptible crops; control weeds, especially flowering weeds whose pollen attracts thrips.",
+      "ms": "Elakkan tanaman bertindih bagi tanaman yang mudah diserang; kawal rumpai, terutamanya rumpai berbunga yang debunganya menarik trips."
+     },
+     "src": [
+      "PP-TP"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "chemical",
+     "text": {
+      "zh": "避免广谱杀虫剂：它们对蓟马天敌的伤害比对蓟马还大。真的要用药时，只用农业局为这种作物登记的产品，并依照标签。",
+      "en": "Avoid broad-spectrum insecticides: they harm the thrips' natural enemies more than the thrips. If you must spray, use only a product registered by the Department of Agriculture for the crop, and follow its label.",
+      "ms": "Elakkan racun serangga spektrum luas: ia lebih memudaratkan musuh semula jadi trips daripada trips itu sendiri. Jika perlu menyembur, gunakan hanya produk yang didaftarkan Jabatan Pertanian untuk tanaman itu, dan ikut labelnya."
+     },
+     "src": [
+      "PP-TP",
+      "DOA-MRL"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "melon-thrips"
+ ]
+}

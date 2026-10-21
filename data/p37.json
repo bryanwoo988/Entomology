@@ -1,0 +1,176 @@
+{
+ "id": "p37",
+ "num": 37,
+ "stage": 5,
+ "kind": "species",
+ "order": "p12",
+ "title": {
+  "zh": "稻缘蝽（Leptocorisa）",
+  "en": "Rice bug",
+  "ms": "Pianggang",
+  "zhTw": "稻缘椿象（Leptocorisa）"
+ },
+ "blurb": {
+  "zh": "Leptocorisa oratoria",
+  "en": "Leptocorisa oratoria",
+  "ms": "Leptocorisa oratoria"
+ },
+ "sources": [
+  "CABI-RB",
+  "IRRI-RB",
+  "JIRCAS-MUDA"
+ ],
+ "sections": [
+  {
+   "id": "s1",
+   "heading": {
+    "zh": "认识它",
+    "en": "Recognising it",
+    "ms": "Mengecamnya"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "species",
+     "names": {
+      "zh": "稻缘蝽（Leptocorisa）",
+      "zhTw": "稻缘椿象（Leptocorisa）",
+      "en": "Rice bug",
+      "ms": "Pianggang"
+     },
+     "sci": "Leptocorisa oratoria",
+     "order": "p12",
+     "crops": [
+      {
+       "zh": "水稻",
+       "en": "Rice",
+       "ms": "Padi"
+      }
+     ],
+     "stage": {
+      "zh": "若虫和成虫",
+      "en": "Nymphs and adults",
+      "ms": "Nimfa dan dewasa"
+     },
+     "src": [
+      "IRRI-RB"
+     ],
+     "authority": "(Fabricius)"
+    },
+    {
+     "type": "photo",
+     "id": "leptocorisa-oratoria-adult"
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "{{t:rice-bug}}的辨认要点：",
+      "en": "How to recognise {{t:rice-bug}}:",
+      "ms": "Cara mengecam {{t:rice-bug}}:"
+     },
+     "defines": [
+      "rice-bug"
+     ],
+     "src": [
+      "IRRI-RB"
+     ]
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "zh": "身体细长；小若虫绿色，成虫绿褐色",
+       "en": "Slender body; young nymphs are green and adults greenish brown",
+       "ms": "Badan langsing; nimfa muda hijau dan dewasa hijau keperangan"
+      },
+      {
+       "zh": "天热不吃东西时，成虫会贴在稻株上躲藏",
+       "en": "In hot weather, adults that are not feeding hide on the plant",
+       "ms": "Dalam cuaca panas, dewasa yang tidak makan bersembunyi pada pokok"
+      },
+      {
+       "zh": "最常在开花到乳熟期出现",
+       "en": "Most often seen from flowering to the milky stage",
+       "ms": "Paling kerap dilihat dari peringkat berbunga hingga bersusu"
+      }
+     ],
+     "src": [
+      "IRRI-RB"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "heading": {
+    "zh": "危害",
+    "en": "Damage",
+    "ms": "Kerosakan"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "zh": "若虫和成虫吸食正在发育的谷粒，从开花前到软糊熟期都会吸，让谷粒变空或变色。附近有树林、大片杂草地、水沟边的野草，以及错开种植，都会让稻缘蝽变多。",
+      "en": "Nymphs and adults suck the developing grains, from before flowering to the soft dough stage, leaving them empty or discoloured. Nearby woodland, large weedy areas, wild grasses along canals and staggered planting all raise their numbers.",
+      "ms": "Nimfa dan dewasa menghisap bijirin yang sedang berkembang, dari sebelum berbunga hingga peringkat doh lembut, menyebabkan bijirin hampa atau berubah warna. Hutan berdekatan, kawasan semak luas, rumput liar di tepi parit dan tanaman berperingkat semuanya menambah bilangannya."
+     },
+     "src": [
+      "IRRI-RB"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "zh": "在慕达灌溉区，直播稻田里的稻缘蝽比较多；稗草（barnyard grass）是它的另一种寄主。",
+      "en": "In the Muda irrigation area, rice bugs became more common in direct-seeded fields; barnyard grass is another host.",
+      "ms": "Di kawasan pengairan Muda, pianggang menjadi lebih banyak di petak tabur terus; rumput sambau (barnyard grass) ialah perumah lain."
+     },
+     "src": [
+      "JIRCAS-MUDA"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "heading": {
+    "zh": "防治方法",
+    "en": "Managing it",
+    "ms": "Cara mengawal"
+   },
+   "level": "basic",
+   "blocks": [
+    {
+     "type": "control",
+     "level": "monitor",
+     "text": {
+      "zh": "早上或傍晚随机检查 20 丛稻；每丛平均 10 只或以上时才考虑防治。",
+      "en": "In the morning or evening, check 20 hills at random; consider treatment only at 10 or more bugs per hill.",
+      "ms": "Pada waktu pagi atau petang, periksa 20 rumpun secara rawak; pertimbangkan rawatan hanya pada 10 ekor atau lebih serumpun."
+     },
+     "src": [
+      "CABI-RB"
+     ]
+    },
+    {
+     "type": "control",
+     "level": "cultural",
+     "text": {
+      "zh": "和邻田同步种植，清除田边和水沟边的禾本科杂草（包括稗草）。",
+      "en": "Plant at the same time as neighbouring fields, and clear grassy weeds (including barnyard grass) around fields and canals.",
+      "ms": "Tanam serentak dengan petak jiran, dan bersihkan rumpai rumput (termasuk rumput sambau) di sekitar petak dan parit."
+     },
+     "src": [
+      "IRRI-RB",
+      "JIRCAS-MUDA"
+     ]
+    }
+   ]
+  }
+ ],
+ "newTerms": [
+  "rice-bug"
+ ]
+}
