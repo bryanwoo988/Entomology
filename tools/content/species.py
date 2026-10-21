@@ -36,7 +36,7 @@ def species_page(num, tid, names, sci, order, crops, stage, short, ident, ident_
     title = {"zh": f"{names['zh']}", "en": names["en"], "ms": names["ms"]}
     if names.get("zhTw"):
         title["zhTw"] = names["zhTw"]
-    chapter = {"id": cid, "num": num, "stage": 5, "kind": "species", "title": title,
+    chapter = {"id": cid, "num": num, "stage": 5, "kind": "species", "order": order, "title": title,
                "blurb": blurb or T(sci, sci, sci), "sources": sorted(used), "sections": sections}
     write_chapter(chapter, [(tid, names, short)], src(*used), list(quiz))
 

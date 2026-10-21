@@ -58,6 +58,7 @@ export const UI = {
   startHere: { zh: '从第一章开始', en: 'Start with Chapter 1', ms: 'Mula dengan Bab 1' },
   newTerms: { zh: '本章新名词', en: 'New in this chapter', ms: 'Istilah baharu bab ini' },
   advanced: { zh: '进阶', en: 'Going deeper', ms: 'Lanjutan' },
+  farmInsects: { zh: '这一目的农业昆虫', en: 'Farm insects in this order', ms: 'Serangga pertanian dalam order ini' },
   sources: { zh: '本章来源', en: 'Sources for this chapter', ms: 'Sumber bab ini' },
   prev: { zh: '上一章', en: 'Previous', ms: 'Sebelumnya' },
   next: { zh: '下一章', en: 'Next', ms: 'Seterusnya' },

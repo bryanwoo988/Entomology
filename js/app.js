@@ -11,7 +11,7 @@
    the bottom bar below the page opens them. */
 
 import * as prefs from './prefs.js';
-import { pageId } from './markup.js';
+import { pageId, speciesOf } from './markup.js';
 import { t, pick, LANG_NATIVE } from './i18n.js';
 import { loadIndex, loadChapter, loadData, renderSections, el } from './content.js';
 import { loadTerms, openTermSheet, renderNewTerms } from './terms.js';
@@ -276,6 +276,9 @@ const VIEWS = {
       el('p', { class: 'muted study-hint' }, tr('markHint')),
       renderNewTerms(ch.newTerms, ctx),
       renderSections(ch, ctx),
+      ch.kind === 'order' && speciesOf(index, id).length ? el('section', { class: 'farm-links' },
+        el('h2', {}, tr('farmInsects')),
+        el('ul', {}, speciesOf(index, id).map(c => el('li', {}, el('a', { href: `#/ch/${c.id}` }, pick(c.title, lang())))))) : null,
       el('section', { class: 'chapter-sources' },
         el('h2', {}, tr('sources')),
         el('ul', {}, ch.sources.map(sid => {

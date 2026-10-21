@@ -3,6 +3,7 @@
  "num": 33,
  "stage": 5,
  "kind": "species",
+ "order": "p12",
  "title": {
   "zh": "猎蝽",
   "en": "Assassin bug (Sycanus dichotomus)",

@@ -33,3 +33,16 @@ test('page ids are p and two digits', () => {
   assert.equal(pageId(5), 'p05');
   assert.equal(pageId(27), 'p27');
 });
+
+test('an order page lists the species pages that name it, in page order', async () => {
+  const { speciesOf } = await import('../js/markup.js');
+  const index = { chapters: [
+    { id: 'p12', kind: 'order' },
+    { id: 'p40', kind: 'species', order: 'p12' },
+    { id: 'p33', kind: 'species', order: 'p12' },
+    { id: 'p28', kind: 'species', order: 'p10' },
+    { id: 'p27', kind: 'crop' },
+  ] };
+  assert.deepEqual(speciesOf(index, 'p12').map(c => c.id), ['p33', 'p40']);
+  assert.deepEqual(speciesOf(index, 'p99'), []);
+});

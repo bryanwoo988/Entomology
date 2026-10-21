@@ -133,6 +133,14 @@ await test('share page shows a QR code, a share button and copy link', async () 
 
 const type = (a, input, text) => { input.value = text; input.dispatchEvent(new a.w.Event('input', { bubbles: true })); };
 
+await testIf(P.includes('p33'), 'an order page links to its farm insects', async () => {
+  const a = await openApp({ hash: '#/ch/p12', prefs: { lang: 'en' } });
+  await until(() => a.d.querySelector('.chapter h1'));
+  const link = a.d.querySelector('.farm-links a[href="#/ch/p33"]');
+  assert(link && link.textContent.includes('Sycanus'), 'no link to the assassin bug page');
+  a.close();
+});
+
 await testIf(P.length > 0, 'search finds a chapter from a query in another language', async () => {
   const a = await openApp({ hash: '#/search', prefs: { lang: 'ms' } });
   const input = await until(() => a.d.querySelector('#search-input'));

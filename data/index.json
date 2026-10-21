@@ -577,7 +577,8 @@
     "zh": "Oryctes rhinoceros",
     "en": "Oryctes rhinoceros",
     "ms": "Oryctes rhinoceros"
-   }
+   },
+   "order": "p10"
   },
   {
    "id": "p29",
@@ -594,7 +595,8 @@
     "zh": "Metisa plana, Pteroma pendula, Mahasena corbetti",
     "en": "Metisa plana, Pteroma pendula, Mahasena corbetti",
     "ms": "Metisa plana, Pteroma pendula, Mahasena corbetti"
-   }
+   },
+   "order": "p11"
   },
   {
    "id": "p30",
@@ -610,7 +612,8 @@
     "zh": "Setora nitens, Orthocraspeda trima",
     "en": "Setora nitens, Orthocraspeda trima",
     "ms": "Setora nitens, Orthocraspeda trima"
-   }
+   },
+   "order": "p11"
   },
   {
    "id": "p31",
@@ -626,7 +629,8 @@
     "zh": "Coptotermes curvignathus",
     "en": "Coptotermes curvignathus",
     "ms": "Coptotermes curvignathus"
-   }
+   },
+   "order": "p18"
   },
   {
    "id": "p32",
@@ -643,7 +647,8 @@
     "zh": "Elaeidobius kamerunicus",
     "en": "Elaeidobius kamerunicus",
     "ms": "Elaeidobius kamerunicus"
-   }
+   },
+   "order": "p10"
   },
   {
    "id": "p33",
@@ -660,7 +665,8 @@
     "zh": "Sycanus dichotomus",
     "en": "Sycanus dichotomus",
     "ms": "Sycanus dichotomus"
-   }
+   },
+   "order": "p12"
   }
  ]
 }

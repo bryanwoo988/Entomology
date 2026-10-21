@@ -31,3 +31,7 @@ export function chapterIds(str) {
 
 // Page ids: p01, p02, … in reading order. Terms record the page number that teaches them.
 export const pageId = n => `p${String(n).padStart(2, '0')}`;
+
+// Species pages that belong to an order page, in page order (for the order page's farm-insect links).
+export const speciesOf = (index, orderId) =>
+  index.chapters.filter(c => c.kind === 'species' && c.order === orderId).sort((a, b) => a.id.localeCompare(b.id));

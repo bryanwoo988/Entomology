@@ -134,6 +134,8 @@ def write_chapter(chapter, terms, sources, quiz, datasets=()):
     index = _load("index", None)
     meta = {"id": cid, "num": num, "stage": chapter["stage"], "kind": chapter.get("kind", "lesson"),
             "title": chapter["title"], "blurb": chapter.get("blurb", chapter["title"])}
+    if chapter.get("order"):
+        meta["order"] = chapter["order"]
     index["chapters"] = sorted([c for c in index["chapters"] if c["id"] != cid] + [meta], key=lambda c: c["num"])
     for st in index["stages"]:
         st["chapters"] = [x for x in st["chapters"] if x != cid]
