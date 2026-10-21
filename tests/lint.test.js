@@ -125,8 +125,13 @@ test('a pesticide named in a chemical block that declares it passes', () => asse
   sp(c).push(control('chemical', ['cypermethrin'])); sp(c)[sp(c).length - 1].text = T('Use cypermethrin.');
 }), []));
 test('a photo block must name a registered photo', () => has(errorsOf(c => { sp(c).push({ type: 'photo', id: 'ghost' }); }), /unknown photo "ghost"/));
+test('a gallery must name registered photos', () => has(errorsOf(c => { sp(c).push({ type: 'gallery', ids: ['bug', 'ghost'] }); }), /unknown photo "ghost"/));
 test('a photo needs a licence', () => has(errorsOf(c => { delete c.photos[0].licence; }), /photo bug.*licence/));
 test('a photo licence must be open or MPOB permission', () => has(errorsOf(c => { c.photos[0].licence = 'CC BY-NC 4.0'; }), /photo bug.*licence/));
+test('a figure with an existing image passes', () => assert.deepEqual(errorsOf(c => {
+  c.files['img/svg/fig.svg'] = '<svg/>'; sp(c).push({ type: 'figure', src: 'img/svg/fig.svg', caption: T('Drawing') });
+}), []));
+test('a figure whose image is missing fails', () => has(errorsOf(c => { sp(c).push({ type: 'figure', src: 'img/svg/none.svg', caption: T('Drawing') }); }), /figure img\/svg\/none.svg not found/));
 test('a photo file must exist', () => has(errorsOf(c => { c.files = {}; }), /photo bug.*not found/));
 test('species block needs sci and an existing order page', () => {
   has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bug'), order: 'p01', crops: [], stage: T('larva'), src: ['met'] }); }), /species.*sci/);

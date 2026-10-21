@@ -44,6 +44,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "longhorn-pseudomyagrus",
+      "scarab-ceroplophana",
+      "oryctes-rhinoceros-adult"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

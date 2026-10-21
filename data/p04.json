@@ -111,6 +111,20 @@
      "src": [
       "TJ:29"
      ]
+    },
+    {
+     "type": "figure",
+     "src": "img/svg/fig-leg.svg",
+     "caption": {
+      "zh": "示意图：1 基节　2 转节　3 腿节　4 胫节　5 跗节　6 前跗节",
+      "en": "Drawing: 1 coxa, 2 trochanter, 3 femur, 4 tibia, 5 tarsus, 6 pretarsus",
+      "ms": "Lukisan: 1 koksa, 2 trokanter, 3 femur, 4 tibia, 5 tarsus, 6 pratarsus"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "One leg with its six parts numbered",
+      "ms": "Lukisan"
+     }
     }
    ]
   },
@@ -134,6 +148,20 @@
       "TJ:29",
       "PURDUE-TA"
      ]
+    },
+    {
+     "type": "figure",
+     "src": "img/svg/fig-legtypes.svg",
+     "caption": {
+      "zh": "示意图：1 步行足　2 跳跃足　3 捕捉足　4 挖掘足　5 游泳足",
+      "en": "Drawing: 1 walking or running, 2 jumping, 3 grasping, 4 digging, 5 swimming",
+      "ms": "Lukisan: 1 berjalan atau berlari, 2 melompat, 3 penangkap, 4 penggali, 5 berenang"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "Five kinds of legs, numbered 1 to 5",
+      "ms": "Lukisan"
+     }
     },
     {
      "type": "keyval",
@@ -207,6 +235,14 @@
         "ms": "Leper dan berbulu panjang seperti dayung; kumbang penyelam"
        }
       }
+     ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "mantis-hierodula",
+      "mole-cricket-gryllotalpa",
+      "grasshopper-tauchira"
      ]
     }
    ]

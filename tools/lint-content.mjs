@@ -104,7 +104,8 @@ export function lint(root) {
       }
       for (const d of b.defines ?? []) seenHere.add(d);
 
-      for (const s of b.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`${at}: unknown source "${s}"`);
+      // A figure's src is its image path (checked below), not a list of sources.
+      if (b.type !== 'figure') for (const s of b.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`${at}: unknown source "${s}"`);
       if (MARKABLE.has(b.type) && !(b.src ?? []).length) errors.push(`${at}: block has no src`);
       if (b.type === 'control') {
         const lv = IPM.indexOf(b.level);
@@ -127,6 +128,7 @@ export function lint(root) {
         if (named && !(b.type === 'control' && b.level === 'chemical' && (b.ai ?? []).includes(id))) errors.push(`${at}: names pesticide "${id}" outside a chemical block that declares it`);
       }
       if (b.type === 'photo' && !photoIds.has(b.id)) errors.push(`${at}: unknown photo "${b.id}"`);
+      if (b.type === 'gallery') for (const id of b.ids ?? []) if (!photoIds.has(id)) errors.push(`${at}: unknown photo "${id}"`);
       if (b.type === 'species') {
         const binomial = /^[A-Z][a-z]+( \([A-Z][a-z]+\))? [a-z-]+( [a-z-]+)?$/;
         if (!String(b.sci ?? '').split(', ').every(n => binomial.test(n))) errors.push(`${at}: species needs sci (Genus species), got "${b.sci ?? ''}"`);

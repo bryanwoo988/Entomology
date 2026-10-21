@@ -1,7 +1,7 @@
 """p06 — The abdomen."""
 import sys
 sys.path.insert(0, 'tools/content')
-from build import T, T2, P, L, N, MC, TF, MATCH, write_chapter
+from build import T, T2, P, L, N, MC, TF, MATCH, FIG, write_chapter
 from sources import src
 
 S = ["TJ", "PURDUE-TA"]
@@ -21,6 +21,7 @@ chapter = {"id": "p06", "num": 6, "stage": 1, "kind": "lesson",
     defines=["spiracle"], src=["PURDUE-TA"]),
  ]},
  {"id": "s2", "heading": T("腹部末端的构造", "At the tip of the abdomen", "Di hujung abdomen"), "level": "basic", "blocks": [
+  FIG("img/svg/fig-abdomen-tips.svg", T("示意图：1 产卵器　2 尾须　3 尾铗　4 螫针　5 攫握器", "Drawing: 1 ovipositor, 2 cerci, 3 forceps, 4 sting, 5 claspers", "Lukisan: 1 ovipositor, 2 serkus, 3 penyepit, 4 sengat, 5 pengapit"), T("示意图", "Five kinds of abdomen tips, numbered 1 to 5", "Lukisan")),
   L(("{{t:ovipositor}}：雌虫产卵用的管子，螽斯的又长又像刀", "{{t:ovipositor}}: the female's egg-laying tube; long and blade-like in katydids", "{{t:ovipositor}}: tiub bertelur betina; panjang seperti bilah pada katidid"),
     ("{{t:cercus}}：一对细长的尾巴状附器", "{{t:cercus|Cerci}}: a pair of slender tail-like feelers", "{{t:cercus}}: sepasang tambahan halus seperti ekor"),
     ("尾铗：蠼螋腹末的一对钳子", "Forceps: the earwig's pair of pincers", "Penyepit: sepasang sepit di hujung abdomen cocopet"),
@@ -28,6 +29,7 @@ chapter = {"id": "p06", "num": 6, "stage": 1, "kind": "lesson",
     ("攫握器：雄蜻蜓交配时抓住雌虫用", "Claspers: male dragonflies hold the female with them", "Pengapit: pepatung jantan memegang betina dengannya"),
     ("发音器：雄蝉腹部的鸣叫器官", "Sound organs: in the abdomen of male cicadas", "Organ bunyi: dalam abdomen riang-riang jantan"),
     defines=["ovipositor", "cercus"], src=["TJ:33"]),
+  {"type": "gallery", "ids": ["katydid-chloracris", "earwig-forficula"]},
   N("tip", "看到腹末有一对钳子，几乎一定是蠼螋；看到一根长长的“刀”，多半是雌螽斯。",
     "A pair of pincers at the tail almost always means an earwig; a long 'blade' usually means a female katydid.",
     "Sepasang sepit di hujung hampir pasti cocopet; 'bilah' panjang biasanya katidid betina.",

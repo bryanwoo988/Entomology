@@ -45,6 +45,12 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "silverfish-ctenolepisma"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

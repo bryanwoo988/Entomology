@@ -207,6 +207,28 @@ await test('no chapter shows "[object …]" text', async () => {
   assert(!bad.length, 'broken text in ' + bad.join(', '));
 });
 
+await test('a figure renders its drawing and caption, with no source line', async () => {
+  const { renderSections } = await import('../js/content.js');
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const page = { id: 'p92', sections: [{ id: 's1', heading: T('Legs'), blocks: [{ type: 'figure', src: 'img/svg/fig-leg.svg', caption: T('Drawing: 1 coxa') }] }] };
+  const host = document.createElement('div');
+  host.append(renderSections(page, { lang: 'en', terms: new Map(), sourceLabel: s => s }));
+  assert(host.querySelector('figure.figure img')?.getAttribute('src') === 'img/svg/fig-leg.svg', 'drawing missing');
+  assert(host.textContent.includes('Drawing: 1 coxa') && !host.querySelector('.block-src'), 'caption or stray source line');
+});
+
+await test('a gallery shows its photos side by side, each with its credit', async () => {
+  const { renderSections } = await import('../js/content.js');
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const ph = id => ({ id, file: 'icons/icon-192.png', subject: T(id), credit: T(`Photo ${id}`) });
+  const page = { id: 'p91', sections: [{ id: 's1', heading: T('Beetles'), blocks: [{ type: 'gallery', ids: ['a', 'b', 'gone'] }] }] };
+  const host = document.createElement('div');
+  host.append(renderSections(page, { lang: 'en', terms: new Map(), photos: new Map([['a', ph('a')], ['b', ph('b')]]) }));
+  const g = host.querySelector('.gallery');
+  assert(g && g.querySelectorAll('figure.photo').length === 2, 'gallery should hold the two known photos');
+  assert(g.textContent.includes('Photo a') && g.textContent.includes('Photo b'), 'credits missing');
+});
+
 await test('a species page renders its card, credited photo, IPM headings and the label warning', async () => {
   const { renderSections } = await import('../js/content.js');
   const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });

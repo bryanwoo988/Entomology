@@ -45,6 +45,12 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "mayfly-atopopus"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

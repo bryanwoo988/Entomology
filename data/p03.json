@@ -105,6 +105,20 @@
      ]
     },
     {
+     "type": "figure",
+     "src": "img/svg/fig-antennae.svg",
+     "caption": {
+      "zh": "示意图：1 丝状　2 念珠状　3 膝状　4 棍棒状　5 锯齿状　6 栉齿状、羽状　7 鳃叶状",
+      "en": "Drawing: 1 filiform, 2 moniliform (bead-like), 3 geniculate (elbowed), 4 clavate (clubbed), 5 serrate (saw-edged), 6 pectinate or plumose (comb-like, feathery), 7 lamellate (plate-tipped)",
+      "ms": "Lukisan: 1 filiform, 2 moniliform (seperti manik), 3 genikulat (bersiku), 4 klavat (berbonjol), 5 serat (bergerigi), 6 pektinat atau plumos (seperti sikat, berbulu pelepah), 7 lamelat (berlamela)"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "Seven antenna shapes, numbered 1 to 7",
+      "ms": "Lukisan"
+     }
+    },
+    {
      "type": "keyval",
      "src": [
       "AES-ANT",
@@ -202,6 +216,13 @@
        }
       }
      ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "ant-colobopsis",
+      "termite-macrotermes-malaccensis"
+     ]
     }
    ]
   },
@@ -227,6 +248,20 @@
      "src": [
       "TJ:27"
      ]
+    },
+    {
+     "type": "figure",
+     "src": "img/svg/fig-mouthparts.svg",
+     "caption": {
+      "zh": "示意图：1 咀嚼式　2 嚼吸式　3 舐吸式　4 虹吸式　5 刺吸式",
+      "en": "Drawing: 1 chewing, 2 chewing-lapping, 3 sponging, 4 siphoning, 5 piercing-sucking",
+      "ms": "Lukisan: 1 mengunyah, 2 mengunyah-menjilat, 3 menyerap, 4 menyedut (sifon), 5 menusuk-menghisap"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "Five kinds of mouthparts, numbered 1 to 5",
+      "ms": "Lukisan"
+     }
     },
     {
      "type": "keyval",

@@ -45,6 +45,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "butterfly-graphium-antiphates",
+      "moth-brahmaea",
+      "plutella-xylostella-larva"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

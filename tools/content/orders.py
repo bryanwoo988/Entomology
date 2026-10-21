@@ -14,6 +14,28 @@ NONE = T("无变态（幼体像小成虫）", "None (young look like small adult
 CHEW = T("咀嚼式", "Chewing", "Mengunyah")
 
 
+# Malaysian examples (open-licence photos, credited on the page and in About).
+GALLERY = {
+ 10: ["longhorn-pseudomyagrus", "scarab-ceroplophana", "oryctes-rhinoceros-adult"],
+ 11: ["butterfly-graphium-antiphates", "moth-brahmaea", "plutella-xylostella-larva"],
+ 12: ["cicada-trengganua", "assassin-bug-eulyes", "nilaparvata-lugens-adult"],
+ 13: ["carpenter-bee-xylocopa", "ant-polyrhachis", "apis-cerana-adult"],
+ 14: ["stalk-eyed-fly-teleopsis", "fruit-fly-euphranta", "bactrocera-carambolae-adult"],
+ 15: ["katydid-dicranopsyra", "leaf-grasshopper-chorotypus", "grasshopper-tauchira"],
+ 16: ["dragonfly-rhyothemis", "damselfly-rhinagrion"],
+ 17: ["orchid-mantis-hymenopus", "mantis-camelomantis"],
+ 18: ["cockroach-sundablatta", "termite-macrotermes-gilvus"],
+ 19: ["leaf-insect-pulchriphyllium", "stick-insect-marmessoidea"],
+ 20: ["thrips-scirtothrips", "thrips-parthenothrips"],
+ 21: ["earwig-forficula"],
+ 22: ["lacewing-mallada"],
+ 23: ["mayfly-atopopus"],
+ 24: ["caddisfly-macrostemum"],
+ 25: ["silverfish-ctenolepisma"],
+ 26: ["dobsonfly-protohermes", "stonefly-capnia", "scorpionfly-neopanorpa"],
+}
+
+
 def page(num, tid, name, term_short, etym, etym_src, features, feat_src, meta, mouth, meta_src,
          examples, ex_src, memory, quiz, compare=None, notes=(), blurb=None, extra_terms=()):
     cid = f"p{num:02d}"
@@ -21,6 +43,7 @@ def page(num, tid, name, term_short, etym, etym_src, features, feat_src, meta, m
     sections = [
      {"id": "s1", "heading": T("名字和特征", "Name and features", "Nama dan ciri"), "level": "basic", "blocks": [
        P(*etym, defines=[tid], src=etym_src),
+       *([{"type": "gallery", "ids": GALLERY[num]}] if num in GALLERY else []),
        N("key", *memory, src=etym_src),
        L(*features, src=feat_src),
        *notes]},

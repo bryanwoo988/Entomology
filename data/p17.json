@@ -45,6 +45,13 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "orchid-mantis-hymenopus",
+      "mantis-camelomantis"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

@@ -44,6 +44,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "cicada-trengganua",
+      "assassin-bug-eulyes",
+      "nilaparvata-lugens-adult"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

@@ -1,7 +1,7 @@
 """p05 — Wings."""
 import sys
 sys.path.insert(0, 'tools/content')
-from build import T, T2, P, L, N, MC, TF, MATCH, write_chapter
+from build import T, T2, P, L, N, MC, TF, MATCH, FIG, write_chapter
 from sources import src
 
 S = ["TJ", "PURDUE-TA"]
@@ -25,6 +25,7 @@ chapter = {"id": "p05", "num": 5, "stage": 1, "kind": "lesson",
     src=["TJ:30"]),
  ]},
  {"id": "s2", "heading": T("六种翅", "Six kinds of wing", "Enam jenis sayap"), "level": "basic", "blocks": [
+  FIG("img/svg/fig-wings.svg", T("示意图：1 鞘翅　2 半鞘翅　3 覆翅　4 鳞翅　5 膜翅　6 平衡棒（红色小球）", "Drawing: 1 elytra, 2 hemelytra, 3 tegmina, 4 scaly wings, 5 membranous wings, 6 halteres (the red knobs)", "Lukisan: 1 elitra, 2 hemelitra, 3 tegmina, 4 sayap bersisik, 5 sayap bermembran, 6 halter (bonjol merah)"), T("示意图", "Six kinds of wing, numbered 1 to 6", "Lukisan")),
   {"type": "keyval", "src": ["TJ:30", "TJ:38", "PURDUE-TA"], "defines": ["elytra", "hemelytra", "tegmina", "halteres"], "rows": [
    {"k": T2("{{t:elytra}}", "{{t:elytra}}", "{{t:elytra|Elytra}}", "{{t:elytra|Elitra}}"), "v": T("甲虫坚硬的前翅，盖住后翅和腹部", "A beetle's hard forewings, covering the hind wings and abdomen", "Sayap depan kumbang yang keras, menutupi sayap belakang dan abdomen")},
    {"k": T("{{t:hemelytra}}", "{{t:hemelytra|Hemelytra}}", "{{t:hemelytra|Hemelitra}}"), "v": T("蝽的前翅：前半段硬、后半段薄而透明", "A true bug's forewings: hard at the base, thin at the tip", "Sayap depan pepijat: keras di pangkal, nipis di hujung")},
@@ -32,12 +33,14 @@ chapter = {"id": "p05", "num": 5, "stage": 1, "kind": "lesson",
    {"k": T("鳞翅", "Scaly wings", "Sayap bersisik"), "v": T("盖满彩色鳞片的翅，如蝴蝶和蛾", "Wings covered in coloured scales; butterflies and moths", "Sayap diliputi sisik berwarna; rama-rama dan kupu-kupu")},
    {"k": T("膜翅", "Membranous wings", "Sayap bermembran"), "v": T("薄而透明的翅，如蜂和蜻蜓", "Thin clear wings; bees and dragonflies", "Sayap nipis dan jernih; lebah dan pepatung")},
    {"k": T("{{t:halteres}}", "{{t:halteres|Halteres}}", "{{t:halteres|Halter}}"), "v": T("蝇和蚊的后翅变成的一对小棒，飞行时帮助平衡", "The hind wings of flies and mosquitoes, reduced to knobs that keep them balanced in flight", "Sayap belakang lalat dan nyamuk yang menjadi tombol untuk keseimbangan semasa terbang")}]},
+  {"type": "gallery", "ids": ["birdwing-trogonoptera"]},
  ]},
  {"id": "s3", "heading": T2("小盾片", "小楯片", "The scutellum", "Skutelum"), "level": "basic", "blocks": [
   P("{{t:scutellum}}是中胸（或后胸）背面后方的一块小骨片。它的颜色、形状和大小因种类而不同，是辨认的特征之一：蝽的小盾片常是背上的大三角形。",
     "The {{t:scutellum}} is a small plate at the back of the mesothorax (or metathorax), seen from above. Its colour, shape and size vary between kinds and help with identification: in stink bugs it is often a large triangle on the back.",
     "{{t:scutellum}} ialah plat kecil di bahagian belakang mesotoraks (atau metatoraks), dilihat dari atas. Warna, bentuk dan saiznya berbeza mengikut jenis dan membantu pengecaman: pada pepijat busuk ia sering segi tiga besar di belakang.",
     defines=["scutellum"], src=["TJ:31"]),
+  {"type": "gallery", "ids": ["shield-bug-tetrarthria"]},
  ]},
 ]}
 

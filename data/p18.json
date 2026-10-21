@@ -45,6 +45,13 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "cockroach-sundablatta",
+      "termite-macrotermes-gilvus"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

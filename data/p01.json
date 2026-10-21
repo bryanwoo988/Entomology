@@ -83,6 +83,12 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "grasshopper-tauchira"
+     ]
+    },
+    {
      "type": "note",
      "kind": "tip",
      "text": {

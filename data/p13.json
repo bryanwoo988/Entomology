@@ -43,6 +43,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "carpenter-bee-xylocopa",
+      "ant-polyrhachis",
+      "apis-cerana-adult"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

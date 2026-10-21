@@ -196,6 +196,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "spider-leucauge",
+      "centipede-scolopendra",
+      "millipede-anoplodesmus"
+     ]
+    },
+    {
      "type": "note",
      "kind": "tip",
      "text": {
@@ -233,6 +241,12 @@
      "src": [
       "TJ:22",
       "ENC-ARK"
+     ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "springtail-dicyrtomina"
      ]
     },
     {

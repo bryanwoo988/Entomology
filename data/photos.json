@@ -1,5 +1,39 @@
 [
  {
+  "id": "ant-colobopsis",
+  "file": "img/species/ant-colobopsis.webp",
+  "subject": {
+   "zh": "Colobopsis brachycephala，蚂蚁：膝状触角",
+   "en": "Colobopsis brachycephala, an ant: elbowed antennae",
+   "ms": "Colobopsis brachycephala, semut: sesungut bersiku"
+  },
+  "credit": {
+   "zh": "照片：Jonghyun Park，CC BY 4.0",
+   "en": "Photo: Jonghyun Park, CC BY 4.0",
+   "ms": "Foto: Jonghyun Park, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jonghyun Park",
+  "url": "https://www.inaturalist.org/observations/254706422"
+ },
+ {
+  "id": "ant-polyrhachis",
+  "file": "img/species/ant-polyrhachis.webp",
+  "subject": {
+   "zh": "Polyrhachis olybria，蚂蚁",
+   "en": "Polyrhachis olybria, an ant",
+   "ms": "Polyrhachis olybria, semut"
+  },
+  "credit": {
+   "zh": "照片：Jonghyun Park，CC BY 4.0",
+   "en": "Photo: Jonghyun Park, CC BY 4.0",
+   "ms": "Foto: Jonghyun Park, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jonghyun Park",
+  "url": "https://www.inaturalist.org/observations/168747861"
+ },
+ {
   "id": "aphis-gossypii-colony",
   "file": "img/species/aphis-gossypii-colony.webp",
   "subject": {
@@ -32,6 +66,23 @@
   "licence": "CC BY-SA 4.0",
   "author": "Jia Ming (جيا ميڠ / 嘉铭)",
   "url": "https://www.inaturalist.org/observations/124737982"
+ },
+ {
+  "id": "assassin-bug-eulyes",
+  "file": "img/species/assassin-bug-eulyes.webp",
+  "subject": {
+   "zh": "Eulyes preciosa，猎蝽",
+   "en": "Eulyes preciosa, an assassin bug",
+   "ms": "Eulyes preciosa, pepijat pembunuh"
+  },
+  "credit": {
+   "zh": "照片：Kai Squires，CC BY 4.0",
+   "en": "Photo: Kai Squires, CC BY 4.0",
+   "ms": "Foto: Kai Squires, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Kai Squires",
+  "url": "https://www.inaturalist.org/observations/38346133"
  },
  {
   "id": "bactrocera-carambolae-adult",
@@ -121,6 +172,91 @@
   "url": "https://www.inaturalist.org/observations/60075120"
  },
  {
+  "id": "birdwing-trogonoptera",
+  "file": "img/species/birdwing-trogonoptera.webp",
+  "subject": {
+   "zh": "Trogonoptera brookiana albescens，Rajah Brooke 凤蝶：鳞翅",
+   "en": "Trogonoptera brookiana albescens, Rajah Brooke's birdwing: scaly wings",
+   "ms": "Trogonoptera brookiana albescens, kupu-kupu Raja Brooke: sayap bersisik"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY-SA 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY-SA 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/39078053"
+ },
+ {
+  "id": "butterfly-graphium-antiphates",
+  "file": "img/species/butterfly-graphium-antiphates.webp",
+  "subject": {
+   "zh": "Graphium antiphates，蝴蝶",
+   "en": "Graphium antiphates, a butterfly",
+   "ms": "Graphium antiphates, rama-rama"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/180732171"
+ },
+ {
+  "id": "caddisfly-macrostemum",
+  "file": "img/species/caddisfly-macrostemum.webp",
+  "subject": {
+   "zh": "Macrostemum midas，石蛾",
+   "en": "Macrostemum midas, a caddisfly",
+   "ms": "Macrostemum midas, lalat kadis"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/351827269"
+ },
+ {
+  "id": "carpenter-bee-xylocopa",
+  "file": "img/species/carpenter-bee-xylocopa.webp",
+  "subject": {
+   "zh": "Xylocopa caerulea，木蜂",
+   "en": "Xylocopa caerulea, a carpenter bee",
+   "ms": "Xylocopa caerulea, lebah kayu"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/64128401"
+ },
+ {
+  "id": "centipede-scolopendra",
+  "file": "img/species/centipede-scolopendra.webp",
+  "subject": {
+   "zh": "Scolopendra subspinipes，蜈蚣（不是昆虫）",
+   "en": "Scolopendra subspinipes, a centipede (not an insect)",
+   "ms": "Scolopendra subspinipes, lipan (bukan serangga)"
+  },
+  "credit": {
+   "zh": "照片：Lawrence Hylton，CC BY 4.0",
+   "en": "Photo: Lawrence Hylton, CC BY 4.0",
+   "ms": "Foto: Lawrence Hylton, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Lawrence Hylton",
+  "url": "https://www.inaturalist.org/observations/263150602"
+ },
+ {
   "id": "cheilomenes-sexmaculata-adult",
   "file": "img/species/cheilomenes-sexmaculata-adult.webp",
   "subject": {
@@ -153,6 +289,23 @@
   "licence": "CC BY 4.0",
   "author": "DV",
   "url": "https://www.inaturalist.org/observations/408696427"
+ },
+ {
+  "id": "cicada-trengganua",
+  "file": "img/species/cicada-trengganua.webp",
+  "subject": {
+   "zh": "Trengganua sibylla，蝉",
+   "en": "Trengganua sibylla, a cicada",
+   "ms": "Trengganua sibylla, riang-riang"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/65265647"
  },
  {
   "id": "cnaphalocrocis-medinalis-adult",
@@ -206,6 +359,40 @@
   "url": "https://www.inaturalist.org/observations/298185435"
  },
  {
+  "id": "cockroach-sundablatta",
+  "file": "img/species/cockroach-sundablatta.webp",
+  "subject": {
+   "zh": "Sundablatta pulcherrima，蟑螂",
+   "en": "Sundablatta pulcherrima, a cockroach",
+   "ms": "Sundablatta pulcherrima, lipas"
+  },
+  "credit": {
+   "zh": "照片：Bernard DUPONT，CC BY 4.0",
+   "en": "Photo: Bernard DUPONT, CC BY 4.0",
+   "ms": "Foto: Bernard DUPONT, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Bernard DUPONT",
+  "url": "https://www.inaturalist.org/observations/83384135"
+ },
+ {
+  "id": "damselfly-rhinagrion",
+  "file": "img/species/damselfly-rhinagrion.webp",
+  "subject": {
+   "zh": "Rhinagrion elopurae，豆娘",
+   "en": "Rhinagrion elopurae, a damselfly",
+   "ms": "Rhinagrion elopurae, pepatung jarum"
+  },
+  "credit": {
+   "zh": "照片：desertnaturalist，CC BY 4.0",
+   "en": "Photo: desertnaturalist, CC BY 4.0",
+   "ms": "Foto: desertnaturalist, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "desertnaturalist",
+  "url": "https://www.inaturalist.org/observations/128463496"
+ },
+ {
   "id": "diaphorina-citri-adult",
   "file": "img/species/diaphorina-citri-adult.webp",
   "subject": {
@@ -240,6 +427,23 @@
   "url": "https://www.inaturalist.org/observations/188922251"
  },
  {
+  "id": "dobsonfly-protohermes",
+  "file": "img/species/dobsonfly-protohermes.webp",
+  "subject": {
+   "zh": "Protohermes dichrous，齿蛉（广翅目）",
+   "en": "Protohermes dichrous, a dobsonfly (Megaloptera)",
+   "ms": "Protohermes dichrous, lalat dobson (Megaloptera)"
+  },
+  "credit": {
+   "zh": "照片：Kai Squires，CC BY 4.0",
+   "en": "Photo: Kai Squires, CC BY 4.0",
+   "ms": "Foto: Kai Squires, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Kai Squires",
+  "url": "https://www.inaturalist.org/observations/339018935"
+ },
+ {
   "id": "dolichoderus-thoracicus-adult",
   "file": "img/species/dolichoderus-thoracicus-adult.webp",
   "subject": {
@@ -255,6 +459,40 @@
   "licence": "CC BY 4.0",
   "author": "jonsense",
   "url": "https://www.inaturalist.org/observations/262359131"
+ },
+ {
+  "id": "dragonfly-rhyothemis",
+  "file": "img/species/dragonfly-rhyothemis.webp",
+  "subject": {
+   "zh": "Rhyothemis plutonia，蜻蜓",
+   "en": "Rhyothemis plutonia, a dragonfly",
+   "ms": "Rhyothemis plutonia, pepatung"
+  },
+  "credit": {
+   "zh": "照片：Doreen，CC BY 4.0",
+   "en": "Photo: Doreen, CC BY 4.0",
+   "ms": "Foto: Doreen, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Doreen",
+  "url": "https://www.inaturalist.org/observations/159579999"
+ },
+ {
+  "id": "earwig-forficula",
+  "file": "img/species/earwig-forficula.webp",
+  "subject": {
+   "zh": "Forficula greeni，蠼螋",
+   "en": "Forficula greeni, an earwig",
+   "ms": "Forficula greeni, cocopet"
+  },
+  "credit": {
+   "zh": "照片：Doreen，CC BY 4.0",
+   "en": "Photo: Doreen, CC BY 4.0",
+   "ms": "Foto: Doreen, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Doreen",
+  "url": "https://www.inaturalist.org/observations/308664085"
  },
  {
   "id": "elaeidobius-kamerunicus-adult",
@@ -306,6 +544,40 @@
   "licence": "CC BY 4.0",
   "author": "Jason Alexander",
   "url": "https://www.inaturalist.org/observations/9831668"
+ },
+ {
+  "id": "fruit-fly-euphranta",
+  "file": "img/species/fruit-fly-euphranta.webp",
+  "subject": {
+   "zh": "Euphranta figurata，实蝇",
+   "en": "Euphranta figurata, a fruit fly",
+   "ms": "Euphranta figurata, lalat buah"
+  },
+  "credit": {
+   "zh": "照片：Zleng，CC BY 4.0",
+   "en": "Photo: Zleng, CC BY 4.0",
+   "ms": "Foto: Zleng, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Zleng",
+  "url": "https://www.inaturalist.org/observations/2709592"
+ },
+ {
+  "id": "grasshopper-tauchira",
+  "file": "img/species/grasshopper-tauchira.webp",
+  "subject": {
+   "zh": "Tauchira polychroa，蝗虫",
+   "en": "Tauchira polychroa, a grasshopper",
+   "ms": "Tauchira polychroa, belalang"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/104761533"
  },
  {
   "id": "helopeltis-theivora-adult",
@@ -393,6 +665,91 @@
   "url": "https://www.inaturalist.org/observations/132244084"
  },
  {
+  "id": "katydid-chloracris",
+  "file": "img/species/katydid-chloracris.webp",
+  "subject": {
+   "zh": "Chloracris prasina，雌螽斯：刀状的产卵器",
+   "en": "Chloracris prasina, a female katydid: a blade-like ovipositor",
+   "ms": "Chloracris prasina, katidid betina: ovipositor seperti bilah"
+  },
+  "credit": {
+   "zh": "照片：Pavel Kirillov，CC BY-SA 4.0",
+   "en": "Photo: Pavel Kirillov, CC BY-SA 4.0",
+   "ms": "Foto: Pavel Kirillov, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Pavel Kirillov",
+  "url": "https://www.inaturalist.org/observations/37560788"
+ },
+ {
+  "id": "katydid-dicranopsyra",
+  "file": "img/species/katydid-dicranopsyra.webp",
+  "subject": {
+   "zh": "Dicranopsyra leopardina，螽斯",
+   "en": "Dicranopsyra leopardina, a katydid",
+   "ms": "Dicranopsyra leopardina, katidid"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/154213512"
+ },
+ {
+  "id": "lacewing-mallada",
+  "file": "img/species/lacewing-mallada.webp",
+  "subject": {
+   "zh": "Mallada basalis，草蛉",
+   "en": "Mallada basalis, a green lacewing",
+   "ms": "Mallada basalis, lacewing hijau"
+  },
+  "credit": {
+   "zh": "照片：Kai Squires，CC BY 4.0",
+   "en": "Photo: Kai Squires, CC BY 4.0",
+   "ms": "Foto: Kai Squires, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Kai Squires",
+  "url": "https://www.inaturalist.org/observations/368324629"
+ },
+ {
+  "id": "leaf-grasshopper-chorotypus",
+  "file": "img/species/leaf-grasshopper-chorotypus.webp",
+  "subject": {
+   "zh": "Chorotypus saussurei，像枯叶的蝗类",
+   "en": "Chorotypus saussurei, a dead-leaf-like grasshopper relative",
+   "ms": "Chorotypus saussurei, belalang menyerupai daun kering"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/144036815"
+ },
+ {
+  "id": "leaf-insect-pulchriphyllium",
+  "file": "img/species/leaf-insect-pulchriphyllium.webp",
+  "subject": {
+   "zh": "Pulchriphyllium bioculatum，叶䗛",
+   "en": "Pulchriphyllium bioculatum, a leaf insect",
+   "ms": "Pulchriphyllium bioculatum, serangga daun"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/245159937"
+ },
+ {
   "id": "leptocorisa-oratoria-adult",
   "file": "img/species/leptocorisa-oratoria-adult.webp",
   "subject": {
@@ -408,6 +765,23 @@
   "licence": "CC BY 4.0",
   "author": "portioid",
   "url": "https://www.inaturalist.org/observations/196985739"
+ },
+ {
+  "id": "longhorn-pseudomyagrus",
+  "file": "img/species/longhorn-pseudomyagrus.webp",
+  "subject": {
+   "zh": "Pseudomyagrus waterhousei，天牛",
+   "en": "Pseudomyagrus waterhousei, a longhorn beetle",
+   "ms": "Pseudomyagrus waterhousei, kumbang tanduk panjang"
+  },
+  "credit": {
+   "zh": "照片：Bernard DUPONT，CC BY 4.0",
+   "en": "Photo: Bernard DUPONT, CC BY 4.0",
+   "ms": "Foto: Bernard DUPONT, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Bernard DUPONT",
+  "url": "https://www.inaturalist.org/observations/57549892"
  },
  {
   "id": "mahasena-corbetti",
@@ -426,6 +800,57 @@
   "author": "MPOB",
   "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
   "source": "RS34"
+ },
+ {
+  "id": "mantis-camelomantis",
+  "file": "img/species/mantis-camelomantis.webp",
+  "subject": {
+   "zh": "Camelomantis giraffa，螳螂",
+   "en": "Camelomantis giraffa, a mantis",
+   "ms": "Camelomantis giraffa, cengkadak"
+  },
+  "credit": {
+   "zh": "照片：Jay Pruett，CC BY 4.0",
+   "en": "Photo: Jay Pruett, CC BY 4.0",
+   "ms": "Foto: Jay Pruett, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jay Pruett",
+  "url": "https://www.inaturalist.org/observations/194823122"
+ },
+ {
+  "id": "mantis-hierodula",
+  "file": "img/species/mantis-hierodula.webp",
+  "subject": {
+   "zh": "Hierodula everetti，螳螂：捕捉足",
+   "en": "Hierodula everetti, a mantis: grasping front legs",
+   "ms": "Hierodula everetti, cengkadak: kaki depan penangkap"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/64122548"
+ },
+ {
+  "id": "mayfly-atopopus",
+  "file": "img/species/mayfly-atopopus.webp",
+  "subject": {
+   "zh": "Atopopus tarsalis，蜉蝣",
+   "en": "Atopopus tarsalis, a mayfly",
+   "ms": "Atopopus tarsalis, lalat sehari"
+  },
+  "credit": {
+   "zh": "照片：Peter Uetz，CC BY 4.0",
+   "en": "Photo: Peter Uetz, CC BY 4.0",
+   "ms": "Foto: Peter Uetz, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Peter Uetz",
+  "url": "https://www.inaturalist.org/observations/233214174"
  },
  {
   "id": "metisa-plana-adult-female",
@@ -554,6 +979,57 @@
   "source": "RS12"
  },
  {
+  "id": "millipede-anoplodesmus",
+  "file": "img/species/millipede-anoplodesmus.webp",
+  "subject": {
+   "zh": "Anoplodesmus saussurii，马陆（不是昆虫）",
+   "en": "Anoplodesmus saussurii, a millipede (not an insect)",
+   "ms": "Anoplodesmus saussurii, ulat gonggok (bukan serangga)"
+  },
+  "credit": {
+   "zh": "照片：Carey_Knox_Southern_Scales，CC0",
+   "en": "Photo: Carey_Knox_Southern_Scales, CC0",
+   "ms": "Foto: Carey_Knox_Southern_Scales, CC0"
+  },
+  "licence": "CC0",
+  "author": "Carey_Knox_Southern_Scales",
+  "url": "https://www.inaturalist.org/observations/237351490"
+ },
+ {
+  "id": "mole-cricket-gryllotalpa",
+  "file": "img/species/mole-cricket-gryllotalpa.webp",
+  "subject": {
+   "zh": "Gryllotalpa fulvipes，蝼蛄：开掘足",
+   "en": "Gryllotalpa fulvipes, a mole cricket: digging front legs",
+   "ms": "Gryllotalpa fulvipes, cengkerik tanah: kaki depan penggali"
+  },
+  "credit": {
+   "zh": "照片：Mikel Etxeberria Okariz，CC BY 4.0",
+   "en": "Photo: Mikel Etxeberria Okariz, CC BY 4.0",
+   "ms": "Foto: Mikel Etxeberria Okariz, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Mikel Etxeberria Okariz",
+  "url": "https://www.inaturalist.org/observations/255740001"
+ },
+ {
+  "id": "moth-brahmaea",
+  "file": "img/species/moth-brahmaea.webp",
+  "subject": {
+   "zh": "Brahmaea hearseyi，蛾",
+   "en": "Brahmaea hearseyi, a moth",
+   "ms": "Brahmaea hearseyi, kupu-kupu"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/153786798"
+ },
+ {
   "id": "nephotettix-virescens-adult",
   "file": "img/species/nephotettix-virescens-adult.webp",
   "subject": {
@@ -586,6 +1062,23 @@
   "licence": "CC BY 3.0 US",
   "author": "Natasha Wright, Florida Department of Agriculture and Consumer Services, Bugwood.org - See more at: http://www.forestryimages.org/browse/detail.cfm?imgnum=5190055#sthash.UX6OgMTv.dpuf",
   "url": "https://commons.wikimedia.org/wiki/File:Nilaparvata_lugens_-_Brown_planthopper_-_UGA5190055.jpg"
+ },
+ {
+  "id": "orchid-mantis-hymenopus",
+  "file": "img/species/orchid-mantis-hymenopus.webp",
+  "subject": {
+   "zh": "Hymenopus coronatus，兰花螳螂",
+   "en": "Hymenopus coronatus, an orchid mantis",
+   "ms": "Hymenopus coronatus, cengkadak orkid"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/93263852"
  },
  {
   "id": "oryctes-larva-ornv",
@@ -744,6 +1237,23 @@
   "source": "RS34"
  },
  {
+  "id": "scarab-ceroplophana",
+  "file": "img/species/scarab-ceroplophana.webp",
+  "subject": {
+   "zh": "Ceroplophana malaysiana，金龟",
+   "en": "Ceroplophana malaysiana, a scarab beetle",
+   "ms": "Ceroplophana malaysiana, kumbang skarab"
+  },
+  "credit": {
+   "zh": "照片：dhfischer，CC BY 4.0",
+   "en": "Photo: dhfischer, CC BY 4.0",
+   "ms": "Foto: dhfischer, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "dhfischer",
+  "url": "https://www.inaturalist.org/observations/64189379"
+ },
+ {
   "id": "scirpophaga-incertulas-adult",
   "file": "img/species/scirpophaga-incertulas-adult.webp",
   "subject": {
@@ -761,6 +1271,23 @@
   "url": "https://www.inaturalist.org/observations/63935883"
  },
  {
+  "id": "scorpionfly-neopanorpa",
+  "file": "img/species/scorpionfly-neopanorpa.webp",
+  "subject": {
+   "zh": "Neopanorpa spicata，蝎蛉（长翅目）",
+   "en": "Neopanorpa spicata, a scorpionfly (Mecoptera)",
+   "ms": "Neopanorpa spicata, lalat kala jengking (Mecoptera)"
+  },
+  "credit": {
+   "zh": "照片：Bret van Putten，CC BY-SA 4.0",
+   "en": "Photo: Bret van Putten, CC BY-SA 4.0",
+   "ms": "Foto: Bret van Putten, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Bret van Putten",
+  "url": "https://www.inaturalist.org/observations/286262820"
+ },
+ {
   "id": "setora-nitens-larva",
   "file": "img/species/setora-nitens-larva.webp",
   "subject": {
@@ -776,6 +1303,57 @@
   "licence": "CC BY 4.0",
   "author": "Jason Alexander",
   "url": "https://www.inaturalist.org/observations/9831622"
+ },
+ {
+  "id": "shield-bug-tetrarthria",
+  "file": "img/species/shield-bug-tetrarthria.webp",
+  "subject": {
+   "zh": "Tetrarthria variegata，盾蝽：很大的小盾片",
+   "en": "Tetrarthria variegata, a shield-backed bug: a very large scutellum",
+   "ms": "Tetrarthria variegata, pepijat perisai: skutelum yang sangat besar"
+  },
+  "credit": {
+   "zh": "照片：Óscar Sampedro，CC BY 4.0",
+   "en": "Photo: Óscar Sampedro, CC BY 4.0",
+   "ms": "Foto: Óscar Sampedro, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Óscar Sampedro",
+  "url": "https://www.inaturalist.org/observations/373062236"
+ },
+ {
+  "id": "silverfish-ctenolepisma",
+  "file": "img/species/silverfish-ctenolepisma.webp",
+  "subject": {
+   "zh": "Ctenolepisma phantasma，衣鱼，摄于马来西亚以外",
+   "en": "Ctenolepisma phantasma, a silverfish, photographed outside Malaysia",
+   "ms": "Ctenolepisma phantasma, gegat, dirakam di luar Malaysia"
+  },
+  "credit": {
+   "zh": "照片：Daniel K，CC BY 4.0",
+   "en": "Photo: Daniel K, CC BY 4.0",
+   "ms": "Foto: Daniel K, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Daniel K",
+  "url": "https://www.inaturalist.org/observations/343370018"
+ },
+ {
+  "id": "spider-leucauge",
+  "file": "img/species/spider-leucauge.webp",
+  "subject": {
+   "zh": "Leucauge sarawakensis，蜘蛛（不是昆虫）",
+   "en": "Leucauge sarawakensis, a spider (not an insect)",
+   "ms": "Leucauge sarawakensis, labah-labah (bukan serangga)"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/332975660"
  },
  {
   "id": "spodoptera-frugiperda-adult",
@@ -846,6 +1424,74 @@
   "url": "https://www.inaturalist.org/observations/38355106"
  },
  {
+  "id": "springtail-dicyrtomina",
+  "file": "img/species/springtail-dicyrtomina.webp",
+  "subject": {
+   "zh": "Dicyrtomina ornata，跳虫（六足，但不是昆虫），摄于马来西亚以外",
+   "en": "Dicyrtomina ornata, a springtail (six legs, but not an insect), photographed outside Malaysia",
+   "ms": "Dicyrtomina ornata, ekor pegas (enam kaki, tetapi bukan serangga), dirakam di luar Malaysia"
+  },
+  "credit": {
+   "zh": "照片：Alexis Tinker-Tsavalas，CC BY 4.0",
+   "en": "Photo: Alexis Tinker-Tsavalas, CC BY 4.0",
+   "ms": "Foto: Alexis Tinker-Tsavalas, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Alexis Tinker-Tsavalas",
+  "url": "https://www.inaturalist.org/observations/140270045"
+ },
+ {
+  "id": "stalk-eyed-fly-teleopsis",
+  "file": "img/species/stalk-eyed-fly-teleopsis.webp",
+  "subject": {
+   "zh": "Teleopsis pallifacies，突眼蝇",
+   "en": "Teleopsis pallifacies, a stalk-eyed fly",
+   "ms": "Teleopsis pallifacies, lalat mata bertangkai"
+  },
+  "credit": {
+   "zh": "照片：Jonghyun Park，CC BY 4.0",
+   "en": "Photo: Jonghyun Park, CC BY 4.0",
+   "ms": "Foto: Jonghyun Park, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jonghyun Park",
+  "url": "https://www.inaturalist.org/observations/149303094"
+ },
+ {
+  "id": "stick-insect-marmessoidea",
+  "file": "img/species/stick-insect-marmessoidea.webp",
+  "subject": {
+   "zh": "Marmessoidea rosea，竹节虫",
+   "en": "Marmessoidea rosea, a stick insect",
+   "ms": "Marmessoidea rosea, serangga ranting"
+  },
+  "credit": {
+   "zh": "照片：Cheongweei Gan，CC BY 4.0",
+   "en": "Photo: Cheongweei Gan, CC BY 4.0",
+   "ms": "Foto: Cheongweei Gan, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Cheongweei Gan",
+  "url": "https://www.inaturalist.org/observations/105499094"
+ },
+ {
+  "id": "stonefly-capnia",
+  "file": "img/species/stonefly-capnia.webp",
+  "subject": {
+   "zh": "Capnia nana，石蝇（襀翅目），摄于马来西亚以外",
+   "en": "Capnia nana, a stonefly (Plecoptera), photographed outside Malaysia",
+   "ms": "Capnia nana, lalat batu (Plecoptera), dirakam di luar Malaysia"
+  },
+  "credit": {
+   "zh": "照片：Syd Cannings，CC BY 4.0",
+   "en": "Photo: Syd Cannings, CC BY 4.0",
+   "ms": "Foto: Syd Cannings, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Syd Cannings",
+  "url": "https://www.inaturalist.org/observations/110125730"
+ },
+ {
   "id": "sycanus-dichotomus-specimen",
   "file": "img/species/sycanus-dichotomus-specimen.webp",
   "subject": {
@@ -862,5 +1508,73 @@
   "author": "MPOB",
   "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
   "source": "RS12"
+ },
+ {
+  "id": "termite-macrotermes-gilvus",
+  "file": "img/species/termite-macrotermes-gilvus.webp",
+  "subject": {
+   "zh": "Macrotermes gilvus，白蚁（兵蚁）",
+   "en": "Macrotermes gilvus, a termite (soldier)",
+   "ms": "Macrotermes gilvus, anai-anai (askar)"
+  },
+  "credit": {
+   "zh": "照片：Philipp Hoenle，CC0",
+   "en": "Photo: Philipp Hoenle, CC0",
+   "ms": "Foto: Philipp Hoenle, CC0"
+  },
+  "licence": "CC0",
+  "author": "Philipp Hoenle",
+  "url": "https://www.inaturalist.org/observations/256179864"
+ },
+ {
+  "id": "termite-macrotermes-malaccensis",
+  "file": "img/species/termite-macrotermes-malaccensis.webp",
+  "subject": {
+   "zh": "Macrotermes malaccensis，白蚁：念珠状触角",
+   "en": "Macrotermes malaccensis, a termite: bead-like antennae",
+   "ms": "Macrotermes malaccensis, anai-anai: sesungut seperti manik"
+  },
+  "credit": {
+   "zh": "照片：Fernando Sessegolo，CC0",
+   "en": "Photo: Fernando Sessegolo, CC0",
+   "ms": "Foto: Fernando Sessegolo, CC0"
+  },
+  "licence": "CC0",
+  "author": "Fernando Sessegolo",
+  "url": "https://www.inaturalist.org/observations/190587092"
+ },
+ {
+  "id": "thrips-parthenothrips",
+  "file": "img/species/thrips-parthenothrips.webp",
+  "subject": {
+   "zh": "Parthenothrips dracaenae，蓟马，摄于马来西亚以外",
+   "en": "Parthenothrips dracaenae, a thrips, photographed outside Malaysia",
+   "ms": "Parthenothrips dracaenae, trips, dirakam di luar Malaysia"
+  },
+  "credit": {
+   "zh": "照片：Grey Smith，CC BY 4.0",
+   "en": "Photo: Grey Smith, CC BY 4.0",
+   "ms": "Foto: Grey Smith, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Grey Smith",
+  "url": "https://www.inaturalist.org/observations/305720384"
+ },
+ {
+  "id": "thrips-scirtothrips",
+  "file": "img/species/thrips-scirtothrips.webp",
+  "subject": {
+   "zh": "Scirtothrips dorsalis，蓟马（显微镜下，可见缨状翅），摄于马来西亚以外",
+   "en": "Scirtothrips dorsalis, a thrips under the microscope, showing the fringed wings, photographed outside Malaysia",
+   "ms": "Scirtothrips dorsalis, trips di bawah mikroskop, menunjukkan sayap berjumbai, dirakam di luar Malaysia"
+  },
+  "credit": {
+   "zh": "照片：Jesse Rorabaugh，CC0",
+   "en": "Photo: Jesse Rorabaugh, CC0",
+   "ms": "Foto: Jesse Rorabaugh, CC0"
+  },
+  "licence": "CC0",
+  "author": "Jesse Rorabaugh",
+  "url": "https://www.inaturalist.org/observations/8291310"
  }
 ]

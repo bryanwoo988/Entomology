@@ -45,6 +45,13 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "leaf-insect-pulchriphyllium",
+      "stick-insect-marmessoidea"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

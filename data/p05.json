@@ -77,6 +77,20 @@
    "level": "basic",
    "blocks": [
     {
+     "type": "figure",
+     "src": "img/svg/fig-wings.svg",
+     "caption": {
+      "zh": "示意图：1 鞘翅　2 半鞘翅　3 覆翅　4 鳞翅　5 膜翅　6 平衡棒（红色小球）",
+      "en": "Drawing: 1 elytra, 2 hemelytra, 3 tegmina, 4 scaly wings, 5 membranous wings, 6 halteres (the red knobs)",
+      "ms": "Lukisan: 1 elitra, 2 hemelitra, 3 tegmina, 4 sayap bersisik, 5 sayap bermembran, 6 halter (bonjol merah)"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "Six kinds of wing, numbered 1 to 6",
+      "ms": "Lukisan"
+     }
+    },
+    {
      "type": "keyval",
      "src": [
       "TJ:30",
@@ -164,6 +178,12 @@
        }
       }
      ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "birdwing-trogonoptera"
+     ]
     }
    ]
   },
@@ -189,6 +209,12 @@
      ],
      "src": [
       "TJ:31"
+     ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "shield-bug-tetrarthria"
      ]
     }
    ]

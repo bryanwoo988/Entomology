@@ -94,12 +94,11 @@ function block(b, ctx) {
           el('div', {}, el('dt', {}, t('orderLabel', null, ctx.lang)), el('dd', {}, el('a', { href: `#/ch/${b.order}` }, ctx.pageTitle?.(b.order) ?? b.order))),
           b.crops?.length ? el('div', {}, el('dt', {}, t('cropsLabel', null, ctx.lang)), el('dd', {}, b.crops.map(c => pick(c, ctx.lang)).join(ctx.lang === 'zh' ? '、' : ', '))) : null,
           el('div', {}, el('dt', {}, t('damagingStage', null, ctx.lang)), el('dd', {}, inline(b.stage, ctx)))));
-    case 'photo': {
-      const ph = ctx.photos?.get(b.id);
-      if (!ph) return null;
-      return el('figure', { class: 'photo' },
-        el('img', { src: ph.file, alt: pick(ph.subject, ctx.lang), loading: 'lazy' }),
-        el('figcaption', {}, el('span', { class: 'photo-subject' }, pick(ph.subject, ctx.lang)), el('span', { class: 'photo-credit' }, pick(ph.credit, ctx.lang))));
+    case 'photo':
+      return photoFigure(ctx.photos?.get(b.id), ctx);
+    case 'gallery': {
+      const figs = (b.ids ?? []).map(id => photoFigure(ctx.photos?.get(id), ctx)).filter(Boolean);
+      return figs.length ? el('div', { class: `gallery gallery-${Math.min(figs.length, 3)}` }, figs) : null;
     }
     case 'control': {
       const ais = (b.ai ?? []).map(id => ctx.pesticides?.get(id)).filter(Boolean);
@@ -125,6 +124,13 @@ const MARKABLE = new Set(['p', 'list', 'keyval', 'table', 'note', 'control']);
 const UNITS = ':scope > p[data-blk], :scope > div.control[data-blk], :scope > ul[data-blk] > li, :scope > ol[data-blk] > li, '
   + ':scope > dl[data-blk] > .keyval-row, :scope > aside[data-blk], :scope > figure[data-blk] tbody tr';
 
+function photoFigure(ph, ctx) {
+  if (!ph) return null;
+  return el('figure', { class: 'photo' },
+    el('img', { src: ph.file, alt: pick(ph.subject, ctx.lang), loading: 'lazy' }),
+    el('figcaption', {}, el('span', { class: 'photo-subject' }, pick(ph.subject, ctx.lang)), el('span', { class: 'photo-credit' }, pick(ph.credit, ctx.lang))));
+}
+
 export function renderSections(chapter, ctx) {
   const frag = document.createDocumentFragment();
   let level = null, lastChemical = null;
@@ -141,7 +147,8 @@ export function renderSections(chapter, ctx) {
         return [head, node, src];
       }
       if (node && MARKABLE.has(b.type)) node.dataset.blk = '';
-      const src = b.type === 'widget' ? null : sourceTag(b, ctx);
+      // A figure's src is its image path, not a source list.
+      const src = b.type === 'widget' || b.type === 'figure' ? null : sourceTag(b, ctx);
       return src && node ? [node, src] : node;
     }).flat().filter(Boolean);
     if (sec.level === 'advanced') {

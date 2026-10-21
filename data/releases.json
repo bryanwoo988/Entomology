@@ -1,15 +1,64 @@
 [
  {
+  "v": "1.1.0",
+  "date": "2026-10-21",
+  "notes": [
+   {
+    "zh": "前面的课和 17 个目的页面加入了 42 张马来西亚昆虫照片：甲虫、蝴蝶、蝉、螳螂、竹节虫、蜻蜓等等。",
+    "en": "42 photos of Malaysian insects added to the early lessons and the 17 order pages: beetles, butterflies, cicadas, mantids, stick insects, dragonflies and more.",
+    "ms": "42 foto serangga Malaysia ditambah pada pelajaran awal dan 17 halaman order: kumbang, rama-rama, riang-riang, cengkadak, serangga ranting, pepatung dan lain-lain."
+   },
+   {
+    "zh": "新增 6 张示意图：触角形状、口器、足的六个部分、足的类型、翅的类型和腹部末端，图上的编号对应下面的说明。",
+    "en": "Six new drawings: antenna shapes, mouthparts, the six parts of a leg, leg types, wing types and abdomen tips, numbered to match the list below each one.",
+    "ms": "Enam lukisan baharu: bentuk sesungut, bahagian mulut, enam bahagian kaki, jenis kaki, jenis sayap dan hujung abdomen, bernombor mengikut senarai di bawahnya."
+   },
+   {
+    "zh": "照片在宽屏上并排显示；每张照片都注明摄影者和授权。",
+    "en": "Photos sit side by side on wide screens; every photo shows its photographer and licence.",
+    "ms": "Foto disusun sebelah-menyebelah pada skrin lebar; setiap foto menunjukkan jurugambar dan lesennya."
+   }
+  ]
+ },
+ {
   "v": "1.0.0",
   "date": "2026-10-21",
   "notes": [
-   {"zh": "第一版：63 页，分 6 个阶段，从认识昆虫、分类、生活史、17 个目，到马来西亚的农业昆虫和野外安全。", "en": "First release: 63 pages in 6 stages, from meeting the insects, classification and life cycles to the 17 insect orders, Malaysia's farm insects and staying safe in the field.", "ms": "Keluaran pertama: 63 halaman dalam 6 peringkat, daripada mengenali serangga, pengelasan dan kitaran hidup hingga 17 order serangga, serangga pertanian Malaysia dan keselamatan di lapangan."},
-   {"zh": "一步一步的辨识检索表：回答几个问题，找出昆虫属于哪一个目。", "en": "A step-by-step identification key: answer a few questions to find an insect's order.", "ms": "Kekunci pengecaman langkah demi langkah: jawab beberapa soalan untuk mencari order serangga."},
-   {"zh": "油棕、水稻、蔬菜、果树、可可和授粉昆虫：30 种昆虫，附照片、辨认要点和按综合防治顺序排列的防治方法。", "en": "Oil palm, rice, vegetables, fruit, cocoa and pollinators: 30 insects with photos, field marks and control methods in IPM order.", "ms": "Sawit, padi, sayur-sayuran, buah, koko dan pendebunga: 30 serangga dengan foto, ciri pengecaman dan kaedah kawalan mengikut susunan IPM."},
-   {"zh": "中文名同时列出大陆和台湾的叫法；已禁用的农药会清楚标示。", "en": "Chinese names show both mainland and Taiwan forms; banned pesticides are clearly labelled.", "ms": "Nama Cina menunjukkan bentuk tanah besar dan Taiwan; racun perosak yang diharamkan dilabel dengan jelas."},
-   {"zh": "闪卡、阶段测验、考试、错题本和学习进度。", "en": "Flashcards, stage quizzes, exams, a wrong-answer book and a progress page.", "ms": "Kad imbas, kuiz peringkat, peperiksaan, buku jawapan salah dan halaman kemajuan."},
-   {"zh": "划重点、笔记、书签和朗读；三种语言、8 种外观、字体大小；离线可用。", "en": "Highlights, notes, bookmarks and read-aloud; three languages, eight looks and text sizes; works offline.", "ms": "Serlahan, nota, penanda buku dan baca kuat; tiga bahasa, lapan rupa dan saiz teks; berfungsi luar talian."},
-   {"zh": "每一段都注明来源；关于页面列出所有资料来源和图片来源。", "en": "Every passage cites its source; About lists all sources and photo credits.", "ms": "Setiap petikan menyatakan sumbernya; Perihal menyenaraikan semua sumber dan kredit foto."}
+   {
+    "zh": "第一版：63 页，分 6 个阶段，从认识昆虫、分类、生活史、17 个目，到马来西亚的农业昆虫和野外安全。",
+    "en": "First release: 63 pages in 6 stages, from meeting the insects, classification and life cycles to the 17 insect orders, Malaysia's farm insects and staying safe in the field.",
+    "ms": "Keluaran pertama: 63 halaman dalam 6 peringkat, daripada mengenali serangga, pengelasan dan kitaran hidup hingga 17 order serangga, serangga pertanian Malaysia dan keselamatan di lapangan."
+   },
+   {
+    "zh": "一步一步的辨识检索表：回答几个问题，找出昆虫属于哪一个目。",
+    "en": "A step-by-step identification key: answer a few questions to find an insect's order.",
+    "ms": "Kekunci pengecaman langkah demi langkah: jawab beberapa soalan untuk mencari order serangga."
+   },
+   {
+    "zh": "油棕、水稻、蔬菜、果树、可可和授粉昆虫：30 种昆虫，附照片、辨认要点和按综合防治顺序排列的防治方法。",
+    "en": "Oil palm, rice, vegetables, fruit, cocoa and pollinators: 30 insects with photos, field marks and control methods in IPM order.",
+    "ms": "Sawit, padi, sayur-sayuran, buah, koko dan pendebunga: 30 serangga dengan foto, ciri pengecaman dan kaedah kawalan mengikut susunan IPM."
+   },
+   {
+    "zh": "中文名同时列出大陆和台湾的叫法；已禁用的农药会清楚标示。",
+    "en": "Chinese names show both mainland and Taiwan forms; banned pesticides are clearly labelled.",
+    "ms": "Nama Cina menunjukkan bentuk tanah besar dan Taiwan; racun perosak yang diharamkan dilabel dengan jelas."
+   },
+   {
+    "zh": "闪卡、阶段测验、考试、错题本和学习进度。",
+    "en": "Flashcards, stage quizzes, exams, a wrong-answer book and a progress page.",
+    "ms": "Kad imbas, kuiz peringkat, peperiksaan, buku jawapan salah dan halaman kemajuan."
+   },
+   {
+    "zh": "划重点、笔记、书签和朗读；三种语言、8 种外观、字体大小；离线可用。",
+    "en": "Highlights, notes, bookmarks and read-aloud; three languages, eight looks and text sizes; works offline.",
+    "ms": "Serlahan, nota, penanda buku dan baca kuat; tiga bahasa, lapan rupa dan saiz teks; berfungsi luar talian."
+   },
+   {
+    "zh": "每一段都注明来源；关于页面列出所有资料来源和图片来源。",
+    "en": "Every passage cites its source; About lists all sources and photo credits.",
+    "ms": "Setiap petikan menyatakan sumbernya; Perihal menyenaraikan semua sumber dan kredit foto."
+   }
   ]
  }
 ]

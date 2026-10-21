@@ -45,6 +45,13 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "thrips-scirtothrips",
+      "thrips-parthenothrips"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

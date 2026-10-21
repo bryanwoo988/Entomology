@@ -45,6 +45,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "katydid-dicranopsyra",
+      "leaf-grasshopper-chorotypus",
+      "grasshopper-tauchira"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

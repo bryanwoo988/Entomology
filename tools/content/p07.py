@@ -26,6 +26,7 @@ chapter = {"id": "p07", "num": 7, "stage": 2, "kind": "lesson",
             R(("科", "Family", "Famili"), ("瓢虫科 Coccinellidae", "Coccinellidae", "Coccinellidae")),
             R(("属", "Genus", "Genus"), ("Coccinella", "Coccinella", "Coccinella")),
             R(("种", "Species", "Spesies"), ("Coccinella transversalis", "Coccinella transversalis", "Coccinella transversalis"))]},
+  {"type": "gallery", "ids": ["coccinella-transversalis-adult"]},
  ]},
  {"id": "s2", "heading": T("怎样读学名", "Reading a scientific name", "Membaca nama saintifik"), "level": "basic", "blocks": [
   P("每个物种都有一个由两个词组成的{{t:binomial-name}}：第一个是属名，首字母大写；第二个是种小名，全部小写。学名用斜体书写。",

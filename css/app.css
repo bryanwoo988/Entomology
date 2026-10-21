@@ -637,6 +637,15 @@ rect.cl-ice, circle.cl-ice { fill: var(--cloud); stroke: var(--sky); stroke-widt
 .species-facts dt { color: var(--muted); }
 .species-facts dd { margin: 0; }
 figure.photo { margin: 12px 0 18px; }
+.gallery { display: grid; gap: 12px; margin: 12px 0 18px; }
+.gallery figure.photo { margin: 0; }
+.gallery { align-items: start; }
+.gallery figure.photo img { width: 100%; }
+@media (min-width: 560px) { .gallery-2, .gallery-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 860px) { .gallery-3 { grid-template-columns: repeat(3, 1fr); } }
+figure.figure { margin: 12px 0 18px; }
+figure.figure img { display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 12px; }
+figure.figure figcaption { margin-top: 8px; font-size: .9em; color: var(--muted, inherit); }
 figure.photo img { display: block; max-width: 100%; height: auto; border-radius: 10px; }
 figure.photo figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; font-size: .9em; }
 .photo-credit { font-size: .82em; color: var(--muted); }

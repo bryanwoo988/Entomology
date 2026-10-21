@@ -46,6 +46,13 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "dragonfly-rhyothemis",
+      "damselfly-rhinagrion"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

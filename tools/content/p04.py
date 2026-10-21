@@ -1,7 +1,7 @@
 """p04 — The thorax and legs."""
 import sys
 sys.path.insert(0, 'tools/content')
-from build import T, T2, P, L, N, MC, TF, MATCH, write_chapter
+from build import T, T2, P, L, N, MC, TF, MATCH, FIG, write_chapter
 from sources import src
 
 S = ["TJ", "PURDUE-TA"]
@@ -28,18 +28,21 @@ chapter = {"id": "p04", "num": 4, "stage": 1, "kind": "lesson",
     ("{{t:tarsus}}：由几小节组成的脚掌", "{{t:tarsus}}: the 'foot', made of a few small segments", "{{t:tarsus}}: 'tapak kaki', terdiri daripada beberapa ruas kecil"),
     ("前跗节：最末端，带有{{t:claw}}", "Pretarsus: the very tip, with the {{t:claw|claws}}", "Pratarsus: hujung sekali, dengan {{t:claw|kuku}}"),
     ordered=True, defines=["coxa", "trochanter", "femur", "tibia", "tarsus", "claw"], src=["TJ:29"]),
+  FIG("img/svg/fig-leg.svg", T("示意图：1 基节　2 转节　3 腿节　4 胫节　5 跗节　6 前跗节", "Drawing: 1 coxa, 2 trochanter, 3 femur, 4 tibia, 5 tarsus, 6 pretarsus", "Lukisan: 1 koksa, 2 trokanter, 3 femur, 4 tibia, 5 tarsus, 6 pratarsus"), T("示意图", "One leg with its six parts numbered", "Lukisan")),
  ]},
  {"id": "s3", "heading": T("变了形的足", "Legs shaped for a job", "Kaki yang berubah bentuk"), "level": "basic", "blocks": [
   P("足的形状告诉你这只昆虫怎样生活：",
     "The shape of the legs tells you how an insect lives:",
     "Bentuk kaki menunjukkan cara serangga itu hidup:",
     src=["TJ:29", "PURDUE-TA"]),
+  FIG("img/svg/fig-legtypes.svg", T("示意图：1 步行足　2 跳跃足　3 捕捉足　4 挖掘足　5 游泳足", "Drawing: 1 walking or running, 2 jumping, 3 grasping, 4 digging, 5 swimming", "Lukisan: 1 berjalan atau berlari, 2 melompat, 3 penangkap, 4 penggali, 5 berenang"), T("示意图", "Five kinds of legs, numbered 1 to 5", "Lukisan")),
   {"type": "keyval", "src": ["TJ:29", "PURDUE-TA"], "defines": ["raptorial", "saltatorial", "fossorial"], "rows": [
    {"k": T("步行足", "Walking or running legs", "Kaki berjalan atau berlari"), "v": T("细长、各节差不多，适合快跑，如蟑螂", "Slender with similar parts, for running; cockroaches", "Langsing dengan bahagian serupa, untuk berlari; lipas")},
    {"k": T("{{t:saltatorial}}", "{{t:saltatorial|Jumping legs}}", "{{t:saltatorial|Kaki melompat}}"), "v": T("后足的腿节特别粗，如蝗虫", "Hind legs with a greatly enlarged femur; grasshoppers", "Kaki belakang dengan femur yang sangat besar; belalang")},
    {"k": T("{{t:raptorial}}", "{{t:raptorial|Grasping legs}}", "{{t:raptorial|Kaki penangkap}}"), "v": T("前足有刺，可以折起来夹住猎物，如螳螂", "Spiny front legs that fold shut on prey; mantids", "Kaki depan berduri yang dilipat untuk menangkap mangsa; cengkadak")},
    {"k": T("{{t:fossorial}}", "{{t:fossorial|Digging legs}}", "{{t:fossorial|Kaki penggali}}"), "v": T("前足宽扁像铲子，如蝼蛄", "Broad, flat front legs like spades; mole crickets", "Kaki depan lebar dan leper seperti penyodok; anjing tanah")},
    {"k": T("游泳足", "Swimming legs", "Kaki berenang"), "v": T("扁平、有长毛，像桨，如龙虱", "Flattened and fringed with hairs like oars; diving beetles", "Leper dan berbulu panjang seperti dayung; kumbang penyelam")}]},
+  {"type": "gallery", "ids": ["mantis-hierodula", "mole-cricket-gryllotalpa", "grasshopper-tauchira"]},
  ]},
 ]}
 

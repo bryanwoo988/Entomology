@@ -151,6 +151,12 @@
        }
       ]
      ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "coccinella-transversalis-adult"
+     ]
     }
    ]
   },

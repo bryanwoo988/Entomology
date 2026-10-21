@@ -1,7 +1,7 @@
 """p03 — The head."""
 import sys
 sys.path.insert(0, 'tools/content')
-from build import T, T2, P, L, N, MC, TF, MATCH, write_chapter
+from build import T, T2, P, L, N, MC, TF, MATCH, FIG, write_chapter
 from sources import src
 
 S = ["TJ", "AES-ANT", "WTK"]
@@ -33,6 +33,7 @@ chapter = {"id": "p03", "num": 3, "stage": 1, "kind": "lesson",
     "The shape of the antennae often tells you which group an insect belongs to:",
     "Bentuk sesungut sering menunjukkan kumpulan serangga itu:",
     src=["AES-ANT", "TJ:38"]),
+  FIG("img/svg/fig-antennae.svg", T("示意图：1 丝状　2 念珠状　3 膝状　4 棍棒状　5 锯齿状　6 栉齿状、羽状　7 鳃叶状", "Drawing: 1 filiform, 2 moniliform (bead-like), 3 geniculate (elbowed), 4 clavate (clubbed), 5 serrate (saw-edged), 6 pectinate or plumose (comb-like, feathery), 7 lamellate (plate-tipped)", "Lukisan: 1 filiform, 2 moniliform (seperti manik), 3 genikulat (bersiku), 4 klavat (berbonjol), 5 serat (bergerigi), 6 pektinat atau plumos (seperti sikat, berbulu pelepah), 7 lamelat (berlamela)"), T("示意图", "Seven antenna shapes, numbered 1 to 7", "Lukisan")),
   {"type": "keyval", "src": ["AES-ANT", "TJ:38", "WTK:2", "WTK:5"], "defines": ["moniliform", "geniculate"], "rows": [
    {"k": T("丝状", "Filiform (thread-like)", "Filiform (seperti benang)"), "v": T("许多大小差不多的小节连成细线，如螽斯、蟋蟀", "Many similar segments forming a thin thread; katydids, crickets", "Banyak ruas serupa membentuk benang halus; katidid, cengkerik")},
    {"k": T("{{t:moniliform}}", "{{t:moniliform|Moniliform (bead-like)}}", "{{t:moniliform|Moniliform (seperti manik)}}"), "v": T("一节节圆珠，像一串念珠，如白蚁", "Round segments like a string of beads; termites", "Ruas bulat seperti rantai manik; anai-anai")},
@@ -41,12 +42,14 @@ chapter = {"id": "p03", "num": 3, "stage": 1, "kind": "lesson",
    {"k": T("锯齿状", "Serrate (saw-edged)", "Serat (bergerigi)"), "v": T("每节一边突出，像锯子边", "Each segment juts out on one side like a saw", "Setiap ruas menonjol pada satu sisi seperti gergaji")},
    {"k": T("栉齿状、羽状", "Pectinate, plumose (comb-like, feathery)", "Pektinat, plumos (seperti sikat, berbulu pelepah)"), "v": T("一边或两边有长突起，像梳子或羽毛，如许多蛾", "Long side branches like a comb or feather; many moths", "Cabang sisi panjang seperti sikat atau bulu pelepah; banyak kupu-kupu")},
    {"k": T("鳃叶状", "Lamellate (plate-tipped)", "Lamelat (berlamela)"), "v": T("末端几节变成可以张开的薄片，如金龟", "The last segments are flat plates that can fan out; scarab beetles", "Ruas hujung menjadi kepingan leper yang boleh dikembangkan; kumbang skarab")}]},
+  {"type": "gallery", "ids": ["ant-colobopsis", "termite-macrotermes-malaccensis"]},
  ]},
  {"id": "s3", "heading": T("口器", "Mouthparts", "Bahagian mulut"), "level": "basic", "blocks": [
   P("{{t:mouthparts}}有五个基本部分：上唇、大颚、小颚、下唇和舌。不同的昆虫吃不同的食物，口器也变成不同的样子：",
     "{{t:mouthparts}} have five basic parts: the upper lip (labrum), mandibles, maxillae, lower lip (labium) and tongue (hypopharynx). Insects that eat different food have mouthparts of different shapes:",
     "{{t:mouthparts}} mempunyai lima bahagian asas: bibir atas (labrum), mandibel, maksila, bibir bawah (labium) dan lidah (hipofarinks). Serangga yang makan makanan berbeza mempunyai bahagian mulut yang berbeza bentuk:",
     defines=["mouthparts"], src=["TJ:27"]),
+  FIG("img/svg/fig-mouthparts.svg", T("示意图：1 咀嚼式　2 嚼吸式　3 舐吸式　4 虹吸式　5 刺吸式", "Drawing: 1 chewing, 2 chewing-lapping, 3 sponging, 4 siphoning, 5 piercing-sucking", "Lukisan: 1 mengunyah, 2 mengunyah-menjilat, 3 menyerap, 4 menyedut (sifon), 5 menusuk-menghisap"), T("示意图", "Five kinds of mouthparts, numbered 1 to 5", "Lukisan")),
   {"type": "keyval", "src": ["TJ:27"], "defines": ["piercing-sucking"], "rows": [
    {"k": T("咀嚼式", "Chewing", "Mengunyah"), "v": T("用大颚咬碎食物，如土蜂", "Mandibles bite and grind food; scoliid wasps", "Mandibel menggigit dan mengunyah makanan; tebuan skolid")},
    {"k": T2("嚼吸式", "咀吸式", "Chewing-lapping", "Mengunyah-menjilat"), "v": T("既能咬也能舔吸花蜜，如许多蜂", "Can both bite and lap up nectar; many bees and wasps", "Boleh menggigit dan menjilat nektar; banyak lebah dan tebuan")},

@@ -65,6 +65,20 @@
    "level": "basic",
    "blocks": [
     {
+     "type": "figure",
+     "src": "img/svg/fig-abdomen-tips.svg",
+     "caption": {
+      "zh": "示意图：1 产卵器　2 尾须　3 尾铗　4 螫针　5 攫握器",
+      "en": "Drawing: 1 ovipositor, 2 cerci, 3 forceps, 4 sting, 5 claspers",
+      "ms": "Lukisan: 1 ovipositor, 2 serkus, 3 penyepit, 4 sengat, 5 pengapit"
+     },
+     "alt": {
+      "zh": "示意图",
+      "en": "Five kinds of abdomen tips, numbered 1 to 5",
+      "ms": "Lukisan"
+     }
+    },
+    {
      "type": "list",
      "items": [
       {
@@ -104,6 +118,13 @@
      ],
      "src": [
       "TJ:33"
+     ]
+    },
+    {
+     "type": "gallery",
+     "ids": [
+      "katydid-chloracris",
+      "earwig-forficula"
      ]
     },
     {

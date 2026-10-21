@@ -43,6 +43,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "dobsonfly-protohermes",
+      "stonefly-capnia",
+      "scorpionfly-neopanorpa"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

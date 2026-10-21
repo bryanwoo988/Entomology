@@ -43,6 +43,12 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "earwig-forficula"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {

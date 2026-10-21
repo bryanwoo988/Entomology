@@ -45,6 +45,14 @@
      ]
     },
     {
+     "type": "gallery",
+     "ids": [
+      "stalk-eyed-fly-teleopsis",
+      "fruit-fly-euphranta",
+      "bactrocera-carambolae-adult"
+     ]
+    },
+    {
      "type": "note",
      "kind": "key",
      "text": {
