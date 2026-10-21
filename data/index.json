@@ -1,0 +1,94 @@
+{
+ "app": {
+  "zh": "昆虫",
+  "en": "Bugs",
+  "ms": "Serangga"
+ },
+ "stages": [
+  {
+   "n": 1,
+   "title": {
+    "zh": "认识昆虫",
+    "en": "Meet the insects",
+    "ms": "Mengenali serangga"
+   },
+   "blurb": {
+    "zh": "昆虫的身体：头、胸、腹、足和翅",
+    "en": "An insect's body: head, thorax, abdomen, legs and wings",
+    "ms": "Badan serangga: kepala, toraks, abdomen, kaki dan sayap"
+   },
+   "chapters": []
+  },
+  {
+   "n": 2,
+   "title": {
+    "zh": "分类与快速辨识",
+    "en": "Classifying and identifying",
+    "ms": "Pengelasan dan pengecaman"
+   },
+   "blurb": {
+    "zh": "学名怎么读，一步一步辨识到目",
+    "en": "Reading scientific names, and identifying an insect to its order step by step",
+    "ms": "Membaca nama saintifik, dan mengecam serangga hingga ordernya langkah demi langkah"
+   },
+   "chapters": []
+  },
+  {
+   "n": 3,
+   "title": {
+    "zh": "生活史",
+    "en": "Life cycles",
+    "ms": "Kitaran hidup"
+   },
+   "blurb": {
+    "zh": "从卵到成虫：三种发育方式",
+    "en": "From egg to adult: three ways insects grow up",
+    "ms": "Daripada telur hingga dewasa: tiga cara serangga membesar"
+   },
+   "chapters": []
+  },
+  {
+   "n": 4,
+   "title": {
+    "zh": "各目介绍",
+    "en": "The insect orders",
+    "ms": "Order serangga"
+   },
+   "blurb": {
+    "zh": "马来西亚常见的昆虫目，怎样认、怎样记",
+    "en": "The insect orders common in Malaysia: how to recognise and remember them",
+    "ms": "Order serangga yang biasa di Malaysia: cara mengecam dan mengingatnya"
+   },
+   "chapters": []
+  },
+  {
+   "n": 5,
+   "title": {
+    "zh": "马来西亚农业常见昆虫",
+    "en": "Malaysia's farm insects",
+    "ms": "Serangga pertanian Malaysia"
+   },
+   "blurb": {
+    "zh": "油棕、水稻、蔬菜、果树、可可的害虫与益虫，以及防治方法",
+    "en": "Pests and helpful insects of oil palm, rice, vegetables, fruit and cocoa, and how they are managed",
+    "ms": "Perosak dan serangga berguna bagi sawit, padi, sayur, buah dan koko, serta cara pengurusannya"
+   },
+   "chapters": []
+  },
+  {
+   "n": 6,
+   "title": {
+    "zh": "野外观察与安全",
+    "en": "In the field, safely",
+    "ms": "Di lapangan dengan selamat"
+   },
+   "blurb": {
+    "zh": "怎样观察、记录，以及要小心的昆虫",
+    "en": "How to watch and record insects, and which ones to handle with care",
+    "ms": "Cara memerhati dan merekod serangga, dan serangga yang perlu dikendalikan dengan berhati-hati"
+   },
+   "chapters": []
+  }
+ ],
+ "chapters": []
+}
