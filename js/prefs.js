@@ -21,7 +21,14 @@ export const SCALES = [1, 1.15, 1.3, 1.5];
 const DEFAULTS = () => ({
   lang: 'en', theme: 'auto', lightTheme: 'classic', darkTheme: 'midnight', scale: 1, chosen: false,
   read: {}, quiz: {}, lastRoute: '', seenVersion: '',
+  cards: {}, wrong: [], exams: [],
 });
+
+export const MAX_WRONG = 200;
+export const MAX_EXAMS = 50;
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+const goodCard = c => isObj(c) && Number.isInteger(c.box) && c.box >= 1 && c.box <= 5 && DAY.test(c.due ?? '');
+const goodExam = e => isObj(e) && DAY.test(e.date ?? '') && [e.correct, e.total, e.seconds].every(Number.isFinite) && e.correct >= 0 && e.correct <= e.total;
 
 let state = DEFAULTS();
 let store = null;
@@ -53,6 +60,9 @@ function sanitise(raw) {
     quiz: isObj(raw.quiz) ? Object.fromEntries(Object.entries(raw.quiz).filter(([, v]) => Number.isFinite(v))) : {},
     lastRoute: typeof raw.lastRoute === 'string' ? raw.lastRoute : '',
     seenVersion: typeof raw.seenVersion === 'string' ? raw.seenVersion : '',
+    cards: isObj(raw.cards) ? Object.fromEntries(Object.entries(raw.cards).filter(([, c]) => goodCard(c))) : {},
+    wrong: Array.isArray(raw.wrong) ? [...new Set(raw.wrong.filter(x => typeof x === 'string'))].slice(-MAX_WRONG) : [],
+    exams: Array.isArray(raw.exams) ? raw.exams.filter(goodExam).slice(-MAX_EXAMS) : [],
   };
 }
 
@@ -70,7 +80,30 @@ export function init(storage = globalThis.localStorage) {
 }
 
 export function get() {
-  return { ...state, read: { ...state.read }, quiz: { ...state.quiz } };
+  return { ...state, read: { ...state.read }, quiz: { ...state.quiz }, cards: { ...state.cards }, wrong: [...state.wrong], exams: [...state.exams] };
+}
+
+export function setCards(cards) {
+  state.cards = Object.fromEntries(Object.entries(cards).filter(([, c]) => goodCard(c)));
+  change('cards');
+}
+
+// Newest last; a question answered wrong again moves to the end.
+export function addWrong(ids) {
+  const set = new Set(ids);
+  state.wrong = [...state.wrong.filter(x => !set.has(x)), ...set].slice(-MAX_WRONG);
+  change('wrong');
+}
+
+export function removeWrong(id) {
+  state.wrong = state.wrong.filter(x => x !== id);
+  change('wrong');
+}
+
+export function addExam(result) {
+  if (!goodExam(result)) return;
+  state.exams = [...state.exams, result].slice(-MAX_EXAMS);
+  change('exams');
 }
 
 export function subscribe(fn) {

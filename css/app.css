@@ -671,3 +671,27 @@ figure.photo figcaption { display: flex; flex-direction: column; gap: 2px; margi
 .anatomy { color: var(--ink, currentColor); margin: 8px 0 16px; }
 .anatomy-svg { display: block; width: 100%; height: auto; max-width: 640px; }
 .anatomy [data-part]:focus { outline: none; }
+
+/* ---------- Study: match questions, exams, progress ---------- */
+.match-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.match-left, .match-right { display: grid; gap: 8px; align-content: start; }
+.match button { min-height: 44px; padding: 8px 10px; border-radius: 10px; border: 2px solid var(--line); background: var(--surface); color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.match button.is-active { border-color: var(--accent); }
+.match button[data-pair="0"] { border-color: #e5383b; }
+.match button[data-pair="1"] { border-color: #1e9bf0; }
+.match button[data-pair="2"] { border-color: #2f9e44; }
+.match button[data-pair="3"] { border-color: #b45309; }
+.match button[data-pair="4"] { border-color: #7c3aed; }
+.match button.is-right { background: var(--tip-bg); }
+.match button.is-wrong { background: var(--myth-bg); }
+.match-submit { margin-top: 10px; }
+.quiz-opt.is-chosen { border-color: var(--accent); border-width: 2px; }
+.quiz-img { display: block; max-width: 100%; height: auto; margin: 6px 0 10px; }
+.exam-count { display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; }
+.exam-timer { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; }
+.exam-clock { font-variant-numeric: tabular-nums; font-weight: 600; }
+.exam-submit { margin-top: 20px; }
+.exam-score { font-size: 2rem; font-weight: 700; margin: 0; }
+.progress-table td:nth-child(n+2) { text-align: center; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.chip.on { border-color: var(--accent); }

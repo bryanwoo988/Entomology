@@ -153,10 +153,24 @@ export function lint(root) {
   }
 
   quiz.forEach((q, i) => {
-    if (q.options?.length !== 4) errors.push(`quiz ${i + 1} (${q.chapter}): needs exactly 4 options`);
-    if (!(Number.isInteger(q.answer) && q.answer >= 0 && q.answer <= 3)) errors.push(`quiz ${i + 1} (${q.chapter}): answer must be 0–3`);
+    const at = `quiz ${i + 1} (${q.chapter})`;
+    const type = q.type ?? 'mc';
+    if (type === 'mc') {
+      const n = q.options?.length ?? 0;
+      if (n < 2 || n > 4) errors.push(`${at}: needs 2–4 options`);
+      if (!(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < n)) errors.push(`${at}: answer must index an option`);
+    } else if (type === 'match') {
+      const n = q.pairs?.length ?? 0;
+      if (n < 3 || n > 5) errors.push(`${at}: needs 3–5 pairs`);
+    } else errors.push(`${at}: unknown type "${type}"`);
+    if (!(q.src ?? []).length) errors.push(`${at}: no src`);
+    for (const s of q.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`${at}: unknown source "${s}"`);
+    if (q.img && !existsSync(join(root, q.img))) errors.push(`${at}: image ${q.img} not found`);
   });
-  for (const ch of chapters) if (!quiz.some(q => q.chapter === ch.id)) errors.push(`${ch.id} has no quiz question`);
+  for (const ch of chapters) {
+    const n = quiz.filter(q => q.chapter === ch.id).length;
+    if (n < 3) errors.push(`${ch.id} has ${n} quiz items (needs at least 3)`);
+  }
 
   return { errors, stats };
 }

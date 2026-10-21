@@ -111,7 +111,7 @@ await testIf(P.length > 0, 'text size 1.3 switches the chapter to a single colum
 
 for (const lang of ['ms', 'zh', 'en']) {
   await test(`no horizontal overflow at 375px × scale 1.5 in ${lang}`, async () => {
-    for (const hash of ['#/', '#/key', '#/key/1.0.1.1.1.1.1.1.0', ...P.slice(0, 1).map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards']) {
+    for (const hash of ['#/', '#/key', '#/key/1.0.1.1.1.1.1.1.0', ...P.slice(0, 1).map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards', '#/tools/exam', '#/tools/wrong', '#/tools/progress']) {
       const a = await openApp({ hash, prefs: { lang, scale: 1.5 } });
       await sleep(250);
       const sw = a.d.scrollingElement.scrollWidth;
@@ -244,6 +244,49 @@ await test("key: Can't tell opens the hint", async () => {
   btn.click();
   await until(() => !a.d.getElementById('sheet').hidden && a.d.querySelector('.sheet-body').textContent.includes('伪装'));
   a.close();
+});
+
+await test('exam records a wrong answer in the wrong-answer book, and a right redo clears it', async () => {
+  localStorage.removeItem(KEY);
+  const prefs = await import('../js/prefs.js'); prefs.init();
+  const study = await import('../js/study.js');
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const items = [{ stage: 1, chapter: 'p01', q: T('Six legs?'), options: [T('Yes'), T('No')], answer: 0, why: T('Insects have six legs.'), src: ['TJ'] }];
+  const host = document.createElement('div'); document.getElementById('frames').append(host);
+  host.append(study.examPage('en', { items, seed: 1 }));
+  host.querySelector('.exam-count button').click();
+  await until(() => host.querySelector('.quiz-opt'));
+  host.querySelectorAll('.quiz-opt')[1].click();
+  host.querySelector('.exam-submit').click();
+  const score = await until(() => host.querySelector('.exam-score'));
+  assert(score.textContent.includes('0/1'), score.textContent);
+  assert(prefs.get().wrong.length === 1, `wrong: ${prefs.get().wrong}`);
+  assert(prefs.get().exams.length === 1, 'exam not recorded');
+  host.replaceChildren(study.wrongPage('en', { items }));
+  assert(host.querySelectorAll('.wrong-item').length === 1, 'not in the book');
+  host.querySelectorAll('.quiz-opt')[0].click();
+  await until(() => prefs.get().wrong.length === 0);
+  host.replaceChildren(study.wrongPage('en', { items }));
+  assert(host.querySelector('.wrong-empty'), 'book not empty');
+  host.remove();
+});
+
+await test('a match question pairs left and right by tapping', async () => {
+  const study = await import('../js/study.js');
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const item = { type: 'match', stage: 1, chapter: 'p01', q: T('Match'), why: T('w'), src: ['TJ'],
+    pairs: [{ left: T('Beetle'), right: T('Elytra') }, { left: T('Fly'), right: T('Halteres') }, { left: T('Moth'), right: T('Scales') }] };
+  let got = null;
+  const host = document.createElement('div'); document.getElementById('frames').append(host);
+  host.append(study.renderItem(item, 'en', r => { got = r; }));
+  const lefts = host.querySelectorAll('.match-left button'), rights = [...host.querySelectorAll('.match-right button')];
+  const right = name => rights.find(b => b.textContent === name);
+  lefts[0].click(); right('Elytra').click();
+  lefts[1].click(); right('Halteres').click();
+  lefts[2].click(); right('Scales').click();
+  host.querySelector('.match-submit').click();
+  assert(got === true, `result ${got}`);
+  host.remove();
 });
 
 const RKEY = 'bugs.reader';

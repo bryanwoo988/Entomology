@@ -108,3 +108,30 @@ test('applyToDocument sets the palette for the side in use', () => {
   prefs.applyToDocument(doc, false);
   assert.deepEqual([doc.documentElement.dataset.theme, doc.documentElement.dataset.palette], ['light', 'paper']);
 });
+
+test('bad progress fields fall back without losing good ones', () => {
+  const store = memStore({ 'bugs.prefs.v1': JSON.stringify({ lang: 'zh', chosen: true,
+    cards: { a: { box: 9, due: 'x' }, b: { box: 2, due: '2026-10-22' } }, wrong: 'oops',
+    exams: [{ date: '2026-10-21', correct: 3, total: 5, seconds: 60 }, { bad: true }] }) });
+  const p = prefs.init(store);
+  assert.equal(p.lang, 'zh');
+  assert.deepEqual(p.cards, { b: { box: 2, due: '2026-10-22' } });
+  assert.deepEqual(p.wrong, []);
+  assert.deepEqual(p.exams, [{ date: '2026-10-21', correct: 3, total: 5, seconds: 60 }]);
+});
+test('wrong-answer book keeps order, no duplicates, at most 200', () => {
+  prefs.init(memStore());
+  prefs.addWrong(['a', 'b']); prefs.addWrong(['a', 'c']);
+  assert.deepEqual(prefs.get().wrong, ['b', 'a', 'c']);
+  prefs.removeWrong('a');
+  assert.deepEqual(prefs.get().wrong, ['b', 'c']);
+  prefs.addWrong(Array.from({ length: 250 }, (_, i) => `q${i}`));
+  assert.equal(prefs.get().wrong.length, 200);
+  assert.equal(prefs.get().wrong.at(-1), 'q249');
+});
+test('exam history keeps the last 50', () => {
+  prefs.init(memStore());
+  for (let i = 0; i < 55; i++) prefs.addExam({ date: '2026-10-21', correct: i, total: 60, seconds: 10 });
+  assert.equal(prefs.get().exams.length, 50);
+  assert.equal(prefs.get().exams.at(-1).correct, 54);
+});

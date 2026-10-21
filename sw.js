@@ -9,7 +9,7 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'bugs-0098180f38';
+const CACHE = 'bugs-c982592696';
 const ASSETS = [
   './',
   'css/app.css',
@@ -69,9 +69,11 @@ const ASSETS = [
   'js/app.js',
   'js/config.js',
   'js/content.js',
+  'js/exam.js',
   'js/i18n.js',
   'js/key.js',
   'js/keyview.js',
+  'js/leitner.js',
   'js/markup.js',
   'js/names.js',
   'js/pesticides.js',
@@ -82,6 +84,7 @@ const ASSETS = [
   'js/releases.js',
   'js/search.js',
   'js/share.js',
+  'js/study.js',
   'js/swpolicy.js',
   'js/terms.js',
   'js/tools.js',

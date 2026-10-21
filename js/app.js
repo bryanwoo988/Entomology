@@ -23,6 +23,7 @@ import { mountWidget } from './widgets/index.js';
 import { buildIndex, search } from './search.js';
 import * as tools from './tools.js';
 import { renderKey } from './keyview.js';
+import * as study from './study.js';
 import { answerAt, encode, decode } from './key.js';
 
 const $ = sel => document.querySelector(sel);
@@ -384,8 +385,11 @@ const VIEWS = {
     const l = lang();
     switch (name) {
       case 'glossary': return tools.glossary(l);
-      case 'cards': return tools.flashcards(l, { stage: Number(arg) || 0 });
-      case 'quiz': return tools.quizPage(l, { stage: Number(arg) || 0 });
+      case 'cards': return study.cardsPage(l, { terms: [...terms.values()], stages: index.stages, stage: Number(arg) || 0 });
+      case 'quiz': return study.quizPage(l, { items: await loadData('quiz'), index, stage: Number(arg) || 0 });
+      case 'exam': return study.examPage(l, { items: await loadData('quiz') });
+      case 'wrong': return study.wrongPage(l, { items: await loadData('quiz') });
+      case 'progress': return study.progressPage(l, { index, items: await loadData('quiz') });
       default: return tools.toolsIndex(l);
     }
   },
@@ -419,6 +423,7 @@ function openMore() {
   openSheet(el('nav', { class: 'more-menu' },
     el('ul', {},
       item('#/tools/glossary', 'glossary'), item('#/tools/cards', 'flashcards'), item('#/tools/quiz', 'quiz'),
+      item('#/tools/exam', 'exam'), item('#/tools/wrong', 'wrongBook'), item('#/tools/progress', 'progress'),
       item('#/share', 'share'))));
 }
 

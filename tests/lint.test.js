@@ -19,8 +19,12 @@ function base() {
     sources: [{ id: 'PAM', title: 'Principles of Agricultural Meteorology', publisher: 'Scientific Publishers', url: '', accessed: '' },
       { id: 'met', title: 'MetMalaysia', publisher: 'MetMalaysia', url: 'https://www.met.gov.my/', accessed: '2026-10-02' }],
     quiz: [
-      { stage: 1, chapter: 'p01', q: T('q'), options: [T('a'), T('b'), T('c'), T('d')], answer: 0, why: T('w') },
-      { stage: 6, chapter: 'p02', q: T('q'), options: [T('a'), T('b'), T('c'), T('d')], answer: 3, why: T('w') },
+      { stage: 1, chapter: 'p01', q: T('q1'), options: [T('a'), T('b'), T('c'), T('d')], answer: 0, why: T('w'), src: ['PAM'] },
+      { stage: 1, chapter: 'p01', q: T('q2'), options: [T('True'), T('False')], answer: 1, why: T('w'), src: ['PAM'] },
+      { type: 'match', stage: 1, chapter: 'p01', q: T('q3'), pairs: [{ left: T('a'), right: T('1') }, { left: T('b'), right: T('2') }, { left: T('c'), right: T('3') }], why: T('w'), src: ['PAM'] },
+      { stage: 6, chapter: 'p02', q: T('q4'), options: [T('a'), T('b'), T('c'), T('d')], answer: 3, why: T('w'), src: ['met'] },
+      { stage: 6, chapter: 'p02', q: T('q5'), options: [T('a'), T('b'), T('c')], answer: 2, why: T('w'), src: ['met'] },
+      { stage: 6, chapter: 'p02', q: T('q6'), options: [T('a'), T('b')], answer: 0, why: T('w'), src: ['met'] },
     ],
     datasets: [],
     pesticides: [{ id: 'cypermethrin', name: T('Cypermethrin'), status: 'registered', src: ['met'], checked: '2026-10-21' },
@@ -83,11 +87,14 @@ test('table rows must match headers', () => has(errorsOf(c => { c.p01.sections[0
 
 test('a widget without a module', () => has(errorsOf(c => { c.p01.sections[0].blocks.push({ type: 'widget', id: 'W99' }); }), /widget W99 has no module/));
 
-test('every chapter needs a quiz question; questions need four options', () => {
-  has(errorsOf(c => { c.quiz.shift(); }), /p01 has no quiz question/);
-  has(errorsOf(c => { c.quiz[0].options.pop(); }), /quiz 1 .*4 options/);
+test('every page needs at least 3 quiz items', () => has(errorsOf(c => { c.quiz.shift(); }), /p01 has 2 quiz items/));
+test('mc needs 2–4 options and an answer among them', () => {
+  has(errorsOf(c => { c.quiz[1].options.pop(); }), /quiz 2 .*2–4 options/);
   has(errorsOf(c => { c.quiz[0].answer = 4; }), /quiz 1 .*answer/);
 });
+test('match needs 3–5 pairs', () => has(errorsOf(c => { c.quiz[2].pairs.pop(); }), /quiz 3 .*3–5 pairs/));
+test('a quiz item needs a source', () => has(errorsOf(c => { delete c.quiz[0].src; }), /quiz 1 .*src/));
+test('an unknown quiz type fails', () => has(errorsOf(c => { c.quiz[0].type = 'essay'; }), /quiz 1 .*type/));
 
 test('a chapter not yet written (ready:false) is listed but not required', () => {
   assert.deepEqual(errorsOf(c => {
