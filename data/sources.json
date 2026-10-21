@@ -1,21 +1,5 @@
 [
  {
-  "id": "TJ",
-  "short": "台江昆蟲圖鑑",
-  "title": "游黽飛蛉：台江昆蟲圖鑑",
-  "publisher": "黃文伯、張原謀、莊棨州撰文，台江國家公園管理處，2015",
-  "url": "https://ws.moi.gov.tw/001/Upload/415/ebook/ebook_180690//pdf/full.pdf",
-  "accessed": "2026-10-19"
- },
- {
-  "id": "WTK",
-  "short": "WTKhoo",
-  "title": "Orders of insects in Malaysia",
-  "publisher": "Compiled by W. T. Khoo (unpublished teaching notes)",
-  "url": "",
-  "accessed": "2026-10-20"
- },
- {
   "id": "RS12",
   "short": "Risalah Sawit 12",
   "title": "Ulat bungkus serangga perosak daun sawit",
@@ -38,5 +22,29 @@
   "publisher": "Khairul Abidin, Risalah Sawit No. 40, MPOB, Disember 2023",
   "url": "https://palmoilis.mpob.gov.my/files/2024/06/Risalah-Sawit-No.-40.pdf",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "TJ",
+  "short": "台江昆蟲圖鑑",
+  "title": "游黽飛蛉：台江昆蟲圖鑑",
+  "publisher": "黃文伯、張原謀、莊棨州撰文，台江國家公園管理處，2015",
+  "url": "https://ws.moi.gov.tw/001/Upload/415/ebook/ebook_180690//pdf/full.pdf",
+  "accessed": "2026-10-19"
+ },
+ {
+  "id": "UMD-THRIPS",
+  "short": "UMD Extension: Thrips",
+  "title": "Thrips on flowers",
+  "publisher": "University of Maryland Extension",
+  "url": "https://extension.umd.edu/resource/thrips-flowers",
+  "accessed": "2026-10-21"
+ },
+ {
+  "id": "WTK",
+  "short": "WTKhoo",
+  "title": "Orders of insects in Malaysia",
+  "publisher": "Compiled by W. T. Khoo (unpublished teaching notes)",
+  "url": "",
+  "accessed": "2026-10-20"
  }
 ]

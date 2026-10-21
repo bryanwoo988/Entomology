@@ -11,7 +11,7 @@ const T = (en) => ({ zh: `中${en}`, en, ms: `M${en}` });
 function base() {
   return {
     index: { app: T('App'), stages: [{ n: 1, title: T('S1'), blurb: T('b'), chapters: ['p01'] }, { n: 6, title: T('S6'), blurb: T('b'), chapters: ['p02'] }],
-      chapters: [{ id: 'p01', num: 1, stage: 1, title: T('One'), blurb: T('b') }, { id: 'p02', num: 2, stage: 6, title: T('Two'), blurb: T('b') }] },
+      chapters: [{ id: 'p01', num: 1, stage: 1, kind: 'order', title: T('One'), blurb: T('b') }, { id: 'p02', num: 2, stage: 6, title: T('Two'), blurb: T('b') }] },
     terms: [
       { id: 'air', name: T('air'), short: T('gas'), chapter: 1 },
       { id: 'monsoon', name: T('monsoon'), short: T('seasonal wind'), chapter: 2 },
@@ -27,6 +27,8 @@ function base() {
       { id: 'endosulfan', name: T('Endosulfan'), status: 'banned', src: ['met'], checked: '2026-10-21' }],
     photos: [{ id: 'bug', file: 'img/species/bug.webp', subject: T('bug'), credit: T('MPOB'), licence: 'MPOB-permission', author: 'MPOB', url: 'https://mpob.gov.my/' }],
     files: { 'img/species/bug.webp': 'x' },
+    key: { start: 'a', nodes: { a: { q: T('q'), hint: T('h'), options: [{ label: T('yes'), result: 'r' }, { label: T('no'), result: 'outside' }] } },
+      results: { r: { group: T('Bugs'), order: 'p01', check: [T('c')], confused: [], src: ['met'] }, outside: { group: T('x'), order: null, check: [T('x')], confused: [], src: ['met'] } } },
     p01: { id: 'p01', num: 1, stage: 1, title: T('One'), newTerms: ['air'], sources: ['PAM'], sections: [
       { id: 's1', heading: T('h'), level: 'basic', blocks: [
         { type: 'p', src: ['PAM'], defines: ['air'], text: { zh: '{{t:air}} 是', en: '{{t:air}} is', ms: '{{t:air}} ialah' } },
@@ -45,7 +47,7 @@ function write(c) {
   const w = (f, v) => writeFileSync(join(root, 'data', f), JSON.stringify(v));
   w('index.json', c.index); w('terms.json', c.terms); w('sources.json', c.sources);
   w('quiz.json', c.quiz); w('datasets.json', c.datasets); w('p01.json', c.p01); w('p02.json', c.p02);
-  w('pesticides.json', c.pesticides); w('photos.json', c.photos);
+  w('pesticides.json', c.pesticides); w('photos.json', c.photos); w('key.json', c.key);
   for (const [f, body] of Object.entries(c.files)) { mkdirSync(join(root, dirname(f)), { recursive: true }); writeFileSync(join(root, f), body); }
   return root;
 }
@@ -116,3 +118,7 @@ test('species block needs sci and an existing order page', () => {
   has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bug'), order: 'p01', crops: [], stage: T('larva'), src: ['met'] }); }), /species.*sci/);
   has(errorsOf(c => { sp(c).push({ type: 'species', names: T('Bug'), sci: 'Bugus bugus', order: 'p99', crops: [], stage: T('larva'), src: ['met'] }); }), /order page "p99"/);
 });
+
+test('a broken key fails lint', () => has(errorsOf(c => { c.key.nodes.a.options[0].next = 'ghost'; }), /key: .*ghost/));
+test('a key result needs a source', () => has(errorsOf(c => { c.key.results.r.src = []; }), /key result r.*src/));
+test('a key result must point at a listed page', () => has(errorsOf(c => { c.key.results.r.order = 'p77'; }), /key result r.*p77/));

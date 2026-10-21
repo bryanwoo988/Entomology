@@ -9,6 +9,7 @@ import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { termIds, chapterIds, pageId } from '../js/markup.js';
+import { validate as validateKey } from '../js/key.js';
 
 const LANGS = ['zh', 'en', 'ms'];
 // Blocks a reader can mark; every one of them names its source (spec §10.4).
@@ -134,6 +135,21 @@ export function lint(root) {
     const n = defined.get(t.id) ?? 0;
     if (n === 0 && chapters.some(c => c.num === t.chapter)) errors.push(`"${t.id}" is never defined (expected in ${cid(t.chapter)})`);
     if (n > 1) errors.push(`"${t.id}" is defined ${n} times`);
+  }
+
+  // The identification key: a valid tree, sourced results, links to order pages
+  // (checked once order pages exist, so the key can be written first).
+  const key = opt('key.json', null);
+  if (key) {
+    checkTri(key, 'key.json', errors);
+    for (const e of validateKey(key)) errors.push(`key: ${e}`);
+    for (const [id, n] of Object.entries(key.nodes ?? {})) if (n.img && !existsSync(join(root, n.img))) errors.push(`key: ${id} image ${n.img} not found`);
+    const ordersWritten = index.chapters.some(m => m.kind === 'order');
+    for (const [id, r] of Object.entries(key.results ?? {})) {
+      if (!(r.src ?? []).length) errors.push(`key result ${id}: no src`);
+      for (const s of r.src ?? []) if (!sources.has(s.split(':')[0])) errors.push(`key result ${id}: unknown source "${s}"`);
+      if (r.order !== null && ordersWritten && !chapterSet.has(r.order)) errors.push(`key result ${id}: order page "${r.order}" is not listed`);
+    }
   }
 
   quiz.forEach((q, i) => {

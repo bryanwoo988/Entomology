@@ -22,6 +22,8 @@ import { renderShare } from './share.js';
 import { mountWidget } from './widgets/index.js';
 import { buildIndex, search } from './search.js';
 import * as tools from './tools.js';
+import { renderKey } from './keyview.js';
+import { answerAt, encode, decode } from './key.js';
 
 const $ = sel => document.querySelector(sel);
 const main = $('#main');
@@ -88,6 +90,7 @@ function parse(hash) {
   if (a === 'stage') return { view: 'stage', n: Number(b) };
   if (a === 'ch') return { view: 'chapter', id: b, section: c };
   if (a === 'tools') return { view: 'tools', name: b, arg: c };
+  if (a === 'key') return { view: 'key', answers: decode(b) };
   if (a === 'info' || a === 'settings') return { view: 'settings' };
   if (['notes', 'bookmarks', 'share', 'search'].includes(a)) return { view: a };
   return { view: 'home' };
@@ -190,6 +193,19 @@ function segmented(options, cur, onPick) {
 }
 
 const VIEWS = {
+  async key({ answers }) {
+    const key = await loadData('key');
+    const go = a => { location.hash = a.length ? `#/key/${encode(a)}` : '#/key'; };
+    return renderKey(key, {
+      answers, lang: lang(), openSheet,
+      onAnswer: (step, i) => go(answerAt(answers, step, i)),
+      onStep: i => go(answers.slice(0, i)),
+      onRestart: () => go([]),
+      pageTitle: id => { const c = index.chapters.find(x => x.id === id); return c ? pick(c.title, lang()) : ''; },
+      sourceLabel: ctxFor().sourceLabel,
+    });
+  },
+
   async home() {
     const p = prefs.get();
     const last = p.lastRoute && parse(p.lastRoute).view === 'chapter' ? p.lastRoute : null;
@@ -554,7 +570,7 @@ async function readerNext() {
 function markNav() {
   if (!window.Reader || !$('#bottomnav')) return;
   const view = parse(location.hash).view;
-  const tab = { notes: 'notes', bookmarks: 'bookmarks', settings: 'settings', share: 'settings' }[view] || 'home';
+  const tab = { key: 'key', notes: 'notes', bookmarks: 'bookmarks', settings: 'settings', share: 'settings' }[view] || 'home';
   const listening = window.Reader.isListening();
   for (const b of document.querySelectorAll('#bottomnav [data-nav]')) {
     const on = b.dataset.nav === 'listen' ? listening : b.dataset.nav === tab;
@@ -570,6 +586,7 @@ function wireBottomNav() {
     const b = e.target.closest('[data-nav]');
     if (!b) return;
     switch (b.dataset.nav) {
+      case 'key': location.hash = '#/key'; break;
       case 'home': location.hash = '#/'; break;
       case 'listen':
         if (!window.Reader.isListening() && parse(location.hash).view !== 'chapter') { toast(tr('openChapterFirst')); return; }

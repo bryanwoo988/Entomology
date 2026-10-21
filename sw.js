@@ -9,12 +9,13 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'bugs-3f0e438fec';
+const CACHE = 'bugs-d58150ca57';
 const ASSETS = [
   './',
   'css/app.css',
   'css/reader.css',
   'data/index.json',
+  'data/key.json',
   'data/pesticides.json',
   'data/photos.json',
   'data/quiz.json',
@@ -52,11 +53,24 @@ const ASSETS = [
   'icons/splash/750x1334-light.png',
   'icons/splash/828x1792-dark.png',
   'icons/splash/828x1792-light.png',
+  'img/svg/key-antennae.svg',
+  'img/svg/key-elytra.svg',
+  'img/svg/key-forceps.svg',
+  'img/svg/key-hindlegs.svg',
+  'img/svg/key-mouth.svg',
+  'img/svg/key-pairs.svg',
+  'img/svg/key-raptorial.svg',
+  'img/svg/key-scales.svg',
+  'img/svg/key-shape.svg',
+  'img/svg/key-waist.svg',
+  'img/svg/key-wings.svg',
   'index.html',
   'js/app.js',
   'js/config.js',
   'js/content.js',
   'js/i18n.js',
+  'js/key.js',
+  'js/keyview.js',
   'js/markup.js',
   'js/names.js',
   'js/pesticides.js',

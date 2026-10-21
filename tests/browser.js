@@ -111,7 +111,7 @@ await testIf(P.length > 0, 'text size 1.3 switches the chapter to a single colum
 
 for (const lang of ['ms', 'zh', 'en']) {
   await test(`no horizontal overflow at 375px × scale 1.5 in ${lang}`, async () => {
-    for (const hash of ['#/', ...P.slice(0, 1).map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards']) {
+    for (const hash of ['#/', '#/key', '#/key/1.0.1.1.1.1.1.1.0', ...P.slice(0, 1).map(id => `#/ch/${id}`), '#/stage/3', '#/info', '#/settings', '#/notes', '#/bookmarks', '#/share', '#/search', '#/tools', '#/tools/glossary', '#/tools/quiz/1', '#/tools/cards']) {
       const a = await openApp({ hash, prefs: { lang, scale: 1.5 } });
       await sleep(250);
       const sw = a.d.scrollingElement.scrollWidth;
@@ -212,6 +212,38 @@ await test('a species page renders its card, credited photo, IPM headings and th
   const warn = host.querySelector('.note-warn');
   assert(warn && warn.textContent.includes('使用任何农药前'), 'pesticide warning missing');
   assert(!/\[object /.test(host.textContent), 'object text');
+});
+
+await test('key walks to a result and back', async () => {
+  const key = await (await fetch('../data/key.json', { cache: 'no-store' })).json();
+  const { encode } = await import('../js/key.js');
+  const a = await openApp({ hash: '#/key', prefs: { lang: 'en' } });
+  const choose = async label => {
+    const btn = await until(() => [...a.d.querySelectorAll('.key-opt')].find(b => b.textContent.startsWith(label)));
+    btn.click();
+    await sleep(60);
+  };
+  for (const l of ['No', 'Yes', 'Two pairs', 'No scales', 'No', 'No', 'Different', 'No', 'Yes']) await choose(l);
+  const head = await until(() => a.d.querySelector('.key-result h2'));
+  assert(head.textContent.includes('Beetle'), `result: ${head.textContent}`);
+  assert(a.d.querySelectorAll('.key-check input[type=checkbox]').length >= 2, 'no checklist');
+  assert(a.d.querySelector('.key-result a[href="#/ch/p10"]'), 'no order link');
+  const crumbs = a.d.querySelectorAll('.key-crumbs button');
+  assert(crumbs.length === 9, `crumbs: ${crumbs.length}`);
+  crumbs[2].click();
+  await until(() => !a.d.querySelector('.key-result') && a.d.querySelector('.key-q'));
+  assert(a.d.querySelector('.key-q').textContent.includes(key.nodes.pairs.q.en), 'not back at step 3');
+  const first3 = a.w.location.hash.replace('#/key/', '');
+  assert(first3 === encode([1, 0]), `hash ${a.w.location.hash}`);
+  a.close();
+});
+
+await test("key: Can't tell opens the hint", async () => {
+  const a = await openApp({ hash: '#/key', prefs: { lang: 'zh' } });
+  const btn = await until(() => a.d.querySelector('.key-hint-btn'));
+  btn.click();
+  await until(() => !a.d.getElementById('sheet').hidden && a.d.querySelector('.sheet-body').textContent.includes('伪装'));
+  a.close();
 });
 
 const RKEY = 'bugs.reader';
