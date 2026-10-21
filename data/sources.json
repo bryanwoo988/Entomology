@@ -33,6 +33,15 @@
   "via": "search"
  },
  {
+  "id": "APHC-PAED",
+  "short": "US Army PHC: Paederus beetle",
+  "title": "Paederus beetle (fact sheet 18-071-0317)",
+  "publisher": "U.S. Army Public Health Center",
+  "url": "https://ph.health.mil/PHC Resource Library/PaederusBeetle_FS_18-071-0317.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "AUSVEG-MF",
   "short": "AUSVEG: melon fruit fly",
   "title": "Melon fruit fly fact sheet (2024)",
@@ -607,11 +616,29 @@
   "accessed": "2026-10-21"
  },
  {
+  "id": "MJM-1993",
+  "short": "Med J Malaysia 1993: Paederus dermatitis",
+  "title": "Paederus dermatitis",
+  "publisher": "Medical Journal of Malaysia 48(4), 1993",
+  "url": "https://mail.e-mjm.org/1993/v48n4/Paederus_Dermatitis.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "MPI-FAW",
   "short": "NZ MPI: fall armyworm",
   "title": "Fall armyworm identification guide",
   "publisher": "New Zealand Ministry for Primary Industries",
   "url": "https://mpi.govt.nz/dmsdocument/50842/direct",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "MSU-4H",
+  "short": "MSU 4-H: entomology record",
+  "title": "4-H entomology record and report (4H1393)",
+  "publisher": "Michigan State University Extension",
+  "url": "https://www.canr.msu.edu/uploads/236/67534/4H1393EntomologyRecordandReport.pdf",
   "accessed": "2026-10-21",
   "via": "search"
  },
@@ -648,6 +675,15 @@
   "publisher": "Oil Palm Bulletin, MPOB",
   "url": "https://opb.mpob.gov.my/evaluation-of-entomopathogenic-fungi-and-chemical-to-control-termite-coptotermes-curvignathus-on-mature-oil-palm-and-supply-seedlings-on-peat/",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "OSU-COLLECT",
+  "short": "OSU Extension: collecting insects",
+  "title": "Collecting insects and related arthropods",
+  "publisher": "Oregon State University Extension Service",
+  "url": "https://extension.oregonstate.edu/sites/default/files/documents/9591/collecting-insects.pdf",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "PHA-BSK",
@@ -709,6 +745,15 @@
   "publisher": "Perpustakaan Negara Malaysia (book listing)",
   "url": "https://www.pnm.gov.my/index.php/pages/view/883",
   "accessed": "2026-10-21"
+ },
+ {
+  "id": "POISON-CAT",
+  "short": "Poison Control: caterpillar stings",
+  "title": "Caterpillar stings",
+  "publisher": "Poison Control (poison.org)",
+  "url": "https://www.poison.org/articles/caterpillar-stings",
+  "accessed": "2026-10-21",
+  "via": "search"
  },
  {
   "id": "PP-BPH",
@@ -1026,6 +1071,15 @@
   "via": "search"
  },
  {
+  "id": "UIDAHO-TIPS",
+  "short": "U of Idaho: specimen tips",
+  "title": "Specimen collecting tips (insect identification)",
+  "publisher": "University of Idaho Extension",
+  "url": "https://uidaho.edu/extension/insect-id/tips",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
   "id": "UMD-THRIPS",
   "short": "UMD Extension: Thrips",
   "title": "Thrips on flowers",
@@ -1081,6 +1135,15 @@
   "title": "Cocoa pod borer in Malaysia (EJSMT article)",
   "publisher": "Universiti Pendidikan Sultan Idris",
   "url": "https://ojs.upsi.edu.my/index.php/EJSMT/article/download/43/36/68",
+  "accessed": "2026-10-21",
+  "via": "search"
+ },
+ {
+  "id": "URMC-STING",
+  "short": "URMC: what to do when stung",
+  "title": "Be(e) prepared: what to do when you get stung",
+  "publisher": "University of Rochester Medical Center, 2016",
+  "url": "https://www.urmc.rochester.edu/patients-families/health-matters/september-2016/be-e-prepared-what-to-do-when-you-get-stung.aspx",
   "accessed": "2026-10-21",
   "via": "search"
  },

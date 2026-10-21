@@ -154,7 +154,9 @@
     "en": "How to watch and record insects, and which ones to handle with care",
     "ms": "Cara memerhati dan merekod serangga, dan serangga yang perlu dikendalikan dengan berhati-hati"
    },
-   "chapters": []
+   "chapters": [
+    "p63"
+   ]
   }
  ],
  "chapters": [
@@ -1186,6 +1188,22 @@
     "ms": "Heterotrigona itama"
    },
    "order": "p13"
+  },
+  {
+   "id": "p63",
+   "num": 63,
+   "stage": 6,
+   "kind": "lesson",
+   "title": {
+    "zh": "安全地在野外观察",
+    "en": "Watching insects safely",
+    "ms": "Memerhati serangga dengan selamat"
+   },
+   "blurb": {
+    "zh": "带什么、记什么，以及刺蛾、隐翅虫、蜂类的处理方法",
+    "en": "What to take, what to write down, and what to do about nettle caterpillars, rove beetles, bees and wasps",
+    "ms": "Apa yang dibawa, apa yang dicatat, dan apa yang perlu dibuat tentang ulat api, kumbang rove, lebah dan tebuan"
+   }
   }
  ]
 }

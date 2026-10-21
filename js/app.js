@@ -353,7 +353,11 @@ const VIEWS = {
       el('h2', { class: 'lib-h' }, tr('allSources')),
       el('ul', { class: 'source-list' }, sources.map(s => el('li', {},
         s.url ? el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.title, ' ↗') : el('strong', {}, s.title),
-        el('span', { class: 'muted' }, ` — ${s.publisher}`)))));
+        el('span', { class: 'muted' }, ` — ${s.publisher}`)))),
+      el('h2', { class: 'lib-h' }, tr('photoCredits')),
+      el('ul', { class: 'source-list photo-credits' }, [...photos.values()].map(ph => el('li', {},
+        el('strong', {}, pick(ph.subject, lang())), ' — ', pick(ph.credit, lang()),
+        ph.url ? el('span', {}, ' · ', el('a', { href: ph.url, target: '_blank', rel: 'noopener' }, tr('photoSource'), ' ↗')) : null))));
   },
 
   async share() {

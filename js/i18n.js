@@ -60,6 +60,8 @@ export const UI = {
   advanced: { zh: '进阶', en: 'Going deeper', ms: 'Lanjutan' },
   farmInsects: { zh: '这一目的农业昆虫', en: 'Farm insects in this order', ms: 'Serangga pertanian dalam order ini' },
   viaSearch: { zh: '（经搜索摘要核对，未能打开原文）', en: '(checked through a search summary; the page itself could not be opened)', ms: '(disemak melalui ringkasan carian; halaman asal tidak dapat dibuka)' },
+  photoCredits: { zh: '图片来源', en: 'Photo credits', ms: 'Kredit foto' },
+  photoSource: { zh: '原图', en: 'original', ms: 'asal' },
   sources: { zh: '本章来源', en: 'Sources for this chapter', ms: 'Sumber bab ini' },
   prev: { zh: '上一章', en: 'Previous', ms: 'Sebelumnya' },
   next: { zh: '下一章', en: 'Next', ms: 'Seterusnya' },

@@ -141,6 +141,17 @@ await testIf(P.includes('p33'), 'an order page links to its farm insects', async
   a.close();
 });
 
+await testIf(P.length > 0, 'About lists every photo with its credit and link', async () => {
+  const photos = await (await fetch('/data/photos.json')).json();
+  const a = await openApp({ hash: '#/settings', prefs: { lang: 'en' } });
+  await until(() => a.d.querySelector('.photo-credits'));
+  const items = [...a.d.querySelectorAll('.photo-credits li')];
+  assert(items.length === photos.length, `${items.length} credits for ${photos.length} photos`);
+  const first = items.find(li => li.textContent.includes(photos[0].credit.en));
+  assert(first && first.querySelector(`a[href="${photos[0].url}"]`), 'credit or link missing');
+  a.close();
+});
+
 await testIf(P.length > 0, 'search finds a chapter from a query in another language', async () => {
   const a = await openApp({ hash: '#/search', prefs: { lang: 'ms' } });
   const input = await until(() => a.d.querySelector('#search-input'));

@@ -6510,5 +6510,130 @@
   "src": [
    "MAB-MELON"
   ]
+ },
+ {
+  "stage": 6,
+  "chapter": "p63",
+  "q": {
+   "zh": "被刺蛾幼虫螫后，第一步怎样处理断刺？",
+   "en": "After a nettle caterpillar sting, how do you remove the spines?",
+   "ms": "Selepas disengat ulat api, bagaimana membuang duri?"
+  },
+  "options": [
+   {
+    "zh": "用胶带粘掉，每次换新的一段",
+    "en": "Lift them out with tape, a fresh strip each time",
+    "ms": "Angkat dengan pita pelekat, helaian baharu setiap kali"
+   },
+   {
+    "zh": "用力搓揉",
+    "en": "Rub hard",
+    "ms": "Gosok kuat-kuat"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "之后再用肥皂和水清洗。",
+   "en": "Then wash with soap and water.",
+   "ms": "Kemudian basuh dengan sabun dan air."
+  },
+  "src": [
+   "VT-STING"
+  ]
+ },
+ {
+  "stage": 6,
+  "chapter": "p63",
+  "q": {
+   "zh": "隐翅虫停在手臂上，应该一掌拍死它。",
+   "en": "If a rove beetle lands on your arm, slap it.",
+   "ms": "Jika kumbang rove hinggap di lengan, tamparnya."
+  },
+  "options": [
+   {
+    "zh": "对",
+    "en": "True",
+    "ms": "Betul"
+   },
+   {
+    "zh": "错",
+    "en": "False",
+    "ms": "Salah"
+   }
+  ],
+  "answer": 1,
+  "why": {
+   "zh": "压碎它会让毒液留在皮肤上；用别的东西拨走。",
+   "en": "Crushing it leaves the toxin on your skin; brush it off with something else.",
+   "ms": "Menghancurkannya meninggalkan toksin pada kulit; tepis dengan benda lain."
+  },
+  "src": [
+   "APHC-PAED"
+  ]
+ },
+ {
+  "stage": 6,
+  "chapter": "p63",
+  "q": {
+   "zh": "怎样取出蜜蜂的螫针？",
+   "en": "How should a bee stinger be removed?",
+   "ms": "Bagaimana sengat lebah patut dibuang?"
+  },
+  "options": [
+   {
+    "zh": "用指甲或卡片边缘刮掉",
+    "en": "Scrape it out with a fingernail or card edge",
+    "ms": "Kikis dengan kuku atau tepi kad"
+   },
+   {
+    "zh": "用镊子夹出来",
+    "en": "Pull it with tweezers",
+    "ms": "Tarik dengan penyepit"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "镊子会挤进更多毒液。",
+   "en": "Tweezers squeeze in more venom.",
+   "ms": "Penyepit memicit lebih banyak bisa masuk."
+  },
+  "src": [
+   "URMC-STING"
+  ]
+ },
+ {
+  "stage": 6,
+  "chapter": "p63",
+  "q": {
+   "zh": "记录观察时，哪一项不在建议的清单里？",
+   "en": "Which is not on the suggested recording list?",
+   "ms": "Yang manakah tiada dalam senarai rekod yang dicadangkan?"
+  },
+  "options": [
+   {
+    "zh": "虫的价钱",
+    "en": "The insect's price",
+    "ms": "Harga serangga"
+   },
+   {
+    "zh": "日期",
+    "en": "Date",
+    "ms": "Tarikh"
+   },
+   {
+    "zh": "生境",
+    "en": "Habitat",
+    "ms": "Habitat"
+   }
+  ],
+  "answer": 0,
+  "why": {
+   "zh": "要记日期、地点、生境、天气、方法和记录人。",
+   "en": "Record date, place, habitat, weather, method and recorder.",
+   "ms": "Rekod tarikh, lokasi, habitat, cuaca, kaedah dan perekod."
+  },
+  "src": [
+   "MSU-4H"
+  ]
  }
 ]

@@ -150,6 +150,16 @@ SOURCES.update({
  "MAB-MELON": _E("Melon Manis Terengganu pollination", "Stingless bee pollination of Melon Manis Terengganu", "Malaysian Applied Biology, 2022", "https://jms.mabjournal.com/index.php/mab/article/view/2360"),
 })
 
+SOURCES.update({
+ # stage 6 — in the field, safely
+ "OSU-COLLECT": _E("OSU Extension: collecting insects", "Collecting insects and related arthropods", "Oregon State University Extension Service", "https://extension.oregonstate.edu/sites/default/files/documents/9591/collecting-insects.pdf"),
+ "UIDAHO-TIPS": _E("U of Idaho: specimen tips", "Specimen collecting tips (insect identification)", "University of Idaho Extension", "https://uidaho.edu/extension/insect-id/tips"),
+ "MSU-4H": _E("MSU 4-H: entomology record", "4-H entomology record and report (4H1393)", "Michigan State University Extension", "https://www.canr.msu.edu/uploads/236/67534/4H1393EntomologyRecordandReport.pdf"),
+ "POISON-CAT": _E("Poison Control: caterpillar stings", "Caterpillar stings", "Poison Control (poison.org)", "https://www.poison.org/articles/caterpillar-stings"),
+ "MJM-1993": _E("Med J Malaysia 1993: Paederus dermatitis", "Paederus dermatitis", "Medical Journal of Malaysia 48(4), 1993", "https://mail.e-mjm.org/1993/v48n4/Paederus_Dermatitis.pdf"),
+ "APHC-PAED": _E("US Army PHC: Paederus beetle", "Paederus beetle (fact sheet 18-071-0317)", "U.S. Army Public Health Center", "https://ph.health.mil/PHC Resource Library/PaederusBeetle_FS_18-071-0317.pdf"),
+ "URMC-STING": _E("URMC: what to do when stung", "Be(e) prepared: what to do when you get stung", "University of Rochester Medical Center, 2016", "https://www.urmc.rochester.edu/patients-families/health-matters/september-2016/be-e-prepared-what-to-do-when-you-get-stung.aspx"),
+})
 
 def src(*ids):
     """Source records for write_chapter, from ids (page suffixes ignored)."""
