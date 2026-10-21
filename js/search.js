@@ -38,6 +38,7 @@ export function buildIndex(chapters, terms) {
   for (const t of terms) {
     const e = { route: `#/ch/${cid(t.chapter)}`, kind: 'term', title: {}, body: {} };
     for (const l of LANGS) { e.title[l] = t.name[l] + (t.abbr ? ` (${t.abbr})` : ''); e.body[l] = t.short[l]; }
+    if (t.name.zhTw) e.body.zh = `${t.name.zhTw} ${e.body.zh}`;
     entries.push(e);
   }
   for (const e of entries) e.hay = { title: normalise(LANGS.map(l => e.title[l]).join(' ')), body: normalise(LANGS.map(l => e.body[l]).join(' ')) };

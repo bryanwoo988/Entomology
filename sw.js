@@ -9,7 +9,7 @@
    any file — index.html included — makes installed copies update. */
 
 /* --- generated:begin --- */
-const CACHE = 'bugs-ade8738aba';
+const CACHE = 'bugs-7247c99254';
 const ASSETS = [
   './',
   'css/app.css',
@@ -56,6 +56,7 @@ const ASSETS = [
   'js/content.js',
   'js/i18n.js',
   'js/markup.js',
+  'js/names.js',
   'js/prefs.js',
   'js/qrcode.js',
   'js/quiz.js',

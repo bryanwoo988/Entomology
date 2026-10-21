@@ -35,3 +35,8 @@ test('empty query returns nothing', () => assert.deepEqual(search(index, '  ', '
 test('a term result opens the page that teaches it', () => {
   assert.ok(search(index, 'Dew point', 'en').some(h => h.kind === 'term' && h.route === '#/ch/p05'));
 });
+test('search finds a term by its Taiwan name', () => {
+  const T = en => ({ zh: `中${en}`, en, ms: `M${en}` });
+  const terms2 = [{ id: 'stink-bug', name: { zh: '蝽', zhTw: '椿象', en: 'Stink bug', ms: 'Kepinding' }, short: T('x'), chapter: 1 }];
+  assert.equal(search(buildIndex([], terms2), '椿象', 'en')[0].title, 'Stink bug');
+});

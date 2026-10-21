@@ -22,6 +22,7 @@ function walkStrings(v, fn, path = '') {
 function checkTri(v, where, errors, path = '') {
   if (isTri(v)) {
     for (const l of LANGS) if (typeof v[l] !== 'string' || !v[l].trim()) errors.push(`${where} ${path}: missing ${l}`);
+    if ('zhTw' in v && (typeof v.zhTw !== 'string' || !v.zhTw.trim())) errors.push(`${where} ${path}: empty zhTw`);
     return;
   }
   if (Array.isArray(v)) v.forEach((x, i) => checkTri(x, where, errors, `${path}[${i}]`));

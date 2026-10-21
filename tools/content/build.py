@@ -15,6 +15,11 @@ def T(zh, en, ms):
     return {"zh": zh, "en": en, "ms": ms}
 
 
+def T2(zh, zh_tw, en, ms):
+    """A name whose Taiwan form differs from the mainland one."""
+    return {"zh": zh, "zhTw": zh_tw, "en": en, "ms": ms}
+
+
 def P(zh, en, ms, **kw):
     return {"type": "p", "text": T(zh, en, ms), **kw}
 

@@ -3,6 +3,7 @@
 
 import { pick, t } from './i18n.js';
 import { pageId } from './markup.js';
+import { displayName } from './names.js';
 import { el, loadData } from './content.js';
 import { scoreQuiz, questionsFor, cardsFor } from './quiz.js';
 import * as prefs from './prefs.js';
@@ -23,8 +24,8 @@ export function toolsIndex(lang) {
 function termRow(term, lang, { showAbbr = false } = {}) {
   return el('li', { class: 'gloss-item', id: `term-${term.id}` },
     el('div', { class: 'gloss-head' },
-      el('span', { class: 'gloss-name' }, showAbbr && term.abbr ? term.abbr : pick(term.name, lang)),
-      showAbbr && term.abbr ? el('span', { class: 'muted' }, pick(term.name, lang)) : term.abbr ? el('span', { class: 'muted' }, term.abbr) : null,
+      el('span', { class: 'gloss-name' }, showAbbr && term.abbr ? term.abbr : displayName(term.name, lang)),
+      showAbbr && term.abbr ? el('span', { class: 'muted' }, displayName(term.name, lang)) : term.abbr ? el('span', { class: 'muted' }, term.abbr) : null,
       el('a', { class: 'gloss-ch', href: `#/ch/${cid(term.chapter)}` }, t('chapterN', { n: term.chapter }, lang))),
     el('p', {}, pick(term.short, lang)));
 }
@@ -56,7 +57,7 @@ export async function flashcards(lang, { stage }) {
   const show = () => {
     const x = cards[i];
     card.classList.remove('is-flipped');
-    card.replaceChildren(el('span', { class: 'fc-front' }, pick(x.name, lang)), el('span', { class: 'fc-back' }, pick(x.short, lang)));
+    card.replaceChildren(el('span', { class: 'fc-front' }, displayName(x.name, lang)), el('span', { class: 'fc-back' }, pick(x.short, lang)));
     counter.textContent = `${i + 1} / ${cards.length}`;
   };
   card.addEventListener('click', () => card.classList.toggle('is-flipped'));

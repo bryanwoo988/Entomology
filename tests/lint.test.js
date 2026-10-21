@@ -90,3 +90,5 @@ test('a chapter not yet written (ready:false) is listed but not required', () =>
 test('a link to a chapter that does not exist', () => has(errorsOf(c => {
   c.p01.sections[0].blocks.push({ type: 'p', text: T('{{ch:ch99|nowhere}}') });
 }), /unknown chapter "ch99"/));
+
+test('empty zhTw is an error', () => has(errorsOf(c => { c.terms[0].name.zhTw = ''; }), /zhTw/));

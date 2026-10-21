@@ -2,6 +2,7 @@
 
 import { pick, t } from './i18n.js';
 import { pageId } from './markup.js';
+import { displayName } from './names.js';
 import { el, loadData } from './content.js';
 
 let byId = null;
@@ -22,7 +23,7 @@ export function openTermSheet(id, { lang, openSheet, currentChapter }) {
   const here = currentChapter === term.chapter;
   openSheet(el('div', { class: 'term-sheet' },
     el('p', { class: 'term-sheet-kicker' }, t('detailIn', { n: term.chapter }, lang)),
-    el('h3', {}, pick(term.name, lang), term.abbr ? el('span', { class: 'abbr' }, ` · ${term.abbr}`) : null),
+    el('h3', {}, displayName(term.name, lang), term.abbr ? el('span', { class: 'abbr' }, ` · ${term.abbr}`) : null),
     el('p', {}, pick(term.short, lang)),
     here ? null : el('a', { class: 'button', href: `#/ch/${cid(term.chapter)}` }, t('openChapter', null, lang))));
 }
@@ -33,6 +34,6 @@ export function renderNewTerms(ids, { lang, onTerm }) {
     el('p', { class: 'new-terms-label' }, t('newTerms', null, lang)),
     el('ul', {}, ids.map(id => {
       const term = termById(id);
-      return el('li', {}, el('button', { class: 'chip', type: 'button', onclick: () => onTerm(id) }, term ? pick(term.name, lang) : id));
+      return el('li', {}, el('button', { class: 'chip', type: 'button', onclick: () => onTerm(id) }, term ? displayName(term.name, lang) : id));
     })));
 }
