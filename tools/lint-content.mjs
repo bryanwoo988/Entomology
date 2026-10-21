@@ -15,7 +15,7 @@ const LANGS = ['zh', 'en', 'ms'];
 // Blocks a reader can mark; every one of them names its source (spec §10.4).
 const MARKABLE = new Set(['p', 'list', 'keyval', 'table', 'note', 'control']);
 const IPM = ['monitor', 'cultural', 'biological', 'chemical'];
-export const LICENCES = ['MPOB-permission', 'own', 'CC0', 'CC BY 2.0', 'CC BY 3.0', 'CC BY 4.0', 'CC BY-SA 2.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
+export const LICENCES = ['MPOB-permission', 'own', 'PD', 'CC0', 'CC BY 2.0', 'CC BY 3.0', 'CC BY 3.0 US', 'CC BY 4.0', 'CC BY-SA 2.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
 const isTri = v => v && typeof v === 'object' && !Array.isArray(v) && LANGS.some(l => l in v);
 
 function walkStrings(v, fn, path = '') {

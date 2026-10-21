@@ -1,1 +1,866 @@
-[]
+[
+ {
+  "id": "aphis-gossypii-colony",
+  "file": "img/species/aphis-gossypii-colony.webp",
+  "subject": {
+   "zh": "Aphis gossypii 群落",
+   "en": "Aphis gossypii, a colony",
+   "ms": "Aphis gossypii, satu koloni"
+  },
+  "credit": {
+   "zh": "照片：James K. Douch，CC BY-SA 4.0",
+   "en": "Photo: James K. Douch, CC BY-SA 4.0",
+   "ms": "Foto: James K. Douch, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "James K. Douch",
+  "url": "https://www.inaturalist.org/observations/259717343"
+ },
+ {
+  "id": "apis-cerana-adult",
+  "file": "img/species/apis-cerana-adult.webp",
+  "subject": {
+   "zh": "Apis cerana 成虫",
+   "en": "Apis cerana, adult",
+   "ms": "Apis cerana, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Jia Ming (جيا ميڠ / 嘉铭)，CC BY-SA 4.0",
+   "en": "Photo: Jia Ming (جيا ميڠ / 嘉铭), CC BY-SA 4.0",
+   "ms": "Foto: Jia Ming (جيا ميڠ / 嘉铭), CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Jia Ming (جيا ميڠ / 嘉铭)",
+  "url": "https://www.inaturalist.org/observations/124737982"
+ },
+ {
+  "id": "bactrocera-carambolae-adult",
+  "file": "img/species/bactrocera-carambolae-adult.webp",
+  "subject": {
+   "zh": "Bactrocera carambolae 成虫",
+   "en": "Bactrocera carambolae, adult",
+   "ms": "Bactrocera carambolae, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Franz Anthony，CC BY 4.0",
+   "en": "Photo: Franz Anthony, CC BY 4.0",
+   "ms": "Foto: Franz Anthony, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Franz Anthony",
+  "url": "https://www.inaturalist.org/observations/35193703"
+ },
+ {
+  "id": "bactrocera-dorsalis-adult",
+  "file": "img/species/bactrocera-dorsalis-adult.webp",
+  "subject": {
+   "zh": "Bactrocera dorsalis 成虫",
+   "en": "Bactrocera dorsalis, adult",
+   "ms": "Bactrocera dorsalis, dewasa"
+  },
+  "credit": {
+   "zh": "照片：portioid，CC BY 4.0",
+   "en": "Photo: portioid, CC BY 4.0",
+   "ms": "Foto: portioid, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "portioid",
+  "url": "https://www.inaturalist.org/observations/149327119"
+ },
+ {
+  "id": "bagworm-damage-field",
+  "file": "img/species/bagworm-damage-field.webp",
+  "subject": {
+   "zh": "严重受袋蛾危害的油棕园",
+   "en": "An oil palm stand badly hit by bagworms",
+   "ms": "Kawasan sawit yang teruk diserang ulat bungkus"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 34 期（2018）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 34 (2018)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 34 (2018)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
+  "source": "RS34"
+ },
+ {
+  "id": "bagworm-damage-frond",
+  "file": "img/species/bagworm-damage-frond.webp",
+  "subject": {
+   "zh": "袋蛾危害的油棕叶片",
+   "en": "Oil palm fronds damaged by bagworms",
+   "ms": "Pelepah sawit yang dirosakkan ulat bungkus"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 34 期（2018）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 34 (2018)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 34 (2018)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
+  "source": "RS34"
+ },
+ {
+  "id": "bemisia-tabaci-adult",
+  "file": "img/species/bemisia-tabaci-adult.webp",
+  "subject": {
+   "zh": "Bemisia tabaci 成虫",
+   "en": "Bemisia tabaci, adult",
+   "ms": "Bemisia tabaci, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Mihajlo Tomić，CC BY 4.0",
+   "en": "Photo: Mihajlo Tomić, CC BY 4.0",
+   "ms": "Foto: Mihajlo Tomić, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Mihajlo Tomić",
+  "url": "https://www.inaturalist.org/observations/60075120"
+ },
+ {
+  "id": "cheilomenes-sexmaculata-adult",
+  "file": "img/species/cheilomenes-sexmaculata-adult.webp",
+  "subject": {
+   "zh": "Cheilomenes sexmaculata 成虫",
+   "en": "Cheilomenes sexmaculata, adult",
+   "ms": "Cheilomenes sexmaculata, dewasa"
+  },
+  "credit": {
+   "zh": "照片：anukma，CC BY 4.0",
+   "en": "Photo: anukma, CC BY 4.0",
+   "ms": "Foto: anukma, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "anukma",
+  "url": "https://www.inaturalist.org/observations/18322947"
+ },
+ {
+  "id": "cheilomenes-sexmaculata-larva",
+  "file": "img/species/cheilomenes-sexmaculata-larva.webp",
+  "subject": {
+   "zh": "Cheilomenes sexmaculata 幼虫",
+   "en": "Cheilomenes sexmaculata, larva",
+   "ms": "Cheilomenes sexmaculata, larva"
+  },
+  "credit": {
+   "zh": "照片：DV，CC BY 4.0",
+   "en": "Photo: DV, CC BY 4.0",
+   "ms": "Foto: DV, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "DV",
+  "url": "https://www.inaturalist.org/observations/408696427"
+ },
+ {
+  "id": "cnaphalocrocis-medinalis-adult",
+  "file": "img/species/cnaphalocrocis-medinalis-adult.webp",
+  "subject": {
+   "zh": "Cnaphalocrocis medinalis 成虫",
+   "en": "Cnaphalocrocis medinalis, adult",
+   "ms": "Cnaphalocrocis medinalis, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Andrew Parker，CC BY 4.0",
+   "en": "Photo: Andrew Parker, CC BY 4.0",
+   "ms": "Foto: Andrew Parker, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Andrew Parker",
+  "url": "https://www.inaturalist.org/observations/323152690"
+ },
+ {
+  "id": "coccinella-transversalis-adult",
+  "file": "img/species/coccinella-transversalis-adult.webp",
+  "subject": {
+   "zh": "Coccinella transversalis 成虫",
+   "en": "Coccinella transversalis, adult",
+   "ms": "Coccinella transversalis, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Syd Cannings，CC BY 4.0",
+   "en": "Photo: Syd Cannings, CC BY 4.0",
+   "ms": "Foto: Syd Cannings, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Syd Cannings",
+  "url": "https://www.inaturalist.org/observations/13409387"
+ },
+ {
+  "id": "coccinella-transversalis-larva",
+  "file": "img/species/coccinella-transversalis-larva.webp",
+  "subject": {
+   "zh": "Coccinella transversalis 幼虫",
+   "en": "Coccinella transversalis, larva",
+   "ms": "Coccinella transversalis, larva"
+  },
+  "credit": {
+   "zh": "照片：vrxz，CC BY-SA 4.0",
+   "en": "Photo: vrxz, CC BY-SA 4.0",
+   "ms": "Foto: vrxz, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "vrxz",
+  "url": "https://www.inaturalist.org/observations/298185435"
+ },
+ {
+  "id": "diaphorina-citri-adult",
+  "file": "img/species/diaphorina-citri-adult.webp",
+  "subject": {
+   "zh": "Diaphorina citri 成虫",
+   "en": "Diaphorina citri, adult",
+   "ms": "Diaphorina citri, dewasa"
+  },
+  "credit": {
+   "zh": "照片：portioid，CC BY 4.0",
+   "en": "Photo: portioid, CC BY 4.0",
+   "ms": "Foto: portioid, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "portioid",
+  "url": "https://www.inaturalist.org/observations/256838163"
+ },
+ {
+  "id": "diaphorina-citri-nymph",
+  "file": "img/species/diaphorina-citri-nymph.webp",
+  "subject": {
+   "zh": "Diaphorina citri 若虫",
+   "en": "Diaphorina citri, nymph",
+   "ms": "Diaphorina citri, nimfa"
+  },
+  "credit": {
+   "zh": "照片：余世文，CC0",
+   "en": "Photo: 余世文, CC0",
+   "ms": "Foto: 余世文, CC0"
+  },
+  "licence": "CC0",
+  "author": "余世文",
+  "url": "https://www.inaturalist.org/observations/188922251"
+ },
+ {
+  "id": "dolichoderus-thoracicus-adult",
+  "file": "img/species/dolichoderus-thoracicus-adult.webp",
+  "subject": {
+   "zh": "Dolichoderus thoracicus 成虫",
+   "en": "Dolichoderus thoracicus, adult",
+   "ms": "Dolichoderus thoracicus, dewasa"
+  },
+  "credit": {
+   "zh": "照片：jonsense，CC BY 4.0",
+   "en": "Photo: jonsense, CC BY 4.0",
+   "ms": "Foto: jonsense, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "jonsense",
+  "url": "https://www.inaturalist.org/observations/262359131"
+ },
+ {
+  "id": "elaeidobius-kamerunicus-adult",
+  "file": "img/species/elaeidobius-kamerunicus-adult.webp",
+  "subject": {
+   "zh": "Elaeidobius kamerunicus 成虫（侧面）",
+   "en": "Elaeidobius kamerunicus, adult (side view)",
+   "ms": "Elaeidobius kamerunicus, dewasa (pandangan sisi)"
+  },
+  "credit": {
+   "zh": "照片：Ken Walker，CC BY 3.0",
+   "en": "Photo: Ken Walker, CC BY 3.0",
+   "ms": "Foto: Ken Walker, CC BY 3.0"
+  },
+  "licence": "CC BY 3.0",
+  "author": "Ken Walker",
+  "url": "https://commons.wikimedia.org/wiki/File:Elaeidobius_kamerunicus.jpg"
+ },
+ {
+  "id": "erionota-thrax-adult",
+  "file": "img/species/erionota-thrax-adult.webp",
+  "subject": {
+   "zh": "Erionota thrax 成虫",
+   "en": "Erionota thrax, adult",
+   "ms": "Erionota thrax, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Forest Botial-Jarvis，CC BY 4.0",
+   "en": "Photo: Forest Botial-Jarvis, CC BY 4.0",
+   "ms": "Foto: Forest Botial-Jarvis, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Forest Botial-Jarvis",
+  "url": "https://www.inaturalist.org/observations/37668677"
+ },
+ {
+  "id": "erionota-thrax-larva",
+  "file": "img/species/erionota-thrax-larva.webp",
+  "subject": {
+   "zh": "Erionota thrax 幼虫",
+   "en": "Erionota thrax, larva",
+   "ms": "Erionota thrax, larva"
+  },
+  "credit": {
+   "zh": "照片：Jason Alexander，CC BY 4.0",
+   "en": "Photo: Jason Alexander, CC BY 4.0",
+   "ms": "Foto: Jason Alexander, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jason Alexander",
+  "url": "https://www.inaturalist.org/observations/9831668"
+ },
+ {
+  "id": "helopeltis-theivora-adult",
+  "file": "img/species/helopeltis-theivora-adult.webp",
+  "subject": {
+   "zh": "Helopeltis theivora 成虫",
+   "en": "Helopeltis theivora, adult",
+   "ms": "Helopeltis theivora, dewasa"
+  },
+  "credit": {
+   "zh": "照片：portioid，CC BY 4.0",
+   "en": "Photo: portioid, CC BY 4.0",
+   "ms": "Foto: portioid, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "portioid",
+  "url": "https://www.inaturalist.org/observations/6901960"
+ },
+ {
+  "id": "helopeltis-theivora-nymph",
+  "file": "img/species/helopeltis-theivora-nymph.webp",
+  "subject": {
+   "zh": "Helopeltis theivora 若虫",
+   "en": "Helopeltis theivora, nymph",
+   "ms": "Helopeltis theivora, nimfa"
+  },
+  "credit": {
+   "zh": "照片：portioid，CC BY 4.0",
+   "en": "Photo: portioid, CC BY 4.0",
+   "ms": "Foto: portioid, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "portioid",
+  "url": "https://www.inaturalist.org/observations/18690604"
+ },
+ {
+  "id": "henosepilachna-vigintioctopunctata-adult",
+  "file": "img/species/henosepilachna-vigintioctopunctata-adult.webp",
+  "subject": {
+   "zh": "Henosepilachna vigintioctopunctata 成虫",
+   "en": "Henosepilachna vigintioctopunctata, adult",
+   "ms": "Henosepilachna vigintioctopunctata, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Carlos Alexandre Mattos Raposo，CC BY 4.0",
+   "en": "Photo: Carlos Alexandre Mattos Raposo, CC BY 4.0",
+   "ms": "Foto: Carlos Alexandre Mattos Raposo, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Carlos Alexandre Mattos Raposo",
+  "url": "https://www.inaturalist.org/observations/344224267"
+ },
+ {
+  "id": "henosepilachna-vigintioctopunctata-larva",
+  "file": "img/species/henosepilachna-vigintioctopunctata-larva.webp",
+  "subject": {
+   "zh": "Henosepilachna vigintioctopunctata 幼虫",
+   "en": "Henosepilachna vigintioctopunctata, larva",
+   "ms": "Henosepilachna vigintioctopunctata, larva"
+  },
+  "credit": {
+   "zh": "照片：Natasha Taylor，CC BY 4.0",
+   "en": "Photo: Natasha Taylor, CC BY 4.0",
+   "ms": "Foto: Natasha Taylor, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Natasha Taylor",
+  "url": "https://www.inaturalist.org/observations/243022309"
+ },
+ {
+  "id": "heterotrigona-itama-adult",
+  "file": "img/species/heterotrigona-itama-adult.webp",
+  "subject": {
+   "zh": "Heterotrigona itama 成虫",
+   "en": "Heterotrigona itama, adult",
+   "ms": "Heterotrigona itama, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Ong Jyh Seng，CC BY-SA 4.0",
+   "en": "Photo: Ong Jyh Seng, CC BY-SA 4.0",
+   "ms": "Foto: Ong Jyh Seng, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Ong Jyh Seng",
+  "url": "https://www.inaturalist.org/observations/132244084"
+ },
+ {
+  "id": "leptocorisa-oratoria-adult",
+  "file": "img/species/leptocorisa-oratoria-adult.webp",
+  "subject": {
+   "zh": "Leptocorisa oratoria 成虫",
+   "en": "Leptocorisa oratoria, adult",
+   "ms": "Leptocorisa oratoria, dewasa"
+  },
+  "credit": {
+   "zh": "照片：portioid，CC BY 4.0",
+   "en": "Photo: portioid, CC BY 4.0",
+   "ms": "Foto: portioid, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "portioid",
+  "url": "https://www.inaturalist.org/observations/196985739"
+ },
+ {
+  "id": "mahasena-corbetti",
+  "file": "img/species/mahasena-corbetti.webp",
+  "subject": {
+   "zh": "Mahasena corbetti 的袋子和幼虫",
+   "en": "Mahasena corbetti bag and larva",
+   "ms": "Bungkus dan larva Mahasena corbetti"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 34 期（2018）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 34 (2018)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 34 (2018)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
+  "source": "RS34"
+ },
+ {
+  "id": "metisa-plana-adult-female",
+  "file": "img/species/metisa-plana-adult-female.webp",
+  "subject": {
+   "zh": "Metisa plana 雌成虫（无翅，留在袋中）",
+   "en": "Metisa plana, adult female (wingless, stays in the bag)",
+   "ms": "Metisa plana, betina dewasa (tidak bersayap, kekal dalam bungkus)"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "metisa-plana-adult-male",
+  "file": "img/species/metisa-plana-adult-male.webp",
+  "subject": {
+   "zh": "Metisa plana 雄成虫",
+   "en": "Metisa plana, adult male",
+   "ms": "Metisa plana, jantan dewasa"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "metisa-plana-bags",
+  "file": "img/species/metisa-plana-bags.webp",
+  "subject": {
+   "zh": "Metisa plana 的袋子",
+   "en": "Bags of Metisa plana",
+   "ms": "Bungkus Metisa plana"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 34 期（2018）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 34 (2018)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 34 (2018)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
+  "source": "RS34"
+ },
+ {
+  "id": "metisa-plana-early-larvae",
+  "file": "img/species/metisa-plana-early-larvae.webp",
+  "subject": {
+   "zh": "Metisa plana 早期幼虫",
+   "en": "Metisa plana, early larvae",
+   "ms": "Metisa plana, larva peringkat awal"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "metisa-plana-late-larvae",
+  "file": "img/species/metisa-plana-late-larvae.webp",
+  "subject": {
+   "zh": "Metisa plana 晚期幼虫",
+   "en": "Metisa plana, late larvae",
+   "ms": "Metisa plana, larva peringkat lewat"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "metisa-plana-mid-larvae",
+  "file": "img/species/metisa-plana-mid-larvae.webp",
+  "subject": {
+   "zh": "Metisa plana 中期幼虫",
+   "en": "Metisa plana, middle-stage larvae",
+   "ms": "Metisa plana, larva peringkat pertengahan"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "metisa-plana-pupa-bag",
+  "file": "img/species/metisa-plana-pupa-bag.webp",
+  "subject": {
+   "zh": "Metisa plana 的蛹（在袋中）",
+   "en": "Metisa plana, pupa in its bag",
+   "ms": "Metisa plana, pupa dalam bungkus"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ },
+ {
+  "id": "nephotettix-virescens-adult",
+  "file": "img/species/nephotettix-virescens-adult.webp",
+  "subject": {
+   "zh": "Nephotettix virescens 成虫",
+   "en": "Nephotettix virescens, adult",
+   "ms": "Nephotettix virescens, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Sagnik Dutta Roy，CC BY 4.0",
+   "en": "Photo: Sagnik Dutta Roy, CC BY 4.0",
+   "ms": "Foto: Sagnik Dutta Roy, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Sagnik Dutta Roy",
+  "url": "https://www.inaturalist.org/observations/313621181"
+ },
+ {
+  "id": "nilaparvata-lugens-adult",
+  "file": "img/species/nilaparvata-lugens-adult.webp",
+  "subject": {
+   "zh": "Nilaparvata lugens 成虫（背面）",
+   "en": "Nilaparvata lugens, adult (from above)",
+   "ms": "Nilaparvata lugens, dewasa (dari atas)"
+  },
+  "credit": {
+   "zh": "照片：Natasha Wright, Florida Department of Agriculture and Consumer Services, Bugwood.org - See more at: http://www.forestryimages.org/browse/detail.cfm?imgnum=5190055#sthash.UX6OgMTv.dpuf，CC BY 3.0 US",
+   "en": "Photo: Natasha Wright, Florida Department of Agriculture and Consumer Services, Bugwood.org - See more at: http://www.forestryimages.org/browse/detail.cfm?imgnum=5190055#sthash.UX6OgMTv.dpuf, CC BY 3.0 US",
+   "ms": "Foto: Natasha Wright, Florida Department of Agriculture and Consumer Services, Bugwood.org - See more at: http://www.forestryimages.org/browse/detail.cfm?imgnum=5190055#sthash.UX6OgMTv.dpuf, CC BY 3.0 US"
+  },
+  "licence": "CC BY 3.0 US",
+  "author": "Natasha Wright, Florida Department of Agriculture and Consumer Services, Bugwood.org - See more at: http://www.forestryimages.org/browse/detail.cfm?imgnum=5190055#sthash.UX6OgMTv.dpuf",
+  "url": "https://commons.wikimedia.org/wiki/File:Nilaparvata_lugens_-_Brown_planthopper_-_UGA5190055.jpg"
+ },
+ {
+  "id": "oryctes-larva-ornv",
+  "file": "img/species/oryctes-larva-ornv.webp",
+  "subject": {
+   "zh": "感染 Oryctes 病毒（OrNV）的犀角金龟幼虫",
+   "en": "Rhinoceros beetle larva infected with Oryctes nudivirus (OrNV)",
+   "ms": "Larva kumbang badak yang dijangkiti virus Oryctes (OrNV)"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 40 期（2023）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 40 (2023)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 40 (2023)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2024/06/Risalah-Sawit-No.-40.pdf",
+  "source": "RS40"
+ },
+ {
+  "id": "oryctes-life-cycle",
+  "file": "img/species/oryctes-life-cycle.webp",
+  "subject": {
+   "zh": "犀角金龟的生活史：卵、三龄幼虫、预蛹、蛹、成虫",
+   "en": "Life cycle of the rhinoceros beetle: egg, three larval instars, prepupa, pupa, adult",
+   "ms": "Kitaran hidup kumbang badak: telur, tiga peringkat larva, prapupa, pupa, dewasa"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 40 期（2023）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 40 (2023)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 40 (2023)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2024/06/Risalah-Sawit-No.-40.pdf",
+  "source": "RS40"
+ },
+ {
+  "id": "oryctes-rhinoceros-adult",
+  "file": "img/species/oryctes-rhinoceros-adult.webp",
+  "subject": {
+   "zh": "Oryctes rhinoceros 成虫",
+   "en": "Oryctes rhinoceros, adult",
+   "ms": "Oryctes rhinoceros, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Ong Jyh Seng，CC BY 4.0",
+   "en": "Photo: Ong Jyh Seng, CC BY 4.0",
+   "ms": "Foto: Ong Jyh Seng, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Ong Jyh Seng",
+  "url": "https://www.inaturalist.org/observations/338012219"
+ },
+ {
+  "id": "oryctes-rhinoceros-larva",
+  "file": "img/species/oryctes-rhinoceros-larva.webp",
+  "subject": {
+   "zh": "Oryctes rhinoceros 幼虫",
+   "en": "Oryctes rhinoceros, larva",
+   "ms": "Oryctes rhinoceros, larva"
+  },
+  "credit": {
+   "zh": "照片：Nathan Laurenz，CC BY 4.0",
+   "en": "Photo: Nathan Laurenz, CC BY 4.0",
+   "ms": "Foto: Nathan Laurenz, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Nathan Laurenz",
+  "url": "https://www.inaturalist.org/observations/147819001"
+ },
+ {
+  "id": "papilio-demoleus-adult",
+  "file": "img/species/papilio-demoleus-adult.webp",
+  "subject": {
+   "zh": "Papilio demoleus 成虫",
+   "en": "Papilio demoleus, adult",
+   "ms": "Papilio demoleus, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Fernando Sessegolo，CC0",
+   "en": "Photo: Fernando Sessegolo, CC0",
+   "ms": "Foto: Fernando Sessegolo, CC0"
+  },
+  "licence": "CC0",
+  "author": "Fernando Sessegolo",
+  "url": "https://www.inaturalist.org/observations/190400363"
+ },
+ {
+  "id": "papilio-demoleus-larva",
+  "file": "img/species/papilio-demoleus-larva.webp",
+  "subject": {
+   "zh": "Papilio demoleus 幼虫",
+   "en": "Papilio demoleus, larva",
+   "ms": "Papilio demoleus, larva"
+  },
+  "credit": {
+   "zh": "照片：Chandu Bandi，CC BY 4.0",
+   "en": "Photo: Chandu Bandi, CC BY 4.0",
+   "ms": "Foto: Chandu Bandi, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Chandu Bandi",
+  "url": "https://www.inaturalist.org/observations/370659099"
+ },
+ {
+  "id": "plutella-xylostella-adult",
+  "file": "img/species/plutella-xylostella-adult.webp",
+  "subject": {
+   "zh": "Plutella xylostella 成虫",
+   "en": "Plutella xylostella, adult",
+   "ms": "Plutella xylostella, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Tony Rebelo，CC BY-SA 4.0",
+   "en": "Photo: Tony Rebelo, CC BY-SA 4.0",
+   "ms": "Foto: Tony Rebelo, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Tony Rebelo",
+  "url": "https://www.inaturalist.org/observations/403075294"
+ },
+ {
+  "id": "plutella-xylostella-larva",
+  "file": "img/species/plutella-xylostella-larva.webp",
+  "subject": {
+   "zh": "Plutella xylostella 幼虫",
+   "en": "Plutella xylostella, larva",
+   "ms": "Plutella xylostella, larva"
+  },
+  "credit": {
+   "zh": "照片：Peter de Lange，CC0",
+   "en": "Photo: Peter de Lange, CC0",
+   "ms": "Foto: Peter de Lange, CC0"
+  },
+  "licence": "CC0",
+  "author": "Peter de Lange",
+  "url": "https://www.inaturalist.org/observations/70568424"
+ },
+ {
+  "id": "pteroma-pendula-bags",
+  "file": "img/species/pteroma-pendula-bags.webp",
+  "subject": {
+   "zh": "Pteroma pendula 的袋子",
+   "en": "Bags of Pteroma pendula",
+   "ms": "Bungkus Pteroma pendula"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 34 期（2018）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 34 (2018)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 34 (2018)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2021/05/Risalah-Sawit-no-34.pdf",
+  "source": "RS34"
+ },
+ {
+  "id": "scirpophaga-incertulas-adult",
+  "file": "img/species/scirpophaga-incertulas-adult.webp",
+  "subject": {
+   "zh": "Scirpophaga incertulas 成虫",
+   "en": "Scirpophaga incertulas, adult",
+   "ms": "Scirpophaga incertulas, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Ong Jyh Seng，CC BY-SA 4.0",
+   "en": "Photo: Ong Jyh Seng, CC BY-SA 4.0",
+   "ms": "Foto: Ong Jyh Seng, CC BY-SA 4.0"
+  },
+  "licence": "CC BY-SA 4.0",
+  "author": "Ong Jyh Seng",
+  "url": "https://www.inaturalist.org/observations/63935883"
+ },
+ {
+  "id": "setora-nitens-larva",
+  "file": "img/species/setora-nitens-larva.webp",
+  "subject": {
+   "zh": "Setora nitens 幼虫",
+   "en": "Setora nitens, larva",
+   "ms": "Setora nitens, larva"
+  },
+  "credit": {
+   "zh": "照片：Jason Alexander，CC BY 4.0",
+   "en": "Photo: Jason Alexander, CC BY 4.0",
+   "ms": "Foto: Jason Alexander, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Jason Alexander",
+  "url": "https://www.inaturalist.org/observations/9831622"
+ },
+ {
+  "id": "spodoptera-frugiperda-adult",
+  "file": "img/species/spodoptera-frugiperda-adult.webp",
+  "subject": {
+   "zh": "Spodoptera frugiperda 成虫",
+   "en": "Spodoptera frugiperda, adult",
+   "ms": "Spodoptera frugiperda, dewasa"
+  },
+  "credit": {
+   "zh": "照片：SteveM4560，CC BY 4.0",
+   "en": "Photo: SteveM4560, CC BY 4.0",
+   "ms": "Foto: SteveM4560, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "SteveM4560",
+  "url": "https://www.inaturalist.org/observations/260988161"
+ },
+ {
+  "id": "spodoptera-frugiperda-larva",
+  "file": "img/species/spodoptera-frugiperda-larva.webp",
+  "subject": {
+   "zh": "Spodoptera frugiperda 幼虫",
+   "en": "Spodoptera frugiperda, larva",
+   "ms": "Spodoptera frugiperda, larva"
+  },
+  "credit": {
+   "zh": "照片：Anthony A Simmons，CC0",
+   "en": "Photo: Anthony A Simmons, CC0",
+   "ms": "Foto: Anthony A Simmons, CC0"
+  },
+  "licence": "CC0",
+  "author": "Anthony A Simmons",
+  "url": "https://www.inaturalist.org/observations/235421013"
+ },
+ {
+  "id": "spodoptera-litura-adult",
+  "file": "img/species/spodoptera-litura-adult.webp",
+  "subject": {
+   "zh": "Spodoptera litura 成虫",
+   "en": "Spodoptera litura, adult",
+   "ms": "Spodoptera litura, dewasa"
+  },
+  "credit": {
+   "zh": "照片：Shaun Lee，CC BY 4.0",
+   "en": "Photo: Shaun Lee, CC BY 4.0",
+   "ms": "Foto: Shaun Lee, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Shaun Lee",
+  "url": "https://www.inaturalist.org/observations/10561122"
+ },
+ {
+  "id": "spodoptera-litura-larva",
+  "file": "img/species/spodoptera-litura-larva.webp",
+  "subject": {
+   "zh": "Spodoptera litura 幼虫",
+   "en": "Spodoptera litura, larva",
+   "ms": "Spodoptera litura, larva"
+  },
+  "credit": {
+   "zh": "照片：Franz Anthony，CC BY 4.0",
+   "en": "Photo: Franz Anthony, CC BY 4.0",
+   "ms": "Foto: Franz Anthony, CC BY 4.0"
+  },
+  "licence": "CC BY 4.0",
+  "author": "Franz Anthony",
+  "url": "https://www.inaturalist.org/observations/38355106"
+ },
+ {
+  "id": "sycanus-dichotomus-specimen",
+  "file": "img/species/sycanus-dichotomus-specimen.webp",
+  "subject": {
+   "zh": "Sycanus dichotomus 标本",
+   "en": "Sycanus dichotomus, pinned specimen",
+   "ms": "Sycanus dichotomus, spesimen"
+  },
+  "credit": {
+   "zh": "照片：马来西亚棕油局（MPOB），引自《Risalah Sawit》第 12 期（2005）",
+   "en": "Photo: Malaysian Palm Oil Board (MPOB), from Risalah Sawit No. 12 (2005)",
+   "ms": "Foto: Lembaga Minyak Sawit Malaysia (MPOB), daripada Risalah Sawit Bil. 12 (2005)"
+  },
+  "licence": "MPOB-permission",
+  "author": "MPOB",
+  "url": "https://palmoilis.mpob.gov.my/files/2020/03/Risalah-Sawit-12.pdf",
+  "source": "RS12"
+ }
+]
