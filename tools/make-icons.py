@@ -15,17 +15,18 @@ SRC = ROOT / "icon.png"
 ICONS = ROOT / "icons"
 SPLASH = ICONS / "splash"
 
-# Palette sampled from icon.png (see css/app.css tokens).
-SKY = (55, 98, 204, 255)        # #3762cc outline blue
-CLOUD = (224, 235, 252, 255)    # #e0ebfc
+# Palette sampled from icon.png (the ladybird logo).
+SKY = (229, 56, 59, 255)        # #e5383b ladybird red (accent)
+CLOUD = (255, 241, 241, 255)    # #fff1f1 soft red safe area
 LIGHT_BG = (248, 250, 253, 255) # app light background
 DARK_BG = (14, 20, 30, 255)     # app dark background
 INK = (17, 24, 39, 255)
 INK_DARK = (226, 232, 240, 255)
 
 MAX_ART = 512
-FONT_LATIN = "/System/Library/Fonts/HelveticaNeue.ttc"
-FONT_CJK = "/System/Library/Fonts/Hiragino Sans GB.ttc"
+FONT_LATIN = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+FONT_CJK = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"  # face 2 = Simplified Chinese
+CJK_INDEX = 2
 
 
 def load_icon() -> Image.Image:
@@ -63,7 +64,7 @@ def centred_text(draw, cx, y, text, font, fill):
 
 
 def og_image(icon, size, path):
-    """Link preview: icon, then 气象学 · Meteorology, on the light background."""
+    """Link preview: icon, then 昆虫 · Bugs · Serangga, on the light background."""
     w, h = size
     canvas = Image.new("RGBA", size, LIGHT_BG)
     art = fit(icon, round(h * 0.52))
@@ -71,9 +72,9 @@ def og_image(icon, size, path):
     canvas.alpha_composite(art, ((w - art.width) // 2, top))
     d = ImageDraw.Draw(canvas)
     y = top + art.height + round(h * 0.05)
-    cjk = ImageFont.truetype(FONT_CJK, round(h * 0.085))
+    cjk = ImageFont.truetype(FONT_CJK, round(h * 0.085), index=CJK_INDEX)
     lat = ImageFont.truetype(FONT_LATIN, round(h * 0.07))
-    zh, sep, en = "气象学", "  ·  ", "Meteorology"
+    zh, sep, en = "昆虫", "  ·  ", "Bugs · Serangga"
     total = d.textlength(zh, font=cjk) + d.textlength(sep, font=lat) + d.textlength(en, font=lat)
     x = (w - total) / 2
     d.text((x, y), zh, font=cjk, fill=INK)
@@ -113,8 +114,8 @@ def main():
             canvas, art = compose(icon, (w, h), bg, 0.38, dy=-round(h * 0.03))
             d = ImageDraw.Draw(canvas)
             y = (h + art.height) // 2 - round(h * 0.03) + round(w * 0.06)
-            centred_text(d, w / 2, y, "气象学", ImageFont.truetype(FONT_CJK, round(w * 0.075)), ink)
-            centred_text(d, w / 2, y + round(w * 0.11), "Meteorology",
+            centred_text(d, w / 2, y, "昆虫", ImageFont.truetype(FONT_CJK, round(w * 0.075), index=CJK_INDEX), ink)
+            centred_text(d, w / 2, y + round(w * 0.11), "Bugs · Serangga",
                          ImageFont.truetype(FONT_LATIN, round(w * 0.055)), ink)
             save(canvas, SPLASH / f"{w}x{h}-{theme}.png", quantize=True)
 
