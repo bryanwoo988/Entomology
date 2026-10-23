@@ -413,7 +413,7 @@ function stageCard(s, p) {
     el('span', { class: 'stage-text' },
       el('span', { class: 'stage-title' }, pick(s.title, lang())),
       el('span', { class: 'stage-blurb' }, pick(s.blurb, lang())),
-      el('span', { class: 'stage-meta' }, `${tr('chaptersCount', { n: chs.length })} · ${tr('progress', { done, total: chs.length })}`),
+      el('span', { class: 'stage-meta' }, `${tr('chaptersCount', { n: chs.length })} · ${tr('readProgress', { done, total: chs.length })}`),
       el('span', { class: 'progress', role: 'progressbar', 'aria-valuenow': pct, 'aria-valuemin': 0, 'aria-valuemax': 100 }, el('span', { style: `width:${pct}%` }))),
   ];
   return el('li', { class: 'stage-card' }, el('a', { href: `#/stage/${s.n}` }, body));

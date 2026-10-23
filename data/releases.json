@@ -1,5 +1,16 @@
 [
  {
+  "v": "1.1.1",
+  "date": "2026-10-23",
+  "notes": [
+   {
+    "zh": "修复：首页各阶段下方又会显示「已读 3/10」这样的阅读进度，而不是只写「学习进度」。",
+    "en": "Fixed: each stage on the home page again shows how much you have read, such as \"3 of 10 read\", instead of just \"Progress\".",
+    "ms": "Dibaiki: setiap peringkat di halaman utama kembali menunjukkan berapa banyak yang sudah dibaca, contohnya \"3/10 dibaca\", bukan sekadar \"Kemajuan\"."
+   }
+  ]
+ },
+ {
   "v": "1.1.0",
   "date": "2026-10-21",
   "notes": [

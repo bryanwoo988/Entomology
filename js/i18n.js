@@ -53,7 +53,7 @@ export const UI = {
   stageN: { zh: '阶段 {n}', en: 'Stage {n}', ms: 'Peringkat {n}' },
   chapterN: { zh: '第 {n} 章', en: 'Chapter {n}', ms: 'Bab {n}' },
   chaptersCount: { zh: '{n} 章', en: '{n} chapters', ms: '{n} bab' },
-  progress: { zh: '已读 {done}/{total}', en: '{done} of {total} read', ms: '{done}/{total} dibaca' },
+  readProgress: { zh: '已读 {done}/{total}', en: '{done} of {total} read', ms: '{done}/{total} dibaca' },
   continueReading: { zh: '继续上次阅读', en: 'Continue reading', ms: 'Sambung membaca' },
   startHere: { zh: '从第一章开始', en: 'Start with Chapter 1', ms: 'Mula dengan Bab 1' },
   newTerms: { zh: '本章新名词', en: 'New in this chapter', ms: 'Istilah baharu bab ini' },
@@ -176,7 +176,6 @@ export const UI = {
   ipm_chemical: { zh: '化学防治', en: 'Chemical control', ms: 'Kawalan kimia' },
   pesticideWarning: { zh: '使用任何农药前，请阅读并遵守标签说明，并以农业部（DOA）与农药局的最新指引为准。', en: 'Before using any pesticide, read and follow its label, and check the latest guidance from the Department of Agriculture (DOA) and the Pesticides Board.', ms: 'Sebelum menggunakan sebarang racun perosak, baca dan patuhi labelnya, dan rujuk panduan terkini Jabatan Pertanian (DOA) dan Lembaga Racun Makhluk Perosak.' },
   noPhoto: { zh: '暂无照片', en: 'No photo yet', ms: 'Tiada foto lagi' },
-  photoCredits: { zh: '图片来源', en: 'Photo credits', ms: 'Kredit foto' },
   loading: { zh: '载入中…', en: 'Loading…', ms: 'Memuatkan…' },
   loadError: { zh: '内容载入失败', en: 'Could not load this page', ms: 'Gagal memuatkan halaman ini' },
 };
